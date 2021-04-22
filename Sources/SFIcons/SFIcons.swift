@@ -4,10 +4,12 @@
  - Author: Ome Asraf
  - return: A string containing the system names for a given SF Symbol
  - Example:
+ 
  ```swift
      Image(SFIcons.circle)
      Image(SFIcons.squareAndArrowUpOnSquareFill)
  ```
+
  */
 public struct SFIcons {
     /// 􀈂
