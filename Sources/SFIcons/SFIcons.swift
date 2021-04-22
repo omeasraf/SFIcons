@@ -5229,7 +5229,7 @@ public struct SFIcons {
                 /// 􀣺
                 case applelogo = "applelogo"
 
-                var description: String {
+                public var description: String {
                         return self.rawValue
                 }
 
