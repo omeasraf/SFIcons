@@ -1,8 +1,13 @@
 
 /**
  A collection of all the SF Symbols into a easy to use package
- - Author: Ami Asraf
+ - Author: Ome Asraf
  - return: A string containing the system names for a given SF Symbol
+ - Example:
+ ```swift
+     Image(SFIcons.circle)
+     Image(SFIcons.squareAndArrowUpOnSquareFill)
+ ```
  */
 public struct SFIcons {
     /// 􀈂
