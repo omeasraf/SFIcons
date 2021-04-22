@@ -1,5 +1,5 @@
 public struct SFIcons {
-        public let squareAndArrowUp:String = "square.and.arrow.up"
+        public static let squareAndArrowUp:String = "square.and.arrow.up"
         public enum Icons: String, CustomStringConvertible {
                 /// 􀈂
                 case squareAndArrowUp = "square.and.arrow.up"
