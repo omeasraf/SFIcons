@@ -1,6 +1,6 @@
 # SFIcons
 
-A collection of all the SF Symbols into an easy to use package
+A collection of all the SF Symbols into an easy to use package<br />
 You will no longer have to guess the icon name, now you have the power of autocomplete at your hand.
 
 ### Notice
