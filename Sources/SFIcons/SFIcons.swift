@@ -1,3 +1,9 @@
+
+/**
+ A collection of all the SF Symbols into a easy to use package
+ - Author: Ami Asraf
+ - return: A string containing the system names for a given SF Symbol
+ */
 public struct SFIcons {
     /// 􀈂
     public static let squareAndArrowUp:String = "square.and.arrow.up"
