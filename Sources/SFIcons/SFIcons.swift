@@ -1,4 +1,4 @@
-final struct SFIcons {
+public struct SFIcons {
         enum Icons:String{
         /// 􀈂
         case squareAndArrowUp = "square.and.arrow.up"
