@@ -3494,13 +3494,12 @@ public struct SFIcons {
     public static let fCursiveCircleFill:String = "f.cursive.circle.fill"
     /// 􀥋
     public static let k:String = "k"
-    /// 􀘽
+    /// 􀘽s
     public static let sum:String = "sum"
     /// 􀘾
     public static let percent:String = "percent"
     /// 􀅮
-    case
-    function = "function"
+    public static let function:String = "function"
     /// 􀅯
     public static let textformatAbc:String = "textformat.abc"
     /// 􀅰
