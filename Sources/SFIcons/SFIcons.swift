@@ -1,5231 +1,5231 @@
 public struct SFIcons {
         /// 􀈂
-        let squareAndArrowUp:String = "square.and.arrow.up"
+        public let squareAndArrowUp:String = "square.and.arrow.up"
         /// 􀈃
-        let squareAndArrowUpFill:String = "square.and.arrow.up.fill"
+        public let squareAndArrowUpFill:String = "square.and.arrow.up.fill"
         /// 􀈄
-        let squareAndArrowDown:String = "square.and.arrow.down"
+        public let squareAndArrowDown:String = "square.and.arrow.down"
         /// 􀈅
-        let squareAndArrowDownFill:String = "square.and.arrow.down.fill"
+        public let squareAndArrowDownFill:String = "square.and.arrow.down.fill"
         /// 􀈆
-        let squareAndArrowUpOnSquare:String = "square.and.arrow.up.on.square"
+        public let squareAndArrowUpOnSquare:String = "square.and.arrow.up.on.square"
         /// 􀈇
-        let squareAndArrowUpOnSquareFill:String = "square.and.arrow.up.on.square.fill"
+        public let squareAndArrowUpOnSquareFill:String = "square.and.arrow.up.on.square.fill"
         /// 􀈈
-        let squareAndArrowDownOnSquare:String = "square.and.arrow.down.on.square"
+        public let squareAndArrowDownOnSquare:String = "square.and.arrow.down.on.square"
         /// 􀈉
-        let squareAndArrowDownOnSquareFill:String = "square.and.arrow.down.on.square.fill"
+        public let squareAndArrowDownOnSquareFill:String = "square.and.arrow.down.on.square.fill"
         /// 􀈊
-        let pencil:String = "pencil"
+        public let pencil:String = "pencil"
         /// 􀈋
-        let pencilCircle:String = "pencil.circle"
+        public let pencilCircle:String = "pencil.circle"
         /// 􀈌
-        let pencilCircleFill:String = "pencil.circle.fill"
+        public let pencilCircleFill:String = "pencil.circle.fill"
         /// 􀈍
-        let pencilSlash:String = "pencil.slash"
+        public let pencilSlash:String = "pencil.slash"
         /// 􀈎
-        let squareAndPencil:String = "square.and.pencil"
+        public let squareAndPencil:String = "square.and.pencil"
         /// 􀈏
-        let rectangleAndPencilAndEllipsis:String = "rectangle.and.pencil.and.ellipsis"
+        public let rectangleAndPencilAndEllipsis:String = "rectangle.and.pencil.and.ellipsis"
         /// 􀓨
-        let scribble:String = "scribble"
+        public let scribble:String = "scribble"
         /// 􀤑
-        let scribbleVariable:String = "scribble.variable"
+        public let scribbleVariable:String = "scribble.variable"
         /// 􀦇
-        let highlighter:String = "highlighter"
+        public let highlighter:String = "highlighter"
         /// 􀈐
-        let pencilAndOutline:String = "pencil.and.outline"
+        public let pencilAndOutline:String = "pencil.and.outline"
         /// 􀒋
-        let pencilTip:String = "pencil.tip"
+        public let pencilTip:String = "pencil.tip"
         /// 􀉥
-        let pencilTipCropCircle:String = "pencil.tip.crop.circle"
+        public let pencilTipCropCircle:String = "pencil.tip.crop.circle"
         /// 􀉦
-        let pencilTipCropCircleBadgePlus:String = "pencil.tip.crop.circle.badge.plus"
+        public let pencilTipCropCircleBadgePlus:String = "pencil.tip.crop.circle.badge.plus"
         /// 􀉧
-        let pencilTipCropCircleBadgeMinus:String = "pencil.tip.crop.circle.badge.minus"
+        public let pencilTipCropCircleBadgeMinus:String = "pencil.tip.crop.circle.badge.minus"
         /// 􀧚
-        let pencilTipCropCircleBadgeArrowForward:String = "pencil.tip.crop.circle.badge.arrow.forward"
+        public let pencilTipCropCircleBadgeArrowForward:String = "pencil.tip.crop.circle.badge.arrow.forward"
         /// 􀓩
-        let lasso:String = "lasso"
+        public let lasso:String = "lasso"
         /// 􀣳
-        let lassoSparkles:String = "lasso.sparkles"
+        public let lassoSparkles:String = "lasso.sparkles"
         /// 􀈑
-        let trash:String = "trash"
+        public let trash:String = "trash"
         /// 􀈒
-        let trashFill:String = "trash.fill"
+        public let trashFill:String = "trash.fill"
         /// 􀈓
-        let trashCircle:String = "trash.circle"
+        public let trashCircle:String = "trash.circle"
         /// 􀈔
-        let trashCircleFill:String = "trash.circle.fill"
+        public let trashCircleFill:String = "trash.circle.fill"
         /// 􀜧
-        let trashSlash:String = "trash.slash"
+        public let trashSlash:String = "trash.slash"
         /// 􀜨
-        let trashSlashFill:String = "trash.slash.fill"
+        public let trashSlashFill:String = "trash.slash.fill"
         /// 􀈕
-        let folder:String = "folder"
+        public let folder:String = "folder"
         /// 􀈖
-        let folderFill:String = "folder.fill"
+        public let folderFill:String = "folder.fill"
         /// 􀈗
-        let folderCircle:String = "folder.circle"
+        public let folderCircle:String = "folder.circle"
         /// 􀈘
-        let folderCircleFill:String = "folder.circle.fill"
+        public let folderCircleFill:String = "folder.circle.fill"
         /// 􀈙
-        let folderBadgePlus:String = "folder.badge.plus"
+        public let folderBadgePlus:String = "folder.badge.plus"
         /// 􀈚
-        let folderFillBadgePlus:String = "folder.fill.badge.plus"
+        public let folderFillBadgePlus:String = "folder.fill.badge.plus"
         /// 􀈛
-        let folderBadgeMinus:String = "folder.badge.minus"
+        public let folderBadgeMinus:String = "folder.badge.minus"
         /// 􀈜
-        let folderFillBadgeMinus:String = "folder.fill.badge.minus"
+        public let folderFillBadgeMinus:String = "folder.fill.badge.minus"
         /// 􀧆
-        let folderBadgeQuestionmark:String = "folder.badge.questionmark"
+        public let folderBadgeQuestionmark:String = "folder.badge.questionmark"
         /// 􀧇
-        let folderFillBadgeQuestionmark:String = "folder.fill.badge.questionmark"
+        public let folderFillBadgeQuestionmark:String = "folder.fill.badge.questionmark"
         /// 􀈝
-        let folderBadgePersonCrop:String = "folder.badge.person.crop"
+        public let folderBadgePersonCrop:String = "folder.badge.person.crop"
         /// 􀈞
-        let folderFillBadgePersonCrop:String = "folder.fill.badge.person.crop"
+        public let folderFillBadgePersonCrop:String = "folder.fill.badge.person.crop"
         /// 􀣕
-        let squareGrid3x1FolderBadgePlus:String = "square.grid.3x1.folder.badge.plus"
+        public let squareGrid3x1FolderBadgePlus:String = "square.grid.3x1.folder.badge.plus"
         /// 􀣖
-        let squareGrid3x1FolderFillBadgePlus:String = "square.grid.3x1.folder.fill.badge.plus"
+        public let squareGrid3x1FolderFillBadgePlus:String = "square.grid.3x1.folder.fill.badge.plus"
         /// 􀣍
-        let folderBadgeGear:String = "folder.badge.gear"
+        public let folderBadgeGear:String = "folder.badge.gear"
         /// 􀣎
-        let folderFillBadgeGear:String = "folder.fill.badge.gear"
+        public let folderFillBadgeGear:String = "folder.fill.badge.gear"
         /// 􀤰
-        let plusRectangleOnFolder:String = "plus.rectangle.on.folder"
+        public let plusRectangleOnFolder:String = "plus.rectangle.on.folder"
         /// 􀤱
-        let plusRectangleFillOnFolderFill:String = "plus.rectangle.fill.on.folder.fill"
+        public let plusRectangleFillOnFolderFill:String = "plus.rectangle.fill.on.folder.fill"
         /// 􀬔
-        let questionmarkFolder:String = "questionmark.folder"
+        public let questionmarkFolder:String = "questionmark.folder"
         /// 􀬕
-        let questionmarkFolderFill:String = "questionmark.folder.fill"
+        public let questionmarkFolderFill:String = "questionmark.folder.fill"
         /// 􀈟
-        let paperplane:String = "paperplane"
+        public let paperplane:String = "paperplane"
         /// 􀈠
-        let paperplaneFill:String = "paperplane.fill"
+        public let paperplaneFill:String = "paperplane.fill"
         /// 􀈡
-        let paperplaneCircle:String = "paperplane.circle"
+        public let paperplaneCircle:String = "paperplane.circle"
         /// 􀈢
-        let paperplaneCircleFill:String = "paperplane.circle.fill"
+        public let paperplaneCircleFill:String = "paperplane.circle.fill"
         /// 􀈣
-        let tray:String = "tray"
+        public let tray:String = "tray"
         /// 􀈤
-        let trayFill:String = "tray.fill"
+        public let trayFill:String = "tray.fill"
         /// 􀒌
-        let trayCircle:String = "tray.circle"
+        public let trayCircle:String = "tray.circle"
         /// 􀒍
-        let trayCircleFill:String = "tray.circle.fill"
+        public let trayCircleFill:String = "tray.circle.fill"
         /// 􀈥
-        let trayAndArrowUp:String = "tray.and.arrow.up"
+        public let trayAndArrowUp:String = "tray.and.arrow.up"
         /// 􀈦
-        let trayAndArrowUpFill:String = "tray.and.arrow.up.fill"
+        public let trayAndArrowUpFill:String = "tray.and.arrow.up.fill"
         /// 􀈧
-        let trayAndArrowDown:String = "tray.and.arrow.down"
+        public let trayAndArrowDown:String = "tray.and.arrow.down"
         /// 􀈨
-        let trayAndArrowDownFill:String = "tray.and.arrow.down.fill"
+        public let trayAndArrowDownFill:String = "tray.and.arrow.down.fill"
         /// 􀈩
-        let tray2:String = "tray.2"
+        public let tray2:String = "tray.2"
         /// 􀈪
-        let tray2Fill:String = "tray.2.fill"
+        public let tray2Fill:String = "tray.2.fill"
         /// 􀈫
-        let trayFull:String = "tray.full"
+        public let trayFull:String = "tray.full"
         /// 􀈬
-        let trayFullFill:String = "tray.full.fill"
+        public let trayFullFill:String = "tray.full.fill"
         /// 􀤂
-        let externaldrive:String = "externaldrive"
+        public let externaldrive:String = "externaldrive"
         /// 􀤃
-        let externaldriveFill:String = "externaldrive.fill"
+        public let externaldriveFill:String = "externaldrive.fill"
         /// 􀩎
-        let externaldriveBadgePlus:String = "externaldrive.badge.plus"
+        public let externaldriveBadgePlus:String = "externaldrive.badge.plus"
         /// 􀩒
-        let externaldriveFillBadgePlus:String = "externaldrive.fill.badge.plus"
+        public let externaldriveFillBadgePlus:String = "externaldrive.fill.badge.plus"
         /// 􀩏
-        let externaldriveBadgeMinus:String = "externaldrive.badge.minus"
+        public let externaldriveBadgeMinus:String = "externaldrive.badge.minus"
         /// 􀩓
-        let externaldriveFillBadgeMinus:String = "externaldrive.fill.badge.minus"
+        public let externaldriveFillBadgeMinus:String = "externaldrive.fill.badge.minus"
         /// 􀩐
-        let externaldriveBadgeCheckmark:String = "externaldrive.badge.checkmark"
+        public let externaldriveBadgeCheckmark:String = "externaldrive.badge.checkmark"
         /// 􀩔
-        let externaldriveFillBadgeCheckmark:String = "externaldrive.fill.badge.checkmark"
+        public let externaldriveFillBadgeCheckmark:String = "externaldrive.fill.badge.checkmark"
         /// 􀩑
-        let externaldriveBadgeXmark:String = "externaldrive.badge.xmark"
+        public let externaldriveBadgeXmark:String = "externaldrive.badge.xmark"
         /// 􀩕
-        let externaldriveFillBadgeXmark:String = "externaldrive.fill.badge.xmark"
+        public let externaldriveFillBadgeXmark:String = "externaldrive.fill.badge.xmark"
         /// 􀩬
-        let externaldriveBadgePersonCrop:String = "externaldrive.badge.person.crop"
+        public let externaldriveBadgePersonCrop:String = "externaldrive.badge.person.crop"
         /// 􀩭
-        let externaldriveFillBadgePersonCrop:String = "externaldrive.fill.badge.person.crop"
+        public let externaldriveFillBadgePersonCrop:String = "externaldrive.fill.badge.person.crop"
         /// 􀪹
-        let externaldriveBadgeIcloud:String = "externaldrive.badge.icloud"
+        public let externaldriveBadgeIcloud:String = "externaldrive.badge.icloud"
         /// 􀪺
-        let externaldriveFillBadgeIcloud:String = "externaldrive.fill.badge.icloud"
+        public let externaldriveFillBadgeIcloud:String = "externaldrive.fill.badge.icloud"
         /// 􀩮
-        let externaldriveBadgeWifi:String = "externaldrive.badge.wifi"
+        public let externaldriveBadgeWifi:String = "externaldrive.badge.wifi"
         /// 􀩯
-        let externaldriveFillBadgeWifi:String = "externaldrive.fill.badge.wifi"
+        public let externaldriveFillBadgeWifi:String = "externaldrive.fill.badge.wifi"
         /// 􀤜
-        let externaldriveBadgeTimemachine:String = "externaldrive.badge.timemachine"
+        public let externaldriveBadgeTimemachine:String = "externaldrive.badge.timemachine"
         /// 􀤝
-        let externaldriveFillBadgeTimemachine:String = "externaldrive.fill.badge.timemachine"
+        public let externaldriveFillBadgeTimemachine:String = "externaldrive.fill.badge.timemachine"
         /// 􀥾
-        let internaldrive:String = "internaldrive"
+        public let internaldrive:String = "internaldrive"
         /// 􀨪
-        let internaldriveFill:String = "internaldrive.fill"
+        public let internaldriveFill:String = "internaldrive.fill"
         /// 􀤄
-        let opticaldiscdrive:String = "opticaldiscdrive"
+        public let opticaldiscdrive:String = "opticaldiscdrive"
         /// 􀤅
-        let opticaldiscdriveFill:String = "opticaldiscdrive.fill"
+        public let opticaldiscdriveFill:String = "opticaldiscdrive.fill"
         /// 􀨤
-        let externaldriveConnectedToLineBelow:String = "externaldrive.connected.to.line.below"
+        public let externaldriveConnectedToLineBelow:String = "externaldrive.connected.to.line.below"
         /// 􀨥
-        let externaldriveConnectedToLineBelowFill:String = "externaldrive.connected.to.line.below.fill"
+        public let externaldriveConnectedToLineBelowFill:String = "externaldrive.connected.to.line.below.fill"
         /// 􀈭
-        let archivebox:String = "archivebox"
+        public let archivebox:String = "archivebox"
         /// 􀈮
-        let archiveboxFill:String = "archivebox.fill"
+        public let archiveboxFill:String = "archivebox.fill"
         /// 􀈯
-        let archiveboxCircle:String = "archivebox.circle"
+        public let archiveboxCircle:String = "archivebox.circle"
         /// 􀈰
-        let archiveboxCircleFill:String = "archivebox.circle.fill"
+        public let archiveboxCircleFill:String = "archivebox.circle.fill"
         /// 􀈱
-        let xmarkBin:String = "xmark.bin"
+        public let xmarkBin:String = "xmark.bin"
         /// 􀈲
-        let xmarkBinFill:String = "xmark.bin.fill"
+        public let xmarkBinFill:String = "xmark.bin.fill"
         /// 􀈳
-        let xmarkBinCircle:String = "xmark.bin.circle"
+        public let xmarkBinCircle:String = "xmark.bin.circle"
         /// 􀈴
-        let xmarkBinCircleFill:String = "xmark.bin.circle.fill"
+        public let xmarkBinCircleFill:String = "xmark.bin.circle.fill"
         /// 􀈵
-        let arrowUpBin:String = "arrow.up.bin"
+        public let arrowUpBin:String = "arrow.up.bin"
         /// 􀈶
-        let arrowUpBinFill:String = "arrow.up.bin.fill"
+        public let arrowUpBinFill:String = "arrow.up.bin.fill"
         /// 􀈷
-        let doc:String = "doc"
+        public let doc:String = "doc"
         /// 􀈸
-        let docFill:String = "doc.fill"
+        public let docFill:String = "doc.fill"
         /// 􀈹
-        let docCircle:String = "doc.circle"
+        public let docCircle:String = "doc.circle"
         /// 􀈺
-        let docCircleFill:String = "doc.circle.fill"
+        public let docCircleFill:String = "doc.circle.fill"
         /// 􀣗
-        let docBadgePlus:String = "doc.badge.plus"
+        public let docBadgePlus:String = "doc.badge.plus"
         /// 􀣘
-        let docFillBadgePlus:String = "doc.fill.badge.plus"
+        public let docFillBadgePlus:String = "doc.fill.badge.plus"
         /// 􀩚
-        let docBadgeGearshape:String = "doc.badge.gearshape"
+        public let docBadgeGearshape:String = "doc.badge.gearshape"
         /// 􀩛
-        let docBadgeGearshapeFill:String = "doc.badge.gearshape.fill"
+        public let docBadgeGearshapeFill:String = "doc.badge.gearshape.fill"
         /// 􀩴
-        let docBadgeEllipsis:String = "doc.badge.ellipsis"
+        public let docBadgeEllipsis:String = "doc.badge.ellipsis"
         /// 􀩵
-        let docFillBadgeEllipsis:String = "doc.fill.badge.ellipsis"
+        public let docFillBadgeEllipsis:String = "doc.fill.badge.ellipsis"
         /// 􀢍
-        let lockDoc:String = "lock.doc"
+        public let lockDoc:String = "lock.doc"
         /// 􀢎
-        let lockDocFill:String = "lock.doc.fill"
+        public let lockDocFill:String = "lock.doc.fill"
         /// 􀈻
-        let arrowUpDoc:String = "arrow.up.doc"
+        public let arrowUpDoc:String = "arrow.up.doc"
         /// 􀈼
-        let arrowUpDocFill:String = "arrow.up.doc.fill"
+        public let arrowUpDocFill:String = "arrow.up.doc.fill"
         /// 􀈽
-        let arrowDownDoc:String = "arrow.down.doc"
+        public let arrowDownDoc:String = "arrow.down.doc"
         /// 􀈾
-        let arrowDownDocFill:String = "arrow.down.doc.fill"
+        public let arrowDownDocFill:String = "arrow.down.doc.fill"
         /// 􀈿
-        let docText:String = "doc.text"
+        public let docText:String = "doc.text"
         /// 􀉀
-        let docTextFill:String = "doc.text.fill"
+        public let docTextFill:String = "doc.text.fill"
         /// 􀤧
-        let docZipper:String = "doc.zipper"
+        public let docZipper:String = "doc.zipper"
         /// 􀉁
-        let docOnDoc:String = "doc.on.doc"
+        public let docOnDoc:String = "doc.on.doc"
         /// 􀉂
-        let docOnDocFill:String = "doc.on.doc.fill"
+        public let docOnDocFill:String = "doc.on.doc.fill"
         /// 􀉃
-        let docOnClipboard:String = "doc.on.clipboard"
+        public let docOnClipboard:String = "doc.on.clipboard"
         /// 􀫵
-        let arrowRightDocOnClipboard:String = "arrow.right.doc.on.clipboard"
+        public let arrowRightDocOnClipboard:String = "arrow.right.doc.on.clipboard"
         /// 􀫶
-        let arrowUpDocOnClipboard:String = "arrow.up.doc.on.clipboard"
+        public let arrowUpDocOnClipboard:String = "arrow.up.doc.on.clipboard"
         /// 􀫷
-        let arrowTriangle2CirclepathDocOnClipboard:String = "arrow.triangle.2.circlepath.doc.on.clipboard"
+        public let arrowTriangle2CirclepathDocOnClipboard:String = "arrow.triangle.2.circlepath.doc.on.clipboard"
         /// 􀉄
-        let docOnClipboardFill:String = "doc.on.clipboard.fill"
+        public let docOnClipboardFill:String = "doc.on.clipboard.fill"
         /// 􀉅
-        let docRichtext:String = "doc.richtext"
+        public let docRichtext:String = "doc.richtext"
         /// 􀦊
-        let docRichtextFill:String = "doc.richtext.fill"
+        public let docRichtextFill:String = "doc.richtext.fill"
         /// 􀉆
-        let docPlaintext:String = "doc.plaintext"
+        public let docPlaintext:String = "doc.plaintext"
         /// 􀥨
-        let docPlaintextFill:String = "doc.plaintext.fill"
+        public let docPlaintextFill:String = "doc.plaintext.fill"
         /// 􀉇
-        let docAppend:String = "doc.append"
+        public let docAppend:String = "doc.append"
         /// 􀦋
-        let docAppendFill:String = "doc.append.fill"
+        public let docAppendFill:String = "doc.append.fill"
         /// 􀳼
-        let docTextBelowEcg:String = "doc.text.below.ecg"
+        public let docTextBelowEcg:String = "doc.text.below.ecg"
         /// 􀳽
-        let docTextBelowEcgFill:String = "doc.text.below.ecg.fill"
+        public let docTextBelowEcgFill:String = "doc.text.below.ecg.fill"
         /// 􀥜
-        let chartBarDocHorizontal:String = "chart.bar.doc.horizontal"
+        public let chartBarDocHorizontal:String = "chart.bar.doc.horizontal"
         /// 􀦌
-        let chartBarDocHorizontalFill:String = "chart.bar.doc.horizontal.fill"
+        public let chartBarDocHorizontalFill:String = "chart.bar.doc.horizontal.fill"
         /// 􀩳
-        let listBulletRectangle:String = "list.bullet.rectangle"
+        public let listBulletRectangle:String = "list.bullet.rectangle"
         /// 􀩼
-        let terminal:String = "terminal"
+        public let terminal:String = "terminal"
         /// 􀪏
-        let terminalFill:String = "terminal.fill"
+        public let terminalFill:String = "terminal.fill"
         /// 􀕹
-        let docTextMagnifyingglass:String = "doc.text.magnifyingglass"
+        public let docTextMagnifyingglass:String = "doc.text.magnifyingglass"
         /// 􀧵
-        let note:String = "note"
+        public let note:String = "note"
         /// 􀓕
-        let noteText:String = "note.text"
+        public let noteText:String = "note.text"
         /// 􀣙
-        let noteTextBadgePlus:String = "note.text.badge.plus"
+        public let noteTextBadgePlus:String = "note.text.badge.plus"
         /// 􀉉
-        let calendar:String = "calendar"
+        public let calendar:String = "calendar"
         /// 􀒎
-        let calendarCircle:String = "calendar.circle"
+        public let calendarCircle:String = "calendar.circle"
         /// 􀒏
-        let calendarCircleFill:String = "calendar.circle.fill"
+        public let calendarCircleFill:String = "calendar.circle.fill"
         /// 􀉊
-        let calendarBadgePlus:String = "calendar.badge.plus"
+        public let calendarBadgePlus:String = "calendar.badge.plus"
         /// 􀉋
-        let calendarBadgeMinus:String = "calendar.badge.minus"
+        public let calendarBadgeMinus:String = "calendar.badge.minus"
         /// 􀧞
-        let calendarBadgeClock:String = "calendar.badge.clock"
+        public let calendarBadgeClock:String = "calendar.badge.clock"
         /// 􀮝
-        let calendarBadgeExclamationmark:String = "calendar.badge.exclamationmark"
+        public let calendarBadgeExclamationmark:String = "calendar.badge.exclamationmark"
         /// 􀉌
-        let arrowshapeTurnUpLeft:String = "arrowshape.turn.up.left"
+        public let arrowshapeTurnUpLeft:String = "arrowshape.turn.up.left"
         /// 􀉍
-        let arrowshapeTurnUpLeftFill:String = "arrowshape.turn.up.left.fill"
+        public let arrowshapeTurnUpLeftFill:String = "arrowshape.turn.up.left.fill"
         /// 􀉎
-        let arrowshapeTurnUpLeftCircle:String = "arrowshape.turn.up.left.circle"
+        public let arrowshapeTurnUpLeftCircle:String = "arrowshape.turn.up.left.circle"
         /// 􀉏
-        let arrowshapeTurnUpLeftCircleFill:String = "arrowshape.turn.up.left.circle.fill"
+        public let arrowshapeTurnUpLeftCircleFill:String = "arrowshape.turn.up.left.circle.fill"
         /// 􀰚
-        let arrowshapeTurnUpBackward:String = "arrowshape.turn.up.backward"
+        public let arrowshapeTurnUpBackward:String = "arrowshape.turn.up.backward"
         /// 􀰛
-        let arrowshapeTurnUpBackwardFill:String = "arrowshape.turn.up.backward.fill"
+        public let arrowshapeTurnUpBackwardFill:String = "arrowshape.turn.up.backward.fill"
         /// 􀰜
-        let arrowshapeTurnUpBackwardCircle:String = "arrowshape.turn.up.backward.circle"
+        public let arrowshapeTurnUpBackwardCircle:String = "arrowshape.turn.up.backward.circle"
         /// 􀰝
-        let arrowshapeTurnUpBackwardCircleFill:String = "arrowshape.turn.up.backward.circle.fill"
+        public let arrowshapeTurnUpBackwardCircleFill:String = "arrowshape.turn.up.backward.circle.fill"
         /// 􀉐
-        let arrowshapeTurnUpRight:String = "arrowshape.turn.up.right"
+        public let arrowshapeTurnUpRight:String = "arrowshape.turn.up.right"
         /// 􀉑
-        let arrowshapeTurnUpRightFill:String = "arrowshape.turn.up.right.fill"
+        public let arrowshapeTurnUpRightFill:String = "arrowshape.turn.up.right.fill"
         /// 􀉒
-        let arrowshapeTurnUpRightCircle:String = "arrowshape.turn.up.right.circle"
+        public let arrowshapeTurnUpRightCircle:String = "arrowshape.turn.up.right.circle"
         /// 􀉓
-        let arrowshapeTurnUpRightCircleFill:String = "arrowshape.turn.up.right.circle.fill"
+        public let arrowshapeTurnUpRightCircleFill:String = "arrowshape.turn.up.right.circle.fill"
         /// 􀰞
-        let arrowshapeTurnUpForward:String = "arrowshape.turn.up.forward"
+        public let arrowshapeTurnUpForward:String = "arrowshape.turn.up.forward"
         /// 􀰟
-        let arrowshapeTurnUpForwardFill:String = "arrowshape.turn.up.forward.fill"
+        public let arrowshapeTurnUpForwardFill:String = "arrowshape.turn.up.forward.fill"
         /// 􀰠
-        let arrowshapeTurnUpForwardCircle:String = "arrowshape.turn.up.forward.circle"
+        public let arrowshapeTurnUpForwardCircle:String = "arrowshape.turn.up.forward.circle"
         /// 􀰡
-        let arrowshapeTurnUpForwardCircleFill:String = "arrowshape.turn.up.forward.circle.fill"
+        public let arrowshapeTurnUpForwardCircleFill:String = "arrowshape.turn.up.forward.circle.fill"
         /// 􀉔
-        let arrowshapeTurnUpLeft2:String = "arrowshape.turn.up.left.2"
+        public let arrowshapeTurnUpLeft2:String = "arrowshape.turn.up.left.2"
         /// 􀉕
-        let arrowshapeTurnUpLeft2Fill:String = "arrowshape.turn.up.left.2.fill"
+        public let arrowshapeTurnUpLeft2Fill:String = "arrowshape.turn.up.left.2.fill"
         /// 􀉖
-        let arrowshapeTurnUpLeft2Circle:String = "arrowshape.turn.up.left.2.circle"
+        public let arrowshapeTurnUpLeft2Circle:String = "arrowshape.turn.up.left.2.circle"
         /// 􀉗
-        let arrowshapeTurnUpLeft2CircleFill:String = "arrowshape.turn.up.left.2.circle.fill"
+        public let arrowshapeTurnUpLeft2CircleFill:String = "arrowshape.turn.up.left.2.circle.fill"
         /// 􀰢
-        let arrowshapeTurnUpBackward2:String = "arrowshape.turn.up.backward.2"
+        public let arrowshapeTurnUpBackward2:String = "arrowshape.turn.up.backward.2"
         /// 􀰣
-        let arrowshapeTurnUpBackward2Fill:String = "arrowshape.turn.up.backward.2.fill"
+        public let arrowshapeTurnUpBackward2Fill:String = "arrowshape.turn.up.backward.2.fill"
         /// 􀰤
-        let arrowshapeTurnUpBackward2Circle:String = "arrowshape.turn.up.backward.2.circle"
+        public let arrowshapeTurnUpBackward2Circle:String = "arrowshape.turn.up.backward.2.circle"
         /// 􀰥
-        let arrowshapeTurnUpBackward2CircleFill:String = "arrowshape.turn.up.backward.2.circle.fill"
+        public let arrowshapeTurnUpBackward2CircleFill:String = "arrowshape.turn.up.backward.2.circle.fill"
         /// 􀉘
-        let arrowshapeZigzagRight:String = "arrowshape.zigzag.right"
+        public let arrowshapeZigzagRight:String = "arrowshape.zigzag.right"
         /// 􀒐
-        let arrowshapeZigzagRightFill:String = "arrowshape.zigzag.right.fill"
+        public let arrowshapeZigzagRightFill:String = "arrowshape.zigzag.right.fill"
         /// 􀰦
-        let arrowshapeZigzagForward:String = "arrowshape.zigzag.forward"
+        public let arrowshapeZigzagForward:String = "arrowshape.zigzag.forward"
         /// 􀰧
-        let arrowshapeZigzagForwardFill:String = "arrowshape.zigzag.forward.fill"
+        public let arrowshapeZigzagForwardFill:String = "arrowshape.zigzag.forward.fill"
         /// 􀉙
-        let arrowshapeBounceRight:String = "arrowshape.bounce.right"
+        public let arrowshapeBounceRight:String = "arrowshape.bounce.right"
         /// 􀒑
-        let arrowshapeBounceRightFill:String = "arrowshape.bounce.right.fill"
+        public let arrowshapeBounceRightFill:String = "arrowshape.bounce.right.fill"
         /// 􀰨
-        let arrowshapeBounceForward:String = "arrowshape.bounce.forward"
+        public let arrowshapeBounceForward:String = "arrowshape.bounce.forward"
         /// 􀰩
-        let arrowshapeBounceForwardFill:String = "arrowshape.bounce.forward.fill"
+        public let arrowshapeBounceForwardFill:String = "arrowshape.bounce.forward.fill"
         /// 􀉚
-        let book:String = "book"
+        public let book:String = "book"
         /// 􀉛
-        let bookFill:String = "book.fill"
+        public let bookFill:String = "book.fill"
         /// 􀉜
-        let bookCircle:String = "book.circle"
+        public let bookCircle:String = "book.circle"
         /// 􀉝
-        let bookCircleFill:String = "book.circle.fill"
+        public let bookCircleFill:String = "book.circle.fill"
         /// 􀤦
-        let newspaper:String = "newspaper"
+        public let newspaper:String = "newspaper"
         /// 􀥅
-        let newspaperFill:String = "newspaper.fill"
+        public let newspaperFill:String = "newspaper.fill"
         /// 􀬒
-        let booksVertical:String = "books.vertical"
+        public let booksVertical:String = "books.vertical"
         /// 􀬓
-        let booksVerticalFill:String = "books.vertical.fill"
+        public let booksVerticalFill:String = "books.vertical.fill"
         /// 􀤞
-        let bookClosed:String = "book.closed"
+        public let bookClosed:String = "book.closed"
         /// 􀤟
-        let bookClosedFill:String = "book.closed.fill"
+        public let bookClosedFill:String = "book.closed.fill"
         /// 􀫕
-        let characterBookClosed:String = "character.book.closed"
+        public let characterBookClosed:String = "character.book.closed"
         /// 􀫖
-        let characterBookClosedFill:String = "character.book.closed.fill"
+        public let characterBookClosedFill:String = "character.book.closed.fill"
         /// 􀫗
-        let textBookClosed:String = "text.book.closed"
+        public let textBookClosed:String = "text.book.closed"
         /// 􀫘
-        let textBookClosedFill:String = "text.book.closed.fill"
+        public let textBookClosedFill:String = "text.book.closed.fill"
         /// 􀤠
-        let greetingcard:String = "greetingcard"
+        public let greetingcard:String = "greetingcard"
         /// 􀤡
-        let greetingcardFill:String = "greetingcard.fill"
+        public let greetingcardFill:String = "greetingcard.fill"
         /// 􀉞
-        let bookmark:String = "bookmark"
+        public let bookmark:String = "bookmark"
         /// 􀉟
-        let bookmarkFill:String = "bookmark.fill"
+        public let bookmarkFill:String = "bookmark.fill"
         /// 􀉠
-        let bookmarkCircle:String = "bookmark.circle"
+        public let bookmarkCircle:String = "bookmark.circle"
         /// 􀉡
-        let bookmarkCircleFill:String = "bookmark.circle.fill"
+        public let bookmarkCircleFill:String = "bookmark.circle.fill"
         /// 􀟍
-        let bookmarkSlash:String = "bookmark.slash"
+        public let bookmarkSlash:String = "bookmark.slash"
         /// 􀟎
-        let bookmarkSlashFill:String = "bookmark.slash.fill"
+        public let bookmarkSlashFill:String = "bookmark.slash.fill"
         /// 􀛯
-        let rosette:String = "rosette"
+        public let rosette:String = "rosette"
         /// 􀫓
-        let graduationcap:String = "graduationcap"
+        public let graduationcap:String = "graduationcap"
         /// 􀫔
-        let graduationcapFill:String = "graduationcap.fill"
+        public let graduationcapFill:String = "graduationcap.fill"
         /// 􀪃
-        let ticket:String = "ticket"
+        public let ticket:String = "ticket"
         /// 􀪄
-        let ticketFill:String = "ticket.fill"
+        public let ticketFill:String = "ticket.fill"
         /// 􀉢
-        let paperclip:String = "paperclip"
+        public let paperclip:String = "paperclip"
         /// 􀒔
-        let paperclipCircle:String = "paperclip.circle"
+        public let paperclipCircle:String = "paperclip.circle"
         /// 􀒕
-        let paperclipCircleFill:String = "paperclip.circle.fill"
+        public let paperclipCircleFill:String = "paperclip.circle.fill"
         /// 􀢏
-        let paperclipBadgeEllipsis:String = "paperclip.badge.ellipsis"
+        public let paperclipBadgeEllipsis:String = "paperclip.badge.ellipsis"
         /// 􀒖
-        let rectangleAndPaperclip:String = "rectangle.and.paperclip"
+        public let rectangleAndPaperclip:String = "rectangle.and.paperclip"
         /// 􀥪
-        let rectangleDashedAndPaperclip:String = "rectangle.dashed.and.paperclip"
+        public let rectangleDashedAndPaperclip:String = "rectangle.dashed.and.paperclip"
         /// 􀉣
-        let link:String = "link"
+        public let link:String = "link"
         /// 􀒠
-        let linkCircle:String = "link.circle"
+        public let linkCircle:String = "link.circle"
         /// 􀒡
-        let linkCircleFill:String = "link.circle.fill"
+        public let linkCircleFill:String = "link.circle.fill"
         /// 􀥕
-        let linkBadgePlus:String = "link.badge.plus"
+        public let linkBadgePlus:String = "link.badge.plus"
         /// 􀉤
-        let personalhotspot:String = "personalhotspot"
+        public let personalhotspot:String = "personalhotspot"
         /// 􀉨
-        let lineweight:String = "lineweight"
+        public let lineweight:String = "lineweight"
         /// 􀉩
-        let person:String = "person"
+        public let person:String = "person"
         /// 􀉪
-        let personFill:String = "person.fill"
+        public let personFill:String = "person.fill"
         /// 􀯑
-        let personFillTurnRight:String = "person.fill.turn.right"
+        public let personFillTurnRight:String = "person.fill.turn.right"
         /// 􀯒
-        let personFillTurnDown:String = "person.fill.turn.down"
+        public let personFillTurnDown:String = "person.fill.turn.down"
         /// 􀯓
-        let personFillTurnLeft:String = "person.fill.turn.left"
+        public let personFillTurnLeft:String = "person.fill.turn.left"
         /// 􀯧
-        let personFillCheckmark:String = "person.fill.checkmark"
+        public let personFillCheckmark:String = "person.fill.checkmark"
         /// 􀯨
-        let personFillXmark:String = "person.fill.xmark"
+        public let personFillXmark:String = "person.fill.xmark"
         /// 􀯩
-        let personFillQuestionmark:String = "person.fill.questionmark"
+        public let personFillQuestionmark:String = "person.fill.questionmark"
         /// 􀓣
-        let personCircle:String = "person.circle"
+        public let personCircle:String = "person.circle"
         /// 􀓤
-        let personCircleFill:String = "person.circle.fill"
+        public let personCircleFill:String = "person.circle.fill"
         /// 􀜕
-        let personBadgePlus:String = "person.badge.plus"
+        public let personBadgePlus:String = "person.badge.plus"
         /// 􀜖
-        let personFillBadgePlus:String = "person.fill.badge.plus"
+        public let personFillBadgePlus:String = "person.fill.badge.plus"
         /// 􀜗
-        let personBadgeMinus:String = "person.badge.minus"
+        public let personBadgeMinus:String = "person.badge.minus"
         /// 􀜘
-        let personFillBadgeMinus:String = "person.fill.badge.minus"
+        public let personFillBadgeMinus:String = "person.fill.badge.minus"
         /// 􀪼
-        let personAndArrowLeftAndArrowRight:String = "person.and.arrow.left.and.arrow.right"
+        public let personAndArrowLeftAndArrowRight:String = "person.and.arrow.left.and.arrow.right"
         /// 􀪽
-        let personFillAndArrowLeftAndArrowRight:String = "person.fill.and.arrow.left.and.arrow.right"
+        public let personFillAndArrowLeftAndArrowRight:String = "person.fill.and.arrow.left.and.arrow.right"
         /// 􀉫
-        let person2:String = "person.2"
+        public let person2:String = "person.2"
         /// 􀉬
-        let person2Fill:String = "person.2.fill"
+        public let person2Fill:String = "person.2.fill"
         /// 􀠃
-        let person2Circle:String = "person.2.circle"
+        public let person2Circle:String = "person.2.circle"
         /// 􀠄
-        let person2CircleFill:String = "person.2.circle.fill"
+        public let person2CircleFill:String = "person.2.circle.fill"
         /// 􀝊
-        let person3:String = "person.3"
+        public let person3:String = "person.3"
         /// 􀝋
-        let person3Fill:String = "person.3.fill"
+        public let person3Fill:String = "person.3.fill"
         /// 􀉭
-        let personCropCircle:String = "person.crop.circle"
+        public let personCropCircle:String = "person.crop.circle"
         /// 􀉮
-        let personCropCircleFill:String = "person.crop.circle.fill"
+        public let personCropCircleFill:String = "person.crop.circle.fill"
         /// 􀉯
-        let personCropCircleBadgePlus:String = "person.crop.circle.badge.plus"
+        public let personCropCircleBadgePlus:String = "person.crop.circle.badge.plus"
         /// 􀉰
-        let personCropCircleFillBadgePlus:String = "person.crop.circle.fill.badge.plus"
+        public let personCropCircleFillBadgePlus:String = "person.crop.circle.fill.badge.plus"
         /// 􀉱
-        let personCropCircleBadgeMinus:String = "person.crop.circle.badge.minus"
+        public let personCropCircleBadgeMinus:String = "person.crop.circle.badge.minus"
         /// 􀉲
-        let personCropCircleFillBadgeMinus:String = "person.crop.circle.fill.badge.minus"
+        public let personCropCircleFillBadgeMinus:String = "person.crop.circle.fill.badge.minus"
         /// 􀉳
-        let personCropCircleBadgeCheckmark:String = "person.crop.circle.badge.checkmark"
+        public let personCropCircleBadgeCheckmark:String = "person.crop.circle.badge.checkmark"
         /// 􀉴
-        let personCropCircleFillBadgeCheckmark:String = "person.crop.circle.fill.badge.checkmark"
+        public let personCropCircleFillBadgeCheckmark:String = "person.crop.circle.fill.badge.checkmark"
         /// 􀉵
-        let personCropCircleBadgeXmark:String = "person.crop.circle.badge.xmark"
+        public let personCropCircleBadgeXmark:String = "person.crop.circle.badge.xmark"
         /// 􀉶
-        let personCropCircleFillBadgeXmark:String = "person.crop.circle.fill.badge.xmark"
+        public let personCropCircleFillBadgeXmark:String = "person.crop.circle.fill.badge.xmark"
         /// 􀭽
-        let personCropCircleBadgeQuestionmark:String = "person.crop.circle.badge.questionmark"
+        public let personCropCircleBadgeQuestionmark:String = "person.crop.circle.badge.questionmark"
         /// 􀭾
-        let personCropCircleFillBadgeQuestionmark:String = "person.crop.circle.fill.badge.questionmark"
+        public let personCropCircleFillBadgeQuestionmark:String = "person.crop.circle.fill.badge.questionmark"
         /// 􀉷
-        let personCropCircleBadgeExclamationmark:String = "person.crop.circle.badge.exclamationmark"
+        public let personCropCircleBadgeExclamationmark:String = "person.crop.circle.badge.exclamationmark"
         /// 􀉸
-        let personCropCircleFillBadgeExclamationmark:String = "person.crop.circle.fill.badge.exclamationmark"
+        public let personCropCircleFillBadgeExclamationmark:String = "person.crop.circle.fill.badge.exclamationmark"
         /// 􀉹
-        let personCropSquare:String = "person.crop.square"
+        public let personCropSquare:String = "person.crop.square"
         /// 􀉺
-        let personCropSquareFill:String = "person.crop.square.fill"
+        public let personCropSquareFill:String = "person.crop.square.fill"
         /// 􀏻
-        let rectangleStackPersonCrop:String = "rectangle.stack.person.crop"
+        public let rectangleStackPersonCrop:String = "rectangle.stack.person.crop"
         /// 􀏼
-        let rectangleStackPersonCropFill:String = "rectangle.stack.person.crop.fill"
+        public let rectangleStackPersonCropFill:String = "rectangle.stack.person.crop.fill"
         /// 􀓥
-        let person2SquareStack:String = "person.2.square.stack"
+        public let person2SquareStack:String = "person.2.square.stack"
         /// 􀓦
-        let person2SquareStackFill:String = "person.2.square.stack.fill"
+        public let person2SquareStackFill:String = "person.2.square.stack.fill"
         /// 􀦎
-        let personCropSquareFillAndAtRectangle:String = "person.crop.square.fill.and.at.rectangle"
+        public let personCropSquareFillAndAtRectangle:String = "person.crop.square.fill.and.at.rectangle"
         /// 􀦏
-        let squareAndAtRectangle:String = "square.and.at.rectangle"
+        public let squareAndAtRectangle:String = "square.and.at.rectangle"
         /// 􀆔
-        let command:String = "command"
+        public let command:String = "command"
         /// 􀩿
-        let commandCircle:String = "command.circle"
+        public let commandCircle:String = "command.circle"
         /// 􀪀
-        let commandCircleFill:String = "command.circle.fill"
+        public let commandCircleFill:String = "command.circle.fill"
         /// 􀪁
-        let commandSquare:String = "command.square"
+        public let commandSquare:String = "command.square"
         /// 􀪂
-        let commandSquareFill:String = "command.square.fill"
+        public let commandSquareFill:String = "command.square.fill"
         /// 􀆕
-        let option:String = "option"
+        public let option:String = "option"
         /// 􀆖
-        let alt:String = "alt"
+        public let alt:String = "alt"
         /// 􀆗
-        let deleteRight:String = "delete.right"
+        public let deleteRight:String = "delete.right"
         /// 􀆘
-        let deleteRightFill:String = "delete.right.fill"
+        public let deleteRightFill:String = "delete.right.fill"
         /// 􀆙
-        let clear:String = "clear"
+        public let clear:String = "clear"
         /// 􀆚
-        let clearFill:String = "clear.fill"
+        public let clearFill:String = "clear.fill"
         /// 􀆛
-        let deleteLeft:String = "delete.left"
+        public let deleteLeft:String = "delete.left"
         /// 􀆜
-        let deleteLeftFill:String = "delete.left.fill"
+        public let deleteLeftFill:String = "delete.left.fill"
         /// 􀆝
-        let shift:String = "shift"
+        public let shift:String = "shift"
         /// 􀆞
-        let shiftFill:String = "shift.fill"
+        public let shiftFill:String = "shift.fill"
         /// 􀆡
-        let capslock:String = "capslock"
+        public let capslock:String = "capslock"
         /// 􀆢
-        let capslockFill:String = "capslock.fill"
+        public let capslockFill:String = "capslock.fill"
         /// 􀆧
-        let escape:String = "escape"
+        public let escape:String = "escape"
         /// 􀯆
-        let restart:String = "restart"
+        public let restart:String = "restart"
         /// 􀣨
-        let restartCircle:String = "restart.circle"
+        public let restartCircle:String = "restart.circle"
         /// 􀜚
-        let sleep:String = "sleep"
+        public let sleep:String = "sleep"
         /// 􀪒
-        let wake:String = "wake"
+        public let wake:String = "wake"
         /// 􀆨
-        let power:String = "power"
+        public let power:String = "power"
         /// 􀥣
-        let togglepower:String = "togglepower"
+        public let togglepower:String = "togglepower"
         /// 􀥤
-        let poweron:String = "poweron"
+        public let poweron:String = "poweron"
         /// 􀥥
-        let poweroff:String = "poweroff"
+        public let poweroff:String = "poweroff"
         /// 􀥦
-        let powersleep:String = "powersleep"
+        public let powersleep:String = "powersleep"
         /// 􀯝
-        let directcurrent:String = "directcurrent"
+        public let directcurrent:String = "directcurrent"
         /// 􀝯
-        let dotArrowtrianglesUpRightDownLeftCircle:String = "dot.arrowtriangles.up.right.down.left.circle"
+        public let dotArrowtrianglesUpRightDownLeftCircle:String = "dot.arrowtriangles.up.right.down.left.circle"
         /// 􀆪
-        let globe:String = "globe"
+        public let globe:String = "globe"
         /// 􀤆
-        let network:String = "network"
+        public let network:String = "network"
         /// 􀆫
-        let sunMin:String = "sun.min"
+        public let sunMin:String = "sun.min"
         /// 􀆬
-        let sunMinFill:String = "sun.min.fill"
+        public let sunMinFill:String = "sun.min.fill"
         /// 􀆭
-        let sunMax:String = "sun.max"
+        public let sunMax:String = "sun.max"
         /// 􀆮
-        let sunMaxFill:String = "sun.max.fill"
+        public let sunMaxFill:String = "sun.max.fill"
         /// 􀆱
-        let sunrise:String = "sunrise"
+        public let sunrise:String = "sunrise"
         /// 􀆲
-        let sunriseFill:String = "sunrise.fill"
+        public let sunriseFill:String = "sunrise.fill"
         /// 􀆳
-        let sunset:String = "sunset"
+        public let sunset:String = "sunset"
         /// 􀆴
-        let sunsetFill:String = "sunset.fill"
+        public let sunsetFill:String = "sunset.fill"
         /// 􀆵
-        let sunDust:String = "sun.dust"
+        public let sunDust:String = "sun.dust"
         /// 􀆶
-        let sunDustFill:String = "sun.dust.fill"
+        public let sunDustFill:String = "sun.dust.fill"
         /// 􀆷
-        let sunHaze:String = "sun.haze"
+        public let sunHaze:String = "sun.haze"
         /// 􀆸
-        let sunHazeFill:String = "sun.haze.fill"
+        public let sunHazeFill:String = "sun.haze.fill"
         /// 􀆹
-        let moon:String = "moon"
+        public let moon:String = "moon"
         /// 􀆺
-        let moonFill:String = "moon.fill"
+        public let moonFill:String = "moon.fill"
         /// 􀆻
-        let moonCircle:String = "moon.circle"
+        public let moonCircle:String = "moon.circle"
         /// 􀆼
-        let moonCircleFill:String = "moon.circle.fill"
+        public let moonCircleFill:String = "moon.circle.fill"
         /// 􀖃
-        let zzz:String = "zzz"
+        public let zzz:String = "zzz"
         /// 􀆽
-        let moonZzz:String = "moon.zzz"
+        public let moonZzz:String = "moon.zzz"
         /// 􀆾
-        let moonZzzFill:String = "moon.zzz.fill"
+        public let moonZzzFill:String = "moon.zzz.fill"
         /// 􀫸
-        let sparkle:String = "sparkle"
+        public let sparkle:String = "sparkle"
         /// 􀆿
-        let sparkles:String = "sparkles"
+        public let sparkles:String = "sparkles"
         /// 􀇀
-        let moonStars:String = "moon.stars"
+        public let moonStars:String = "moon.stars"
         /// 􀇁
-        let moonStarsFill:String = "moon.stars.fill"
+        public let moonStarsFill:String = "moon.stars.fill"
         /// 􀇂
-        let cloud:String = "cloud"
+        public let cloud:String = "cloud"
         /// 􀇃
-        let cloudFill:String = "cloud.fill"
+        public let cloudFill:String = "cloud.fill"
         /// 􀇄
-        let cloudDrizzle:String = "cloud.drizzle"
+        public let cloudDrizzle:String = "cloud.drizzle"
         /// 􀇅
-        let cloudDrizzleFill:String = "cloud.drizzle.fill"
+        public let cloudDrizzleFill:String = "cloud.drizzle.fill"
         /// 􀇆
-        let cloudRain:String = "cloud.rain"
+        public let cloudRain:String = "cloud.rain"
         /// 􀇇
-        let cloudRainFill:String = "cloud.rain.fill"
+        public let cloudRainFill:String = "cloud.rain.fill"
         /// 􀇈
-        let cloudHeavyrain:String = "cloud.heavyrain"
+        public let cloudHeavyrain:String = "cloud.heavyrain"
         /// 􀇉
-        let cloudHeavyrainFill:String = "cloud.heavyrain.fill"
+        public let cloudHeavyrainFill:String = "cloud.heavyrain.fill"
         /// 􀇊
-        let cloudFog:String = "cloud.fog"
+        public let cloudFog:String = "cloud.fog"
         /// 􀇋
-        let cloudFogFill:String = "cloud.fog.fill"
+        public let cloudFogFill:String = "cloud.fog.fill"
         /// 􀇌
-        let cloudHail:String = "cloud.hail"
+        public let cloudHail:String = "cloud.hail"
         /// 􀇍
-        let cloudHailFill:String = "cloud.hail.fill"
+        public let cloudHailFill:String = "cloud.hail.fill"
         /// 􀇎
-        let cloudSnow:String = "cloud.snow"
+        public let cloudSnow:String = "cloud.snow"
         /// 􀇏
-        let cloudSnowFill:String = "cloud.snow.fill"
+        public let cloudSnowFill:String = "cloud.snow.fill"
         /// 􀇐
-        let cloudSleet:String = "cloud.sleet"
+        public let cloudSleet:String = "cloud.sleet"
         /// 􀇑
-        let cloudSleetFill:String = "cloud.sleet.fill"
+        public let cloudSleetFill:String = "cloud.sleet.fill"
         /// 􀇒
-        let cloudBolt:String = "cloud.bolt"
+        public let cloudBolt:String = "cloud.bolt"
         /// 􀇓
-        let cloudBoltFill:String = "cloud.bolt.fill"
+        public let cloudBoltFill:String = "cloud.bolt.fill"
         /// 􀇞
-        let cloudBoltRain:String = "cloud.bolt.rain"
+        public let cloudBoltRain:String = "cloud.bolt.rain"
         /// 􀇟
-        let cloudBoltRainFill:String = "cloud.bolt.rain.fill"
+        public let cloudBoltRainFill:String = "cloud.bolt.rain.fill"
         /// 􀇔
-        let cloudSun:String = "cloud.sun"
+        public let cloudSun:String = "cloud.sun"
         /// 􀇕
-        let cloudSunFill:String = "cloud.sun.fill"
+        public let cloudSunFill:String = "cloud.sun.fill"
         /// 􀇖
-        let cloudSunRain:String = "cloud.sun.rain"
+        public let cloudSunRain:String = "cloud.sun.rain"
         /// 􀇗
-        let cloudSunRainFill:String = "cloud.sun.rain.fill"
+        public let cloudSunRainFill:String = "cloud.sun.rain.fill"
         /// 􀇘
-        let cloudSunBolt:String = "cloud.sun.bolt"
+        public let cloudSunBolt:String = "cloud.sun.bolt"
         /// 􀇙
-        let cloudSunBoltFill:String = "cloud.sun.bolt.fill"
+        public let cloudSunBoltFill:String = "cloud.sun.bolt.fill"
         /// 􀇚
-        let cloudMoon:String = "cloud.moon"
+        public let cloudMoon:String = "cloud.moon"
         /// 􀇛
-        let cloudMoonFill:String = "cloud.moon.fill"
+        public let cloudMoonFill:String = "cloud.moon.fill"
         /// 􀇜
-        let cloudMoonRain:String = "cloud.moon.rain"
+        public let cloudMoonRain:String = "cloud.moon.rain"
         /// 􀇝
-        let cloudMoonRainFill:String = "cloud.moon.rain.fill"
+        public let cloudMoonRainFill:String = "cloud.moon.rain.fill"
         /// 􀇠
-        let cloudMoonBolt:String = "cloud.moon.bolt"
+        public let cloudMoonBolt:String = "cloud.moon.bolt"
         /// 􀇡
-        let cloudMoonBoltFill:String = "cloud.moon.bolt.fill"
+        public let cloudMoonBoltFill:String = "cloud.moon.bolt.fill"
         /// 􀇢
-        let smoke:String = "smoke"
+        public let smoke:String = "smoke"
         /// 􀇣
-        let smokeFill:String = "smoke.fill"
+        public let smokeFill:String = "smoke.fill"
         /// 􀇤
-        let wind:String = "wind"
+        public let wind:String = "wind"
         /// 􀇦
-        let windSnow:String = "wind.snow"
+        public let windSnow:String = "wind.snow"
         /// 􀇥
-        let snow:String = "snow"
+        public let snow:String = "snow"
         /// 􀇧
-        let tornado:String = "tornado"
+        public let tornado:String = "tornado"
         /// 􀇨
-        let tropicalstorm:String = "tropicalstorm"
+        public let tropicalstorm:String = "tropicalstorm"
         /// 􀇩
-        let hurricane:String = "hurricane"
+        public let hurricane:String = "hurricane"
         /// 􀇪
-        let thermometerSun:String = "thermometer.sun"
+        public let thermometerSun:String = "thermometer.sun"
         /// 􀦜
-        let thermometerSunFill:String = "thermometer.sun.fill"
+        public let thermometerSunFill:String = "thermometer.sun.fill"
         /// 􀇫
-        let thermometerSnowflake:String = "thermometer.snowflake"
+        public let thermometerSnowflake:String = "thermometer.snowflake"
         /// 􀇬
-        let thermometer:String = "thermometer"
+        public let thermometer:String = "thermometer"
         /// 􀴾
-        let aqiLow:String = "aqi.low"
+        public let aqiLow:String = "aqi.low"
         /// 􀴿
-        let aqiMedium:String = "aqi.medium"
+        public let aqiMedium:String = "aqi.medium"
         /// 􀵀
-        let aqiHigh:String = "aqi.high"
+        public let aqiHigh:String = "aqi.high"
         /// 􀙕
-        let umbrella:String = "umbrella"
+        public let umbrella:String = "umbrella"
         /// 􀙖
-        let umbrellaFill:String = "umbrella.fill"
+        public let umbrellaFill:String = "umbrella.fill"
         /// 􀙬
-        let flame:String = "flame"
+        public let flame:String = "flame"
         /// 􀙭
-        let flameFill:String = "flame.fill"
+        public let flameFill:String = "flame.fill"
         /// 􀇭
-        let lightMin:String = "light.min"
+        public let lightMin:String = "light.min"
         /// 􀇮
-        let lightMax:String = "light.max"
+        public let lightMax:String = "light.max"
         /// 􀇯
-        let rays:String = "rays"
+        public let rays:String = "rays"
         /// 􀇱
-        let slowmo:String = "slowmo"
+        public let slowmo:String = "slowmo"
         /// 􀇲
-        let timelapse:String = "timelapse"
+        public let timelapse:String = "timelapse"
         /// 􀇰
-        let cursorarrowRays:String = "cursorarrow.rays"
+        public let cursorarrowRays:String = "cursorarrow.rays"
         /// 􀫌
-        let cursorarrow:String = "cursorarrow"
+        public let cursorarrow:String = "cursorarrow"
         /// 􀭅
-        let cursorarrowSquare:String = "cursorarrow.square"
+        public let cursorarrowSquare:String = "cursorarrow.square"
         /// 􀮐
-        let cursorarrowAndSquareOnSquareDashed:String = "cursorarrow.and.square.on.square.dashed"
+        public let cursorarrowAndSquareOnSquareDashed:String = "cursorarrow.and.square.on.square.dashed"
         /// 􀭆
-        let cursorarrowClick:String = "cursorarrow.click"
+        public let cursorarrowClick:String = "cursorarrow.click"
         /// 􀭇
-        let cursorarrowClick2:String = "cursorarrow.click.2"
+        public let cursorarrowClick2:String = "cursorarrow.click.2"
         /// 􀭈
-        let contextualmenuAndCursorarrow:String = "contextualmenu.and.cursorarrow"
+        public let contextualmenuAndCursorarrow:String = "contextualmenu.and.cursorarrow"
         /// 􀯪
-        let filemenuAndCursorarrow:String = "filemenu.and.cursorarrow"
+        public let filemenuAndCursorarrow:String = "filemenu.and.cursorarrow"
         /// 􀱢
-        let filemenuAndSelection:String = "filemenu.and.selection"
+        public let filemenuAndSelection:String = "filemenu.and.selection"
         /// 􀫍
-        let dotCircleAndCursorarrow:String = "dot.circle.and.cursorarrow"
+        public let dotCircleAndCursorarrow:String = "dot.circle.and.cursorarrow"
         /// 􀣠
-        let cursorarrowMotionlines:String = "cursorarrow.motionlines"
+        public let cursorarrowMotionlines:String = "cursorarrow.motionlines"
         /// 􀣡
-        let cursorarrowMotionlinesClick:String = "cursorarrow.motionlines.click"
+        public let cursorarrowMotionlinesClick:String = "cursorarrow.motionlines.click"
         /// 􀮴
-        let cursorarrowClickBadgeClock:String = "cursorarrow.click.badge.clock"
+        public let cursorarrowClickBadgeClock:String = "cursorarrow.click.badge.clock"
         /// 􀇳
-        let keyboard:String = "keyboard"
+        public let keyboard:String = "keyboard"
         /// 􀫒
-        let keyboardBadgeEllipsis:String = "keyboard.badge.ellipsis"
+        public let keyboardBadgeEllipsis:String = "keyboard.badge.ellipsis"
         /// 􀓖
-        let keyboardChevronCompactDown:String = "keyboard.chevron.compact.down"
+        public let keyboardChevronCompactDown:String = "keyboard.chevron.compact.down"
         /// 􀣭
-        let keyboardChevronCompactLeft:String = "keyboard.chevron.compact.left"
+        public let keyboardChevronCompactLeft:String = "keyboard.chevron.compact.left"
         /// 􀞹
-        let keyboardOnehandedLeft:String = "keyboard.onehanded.left"
+        public let keyboardOnehandedLeft:String = "keyboard.onehanded.left"
         /// 􀞺
-        let keyboardOnehandedRight:String = "keyboard.onehanded.right"
+        public let keyboardOnehandedRight:String = "keyboard.onehanded.right"
         /// 􀇴
-        let rectangle3Offgrid:String = "rectangle.3.offgrid"
+        public let rectangle3Offgrid:String = "rectangle.3.offgrid"
         /// 􀚅
-        let rectangle3OffgridFill:String = "rectangle.3.offgrid.fill"
+        public let rectangle3OffgridFill:String = "rectangle.3.offgrid.fill"
         /// 􀇵
-        let squareGrid3x2:String = "square.grid.3x2"
+        public let squareGrid3x2:String = "square.grid.3x2"
         /// 􀚇
-        let squareGrid3x2Fill:String = "square.grid.3x2.fill"
+        public let squareGrid3x2Fill:String = "square.grid.3x2.fill"
         /// 􀇶
-        let rectangleGrid3x2:String = "rectangle.grid.3x2"
+        public let rectangleGrid3x2:String = "rectangle.grid.3x2"
         /// 􀚆
-        let rectangleGrid3x2Fill:String = "rectangle.grid.3x2.fill"
+        public let rectangleGrid3x2Fill:String = "rectangle.grid.3x2.fill"
         /// 􀇷
-        let squareGrid2x2:String = "square.grid.2x2"
+        public let squareGrid2x2:String = "square.grid.2x2"
         /// 􀚈
-        let squareGrid2x2Fill:String = "square.grid.2x2.fill"
+        public let squareGrid2x2Fill:String = "square.grid.2x2.fill"
         /// 􀛦
-        let rectangleGrid2x2:String = "rectangle.grid.2x2"
+        public let rectangleGrid2x2:String = "rectangle.grid.2x2"
         /// 􀛧
-        let rectangleGrid2x2Fill:String = "rectangle.grid.2x2.fill"
+        public let rectangleGrid2x2Fill:String = "rectangle.grid.2x2.fill"
         /// 􀓙
-        let squareGrid3x1BelowLineGrid1x2:String = "square.grid.3x1.below.line.grid.1x2"
+        public let squareGrid3x1BelowLineGrid1x2:String = "square.grid.3x1.below.line.grid.1x2"
         /// 􀤲
-        let squareGrid3x1FillBelowLineGrid1x2:String = "square.grid.3x1.fill.below.line.grid.1x2"
+        public let squareGrid3x1FillBelowLineGrid1x2:String = "square.grid.3x1.fill.below.line.grid.1x2"
         /// 􀓚
-        let squareGrid4x3Fill:String = "square.grid.4x3.fill"
+        public let squareGrid4x3Fill:String = "square.grid.4x3.fill"
         /// 􀓛
-        let rectangleGrid1x2:String = "rectangle.grid.1x2"
+        public let rectangleGrid1x2:String = "rectangle.grid.1x2"
         /// 􀚉
-        let rectangleGrid1x2Fill:String = "rectangle.grid.1x2.fill"
+        public let rectangleGrid1x2Fill:String = "rectangle.grid.1x2.fill"
         /// 􀞾
-        let circleGrid2x2:String = "circle.grid.2x2"
+        public let circleGrid2x2:String = "circle.grid.2x2"
         /// 􀞿
-        let circleGrid2x2Fill:String = "circle.grid.2x2.fill"
+        public let circleGrid2x2Fill:String = "circle.grid.2x2.fill"
         /// 􀇸
-        let circleGrid3x3:String = "circle.grid.3x3"
+        public let circleGrid3x3:String = "circle.grid.3x3"
         /// 􀇹
-        let circleGrid3x3Fill:String = "circle.grid.3x3.fill"
+        public let circleGrid3x3Fill:String = "circle.grid.3x3.fill"
         /// 􀦲
-        let squareGrid3x3:String = "square.grid.3x3"
+        public let squareGrid3x3:String = "square.grid.3x3"
         /// 􀦳
-        let squareGrid3x3Fill:String = "square.grid.3x3.fill"
+        public let squareGrid3x3Fill:String = "square.grid.3x3.fill"
         /// 􀦴
-        let squareGrid3x3TopleftFill:String = "square.grid.3x3.topleft.fill"
+        public let squareGrid3x3TopleftFill:String = "square.grid.3x3.topleft.fill"
         /// 􀦵
-        let squareGrid3x3TopmiddleFill:String = "square.grid.3x3.topmiddle.fill"
+        public let squareGrid3x3TopmiddleFill:String = "square.grid.3x3.topmiddle.fill"
         /// 􀦶
-        let squareGrid3x3ToprightFill:String = "square.grid.3x3.topright.fill"
+        public let squareGrid3x3ToprightFill:String = "square.grid.3x3.topright.fill"
         /// 􀦷
-        let squareGrid3x3MiddleleftFill:String = "square.grid.3x3.middleleft.fill"
+        public let squareGrid3x3MiddleleftFill:String = "square.grid.3x3.middleleft.fill"
         /// 􀦸
-        let squareGrid3x3MiddleFill:String = "square.grid.3x3.middle.fill"
+        public let squareGrid3x3MiddleFill:String = "square.grid.3x3.middle.fill"
         /// 􀦹
-        let squareGrid3x3MiddlerightFill:String = "square.grid.3x3.middleright.fill"
+        public let squareGrid3x3MiddlerightFill:String = "square.grid.3x3.middleright.fill"
         /// 􀦺
-        let squareGrid3x3BottomleftFill:String = "square.grid.3x3.bottomleft.fill"
+        public let squareGrid3x3BottomleftFill:String = "square.grid.3x3.bottomleft.fill"
         /// 􀦻
-        let squareGrid3x3BottommiddleFill:String = "square.grid.3x3.bottommiddle.fill"
+        public let squareGrid3x3BottommiddleFill:String = "square.grid.3x3.bottommiddle.fill"
         /// 􀦼
-        let squareGrid3x3BottomrightFill:String = "square.grid.3x3.bottomright.fill"
+        public let squareGrid3x3BottomrightFill:String = "square.grid.3x3.bottomright.fill"
         /// 􀙢
-        let circlesHexagongrid:String = "circles.hexagongrid"
+        public let circlesHexagongrid:String = "circles.hexagongrid"
         /// 􀙣
-        let circlesHexagongridFill:String = "circles.hexagongrid.fill"
+        public let circlesHexagongridFill:String = "circles.hexagongrid.fill"
         /// 􀬎
-        let circlesHexagonpath:String = "circles.hexagonpath"
+        public let circlesHexagonpath:String = "circles.hexagonpath"
         /// 􀬏
-        let circlesHexagonpathFill:String = "circles.hexagonpath.fill"
+        public let circlesHexagonpathFill:String = "circles.hexagonpath.fill"
         /// 􀧸
-        let circleGridCross:String = "circle.grid.cross"
+        public let circleGridCross:String = "circle.grid.cross"
         /// 􀧹
-        let circleGridCrossFill:String = "circle.grid.cross.fill"
+        public let circleGridCrossFill:String = "circle.grid.cross.fill"
         /// 􀩄
-        let circleGridCrossLeftFill:String = "circle.grid.cross.left.fill"
+        public let circleGridCrossLeftFill:String = "circle.grid.cross.left.fill"
         /// 􀩅
-        let circleGridCrossUpFill:String = "circle.grid.cross.up.fill"
+        public let circleGridCrossUpFill:String = "circle.grid.cross.up.fill"
         /// 􀩆
-        let circleGridCrossRightFill:String = "circle.grid.cross.right.fill"
+        public let circleGridCrossRightFill:String = "circle.grid.cross.right.fill"
         /// 􀩇
-        let circleGridCrossDownFill:String = "circle.grid.cross.down.fill"
+        public let circleGridCrossDownFill:String = "circle.grid.cross.down.fill"
         /// 􀟆
-        let seal:String = "seal"
+        public let seal:String = "seal"
         /// 􀟇
-        let sealFill:String = "seal.fill"
+        public let sealFill:String = "seal.fill"
         /// 􀇺
-        let checkmarkSeal:String = "checkmark.seal"
+        public let checkmarkSeal:String = "checkmark.seal"
         /// 􀇻
-        let checkmarkSealFill:String = "checkmark.seal.fill"
+        public let checkmarkSealFill:String = "checkmark.seal.fill"
         /// 􀇼
-        let xmarkSeal:String = "xmark.seal"
+        public let xmarkSeal:String = "xmark.seal"
         /// 􀇽
-        let xmarkSealFill:String = "xmark.seal.fill"
+        public let xmarkSealFill:String = "xmark.seal.fill"
         /// 􀇾
-        let exclamationmarkTriangle:String = "exclamationmark.triangle"
+        public let exclamationmarkTriangle:String = "exclamationmark.triangle"
         /// 􀇿
-        let exclamationmarkTriangleFill:String = "exclamationmark.triangle.fill"
+        public let exclamationmarkTriangleFill:String = "exclamationmark.triangle.fill"
         /// 􀠑
-        let drop:String = "drop"
+        public let drop:String = "drop"
         /// 􀠒
-        let dropFill:String = "drop.fill"
+        public let dropFill:String = "drop.fill"
         /// 􀈀
-        let dropTriangle:String = "drop.triangle"
+        public let dropTriangle:String = "drop.triangle"
         /// 􀈁
-        let dropTriangleFill:String = "drop.triangle.fill"
+        public let dropTriangleFill:String = "drop.triangle.fill"
         /// 􀊃
-        let play:String = "play"
+        public let play:String = "play"
         /// 􀊄
-        let playFill:String = "play.fill"
+        public let playFill:String = "play.fill"
         /// 􀊕
-        let playCircle:String = "play.circle"
+        public let playCircle:String = "play.circle"
         /// 􀊖
-        let playCircleFill:String = "play.circle.fill"
+        public let playCircleFill:String = "play.circle.fill"
         /// 􀊙
-        let playRectangle:String = "play.rectangle"
+        public let playRectangle:String = "play.rectangle"
         /// 􀊚
-        let playRectangleFill:String = "play.rectangle.fill"
+        public let playRectangleFill:String = "play.rectangle.fill"
         /// 􀪅
-        let playSlash:String = "play.slash"
+        public let playSlash:String = "play.slash"
         /// 􀪆
-        let playSlashFill:String = "play.slash.fill"
+        public let playSlashFill:String = "play.slash.fill"
         /// 􀊅
-        let pause:String = "pause"
+        public let pause:String = "pause"
         /// 􀊆
-        let pauseFill:String = "pause.fill"
+        public let pauseFill:String = "pause.fill"
         /// 􀊗
-        let pauseCircle:String = "pause.circle"
+        public let pauseCircle:String = "pause.circle"
         /// 􀊘
-        let pauseCircleFill:String = "pause.circle.fill"
+        public let pauseCircleFill:String = "pause.circle.fill"
         /// 􀊛
-        let pauseRectangle:String = "pause.rectangle"
+        public let pauseRectangle:String = "pause.rectangle"
         /// 􀊜
-        let pauseRectangleFill:String = "pause.rectangle.fill"
+        public let pauseRectangleFill:String = "pause.rectangle.fill"
         /// 􀛶
-        let stop:String = "stop"
+        public let stop:String = "stop"
         /// 􀛷
-        let stopFill:String = "stop.fill"
+        public let stopFill:String = "stop.fill"
         /// 􀜪
-        let stopCircle:String = "stop.circle"
+        public let stopCircle:String = "stop.circle"
         /// 􀜫
-        let stopCircleFill:String = "stop.circle.fill"
+        public let stopCircleFill:String = "stop.circle.fill"
         /// 􀢙
-        let recordCircle:String = "record.circle"
+        public let recordCircle:String = "record.circle"
         /// 􀢚
-        let recordCircleFill:String = "record.circle.fill"
+        public let recordCircleFill:String = "record.circle.fill"
         /// 􀊇
-        let playpause:String = "playpause"
+        public let playpause:String = "playpause"
         /// 􀊈
-        let playpauseFill:String = "playpause.fill"
+        public let playpauseFill:String = "playpause.fill"
         /// 􀊉
-        let backward:String = "backward"
+        public let backward:String = "backward"
         /// 􀊊
-        let backwardFill:String = "backward.fill"
+        public let backwardFill:String = "backward.fill"
         /// 􀊋
-        let forward:String = "forward"
+        public let forward:String = "forward"
         /// 􀊌
-        let forwardFill:String = "forward.fill"
+        public let forwardFill:String = "forward.fill"
         /// 􀊍
-        let backwardEnd:String = "backward.end"
+        public let backwardEnd:String = "backward.end"
         /// 􀊎
-        let backwardEndFill:String = "backward.end.fill"
+        public let backwardEndFill:String = "backward.end.fill"
         /// 􀊏
-        let forwardEnd:String = "forward.end"
+        public let forwardEnd:String = "forward.end"
         /// 􀊐
-        let forwardEndFill:String = "forward.end.fill"
+        public let forwardEndFill:String = "forward.end.fill"
         /// 􀊑
-        let backwardEndAlt:String = "backward.end.alt"
+        public let backwardEndAlt:String = "backward.end.alt"
         /// 􀊒
-        let backwardEndAltFill:String = "backward.end.alt.fill"
+        public let backwardEndAltFill:String = "backward.end.alt.fill"
         /// 􀊓
-        let forwardEndAlt:String = "forward.end.alt"
+        public let forwardEndAlt:String = "forward.end.alt"
         /// 􀊔
-        let forwardEndAltFill:String = "forward.end.alt.fill"
+        public let forwardEndAltFill:String = "forward.end.alt.fill"
         /// 􀩨
-        let backwardFrame:String = "backward.frame"
+        public let backwardFrame:String = "backward.frame"
         /// 􀩩
-        let backwardFrameFill:String = "backward.frame.fill"
+        public let backwardFrameFill:String = "backward.frame.fill"
         /// 􀩪
-        let forwardFrame:String = "forward.frame"
+        public let forwardFrame:String = "forward.frame"
         /// 􀩫
-        let forwardFrameFill:String = "forward.frame.fill"
+        public let forwardFrameFill:String = "forward.frame.fill"
         /// 􀆥
-        let eject:String = "eject"
+        public let eject:String = "eject"
         /// 􀆦
-        let ejectFill:String = "eject.fill"
+        public let ejectFill:String = "eject.fill"
         /// 􀢡
-        let ejectCircle:String = "eject.circle"
+        public let ejectCircle:String = "eject.circle"
         /// 􀢢
-        let ejectCircleFill:String = "eject.circle.fill"
+        public let ejectCircleFill:String = "eject.circle.fill"
         /// 􀣊
-        let mount:String = "mount"
+        public let mount:String = "mount"
         /// 􀢣
-        let mountFill:String = "mount.fill"
+        public let mountFill:String = "mount.fill"
         /// 􀑖
-        let memories:String = "memories"
+        public let memories:String = "memories"
         /// 􀑗
-        let memoriesBadgePlus:String = "memories.badge.plus"
+        public let memoriesBadgePlus:String = "memories.badge.plus"
         /// 􀑘
-        let memoriesBadgeMinus:String = "memories.badge.minus"
+        public let memoriesBadgeMinus:String = "memories.badge.minus"
         /// 􀊝
-        let shuffle:String = "shuffle"
+        public let shuffle:String = "shuffle"
         /// 􀵉
-        let shuffleCircle:String = "shuffle.circle"
+        public let shuffleCircle:String = "shuffle.circle"
         /// 􀵊
-        let shuffleCircleFill:String = "shuffle.circle.fill"
+        public let shuffleCircleFill:String = "shuffle.circle.fill"
         /// 􀊞
-        let repeatIcon:String = "repeat"
+        public let repeatIcon:String = "repeat"
         /// 􀵋
-        let repeatCircle:String = "repeat.circle"
+        public let repeatCircle:String = "repeat.circle"
         /// 􀵌
-        let repeatCircleFill:String = "repeat.circle.fill"
+        public let repeatCircleFill:String = "repeat.circle.fill"
         /// 􀊟
-        let repeat1:String = "repeat.1"
+        public let repeat1:String = "repeat.1"
         /// 􀵍
-        let repeat1Circle:String = "repeat.1.circle"
+        public let repeat1Circle:String = "repeat.1.circle"
         /// 􀵎
-        let repeat1CircleFill:String = "repeat.1.circle.fill"
+        public let repeat1CircleFill:String = "repeat.1.circle.fill"
         /// 􀯠
-        let infinity:String = "infinity"
+        public let infinity:String = "infinity"
         /// 􀵏
-        let infinityCircle:String = "infinity.circle"
+        public let infinityCircle:String = "infinity.circle"
         /// 􀵐
-        let infinityCircleFill:String = "infinity.circle.fill"
+        public let infinityCircleFill:String = "infinity.circle.fill"
         /// 􀬲
-        let megaphone:String = "megaphone"
+        public let megaphone:String = "megaphone"
         /// 􀬳
-        let megaphoneFill:String = "megaphone.fill"
+        public let megaphoneFill:String = "megaphone.fill"
         /// 􀊠
-        let speaker:String = "speaker"
+        public let speaker:String = "speaker"
         /// 􀊡
-        let speakerFill:String = "speaker.fill"
+        public let speakerFill:String = "speaker.fill"
         /// 􀊢
-        let speakerSlash:String = "speaker.slash"
+        public let speakerSlash:String = "speaker.slash"
         /// 􀊣
-        let speakerSlashFill:String = "speaker.slash.fill"
+        public let speakerSlashFill:String = "speaker.slash.fill"
         /// 􀫠
-        let speakerSlashCircle:String = "speaker.slash.circle"
+        public let speakerSlashCircle:String = "speaker.slash.circle"
         /// 􀫡
-        let speakerSlashCircleFill:String = "speaker.slash.circle.fill"
+        public let speakerSlashCircleFill:String = "speaker.slash.circle.fill"
         /// 􀌊
-        let speakerZzz:String = "speaker.zzz"
+        public let speakerZzz:String = "speaker.zzz"
         /// 􀑞
-        let speakerZzzFill:String = "speaker.zzz.fill"
+        public let speakerZzzFill:String = "speaker.zzz.fill"
         /// 􀊤
-        let speakerWave1:String = "speaker.wave.1"
+        public let speakerWave1:String = "speaker.wave.1"
         /// 􀊥
-        let speakerWave1Fill:String = "speaker.wave.1.fill"
+        public let speakerWave1Fill:String = "speaker.wave.1.fill"
         /// 􀊦
-        let speakerWave2:String = "speaker.wave.2"
+        public let speakerWave2:String = "speaker.wave.2"
         /// 􀊧
-        let speakerWave2Fill:String = "speaker.wave.2.fill"
+        public let speakerWave2Fill:String = "speaker.wave.2.fill"
         /// 􀥑
-        let speakerWave2Circle:String = "speaker.wave.2.circle"
+        public let speakerWave2Circle:String = "speaker.wave.2.circle"
         /// 􀥒
-        let speakerWave2CircleFill:String = "speaker.wave.2.circle.fill"
+        public let speakerWave2CircleFill:String = "speaker.wave.2.circle.fill"
         /// 􀊨
-        let speakerWave3:String = "speaker.wave.3"
+        public let speakerWave3:String = "speaker.wave.3"
         /// 􀊩
-        let speakerWave3Fill:String = "speaker.wave.3.fill"
+        public let speakerWave3Fill:String = "speaker.wave.3.fill"
         /// 􀊪
-        let badgePlusRadiowavesRight:String = "badge.plus.radiowaves.right"
+        public let badgePlusRadiowavesRight:String = "badge.plus.radiowaves.right"
         /// 􀰮
-        let badgePlusRadiowavesForward:String = "badge.plus.radiowaves.forward"
+        public let badgePlusRadiowavesForward:String = "badge.plus.radiowaves.forward"
         /// 􀑪
-        let musicNote:String = "music.note"
+        public let musicNote:String = "music.note"
         /// 􀑬
-        let musicNoteList:String = "music.note.list"
+        public let musicNoteList:String = "music.note.list"
         /// 􀫀
-        let musicQuarternote3:String = "music.quarternote.3"
+        public let musicQuarternote3:String = "music.quarternote.3"
         /// 􀑫
-        let musicMic:String = "music.mic"
+        public let musicMic:String = "music.mic"
         /// 􀣁
-        let arrowRectanglepath:String = "arrow.rectanglepath"
+        public let arrowRectanglepath:String = "arrow.rectanglepath"
         /// 􀍿
-        let goforward:String = "goforward"
+        public let goforward:String = "goforward"
         /// 􀎀
-        let gobackward:String = "gobackward"
+        public let gobackward:String = "gobackward"
         /// 􀎁
-        let goforward10:String = "goforward.10"
+        public let goforward10:String = "goforward.10"
         /// 􀎂
-        let gobackward10:String = "gobackward.10"
+        public let gobackward10:String = "gobackward.10"
         /// 􀎃
-        let goforward15:String = "goforward.15"
+        public let goforward15:String = "goforward.15"
         /// 􀎄
-        let gobackward15:String = "gobackward.15"
+        public let gobackward15:String = "gobackward.15"
         /// 􀎅
-        let goforward30:String = "goforward.30"
+        public let goforward30:String = "goforward.30"
         /// 􀎆
-        let gobackward30:String = "gobackward.30"
+        public let gobackward30:String = "gobackward.30"
         /// 􀎇
-        let goforward45:String = "goforward.45"
+        public let goforward45:String = "goforward.45"
         /// 􀎈
-        let gobackward45:String = "gobackward.45"
+        public let gobackward45:String = "gobackward.45"
         /// 􀎉
-        let goforward60:String = "goforward.60"
+        public let goforward60:String = "goforward.60"
         /// 􀎊
-        let gobackward60:String = "gobackward.60"
+        public let gobackward60:String = "gobackward.60"
         /// 􀘤
-        let goforward75:String = "goforward.75"
+        public let goforward75:String = "goforward.75"
         /// 􀘥
-        let gobackward75:String = "gobackward.75"
+        public let gobackward75:String = "gobackward.75"
         /// 􀘦
-        let goforward90:String = "goforward.90"
+        public let goforward90:String = "goforward.90"
         /// 􀘧
-        let gobackward90:String = "gobackward.90"
+        public let gobackward90:String = "gobackward.90"
         /// 􀘨
-        let goforwardPlus:String = "goforward.plus"
+        public let goforwardPlus:String = "goforward.plus"
         /// 􀘩
-        let gobackwardMinus:String = "gobackward.minus"
+        public let gobackwardMinus:String = "gobackward.minus"
         /// 􀫊
-        let swift:String = "swift"
+        public let swift:String = "swift"
         /// 􀊫
-        let magnifyingglass:String = "magnifyingglass"
+        public let magnifyingglass:String = "magnifyingglass"
         /// 􀒒
-        let magnifyingglassCircle:String = "magnifyingglass.circle"
+        public let magnifyingglassCircle:String = "magnifyingglass.circle"
         /// 􀒓
-        let magnifyingglassCircleFill:String = "magnifyingglass.circle.fill"
+        public let magnifyingglassCircleFill:String = "magnifyingglass.circle.fill"
         /// 􀊬
-        let plusMagnifyingglass:String = "plus.magnifyingglass"
+        public let plusMagnifyingglass:String = "plus.magnifyingglass"
         /// 􀊭
-        let minusMagnifyingglass:String = "minus.magnifyingglass"
+        public let minusMagnifyingglass:String = "minus.magnifyingglass"
         /// 􀊮
-        let magnifyingglass1:String = "1.magnifyingglass"
+        public let magnifyingglass1:String = "1.magnifyingglass"
         /// 􀥩
-        let arrowUpLeftAndDownRightMagnifyingglass:String = "arrow.up.left.and.down.right.magnifyingglass"
+        public let arrowUpLeftAndDownRightMagnifyingglass:String = "arrow.up.left.and.down.right.magnifyingglass"
         /// 􀭥
-        let textMagnifyingglass:String = "text.magnifyingglass"
+        public let textMagnifyingglass:String = "text.magnifyingglass"
         /// 􀤎
-        let loupe:String = "loupe"
+        public let loupe:String = "loupe"
         /// 􀊰
-        let mic:String = "mic"
+        public let mic:String = "mic"
         /// 􀊱
-        let micFill:String = "mic.fill"
+        public let micFill:String = "mic.fill"
         /// 􀒩
-        let micCircle:String = "mic.circle"
+        public let micCircle:String = "mic.circle"
         /// 􀒪
-        let micCircleFill:String = "mic.circle.fill"
+        public let micCircleFill:String = "mic.circle.fill"
         /// 􀊲
-        let micSlash:String = "mic.slash"
+        public let micSlash:String = "mic.slash"
         /// 􀊳
-        let micSlashFill:String = "mic.slash.fill"
+        public let micSlashFill:String = "mic.slash.fill"
         /// 􀫰
-        let lineDiagonal:String = "line.diagonal"
+        public let lineDiagonal:String = "line.diagonal"
         /// 􀫱
-        let lineDiagonalArrow:String = "line.diagonal.arrow"
+        public let lineDiagonalArrow:String = "line.diagonal.arrow"
         /// 􀀀
-        let circle:String = "circle"
+        public let circle:String = "circle"
         /// 􀀁
-        let circleFill:String = "circle.fill"
+        public let circleFill:String = "circle.fill"
         /// 􀀂
-        let circleLefthalfFill:String = "circle.lefthalf.fill"
+        public let circleLefthalfFill:String = "circle.lefthalf.fill"
         /// 􀀃
-        let circleRighthalfFill:String = "circle.righthalf.fill"
+        public let circleRighthalfFill:String = "circle.righthalf.fill"
         /// 􀪖
-        let circleBottomhalfFill:String = "circle.bottomhalf.fill"
+        public let circleBottomhalfFill:String = "circle.bottomhalf.fill"
         /// 􀪗
-        let circleTophalfFill:String = "circle.tophalf.fill"
+        public let circleTophalfFill:String = "circle.tophalf.fill"
         /// 􀝜
-        let largecircleFillCircle:String = "largecircle.fill.circle"
+        public let largecircleFillCircle:String = "largecircle.fill.circle"
         /// 􀍷
-        let smallcircleFillCircle:String = "smallcircle.fill.circle"
+        public let smallcircleFillCircle:String = "smallcircle.fill.circle"
         /// 􀕩
-        let smallcircleFillCircleFill:String = "smallcircle.fill.circle.fill"
+        public let smallcircleFillCircleFill:String = "smallcircle.fill.circle.fill"
         /// 􀓞
-        let circleDashed:String = "circle.dashed"
+        public let circleDashed:String = "circle.dashed"
         /// 􀧒
-        let circleDashedInsetFill:String = "circle.dashed.inset.fill"
+        public let circleDashedInsetFill:String = "circle.dashed.inset.fill"
         /// 􀧙
-        let circlebadge:String = "circlebadge"
+        public let circlebadge:String = "circlebadge"
         /// 􀜞
-        let circlebadgeFill:String = "circlebadge.fill"
+        public let circlebadgeFill:String = "circlebadge.fill"
         /// 􀫲
-        let circlebadge2:String = "circlebadge.2"
+        public let circlebadge2:String = "circlebadge.2"
         /// 􀣽
-        let circlebadge2Fill:String = "circlebadge.2.fill"
+        public let circlebadge2Fill:String = "circlebadge.2.fill"
         /// 􀕪
-        let smallcircleCircle:String = "smallcircle.circle"
+        public let smallcircleCircle:String = "smallcircle.circle"
         /// 􀕫
-        let smallcircleCircleFill:String = "smallcircle.circle.fill"
+        public let smallcircleCircleFill:String = "smallcircle.circle.fill"
         /// 􀢊
-        let target:String = "target"
+        public let target:String = "target"
         /// 􀝶
-        let capsule:String = "capsule"
+        public let capsule:String = "capsule"
         /// 􀝷
-        let capsuleFill:String = "capsule.fill"
+        public let capsuleFill:String = "capsule.fill"
         /// 􀧶
-        let capsulePortrait:String = "capsule.portrait"
+        public let capsulePortrait:String = "capsule.portrait"
         /// 􀧷
-        let capsulePortraitFill:String = "capsule.portrait.fill"
+        public let capsulePortraitFill:String = "capsule.portrait.fill"
         /// 􀲞
-        let oval:String = "oval"
+        public let oval:String = "oval"
         /// 􀲟
-        let ovalFill:String = "oval.fill"
+        public let ovalFill:String = "oval.fill"
         /// 􀲠
-        let ovalPortrait:String = "oval.portrait"
+        public let ovalPortrait:String = "oval.portrait"
         /// 􀲡
-        let ovalPortraitFill:String = "oval.portrait.fill"
+        public let ovalPortraitFill:String = "oval.portrait.fill"
         /// 􀮷
-        let placeholdertextFill:String = "placeholdertext.fill"
+        public let placeholdertextFill:String = "placeholdertext.fill"
         /// 􀂒
-        let square:String = "square"
+        public let square:String = "square"
         /// 􀂓
-        let squareFill:String = "square.fill"
+        public let squareFill:String = "square.fill"
         /// 􀚓
-        let squareLefthalfFill:String = "square.lefthalf.fill"
+        public let squareLefthalfFill:String = "square.lefthalf.fill"
         /// 􀚔
-        let squareRighthalfFill:String = "square.righthalf.fill"
+        public let squareRighthalfFill:String = "square.righthalf.fill"
         /// 􀪚
-        let squareBottomhalfFill:String = "square.bottomhalf.fill"
+        public let squareBottomhalfFill:String = "square.bottomhalf.fill"
         /// 􀪛
-        let squareTophalfFill:String = "square.tophalf.fill"
+        public let squareTophalfFill:String = "square.tophalf.fill"
         /// 􀣦
-        let squareSlash:String = "square.slash"
+        public let squareSlash:String = "square.slash"
         /// 􀣧
-        let squareSlashFill:String = "square.slash.fill"
+        public let squareSlashFill:String = "square.slash.fill"
         /// 􀕴
-        let dotSquare:String = "dot.square"
+        public let dotSquare:String = "dot.square"
         /// 􀕵
-        let dotSquareFill:String = "dot.square.fill"
+        public let dotSquareFill:String = "dot.square.fill"
         /// 􀧺
-        let circleSquare:String = "circle.square"
+        public let circleSquare:String = "circle.square"
         /// 􀧻
-        let circleFillSquareFill:String = "circle.fill.square.fill"
+        public let circleFillSquareFill:String = "circle.fill.square.fill"
         /// 􀓔
-        let squareDashed:String = "square.dashed"
+        public let squareDashed:String = "square.dashed"
         /// 􀧑
-        let squareDashedInsetFill:String = "square.dashed.inset.fill"
+        public let squareDashedInsetFill:String = "square.dashed.inset.fill"
         /// 􀭉
-        let questionmarkSquareDashed:String = "questionmark.square.dashed"
+        public let questionmarkSquareDashed:String = "questionmark.square.dashed"
         /// 􀣮
-        let squareshape:String = "squareshape"
+        public let squareshape:String = "squareshape"
         /// 􀣯
-        let squareshapeFill:String = "squareshape.fill"
+        public let squareshapeFill:String = "squareshape.fill"
         /// 􀩢
-        let squareshapeDashedSquareshape:String = "squareshape.dashed.squareshape"
+        public let squareshapeDashedSquareshape:String = "squareshape.dashed.squareshape"
         /// 􀫴
-        let squareshapeSquareshapeDashed:String = "squareshape.squareshape.dashed"
+        public let squareshapeSquareshapeDashed:String = "squareshape.squareshape.dashed"
         /// 􀪵
-        let dotSquareshape:String = "dot.squareshape"
+        public let dotSquareshape:String = "dot.squareshape"
         /// 􀪶
-        let dotSquareshapeFill:String = "dot.squareshape.fill"
+        public let dotSquareshapeFill:String = "dot.squareshape.fill"
         /// 􀑋
-        let app:String = "app"
+        public let app:String = "app"
         /// 􀑌
-        let appFill:String = "app.fill"
+        public let appFill:String = "app.fill"
         /// 􀏃
-        let rectangle:String = "rectangle"
+        public let rectangle:String = "rectangle"
         /// 􀏄
-        let rectangleFill:String = "rectangle.fill"
+        public let rectangleFill:String = "rectangle.fill"
         /// 􀣤
-        let rectangleSlash:String = "rectangle.slash"
+        public let rectangleSlash:String = "rectangle.slash"
         /// 􀣥
-        let rectangleSlashFill:String = "rectangle.slash.fill"
+        public let rectangleSlashFill:String = "rectangle.slash.fill"
         /// 􀟏
-        let rectanglePortrait:String = "rectangle.portrait"
+        public let rectanglePortrait:String = "rectangle.portrait"
         /// 􀟐
-        let rectanglePortraitFill:String = "rectangle.portrait.fill"
+        public let rectanglePortraitFill:String = "rectangle.portrait.fill"
         /// 􀛣
-        let triangle:String = "triangle"
+        public let triangle:String = "triangle"
         /// 􀛤
-        let triangleFill:String = "triangle.fill"
+        public let triangleFill:String = "triangle.fill"
         /// 􀚕
-        let triangleLefthalfFill:String = "triangle.lefthalf.fill"
+        public let triangleLefthalfFill:String = "triangle.lefthalf.fill"
         /// 􀚖
-        let triangleRighthalfFill:String = "triangle.righthalf.fill"
+        public let triangleRighthalfFill:String = "triangle.righthalf.fill"
         /// 􀟈
-        let diamond:String = "diamond"
+        public let diamond:String = "diamond"
         /// 􀟉
-        let diamondFill:String = "diamond.fill"
+        public let diamondFill:String = "diamond.fill"
         /// 􀟊
-        let octagon:String = "octagon"
+        public let octagon:String = "octagon"
         /// 􀟋
-        let octagonFill:String = "octagon.fill"
+        public let octagonFill:String = "octagon.fill"
         /// 􀝝
-        let hexagon:String = "hexagon"
+        public let hexagon:String = "hexagon"
         /// 􀝞
-        let hexagonFill:String = "hexagon.fill"
+        public let hexagonFill:String = "hexagon.fill"
         /// 􀒂
-        let suitHeart:String = "suit.heart"
+        public let suitHeart:String = "suit.heart"
         /// 􀊼
-        let suitHeartFill:String = "suit.heart.fill"
+        public let suitHeartFill:String = "suit.heart.fill"
         /// 􀒃
-        let suitClub:String = "suit.club"
+        public let suitClub:String = "suit.club"
         /// 􀊽
-        let suitClubFill:String = "suit.club.fill"
+        public let suitClubFill:String = "suit.club.fill"
         /// 􀒅
-        let suitSpade:String = "suit.spade"
+        public let suitSpade:String = "suit.spade"
         /// 􀊾
-        let suitSpadeFill:String = "suit.spade.fill"
+        public let suitSpadeFill:String = "suit.spade.fill"
         /// 􀒄
-        let suitDiamond:String = "suit.diamond"
+        public let suitDiamond:String = "suit.diamond"
         /// 􀊿
-        let suitDiamondFill:String = "suit.diamond.fill"
+        public let suitDiamondFill:String = "suit.diamond.fill"
         /// 􀊴
-        let heart:String = "heart"
+        public let heart:String = "heart"
         /// 􀊵
-        let heartFill:String = "heart.fill"
+        public let heartFill:String = "heart.fill"
         /// 􀊸
-        let heartCircle:String = "heart.circle"
+        public let heartCircle:String = "heart.circle"
         /// 􀊹
-        let heartCircleFill:String = "heart.circle.fill"
+        public let heartCircleFill:String = "heart.circle.fill"
         /// 􀊶
-        let heartSlash:String = "heart.slash"
+        public let heartSlash:String = "heart.slash"
         /// 􀊷
-        let heartSlashFill:String = "heart.slash.fill"
+        public let heartSlashFill:String = "heart.slash.fill"
         /// 􀊺
-        let heartSlashCircle:String = "heart.slash.circle"
+        public let heartSlashCircle:String = "heart.slash.circle"
         /// 􀊻
-        let heartSlashCircleFill:String = "heart.slash.circle.fill"
+        public let heartSlashCircleFill:String = "heart.slash.circle.fill"
         /// 􀥴
-        let heartTextSquare:String = "heart.text.square"
+        public let heartTextSquare:String = "heart.text.square"
         /// 􀥵
-        let heartTextSquareFill:String = "heart.text.square.fill"
+        public let heartTextSquareFill:String = "heart.text.square.fill"
         /// 􀞽
-        let boltHeart:String = "bolt.heart"
+        public let boltHeart:String = "bolt.heart"
         /// 􀛥
-        let boltHeartFill:String = "bolt.heart.fill"
+        public let boltHeartFill:String = "bolt.heart.fill"
         /// 􀲕
-        let arrowUpHeart:String = "arrow.up.heart"
+        public let arrowUpHeart:String = "arrow.up.heart"
         /// 􀲖
-        let arrowUpHeartFill:String = "arrow.up.heart.fill"
+        public let arrowUpHeartFill:String = "arrow.up.heart.fill"
         /// 􀲗
-        let arrowDownHeart:String = "arrow.down.heart"
+        public let arrowDownHeart:String = "arrow.down.heart"
         /// 􀲘
-        let arrowDownHeartFill:String = "arrow.down.heart.fill"
+        public let arrowDownHeartFill:String = "arrow.down.heart.fill"
         /// 􀧡
-        let arrowClockwiseHeart:String = "arrow.clockwise.heart"
+        public let arrowClockwiseHeart:String = "arrow.clockwise.heart"
         /// 􀧢
-        let arrowClockwiseHeartFill:String = "arrow.clockwise.heart.fill"
+        public let arrowClockwiseHeartFill:String = "arrow.clockwise.heart.fill"
         /// 􀋀
-        let rhombus:String = "rhombus"
+        public let rhombus:String = "rhombus"
         /// 􀋁
-        let rhombusFill:String = "rhombus.fill"
+        public let rhombusFill:String = "rhombus.fill"
         /// 􀋂
-        let star:String = "star"
+        public let star:String = "star"
         /// 􀋃
-        let starFill:String = "star.fill"
+        public let starFill:String = "star.fill"
         /// 􀋄
-        let starLeadinghalfFill:String = "star.leadinghalf.fill"
+        public let starLeadinghalfFill:String = "star.leadinghalf.fill"
         /// 􀋅
-        let starCircle:String = "star.circle"
+        public let starCircle:String = "star.circle"
         /// 􀋆
-        let starCircleFill:String = "star.circle.fill"
+        public let starCircleFill:String = "star.circle.fill"
         /// 􀠧
-        let starSquare:String = "star.square"
+        public let starSquare:String = "star.square"
         /// 􀠨
-        let starSquareFill:String = "star.square.fill"
+        public let starSquareFill:String = "star.square.fill"
         /// 􀋇
-        let starSlash:String = "star.slash"
+        public let starSlash:String = "star.slash"
         /// 􀋈
-        let starSlashFill:String = "star.slash.fill"
+        public let starSlashFill:String = "star.slash.fill"
         /// 􀑮
-        let lineHorizontalStarFillLineHorizontal:String = "line.horizontal.star.fill.line.horizontal"
+        public let lineHorizontalStarFillLineHorizontal:String = "line.horizontal.star.fill.line.horizontal"
         /// 􀋉
-        let flag:String = "flag"
+        public let flag:String = "flag"
         /// 􀋊
-        let flagFill:String = "flag.fill"
+        public let flagFill:String = "flag.fill"
         /// 􀋋
-        let flagCircle:String = "flag.circle"
+        public let flagCircle:String = "flag.circle"
         /// 􀋌
-        let flagCircleFill:String = "flag.circle.fill"
+        public let flagCircleFill:String = "flag.circle.fill"
         /// 􀋍
-        let flagSlash:String = "flag.slash"
+        public let flagSlash:String = "flag.slash"
         /// 􀋎
-        let flagSlashFill:String = "flag.slash.fill"
+        public let flagSlashFill:String = "flag.slash.fill"
         /// 􀋏
-        let flagSlashCircle:String = "flag.slash.circle"
+        public let flagSlashCircle:String = "flag.slash.circle"
         /// 􀋐
-        let flagSlashCircleFill:String = "flag.slash.circle.fill"
+        public let flagSlashCircleFill:String = "flag.slash.circle.fill"
         /// 􀤔
-        let flagBadgeEllipsis:String = "flag.badge.ellipsis"
+        public let flagBadgeEllipsis:String = "flag.badge.ellipsis"
         /// 􀤕
-        let flagBadgeEllipsisFill:String = "flag.badge.ellipsis.fill"
+        public let flagBadgeEllipsisFill:String = "flag.badge.ellipsis.fill"
         /// 􀋑
-        let location:String = "location"
+        public let location:String = "location"
         /// 􀋒
-        let locationFill:String = "location.fill"
+        public let locationFill:String = "location.fill"
         /// 􀘬
-        let locationSlash:String = "location.slash"
+        public let locationSlash:String = "location.slash"
         /// 􀘭
-        let locationSlashFill:String = "location.slash.fill"
+        public let locationSlashFill:String = "location.slash.fill"
         /// 􀋓
-        let locationNorth:String = "location.north"
+        public let locationNorth:String = "location.north"
         /// 􀋔
-        let locationNorthFill:String = "location.north.fill"
+        public let locationNorthFill:String = "location.north.fill"
         /// 􀋕
-        let locationCircle:String = "location.circle"
+        public let locationCircle:String = "location.circle"
         /// 􀋖
-        let locationCircleFill:String = "location.circle.fill"
+        public let locationCircleFill:String = "location.circle.fill"
         /// 􀋗
-        let locationNorthLine:String = "location.north.line"
+        public let locationNorthLine:String = "location.north.line"
         /// 􀋘
-        let locationNorthLineFill:String = "location.north.line.fill"
+        public let locationNorthLineFill:String = "location.north.line.fill"
         /// 􀋙
-        let bell:String = "bell"
+        public let bell:String = "bell"
         /// 􀋚
-        let bellFill:String = "bell.fill"
+        public let bellFill:String = "bell.fill"
         /// 􀋛
-        let bellCircle:String = "bell.circle"
+        public let bellCircle:String = "bell.circle"
         /// 􀋜
-        let bellCircleFill:String = "bell.circle.fill"
+        public let bellCircleFill:String = "bell.circle.fill"
         /// 􀋝
-        let bellSlash:String = "bell.slash"
+        public let bellSlash:String = "bell.slash"
         /// 􀋞
-        let bellSlashFill:String = "bell.slash.fill"
+        public let bellSlashFill:String = "bell.slash.fill"
         /// 􀋟
-        let bellSlashCircle:String = "bell.slash.circle"
+        public let bellSlashCircle:String = "bell.slash.circle"
         /// 􀋠
-        let bellSlashCircleFill:String = "bell.slash.circle.fill"
+        public let bellSlashCircleFill:String = "bell.slash.circle.fill"
         /// 􀝖
-        let bellBadge:String = "bell.badge"
+        public let bellBadge:String = "bell.badge"
         /// 􀝗
-        let bellBadgeFill:String = "bell.badge.fill"
+        public let bellBadgeFill:String = "bell.badge.fill"
         /// 􀋡
-        let tag:String = "tag"
+        public let tag:String = "tag"
         /// 􀋢
-        let tagFill:String = "tag.fill"
+        public let tagFill:String = "tag.fill"
         /// 􀋣
-        let tagCircle:String = "tag.circle"
+        public let tagCircle:String = "tag.circle"
         /// 􀋤
-        let tagCircleFill:String = "tag.circle.fill"
+        public let tagCircleFill:String = "tag.circle.fill"
         /// 􀦫
-        let tagSlash:String = "tag.slash"
+        public let tagSlash:String = "tag.slash"
         /// 􀦬
-        let tagSlashFill:String = "tag.slash.fill"
+        public let tagSlashFill:String = "tag.slash.fill"
         /// 􀋥
-        let bolt:String = "bolt"
+        public let bolt:String = "bolt"
         /// 􀋦
-        let boltFill:String = "bolt.fill"
+        public let boltFill:String = "bolt.fill"
         /// 􀋧
-        let boltCircle:String = "bolt.circle"
+        public let boltCircle:String = "bolt.circle"
         /// 􀋨
-        let boltCircleFill:String = "bolt.circle.fill"
+        public let boltCircleFill:String = "bolt.circle.fill"
         /// 􀋩
-        let boltSlash:String = "bolt.slash"
+        public let boltSlash:String = "bolt.slash"
         /// 􀋪
-        let boltSlashFill:String = "bolt.slash.fill"
+        public let boltSlashFill:String = "bolt.slash.fill"
         /// 􀋫
-        let boltSlashCircle:String = "bolt.slash.circle"
+        public let boltSlashCircle:String = "bolt.slash.circle"
         /// 􀋬
-        let boltSlashCircleFill:String = "bolt.slash.circle.fill"
+        public let boltSlashCircleFill:String = "bolt.slash.circle.fill"
         /// 􀘳
-        let boltBadgeA:String = "bolt.badge.a"
+        public let boltBadgeA:String = "bolt.badge.a"
         /// 􀘴
-        let boltBadgeAFill:String = "bolt.badge.a.fill"
+        public let boltBadgeAFill:String = "bolt.badge.a.fill"
         /// 􀒗
-        let boltHorizontal:String = "bolt.horizontal"
+        public let boltHorizontal:String = "bolt.horizontal"
         /// 􀒘
-        let boltHorizontalFill:String = "bolt.horizontal.fill"
+        public let boltHorizontalFill:String = "bolt.horizontal.fill"
         /// 􀒙
-        let boltHorizontalCircle:String = "bolt.horizontal.circle"
+        public let boltHorizontalCircle:String = "bolt.horizontal.circle"
         /// 􀒚
-        let boltHorizontalCircleFill:String = "bolt.horizontal.circle.fill"
+        public let boltHorizontalCircleFill:String = "bolt.horizontal.circle.fill"
         /// 􀋭
-        let eye:String = "eye"
+        public let eye:String = "eye"
         /// 􀋮
-        let eyeFill:String = "eye.fill"
+        public let eyeFill:String = "eye.fill"
         /// 􀛿
-        let eyeCircle:String = "eye.circle"
+        public let eyeCircle:String = "eye.circle"
         /// 􀜀
-        let eyeCircleFill:String = "eye.circle.fill"
+        public let eyeCircleFill:String = "eye.circle.fill"
         /// 􀋯
-        let eyeSlash:String = "eye.slash"
+        public let eyeSlash:String = "eye.slash"
         /// 􀋰
-        let eyeSlashFill:String = "eye.slash.fill"
+        public let eyeSlashFill:String = "eye.slash.fill"
         /// 􀦧
-        let eyes:String = "eyes"
+        public let eyes:String = "eyes"
         /// 􀨭
-        let eyesInverse:String = "eyes.inverse"
+        public let eyesInverse:String = "eyes.inverse"
         /// 􀦭
-        let eyebrow:String = "eyebrow"
+        public let eyebrow:String = "eyebrow"
         /// 􀨯
-        let nose:String = "nose"
+        public let nose:String = "nose"
         /// 􀨰
-        let noseFill:String = "nose.fill"
+        public let noseFill:String = "nose.fill"
         /// 􀥿
-        let mustache:String = "mustache"
+        public let mustache:String = "mustache"
         /// 􀦀
-        let mustacheFill:String = "mustache.fill"
+        public let mustacheFill:String = "mustache.fill"
         /// 􀦩
-        let mouth:String = "mouth"
+        public let mouth:String = "mouth"
         /// 􀦪
-        let mouthFill:String = "mouth.fill"
+        public let mouthFill:String = "mouth.fill"
         /// 􀌋
-        let icloud:String = "icloud"
+        public let icloud:String = "icloud"
         /// 􀌌
-        let icloudFill:String = "icloud.fill"
+        public let icloudFill:String = "icloud.fill"
         /// 􀌍
-        let icloudCircle:String = "icloud.circle"
+        public let icloudCircle:String = "icloud.circle"
         /// 􀌎
-        let icloudCircleFill:String = "icloud.circle.fill"
+        public let icloudCircleFill:String = "icloud.circle.fill"
         /// 􀌏
-        let icloudSlash:String = "icloud.slash"
+        public let icloudSlash:String = "icloud.slash"
         /// 􀌐
-        let icloudSlashFill:String = "icloud.slash.fill"
+        public let icloudSlashFill:String = "icloud.slash.fill"
         /// 􀌑
-        let exclamationmarkIcloud:String = "exclamationmark.icloud"
+        public let exclamationmarkIcloud:String = "exclamationmark.icloud"
         /// 􀌒
-        let exclamationmarkIcloudFill:String = "exclamationmark.icloud.fill"
+        public let exclamationmarkIcloudFill:String = "exclamationmark.icloud.fill"
         /// 􀢓
-        let checkmarkIcloud:String = "checkmark.icloud"
+        public let checkmarkIcloud:String = "checkmark.icloud"
         /// 􀢔
-        let checkmarkIcloudFill:String = "checkmark.icloud.fill"
+        public let checkmarkIcloudFill:String = "checkmark.icloud.fill"
         /// 􀌓
-        let xmarkIcloud:String = "xmark.icloud"
+        public let xmarkIcloud:String = "xmark.icloud"
         /// 􀌔
-        let xmarkIcloudFill:String = "xmark.icloud.fill"
+        public let xmarkIcloudFill:String = "xmark.icloud.fill"
         /// 􀒞
-        let linkIcloud:String = "link.icloud"
+        public let linkIcloud:String = "link.icloud"
         /// 􀒟
-        let linkIcloudFill:String = "link.icloud.fill"
+        public let linkIcloudFill:String = "link.icloud.fill"
         /// 􀘿
-        let boltHorizontalIcloud:String = "bolt.horizontal.icloud"
+        public let boltHorizontalIcloud:String = "bolt.horizontal.icloud"
         /// 􀙀
-        let boltHorizontalIcloudFill:String = "bolt.horizontal.icloud.fill"
+        public let boltHorizontalIcloudFill:String = "bolt.horizontal.icloud.fill"
         /// 􀙳
-        let personIcloud:String = "person.icloud"
+        public let personIcloud:String = "person.icloud"
         /// 􀙴
-        let personIcloudFill:String = "person.icloud.fill"
+        public let personIcloudFill:String = "person.icloud.fill"
         /// 􀙵
-        let lockIcloud:String = "lock.icloud"
+        public let lockIcloud:String = "lock.icloud"
         /// 􀙶
-        let lockIcloudFill:String = "lock.icloud.fill"
+        public let lockIcloudFill:String = "lock.icloud.fill"
         /// 􀢕
-        let keyIcloud:String = "key.icloud"
+        public let keyIcloud:String = "key.icloud"
         /// 􀢖
-        let keyIcloudFill:String = "key.icloud.fill"
+        public let keyIcloudFill:String = "key.icloud.fill"
         /// 􀙷
-        let arrowClockwiseIcloud:String = "arrow.clockwise.icloud"
+        public let arrowClockwiseIcloud:String = "arrow.clockwise.icloud"
         /// 􀙸
-        let arrowClockwiseIcloudFill:String = "arrow.clockwise.icloud.fill"
+        public let arrowClockwiseIcloudFill:String = "arrow.clockwise.icloud.fill"
         /// 􀙹
-        let arrowCounterclockwiseIcloud:String = "arrow.counterclockwise.icloud"
+        public let arrowCounterclockwiseIcloud:String = "arrow.counterclockwise.icloud"
         /// 􀙺
-        let arrowCounterclockwiseIcloudFill:String = "arrow.counterclockwise.icloud.fill"
+        public let arrowCounterclockwiseIcloudFill:String = "arrow.counterclockwise.icloud.fill"
         /// 􀌕
-        let icloudAndArrowDown:String = "icloud.and.arrow.down"
+        public let icloudAndArrowDown:String = "icloud.and.arrow.down"
         /// 􀌖
-        let icloudAndArrowDownFill:String = "icloud.and.arrow.down.fill"
+        public let icloudAndArrowDownFill:String = "icloud.and.arrow.down.fill"
         /// 􀌗
-        let icloudAndArrowUp:String = "icloud.and.arrow.up"
+        public let icloudAndArrowUp:String = "icloud.and.arrow.up"
         /// 􀌘
-        let icloudAndArrowUpFill:String = "icloud.and.arrow.up.fill"
+        public let icloudAndArrowUpFill:String = "icloud.and.arrow.up.fill"
         /// 􀝌
-        let flashlightOffFill:String = "flashlight.off.fill"
+        public let flashlightOffFill:String = "flashlight.off.fill"
         /// 􀞋
-        let flashlightOnFill:String = "flashlight.on.fill"
+        public let flashlightOnFill:String = "flashlight.on.fill"
         /// 􀌞
-        let camera:String = "camera"
+        public let camera:String = "camera"
         /// 􀌟
-        let cameraFill:String = "camera.fill"
+        public let cameraFill:String = "camera.fill"
         /// 􀌠
-        let cameraCircle:String = "camera.circle"
+        public let cameraCircle:String = "camera.circle"
         /// 􀌡
-        let cameraCircleFill:String = "camera.circle.fill"
+        public let cameraCircleFill:String = "camera.circle.fill"
         /// 􀢗
-        let cameraBadgeEllipsis:String = "camera.badge.ellipsis"
+        public let cameraBadgeEllipsis:String = "camera.badge.ellipsis"
         /// 􀢘
-        let cameraFillBadgeEllipsis:String = "camera.fill.badge.ellipsis"
+        public let cameraFillBadgeEllipsis:String = "camera.fill.badge.ellipsis"
         /// 􀌢
-        let arrowTriangle2CirclepathCamera:String = "arrow.triangle.2.circlepath.camera"
+        public let arrowTriangle2CirclepathCamera:String = "arrow.triangle.2.circlepath.camera"
         /// 􀌣
-        let arrowTriangle2CirclepathCameraFill:String = "arrow.triangle.2.circlepath.camera.fill"
+        public let arrowTriangle2CirclepathCameraFill:String = "arrow.triangle.2.circlepath.camera.fill"
         /// 􀝁
-        let cameraOnRectangle:String = "camera.on.rectangle"
+        public let cameraOnRectangle:String = "camera.on.rectangle"
         /// 􀝂
-        let cameraOnRectangleFill:String = "camera.on.rectangle.fill"
+        public let cameraOnRectangleFill:String = "camera.on.rectangle.fill"
         /// 􀌤
-        let message:String = "message"
+        public let message:String = "message"
         /// 􀌥
-        let messageFill:String = "message.fill"
+        public let messageFill:String = "message.fill"
         /// 􀌦
-        let messageCircle:String = "message.circle"
+        public let messageCircle:String = "message.circle"
         /// 􀌧
-        let messageCircleFill:String = "message.circle.fill"
+        public let messageCircleFill:String = "message.circle.fill"
         /// 􀜃
-        let arrowUpMessage:String = "arrow.up.message"
+        public let arrowUpMessage:String = "arrow.up.message"
         /// 􀜄
-        let arrowUpMessageFill:String = "arrow.up.message.fill"
+        public let arrowUpMessageFill:String = "arrow.up.message.fill"
         /// 􀡙
-        let plusMessage:String = "plus.message"
+        public let plusMessage:String = "plus.message"
         /// 􀡚
-        let plusMessageFill:String = "plus.message.fill"
+        public let plusMessageFill:String = "plus.message.fill"
         /// 􀌨
-        let bubbleRight:String = "bubble.right"
+        public let bubbleRight:String = "bubble.right"
         /// 􀌩
-        let bubbleRightFill:String = "bubble.right.fill"
+        public let bubbleRightFill:String = "bubble.right.fill"
         /// 􀌪
-        let bubbleLeft:String = "bubble.left"
+        public let bubbleLeft:String = "bubble.left"
         /// 􀌫
-        let bubbleLeftFill:String = "bubble.left.fill"
+        public let bubbleLeftFill:String = "bubble.left.fill"
         /// 􀌬
-        let exclamationmarkBubble:String = "exclamationmark.bubble"
+        public let exclamationmarkBubble:String = "exclamationmark.bubble"
         /// 􀌭
-        let exclamationmarkBubbleFill:String = "exclamationmark.bubble.fill"
+        public let exclamationmarkBubbleFill:String = "exclamationmark.bubble.fill"
         /// 􀌮
-        let quoteBubble:String = "quote.bubble"
+        public let quoteBubble:String = "quote.bubble"
         /// 􀌯
-        let quoteBubbleFill:String = "quote.bubble.fill"
+        public let quoteBubbleFill:String = "quote.bubble.fill"
         /// 􀌰
-        let tBubble:String = "t.bubble"
+        public let tBubble:String = "t.bubble"
         /// 􀌱
-        let tBubbleFill:String = "t.bubble.fill"
+        public let tBubbleFill:String = "t.bubble.fill"
         /// 􀌲
-        let textBubble:String = "text.bubble"
+        public let textBubble:String = "text.bubble"
         /// 􀌳
-        let textBubbleFill:String = "text.bubble.fill"
+        public let textBubbleFill:String = "text.bubble.fill"
         /// 􀌴
-        let captionsBubble:String = "captions.bubble"
+        public let captionsBubble:String = "captions.bubble"
         /// 􀌵
-        let captionsBubbleFill:String = "captions.bubble.fill"
+        public let captionsBubbleFill:String = "captions.bubble.fill"
         /// 􀌶
-        let plusBubble:String = "plus.bubble"
+        public let plusBubble:String = "plus.bubble"
         /// 􀌷
-        let plusBubbleFill:String = "plus.bubble.fill"
+        public let plusBubbleFill:String = "plus.bubble.fill"
         /// 􀬄
-        let rectangle3OffgridBubbleLeft:String = "rectangle.3.offgrid.bubble.left"
+        public let rectangle3OffgridBubbleLeft:String = "rectangle.3.offgrid.bubble.left"
         /// 􀬅
-        let rectangle3OffgridBubbleLeftFill:String = "rectangle.3.offgrid.bubble.left.fill"
+        public let rectangle3OffgridBubbleLeftFill:String = "rectangle.3.offgrid.bubble.left.fill"
         /// 􀕺
-        let ellipsisBubble:String = "ellipsis.bubble"
+        public let ellipsisBubble:String = "ellipsis.bubble"
         /// 􀕻
-        let ellipsisBubbleFill:String = "ellipsis.bubble.fill"
+        public let ellipsisBubbleFill:String = "ellipsis.bubble.fill"
         /// 􀱮
-        let phoneBubbleLeft:String = "phone.bubble.left"
+        public let phoneBubbleLeft:String = "phone.bubble.left"
         /// 􀱯
-        let phoneBubbleLeftFill:String = "phone.bubble.left.fill"
+        public let phoneBubbleLeftFill:String = "phone.bubble.left.fill"
         /// 􀱰
-        let videoBubbleLeft:String = "video.bubble.left"
+        public let videoBubbleLeft:String = "video.bubble.left"
         /// 􀱱
-        let videoBubbleLeftFill:String = "video.bubble.left.fill"
+        public let videoBubbleLeftFill:String = "video.bubble.left.fill"
         /// 􀌸
-        let bubbleMiddleBottom:String = "bubble.middle.bottom"
+        public let bubbleMiddleBottom:String = "bubble.middle.bottom"
         /// 􀌹
-        let bubbleMiddleBottomFill:String = "bubble.middle.bottom.fill"
+        public let bubbleMiddleBottomFill:String = "bubble.middle.bottom.fill"
         /// 􀌼
-        let bubbleMiddleTop:String = "bubble.middle.top"
+        public let bubbleMiddleTop:String = "bubble.middle.top"
         /// 􀌽
-        let bubbleMiddleTopFill:String = "bubble.middle.top.fill"
+        public let bubbleMiddleTopFill:String = "bubble.middle.top.fill"
         /// 􀒤
-        let bubbleLeftAndBubbleRight:String = "bubble.left.and.bubble.right"
+        public let bubbleLeftAndBubbleRight:String = "bubble.left.and.bubble.right"
         /// 􀘲
-        let bubbleLeftAndBubbleRightFill:String = "bubble.left.and.bubble.right.fill"
+        public let bubbleLeftAndBubbleRightFill:String = "bubble.left.and.bubble.right.fill"
         /// 􀌾
-        let phone:String = "phone"
+        public let phone:String = "phone"
         /// 􀌿
-        let phoneFill:String = "phone.fill"
+        public let phoneFill:String = "phone.fill"
         /// 􀒥
-        let phoneCircle:String = "phone.circle"
+        public let phoneCircle:String = "phone.circle"
         /// 􀒦
-        let phoneCircleFill:String = "phone.circle.fill"
+        public let phoneCircleFill:String = "phone.circle.fill"
         /// 􀖎
-        let phoneBadgePlus:String = "phone.badge.plus"
+        public let phoneBadgePlus:String = "phone.badge.plus"
         /// 􀖏
-        let phoneFillBadgePlus:String = "phone.fill.badge.plus"
+        public let phoneFillBadgePlus:String = "phone.fill.badge.plus"
         /// 􀬛
-        let phoneConnection:String = "phone.connection"
+        public let phoneConnection:String = "phone.connection"
         /// 􀬜
-        let phoneFillConnection:String = "phone.fill.connection"
+        public let phoneFillConnection:String = "phone.fill.connection"
         /// 􀍀
-        let phoneArrowUpRight:String = "phone.arrow.up.right"
+        public let phoneArrowUpRight:String = "phone.arrow.up.right"
         /// 􀍁
-        let phoneFillArrowUpRight:String = "phone.fill.arrow.up.right"
+        public let phoneFillArrowUpRight:String = "phone.fill.arrow.up.right"
         /// 􀍂
-        let phoneArrowDownLeft:String = "phone.arrow.down.left"
+        public let phoneArrowDownLeft:String = "phone.arrow.down.left"
         /// 􀍃
-        let phoneFillArrowDownLeft:String = "phone.fill.arrow.down.left"
+        public let phoneFillArrowDownLeft:String = "phone.fill.arrow.down.left"
         /// 􀍄
-        let phoneArrowRight:String = "phone.arrow.right"
+        public let phoneArrowRight:String = "phone.arrow.right"
         /// 􀍅
-        let phoneFillArrowRight:String = "phone.fill.arrow.right"
+        public let phoneFillArrowRight:String = "phone.fill.arrow.right"
         /// 􀍆
-        let phoneDown:String = "phone.down"
+        public let phoneDown:String = "phone.down"
         /// 􀍇
-        let phoneDownFill:String = "phone.down.fill"
+        public let phoneDownFill:String = "phone.down.fill"
         /// 􀒧
-        let phoneDownCircle:String = "phone.down.circle"
+        public let phoneDownCircle:String = "phone.down.circle"
         /// 􀒨
-        let phoneDownCircleFill:String = "phone.down.circle.fill"
+        public let phoneDownCircleFill:String = "phone.down.circle.fill"
         /// 􀍈
-        let teletype:String = "teletype"
+        public let teletype:String = "teletype"
         /// 􀜅
-        let teletypeCircle:String = "teletype.circle"
+        public let teletypeCircle:String = "teletype.circle"
         /// 􀜆
-        let teletypeCircleFill:String = "teletype.circle.fill"
+        public let teletypeCircleFill:String = "teletype.circle.fill"
         /// 􀙰
-        let teletypeAnswer:String = "teletype.answer"
+        public let teletypeAnswer:String = "teletype.answer"
         /// 􀍉
-        let video:String = "video"
+        public let video:String = "video"
         /// 􀍊
-        let videoFill:String = "video.fill"
+        public let videoFill:String = "video.fill"
         /// 􀍋
-        let videoCircle:String = "video.circle"
+        public let videoCircle:String = "video.circle"
         /// 􀍌
-        let videoCircleFill:String = "video.circle.fill"
+        public let videoCircleFill:String = "video.circle.fill"
         /// 􀍍
-        let videoSlash:String = "video.slash"
+        public let videoSlash:String = "video.slash"
         /// 􀍎
-        let videoSlashFill:String = "video.slash.fill"
+        public let videoSlashFill:String = "video.slash.fill"
         /// 􀜮
-        let videoBadgePlus:String = "video.badge.plus"
+        public let videoBadgePlus:String = "video.badge.plus"
         /// 􀜯
-        let videoFillBadgePlus:String = "video.fill.badge.plus"
+        public let videoFillBadgePlus:String = "video.fill.badge.plus"
         /// 􀮺
-        let videoBadgeCheckmark:String = "video.badge.checkmark"
+        public let videoBadgeCheckmark:String = "video.badge.checkmark"
         /// 􀮻
-        let videoFillBadgeCheckmark:String = "video.fill.badge.checkmark"
+        public let videoFillBadgeCheckmark:String = "video.fill.badge.checkmark"
         /// 􀍏
-        let arrowUpRightVideo:String = "arrow.up.right.video"
+        public let arrowUpRightVideo:String = "arrow.up.right.video"
         /// 􀍐
-        let arrowUpRightVideoFill:String = "arrow.up.right.video.fill"
+        public let arrowUpRightVideoFill:String = "arrow.up.right.video.fill"
         /// 􀍑
-        let arrowDownLeftVideo:String = "arrow.down.left.video"
+        public let arrowDownLeftVideo:String = "arrow.down.left.video"
         /// 􀍒
-        let arrowDownLeftVideoFill:String = "arrow.down.left.video.fill"
+        public let arrowDownLeftVideoFill:String = "arrow.down.left.video.fill"
         /// 􀍓
-        let questionmarkVideo:String = "questionmark.video"
+        public let questionmarkVideo:String = "questionmark.video"
         /// 􀍔
-        let questionmarkVideoFill:String = "questionmark.video.fill"
+        public let questionmarkVideoFill:String = "questionmark.video.fill"
         /// 􀍕
-        let envelope:String = "envelope"
+        public let envelope:String = "envelope"
         /// 􀍖
-        let envelopeFill:String = "envelope.fill"
+        public let envelopeFill:String = "envelope.fill"
         /// 􀍗
-        let envelopeCircle:String = "envelope.circle"
+        public let envelopeCircle:String = "envelope.circle"
         /// 􀍘
-        let envelopeCircleFill:String = "envelope.circle.fill"
+        public let envelopeCircleFill:String = "envelope.circle.fill"
         /// 􀦗
-        let envelopeArrowTriangleBranch:String = "envelope.arrow.triangle.branch"
+        public let envelopeArrowTriangleBranch:String = "envelope.arrow.triangle.branch"
         /// 􀦘
-        let envelopeArrowTriangleBranchFill:String = "envelope.arrow.triangle.branch.fill"
+        public let envelopeArrowTriangleBranchFill:String = "envelope.arrow.triangle.branch.fill"
         /// 􀍙
-        let envelopeOpen:String = "envelope.open"
+        public let envelopeOpen:String = "envelope.open"
         /// 􀍚
-        let envelopeOpenFill:String = "envelope.open.fill"
+        public let envelopeOpenFill:String = "envelope.open.fill"
         /// 􀍛
-        let envelopeBadge:String = "envelope.badge"
+        public let envelopeBadge:String = "envelope.badge"
         /// 􀍜
-        let envelopeBadgeFill:String = "envelope.badge.fill"
+        public let envelopeBadgeFill:String = "envelope.badge.fill"
         /// 􀫙
-        let envelopeBadgeShieldLeadinghalfFill:String = "envelope.badge.shield.leadinghalf.fill"
+        public let envelopeBadgeShieldLeadinghalfFill:String = "envelope.badge.shield.leadinghalf.fill"
         /// 􀫚
-        let envelopeFillBadgeShieldTrailinghalfFill:String = "envelope.fill.badge.shield.trailinghalf.fill"
+        public let envelopeFillBadgeShieldTrailinghalfFill:String = "envelope.fill.badge.shield.trailinghalf.fill"
         /// 􀍝
-        let mailStack:String = "mail.stack"
+        public let mailStack:String = "mail.stack"
         /// 􀍞
-        let mailStackFill:String = "mail.stack.fill"
+        public let mailStackFill:String = "mail.stack.fill"
         /// 􀣪
-        let mail:String = "mail"
+        public let mail:String = "mail"
         /// 􀣫
-        let mailFill:String = "mail.fill"
+        public let mailFill:String = "mail.fill"
         /// 􀢾
-        let mailAndTextMagnifyingglass:String = "mail.and.text.magnifyingglass"
+        public let mailAndTextMagnifyingglass:String = "mail.and.text.magnifyingglass"
         /// 􀬸
-        let rectangleAndTextMagnifyingglass:String = "rectangle.and.text.magnifyingglass"
+        public let rectangleAndTextMagnifyingglass:String = "rectangle.and.text.magnifyingglass"
         /// 􀢿
-        let arrowUpRightAndArrowDownLeftRectangle:String = "arrow.up.right.and.arrow.down.left.rectangle"
+        public let arrowUpRightAndArrowDownLeftRectangle:String = "arrow.up.right.and.arrow.down.left.rectangle"
         /// 􀣀
-        let arrowUpRightAndArrowDownLeftRectangleFill:String = "arrow.up.right.and.arrow.down.left.rectangle.fill"
+        public let arrowUpRightAndArrowDownLeftRectangleFill:String = "arrow.up.right.and.arrow.down.left.rectangle.fill"
         /// 􀍟
-        let gear:String = "gear"
+        public let gear:String = "gear"
         /// 􀣋
-        let gearshape:String = "gearshape"
+        public let gearshape:String = "gearshape"
         /// 􀣌
-        let gearshapeFill:String = "gearshape.fill"
+        public let gearshapeFill:String = "gearshape.fill"
         /// 􀥎
-        let gearshape2:String = "gearshape.2"
+        public let gearshape2:String = "gearshape.2"
         /// 􀥏
-        let gearshape2Fill:String = "gearshape.2.fill"
+        public let gearshape2Fill:String = "gearshape.2.fill"
         /// 􀙤
-        let signature:String = "signature"
+        public let signature:String = "signature"
         /// 􀫎
-        let line3CrossedSwirlCircle:String = "line.3.crossed.swirl.circle"
+        public let line3CrossedSwirlCircle:String = "line.3.crossed.swirl.circle"
         /// 􀫏
-        let line3CrossedSwirlCircleFill:String = "line.3.crossed.swirl.circle.fill"
+        public let line3CrossedSwirlCircleFill:String = "line.3.crossed.swirl.circle.fill"
         /// 􀉈
-        let scissors:String = "scissors"
+        public let scissors:String = "scissors"
         /// 􀞷
-        let scissorsBadgeEllipsis:String = "scissors.badge.ellipsis"
+        public let scissorsBadgeEllipsis:String = "scissors.badge.ellipsis"
         /// 􀍠
-        let ellipsis:String = "ellipsis"
+        public let ellipsis:String = "ellipsis"
         /// 􀍡
-        let ellipsisCircle:String = "ellipsis.circle"
+        public let ellipsisCircle:String = "ellipsis.circle"
         /// 􀍢
-        let ellipsisCircleFill:String = "ellipsis.circle.fill"
+        public let ellipsisCircleFill:String = "ellipsis.circle.fill"
         /// 􀠩
-        let ellipsisRectangle:String = "ellipsis.rectangle"
+        public let ellipsisRectangle:String = "ellipsis.rectangle"
         /// 􀠪
-        let ellipsisRectangleFill:String = "ellipsis.rectangle.fill"
+        public let ellipsisRectangleFill:String = "ellipsis.rectangle.fill"
         /// 􀍣
-        let bag:String = "bag"
+        public let bag:String = "bag"
         /// 􀍤
-        let bagFill:String = "bag.fill"
+        public let bagFill:String = "bag.fill"
         /// 􀒫
-        let bagCircle:String = "bag.circle"
+        public let bagCircle:String = "bag.circle"
         /// 􀒬
-        let bagCircleFill:String = "bag.circle.fill"
+        public let bagCircleFill:String = "bag.circle.fill"
         /// 􀍥
-        let bagBadgePlus:String = "bag.badge.plus"
+        public let bagBadgePlus:String = "bag.badge.plus"
         /// 􀍦
-        let bagFillBadgePlus:String = "bag.fill.badge.plus"
+        public let bagFillBadgePlus:String = "bag.fill.badge.plus"
         /// 􀍧
-        let bagBadgeMinus:String = "bag.badge.minus"
+        public let bagBadgeMinus:String = "bag.badge.minus"
         /// 􀍨
-        let bagFillBadgeMinus:String = "bag.fill.badge.minus"
+        public let bagFillBadgeMinus:String = "bag.fill.badge.minus"
         /// 􀍩
-        let cart:String = "cart"
+        public let cart:String = "cart"
         /// 􀍪
-        let cartFill:String = "cart.fill"
+        public let cartFill:String = "cart.fill"
         /// 􀒭
-        let cartCircle:String = "cart.circle"
+        public let cartCircle:String = "cart.circle"
         /// 􀒮
-        let cartCircleFill:String = "cart.circle.fill"
+        public let cartCircleFill:String = "cart.circle.fill"
         /// 􀍫
-        let cartBadgePlus:String = "cart.badge.plus"
+        public let cartBadgePlus:String = "cart.badge.plus"
         /// 􀍬
-        let cartFillBadgePlus:String = "cart.fill.badge.plus"
+        public let cartFillBadgePlus:String = "cart.fill.badge.plus"
         /// 􀍭
-        let cartBadgeMinus:String = "cart.badge.minus"
+        public let cartBadgeMinus:String = "cart.badge.minus"
         /// 􀍮
-        let cartFillBadgeMinus:String = "cart.fill.badge.minus"
+        public let cartFillBadgeMinus:String = "cart.fill.badge.minus"
         /// 􀍯
-        let creditcard:String = "creditcard"
+        public let creditcard:String = "creditcard"
         /// 􀍰
-        let creditcardFill:String = "creditcard.fill"
+        public let creditcardFill:String = "creditcard.fill"
         /// 􀒯
-        let creditcardCircle:String = "creditcard.circle"
+        public let creditcardCircle:String = "creditcard.circle"
         /// 􀒰
-        let creditcardCircleFill:String = "creditcard.circle.fill"
+        public let creditcardCircleFill:String = "creditcard.circle.fill"
         /// 􀦠
-        let giftcard:String = "giftcard"
+        public let giftcard:String = "giftcard"
         /// 􀦡
-        let giftcardFill:String = "giftcard.fill"
+        public let giftcardFill:String = "giftcard.fill"
         /// 􀟾
-        let walletPass:String = "wallet.pass"
+        public let walletPass:String = "wallet.pass"
         /// 􀟿
-        let walletPassFill:String = "wallet.pass.fill"
+        public let walletPassFill:String = "wallet.pass.fill"
         /// 􀍱
-        let wandAndRays:String = "wand.and.rays"
+        public let wandAndRays:String = "wand.and.rays"
         /// 􀍲
-        let wandAndRaysInverse:String = "wand.and.rays.inverse"
+        public let wandAndRaysInverse:String = "wand.and.rays.inverse"
         /// 􀜍
-        let wandAndStars:String = "wand.and.stars"
+        public let wandAndStars:String = "wand.and.stars"
         /// 􀜎
-        let wandAndStarsInverse:String = "wand.and.stars.inverse"
+        public let wandAndStarsInverse:String = "wand.and.stars.inverse"
         /// 􀍳
-        let crop:String = "crop"
+        public let crop:String = "crop"
         /// 􀍴
-        let cropRotate:String = "crop.rotate"
+        public let cropRotate:String = "crop.rotate"
         /// 􀍺
-        let dialMin:String = "dial.min"
+        public let dialMin:String = "dial.min"
         /// 􀍻
-        let dialMinFill:String = "dial.min.fill"
+        public let dialMinFill:String = "dial.min.fill"
         /// 􀪐
-        let dialMax:String = "dial.max"
+        public let dialMax:String = "dial.max"
         /// 􀪑
-        let dialMaxFill:String = "dial.max.fill"
+        public let dialMaxFill:String = "dial.max.fill"
         /// 􀬗
-        let gyroscope:String = "gyroscope"
+        public let gyroscope:String = "gyroscope"
         /// 􀍼
-        let nosign:String = "nosign"
+        public let nosign:String = "nosign"
         /// 􀍽
-        let gauge:String = "gauge"
+        public let gauge:String = "gauge"
         /// 􀓓
-        let gaugeBadgePlus:String = "gauge.badge.plus"
+        public let gaugeBadgePlus:String = "gauge.badge.plus"
         /// 􀓧
-        let gaugeBadgeMinus:String = "gauge.badge.minus"
+        public let gaugeBadgeMinus:String = "gauge.badge.minus"
         /// 􀍾
-        let speedometer:String = "speedometer"
+        public let speedometer:String = "speedometer"
         /// 􀬧
-        let barometer:String = "barometer"
+        public let barometer:String = "barometer"
         /// 􀎌
-        let metronome:String = "metronome"
+        public let metronome:String = "metronome"
         /// 􀠕
-        let metronomeFill:String = "metronome.fill"
+        public let metronomeFill:String = "metronome.fill"
         /// 􀧰
-        let amplifier:String = "amplifier"
+        public let amplifier:String = "amplifier"
         /// 􀧣
-        let dieFace1:String = "die.face.1"
+        public let dieFace1:String = "die.face.1"
         /// 􀧤
-        let dieFace1Fill:String = "die.face.1.fill"
+        public let dieFace1Fill:String = "die.face.1.fill"
         /// 􀧥
-        let dieFace2:String = "die.face.2"
+        public let dieFace2:String = "die.face.2"
         /// 􀧦
-        let dieFace2Fill:String = "die.face.2.fill"
+        public let dieFace2Fill:String = "die.face.2.fill"
         /// 􀧧
-        let dieFace3:String = "die.face.3"
+        public let dieFace3:String = "die.face.3"
         /// 􀧨
-        let dieFace3Fill:String = "die.face.3.fill"
+        public let dieFace3Fill:String = "die.face.3.fill"
         /// 􀧩
-        let dieFace4:String = "die.face.4"
+        public let dieFace4:String = "die.face.4"
         /// 􀧪
-        let dieFace4Fill:String = "die.face.4.fill"
+        public let dieFace4Fill:String = "die.face.4.fill"
         /// 􀧫
-        let dieFace5:String = "die.face.5"
+        public let dieFace5:String = "die.face.5"
         /// 􀧬
-        let dieFace5Fill:String = "die.face.5.fill"
+        public let dieFace5Fill:String = "die.face.5.fill"
         /// 􀧭
-        let dieFace6:String = "die.face.6"
+        public let dieFace6:String = "die.face.6"
         /// 􀧮
-        let dieFace6Fill:String = "die.face.6.fill"
+        public let dieFace6Fill:String = "die.face.6.fill"
         /// 􀫐
-        let squareGrid3x3FillSquare:String = "square.grid.3x3.fill.square"
+        public let squareGrid3x3FillSquare:String = "square.grid.3x3.fill.square"
         /// 􀎏
-        let pianokeys:String = "pianokeys"
+        public let pianokeys:String = "pianokeys"
         /// 􀟽
-        let pianokeysInverse:String = "pianokeys.inverse"
+        public let pianokeysInverse:String = "pianokeys.inverse"
         /// 􀎐
-        let tuningfork:String = "tuningfork"
+        public let tuningfork:String = "tuningfork"
         /// 􀎑
-        let paintbrush:String = "paintbrush"
+        public let paintbrush:String = "paintbrush"
         /// 􀎒
-        let paintbrushFill:String = "paintbrush.fill"
+        public let paintbrushFill:String = "paintbrush.fill"
         /// 􀣶
-        let paintbrushPointed:String = "paintbrush.pointed"
+        public let paintbrushPointed:String = "paintbrush.pointed"
         /// 􀣷
-        let paintbrushPointedFill:String = "paintbrush.pointed.fill"
+        public let paintbrushPointedFill:String = "paintbrush.pointed.fill"
         /// 􀎓
-        let bandage:String = "bandage"
+        public let bandage:String = "bandage"
         /// 􀎔
-        let bandageFill:String = "bandage.fill"
+        public let bandageFill:String = "bandage.fill"
         /// 􀟀
-        let ruler:String = "ruler"
+        public let ruler:String = "ruler"
         /// 􀟁
-        let rulerFill:String = "ruler.fill"
+        public let rulerFill:String = "ruler.fill"
         /// 􀟂
-        let level:String = "level"
+        public let level:String = "level"
         /// 􀟃
-        let levelFill:String = "level.fill"
+        public let levelFill:String = "level.fill"
         /// 􀎕
-        let wrench:String = "wrench"
+        public let wrench:String = "wrench"
         /// 􀎖
-        let wrenchFill:String = "wrench.fill"
+        public let wrenchFill:String = "wrench.fill"
         /// 􀙄
-        let hammer:String = "hammer"
+        public let hammer:String = "hammer"
         /// 􀙅
-        let hammerFill:String = "hammer.fill"
+        public let hammerFill:String = "hammer.fill"
         /// 􀎗
-        let eyedropper:String = "eyedropper"
+        public let eyedropper:String = "eyedropper"
         /// 􀎘
-        let eyedropperHalffull:String = "eyedropper.halffull"
+        public let eyedropperHalffull:String = "eyedropper.halffull"
         /// 􀎙
-        let eyedropperFull:String = "eyedropper.full"
+        public let eyedropperFull:String = "eyedropper.full"
         /// 􀤊
-        let wrenchAndScrewdriver:String = "wrench.and.screwdriver"
+        public let wrenchAndScrewdriver:String = "wrench.and.screwdriver"
         /// 􀤋
-        let wrenchAndScrewdriverFill:String = "wrench.and.screwdriver.fill"
+        public let wrenchAndScrewdriverFill:String = "wrench.and.screwdriver.fill"
         /// 􀤭
-        let applescript:String = "applescript"
+        public let applescript:String = "applescript"
         /// 􀤮
-        let applescriptFill:String = "applescript.fill"
+        public let applescriptFill:String = "applescript.fill"
         /// 􀤏
-        let scroll:String = "scroll"
+        public let scroll:String = "scroll"
         /// 􀤐
-        let scrollFill:String = "scroll.fill"
+        public let scrollFill:String = "scroll.fill"
         /// 􀝾
-        let stethoscope:String = "stethoscope"
+        public let stethoscope:String = "stethoscope"
         /// 􀎚
-        let printer:String = "printer"
+        public let printer:String = "printer"
         /// 􀎛
-        let printerFill:String = "printer.fill"
+        public let printerFill:String = "printer.fill"
         /// 􀪾
-        let printerFillAndPaperFill:String = "printer.fill.and.paper.fill"
+        public let printerFillAndPaperFill:String = "printer.fill.and.paper.fill"
         /// 􀪞
-        let printerDotmatrix:String = "printer.dotmatrix"
+        public let printerDotmatrix:String = "printer.dotmatrix"
         /// 􀪟
-        let printerDotmatrixFill:String = "printer.dotmatrix.fill"
+        public let printerDotmatrixFill:String = "printer.dotmatrix.fill"
         /// 􀪿
-        let printerDotmatrixFillAndPaperFill:String = "printer.dotmatrix.fill.and.paper.fill"
+        public let printerDotmatrixFillAndPaperFill:String = "printer.dotmatrix.fill.and.paper.fill"
         /// 􀪊
-        let scanner:String = "scanner"
+        public let scanner:String = "scanner"
         /// 􀪋
-        let scannerFill:String = "scanner.fill"
+        public let scannerFill:String = "scanner.fill"
         /// 􀪌
-        let faxmachine:String = "faxmachine"
+        public let faxmachine:String = "faxmachine"
         /// 􀎜
-        let briefcase:String = "briefcase"
+        public let briefcase:String = "briefcase"
         /// 􀎝
-        let briefcaseFill:String = "briefcase.fill"
+        public let briefcaseFill:String = "briefcase.fill"
         /// 􀯡
-        let caseIcon:String = "case"
+        public let caseIcon:String = "case"
         /// 􀯢
-        let caseFill:String = "case.fill"
+        public let caseFill:String = "case.fill"
         /// 􀢟
-        let latch2Case:String = "latch.2.case"
+        public let latch2Case:String = "latch.2.case"
         /// 􀢠
-        let latch2CaseFill:String = "latch.2.case.fill"
+        public let latch2CaseFill:String = "latch.2.case.fill"
         /// 􀯙
-        let crossCase:String = "cross.case"
+        public let crossCase:String = "cross.case"
         /// 􀯚
-        let crossCaseFill:String = "cross.case.fill"
+        public let crossCaseFill:String = "cross.case.fill"
         /// 􀤚
-        let puzzlepiece:String = "puzzlepiece"
+        public let puzzlepiece:String = "puzzlepiece"
         /// 􀤛
-        let puzzlepieceFill:String = "puzzlepiece.fill"
+        public let puzzlepieceFill:String = "puzzlepiece.fill"
         /// 􀠀
-        let homekit:String = "homekit"
+        public let homekit:String = "homekit"
         /// 􀎞
-        let house:String = "house"
+        public let house:String = "house"
         /// 􀎟
-        let houseFill:String = "house.fill"
+        public let houseFill:String = "house.fill"
         /// 􀥆
-        let houseCircle:String = "house.circle"
+        public let houseCircle:String = "house.circle"
         /// 􀥇
-        let houseCircleFill:String = "house.circle.fill"
+        public let houseCircleFill:String = "house.circle.fill"
         /// 􀒼
-        let musicNoteHouse:String = "music.note.house"
+        public let musicNoteHouse:String = "music.note.house"
         /// 􀒽
-        let musicNoteHouseFill:String = "music.note.house.fill"
+        public let musicNoteHouseFill:String = "music.note.house.fill"
         /// 􀤨
-        let buildingColumns:String = "building.columns"
+        public let buildingColumns:String = "building.columns"
         /// 􀤩
-        let buildingColumnsFill:String = "building.columns.fill"
+        public let buildingColumnsFill:String = "building.columns.fill"
         /// 􀟻
-        let squareSplitBottomrightquarter:String = "square.split.bottomrightquarter"
+        public let squareSplitBottomrightquarter:String = "square.split.bottomrightquarter"
         /// 􀟼
-        let squareSplitBottomrightquarterFill:String = "square.split.bottomrightquarter.fill"
+        public let squareSplitBottomrightquarterFill:String = "square.split.bottomrightquarter.fill"
         /// 􀮅
-        let building:String = "building"
+        public let building:String = "building"
         /// 􀮆
-        let buildingFill:String = "building.fill"
+        public let buildingFill:String = "building.fill"
         /// 􀝒
-        let building2:String = "building.2"
+        public let building2:String = "building.2"
         /// 􀝓
-        let building2Fill:String = "building.2.fill"
+        public let building2Fill:String = "building.2.fill"
         /// 􀝔
-        let building2CropCircle:String = "building.2.crop.circle"
+        public let building2CropCircle:String = "building.2.crop.circle"
         /// 􀝕
-        let building2CropCircleFill:String = "building.2.crop.circle.fill"
+        public let building2CropCircleFill:String = "building.2.crop.circle.fill"
         /// 􀎠
-        let lock:String = "lock"
+        public let lock:String = "lock"
         /// 􀎡
-        let lockFill:String = "lock.fill"
+        public let lockFill:String = "lock.fill"
         /// 􀒲
-        let lockCircle:String = "lock.circle"
+        public let lockCircle:String = "lock.circle"
         /// 􀒳
-        let lockCircleFill:String = "lock.circle.fill"
+        public let lockCircleFill:String = "lock.circle.fill"
         /// 􀢵
-        let lockSquare:String = "lock.square"
+        public let lockSquare:String = "lock.square"
         /// 􀢶
-        let lockSquareFill:String = "lock.square.fill"
+        public let lockSquareFill:String = "lock.square.fill"
         /// 􀡜
-        let lockSquareStack:String = "lock.square.stack"
+        public let lockSquareStack:String = "lock.square.stack"
         /// 􀡝
-        let lockSquareStackFill:String = "lock.square.stack.fill"
+        public let lockSquareStackFill:String = "lock.square.stack.fill"
         /// 􀢈
-        let lockRectangle:String = "lock.rectangle"
+        public let lockRectangle:String = "lock.rectangle"
         /// 􀢉
-        let lockRectangleFill:String = "lock.rectangle.fill"
+        public let lockRectangleFill:String = "lock.rectangle.fill"
         /// 􀢱
-        let lockRectangleStack:String = "lock.rectangle.stack"
+        public let lockRectangleStack:String = "lock.rectangle.stack"
         /// 􀢲
-        let lockRectangleStackFill:String = "lock.rectangle.stack.fill"
+        public let lockRectangleStackFill:String = "lock.rectangle.stack.fill"
         /// 􀢳
-        let lockRectangleOnRectangle:String = "lock.rectangle.on.rectangle"
+        public let lockRectangleOnRectangle:String = "lock.rectangle.on.rectangle"
         /// 􀢴
-        let lockRectangleOnRectangleFill:String = "lock.rectangle.on.rectangle.fill"
+        public let lockRectangleOnRectangleFill:String = "lock.rectangle.on.rectangle.fill"
         /// 􀞙
-        let lockShield:String = "lock.shield"
+        public let lockShield:String = "lock.shield"
         /// 􀞚
-        let lockShieldFill:String = "lock.shield.fill"
+        public let lockShieldFill:String = "lock.shield.fill"
         /// 􀎢
-        let lockSlash:String = "lock.slash"
+        public let lockSlash:String = "lock.slash"
         /// 􀎣
-        let lockSlashFill:String = "lock.slash.fill"
+        public let lockSlashFill:String = "lock.slash.fill"
         /// 􀎤
-        let lockOpen:String = "lock.open"
+        public let lockOpen:String = "lock.open"
         /// 􀎥
-        let lockOpenFill:String = "lock.open.fill"
+        public let lockOpenFill:String = "lock.open.fill"
         /// 􀑙
-        let lockRotation:String = "lock.rotation"
+        public let lockRotation:String = "lock.rotation"
         /// 􀑚
-        let lockRotationOpen:String = "lock.rotation.open"
+        public let lockRotationOpen:String = "lock.rotation.open"
         /// 􀟕
-        let key:String = "key"
+        public let key:String = "key"
         /// 􀟖
-        let keyFill:String = "key.fill"
+        public let keyFill:String = "key.fill"
         /// 􀙇
-        let wifi:String = "wifi"
+        public let wifi:String = "wifi"
         /// 􀙈
-        let wifiSlash:String = "wifi.slash"
+        public let wifiSlash:String = "wifi.slash"
         /// 􀙥
-        let wifiExclamationmark:String = "wifi.exclamationmark"
+        public let wifiExclamationmark:String = "wifi.exclamationmark"
         /// 􀎦
-        let pin:String = "pin"
+        public let pin:String = "pin"
         /// 􀎧
-        let pinFill:String = "pin.fill"
+        public let pinFill:String = "pin.fill"
         /// 􀒴
-        let pinCircle:String = "pin.circle"
+        public let pinCircle:String = "pin.circle"
         /// 􀒵
-        let pinCircleFill:String = "pin.circle.fill"
+        public let pinCircleFill:String = "pin.circle.fill"
         /// 􀎨
-        let pinSlash:String = "pin.slash"
+        public let pinSlash:String = "pin.slash"
         /// 􀎩
-        let pinSlashFill:String = "pin.slash.fill"
+        public let pinSlashFill:String = "pin.slash.fill"
         /// 􀎪
-        let mappin:String = "mappin"
+        public let mappin:String = "mappin"
         /// 􀜇
-        let mappinCircle:String = "mappin.circle"
+        public let mappinCircle:String = "mappin.circle"
         /// 􀜈
-        let mappinCircleFill:String = "mappin.circle.fill"
+        public let mappinCircleFill:String = "mappin.circle.fill"
         /// 􀙉
-        let mappinSlash:String = "mappin.slash"
+        public let mappinSlash:String = "mappin.slash"
         /// 􀎫
-        let mappinAndEllipse:String = "mappin.and.ellipse"
+        public let mappinAndEllipse:String = "mappin.and.ellipse"
         /// 􀙊
-        let map:String = "map"
+        public let map:String = "map"
         /// 􀙋
-        let mapFill:String = "map.fill"
+        public let mapFill:String = "map.fill"
         /// 􀎬
-        let safari:String = "safari"
+        public let safari:String = "safari"
         /// 􀎭
-        let safariFill:String = "safari.fill"
+        public let safariFill:String = "safari.fill"
         /// 􀢅
-        let move3d:String = "move.3d"
+        public let move3d:String = "move.3d"
         /// 􀢆
-        let scale3d:String = "scale.3d"
+        public let scale3d:String = "scale.3d"
         /// 􀢇
-        let rotate3d:String = "rotate.3d"
+        public let rotate3d:String = "rotate.3d"
         /// 􀴌
-        let torus:String = "torus"
+        public let torus:String = "torus"
         /// 􀎮
-        let rotateLeft:String = "rotate.left"
+        public let rotateLeft:String = "rotate.left"
         /// 􀎯
-        let rotateLeftFill:String = "rotate.left.fill"
+        public let rotateLeftFill:String = "rotate.left.fill"
         /// 􀎰
-        let rotateRight:String = "rotate.right"
+        public let rotateRight:String = "rotate.right"
         /// 􀎱
-        let rotateRightFill:String = "rotate.right.fill"
+        public let rotateRightFill:String = "rotate.right.fill"
         /// 􀑠
-        let selectionPinInOut:String = "selection.pin.in.out"
+        public let selectionPinInOut:String = "selection.pin.in.out"
         /// 􀣂
-        let timelineSelection:String = "timeline.selection"
+        public let timelineSelection:String = "timeline.selection"
         /// 􀫥
-        let cpu:String = "cpu"
+        public let cpu:String = "cpu"
         /// 􀫦
-        let memorychip:String = "memorychip"
+        public let memorychip:String = "memorychip"
         /// 􀢸
-        let opticaldisc:String = "opticaldisc"
+        public let opticaldisc:String = "opticaldisc"
         /// 􀎲
-        let tv:String = "tv"
+        public let tv:String = "tv"
         /// 􀒶
-        let tvFill:String = "tv.fill"
+        public let tvFill:String = "tv.fill"
         /// 􀎳
-        let tvCircle:String = "tv.circle"
+        public let tvCircle:String = "tv.circle"
         /// 􀎴
-        let tvCircleFill:String = "tv.circle.fill"
+        public let tvCircleFill:String = "tv.circle.fill"
         /// 􀦽
-        let tv4K:String = "4k.tv"
+        public let tv4K:String = "4k.tv"
         /// 􀦾
-        let tv4KFill:String = "4k.tv.fill"
+        public let tv4KFill:String = "4k.tv.fill"
         /// 􀎵
-        let tvMusicNote:String = "tv.music.note"
+        public let tvMusicNote:String = "tv.music.note"
         /// 􀒷
-        let tvMusicNoteFill:String = "tv.music.note.fill"
+        public let tvMusicNoteFill:String = "tv.music.note.fill"
         /// 􀵨
-        let playTv:String = "play.tv"
+        public let playTv:String = "play.tv"
         /// 􀵩
-        let playTvFill:String = "play.tv.fill"
+        public let playTvFill:String = "play.tv.fill"
         /// 􀵪
-        let photoTv:String = "photo.tv"
+        public let photoTv:String = "photo.tv"
         /// 􀫑
-        let tvAndHifispeakerFill:String = "tv.and.hifispeaker.fill"
+        public let tvAndHifispeakerFill:String = "tv.and.hifispeaker.fill"
         /// 􀲰
-        let tvAndMediabox:String = "tv.and.mediabox"
+        public let tvAndMediabox:String = "tv.and.mediabox"
         /// 􀢹
-        let display:String = "display"
+        public let display:String = "display"
         /// 􀨦
-        let displayTrianglebadgeExclamationmark:String = "display.trianglebadge.exclamationmark"
+        public let displayTrianglebadgeExclamationmark:String = "display.trianglebadge.exclamationmark"
         /// 􀨧
-        let display2:String = "display.2"
+        public let display2:String = "display.2"
         /// 􀙗
-        let desktopcomputer:String = "desktopcomputer"
+        public let desktopcomputer:String = "desktopcomputer"
         /// 􀥺
-        let pc:String = "pc"
+        public let pc:String = "pc"
         /// 􀪲
-        let macproGen1:String = "macpro.gen1"
+        public let macproGen1:String = "macpro.gen1"
         /// 􀦱
-        let macproGen2:String = "macpro.gen2"
+        public let macproGen2:String = "macpro.gen2"
         /// 􀦮
-        let macproGen2Fill:String = "macpro.gen2.fill"
+        public let macproGen2Fill:String = "macpro.gen2.fill"
         /// 􀪱
-        let macproGen3:String = "macpro.gen3"
+        public let macproGen3:String = "macpro.gen3"
         /// 􀪬
-        let serverRack:String = "server.rack"
+        public let serverRack:String = "server.rack"
         /// 􀧘
-        let xserve:String = "xserve"
+        public let xserve:String = "xserve"
         /// 􀨳
-        let macproGen3Server:String = "macpro.gen3.server"
+        public let macproGen3Server:String = "macpro.gen3.server"
         /// 􀟛
-        let laptopcomputer:String = "laptopcomputer"
+        public let laptopcomputer:String = "laptopcomputer"
         /// 􀬩
-        let laptopcomputerAndIphone:String = "laptopcomputer.and.iphone"
+        public let laptopcomputerAndIphone:String = "laptopcomputer.and.iphone"
         /// 􀪯
-        let macmini:String = "macmini"
+        public let macmini:String = "macmini"
         /// 􀪰
-        let macminiFill:String = "macmini.fill"
+        public let macminiFill:String = "macmini.fill"
         /// 􀦯
-        let airportExpress:String = "airport.express"
+        public let airportExpress:String = "airport.express"
         /// 􀦰
-        let airportExtremeTower:String = "airport.extreme.tower"
+        public let airportExtremeTower:String = "airport.extreme.tower"
         /// 􀑝
-        let airportExtreme:String = "airport.extreme"
+        public let airportExtreme:String = "airport.extreme"
         /// 􀢺
-        let ipod:String = "ipod"
+        public let ipod:String = "ipod"
         /// 􀪴
-        let flipphone:String = "flipphone"
+        public let flipphone:String = "flipphone"
         /// 􀪳
-        let candybarphone:String = "candybarphone"
+        public let candybarphone:String = "candybarphone"
         /// 􀟝
-        let iphoneHomebutton:String = "iphone.homebutton"
+        public let iphoneHomebutton:String = "iphone.homebutton"
         /// 􀴎
-        let iphoneHomebuttonLandscape:String = "iphone.homebutton.landscape"
+        public let iphoneHomebuttonLandscape:String = "iphone.homebutton.landscape"
         /// 􀡆
-        let iphoneHomebuttonRadiowavesLeftAndRight:String = "iphone.homebutton.radiowaves.left.and.right"
+        public let iphoneHomebuttonRadiowavesLeftAndRight:String = "iphone.homebutton.radiowaves.left.and.right"
         /// 􀨴
-        let iphoneHomebuttonSlash:String = "iphone.homebutton.slash"
+        public let iphoneHomebuttonSlash:String = "iphone.homebutton.slash"
         /// 􀟜
-        let iphone:String = "iphone"
+        public let iphone:String = "iphone"
         /// 􀴏
-        let iphoneLandscape:String = "iphone.landscape"
+        public let iphoneLandscape:String = "iphone.landscape"
         /// 􀡇
-        let iphoneRadiowavesLeftAndRight:String = "iphone.radiowaves.left.and.right"
+        public let iphoneRadiowavesLeftAndRight:String = "iphone.radiowaves.left.and.right"
         /// 􀨵
-        let iphoneSlash:String = "iphone.slash"
+        public let iphoneSlash:String = "iphone.slash"
         /// 􀐶
-        let iphoneHomebuttonBadgePlay:String = "iphone.homebutton.badge.play"
+        public let iphoneHomebuttonBadgePlay:String = "iphone.homebutton.badge.play"
         /// 􀴑
-        let iphoneBadgePlay:String = "iphone.badge.play"
+        public let iphoneBadgePlay:String = "iphone.badge.play"
         /// 􀴒
-        let ipadHomebuttonBadgePlay:String = "ipad.homebutton.badge.play"
+        public let ipadHomebuttonBadgePlay:String = "ipad.homebutton.badge.play"
         /// 􀴓
-        let ipadBadgePlay:String = "ipad.badge.play"
+        public let ipadBadgePlay:String = "ipad.badge.play"
         /// 􀵑
-        let ipadHomebuttonLandscapeBadgePlay:String = "ipad.homebutton.landscape.badge.play"
+        public let ipadHomebuttonLandscapeBadgePlay:String = "ipad.homebutton.landscape.badge.play"
         /// 􀵒
-        let ipadLandscapeBadgePlay:String = "ipad.landscape.badge.play"
+        public let ipadLandscapeBadgePlay:String = "ipad.landscape.badge.play"
         /// 􀬫
-        let arrowTurnUpForwardIphone:String = "arrow.turn.up.forward.iphone"
+        public let arrowTurnUpForwardIphone:String = "arrow.turn.up.forward.iphone"
         /// 􀬬
-        let arrowTurnUpForwardIphoneFill:String = "arrow.turn.up.forward.iphone.fill"
+        public let arrowTurnUpForwardIphoneFill:String = "arrow.turn.up.forward.iphone.fill"
         /// 􀟞
-        let appsIphone:String = "apps.iphone"
+        public let appsIphone:String = "apps.iphone"
         /// 􀯖
-        let appsIphoneBadgePlus:String = "apps.iphone.badge.plus"
+        public let appsIphoneBadgePlus:String = "apps.iphone.badge.plus"
         /// 􀮔
-        let appsIphoneLandscape:String = "apps.iphone.landscape"
+        public let appsIphoneLandscape:String = "apps.iphone.landscape"
         /// 􀫧
-        let ipodtouch:String = "ipodtouch"
+        public let ipodtouch:String = "ipodtouch"
         /// 􀴐
-        let ipodtouchLandscape:String = "ipodtouch.landscape"
+        public let ipodtouchLandscape:String = "ipodtouch.landscape"
         /// 􀫨
-        let ipodshuffleGen1:String = "ipodshuffle.gen1"
+        public let ipodshuffleGen1:String = "ipodshuffle.gen1"
         /// 􀫩
-        let ipodshuffleGen2:String = "ipodshuffle.gen2"
+        public let ipodshuffleGen2:String = "ipodshuffle.gen2"
         /// 􀫪
-        let ipodshuffleGen3:String = "ipodshuffle.gen3"
+        public let ipodshuffleGen3:String = "ipodshuffle.gen3"
         /// 􀫫
-        let ipodshuffleGen4:String = "ipodshuffle.gen4"
+        public let ipodshuffleGen4:String = "ipodshuffle.gen4"
         /// 􀟟
-        let ipadHomebutton:String = "ipad.homebutton"
+        public let ipadHomebutton:String = "ipad.homebutton"
         /// 􀟠
-        let ipad:String = "ipad"
+        public let ipad:String = "ipad"
         /// 􀮕
-        let appsIpad:String = "apps.ipad"
+        public let appsIpad:String = "apps.ipad"
         /// 􀥓
-        let ipadHomebuttonLandscape:String = "ipad.homebutton.landscape"
+        public let ipadHomebuttonLandscape:String = "ipad.homebutton.landscape"
         /// 􀥔
-        let ipadLandscape:String = "ipad.landscape"
+        public let ipadLandscape:String = "ipad.landscape"
         /// 􀮖
-        let appsIpadLandscape:String = "apps.ipad.landscape"
+        public let appsIpadLandscape:String = "apps.ipad.landscape"
         /// 􀟤
-        let applewatch:String = "applewatch"
+        public let applewatch:String = "applewatch"
         /// 􀫋
-        let applewatchWatchface:String = "applewatch.watchface"
+        public let applewatchWatchface:String = "applewatch.watchface"
         /// 􀵄
-        let exclamationmarkApplewatch:String = "exclamationmark.applewatch"
+        public let exclamationmarkApplewatch:String = "exclamationmark.applewatch"
         /// 􀵅
-        let lockApplewatch:String = "lock.applewatch"
+        public let lockApplewatch:String = "lock.applewatch"
         /// 􀢷
-        let applewatchRadiowavesLeftAndRight:String = "applewatch.radiowaves.left.and.right"
+        public let applewatchRadiowavesLeftAndRight:String = "applewatch.radiowaves.left.and.right"
         /// 􀨶
-        let applewatchSlash:String = "applewatch.slash"
+        public let applewatchSlash:String = "applewatch.slash"
         /// 􀠦
-        let earpods:String = "earpods"
+        public let earpods:String = "earpods"
         /// 􀟥
-        let airpods:String = "airpods"
+        public let airpods:String = "airpods"
         /// 􀲋
-        let airpodRight:String = "airpod.right"
+        public let airpodRight:String = "airpod.right"
         /// 􀲌
-        let airpodLeft:String = "airpod.left"
+        public let airpodLeft:String = "airpod.left"
         /// 􀪷
-        let airpodspro:String = "airpodspro"
+        public let airpodspro:String = "airpodspro"
         /// 􀲍
-        let airpodproRight:String = "airpodpro.right"
+        public let airpodproRight:String = "airpodpro.right"
         /// 􀲎
-        let airpodproLeft:String = "airpodpro.left"
+        public let airpodproLeft:String = "airpodpro.left"
         /// 􀟢
-        let homepod:String = "homepod"
+        public let homepod:String = "homepod"
         /// 􀟣
-        let homepodFill:String = "homepod.fill"
+        public let homepodFill:String = "homepod.fill"
         /// 􀮍
-        let homepod2:String = "homepod.2"
+        public let homepod2:String = "homepod.2"
         /// 􀟳
-        let homepod2Fill:String = "homepod.2.fill"
+        public let homepod2Fill:String = "homepod.2.fill"
         /// 􀮎
-        let hifispeakerAndHomepod:String = "hifispeaker.and.homepod"
+        public let hifispeakerAndHomepod:String = "hifispeaker.and.homepod"
         /// 􀟴
-        let hifispeakerAndHomepodFill:String = "hifispeaker.and.homepod.fill"
+        public let hifispeakerAndHomepodFill:String = "hifispeaker.and.homepod.fill"
         /// 􀝎
-        let hifispeaker:String = "hifispeaker"
+        public let hifispeaker:String = "hifispeaker"
         /// 􀝏
-        let hifispeakerFill:String = "hifispeaker.fill"
+        public let hifispeakerFill:String = "hifispeaker.fill"
         /// 􀟵
-        let hifispeaker2:String = "hifispeaker.2"
+        public let hifispeaker2:String = "hifispeaker.2"
         /// 􀟶
-        let hifispeaker2Fill:String = "hifispeaker.2.fill"
+        public let hifispeaker2Fill:String = "hifispeaker.2.fill"
         /// 􀪔
-        let radio:String = "radio"
+        public let radio:String = "radio"
         /// 􀪕
-        let radioFill:String = "radio.fill"
+        public let radioFill:String = "radio.fill"
         /// 􀨫
-        let appletv:String = "appletv"
+        public let appletv:String = "appletv"
         /// 􀡴
-        let appletvFill:String = "appletv.fill"
+        public let appletvFill:String = "appletv.fill"
         /// 􀰯
-        let signpostLeft:String = "signpost.left"
+        public let signpostLeft:String = "signpost.left"
         /// 􀰰
-        let signpostLeftFill:String = "signpost.left.fill"
+        public let signpostLeftFill:String = "signpost.left.fill"
         /// 􀯌
-        let signpostRight:String = "signpost.right"
+        public let signpostRight:String = "signpost.right"
         /// 􀯍
-        let signpostRightFill:String = "signpost.right.fill"
+        public let signpostRightFill:String = "signpost.right.fill"
         /// 􀑡
-        let airplayvideo:String = "airplayvideo"
+        public let airplayvideo:String = "airplayvideo"
         /// 􀑢
-        let airplayaudio:String = "airplayaudio"
+        public let airplayaudio:String = "airplayaudio"
         /// 􀌙
-        let dotRadiowavesLeftAndRight:String = "dot.radiowaves.left.and.right"
+        public let dotRadiowavesLeftAndRight:String = "dot.radiowaves.left.and.right"
         /// 􀖒
-        let dotRadiowavesRight:String = "dot.radiowaves.right"
+        public let dotRadiowavesRight:String = "dot.radiowaves.right"
         /// 􀰭
-        let dotRadiowavesForward:String = "dot.radiowaves.forward"
+        public let dotRadiowavesForward:String = "dot.radiowaves.forward"
         /// 􀙱
-        let wave3Left:String = "wave.3.left"
+        public let wave3Left:String = "wave.3.left"
         /// 􀭷
-        let wave3LeftCircle:String = "wave.3.left.circle"
+        public let wave3LeftCircle:String = "wave.3.left.circle"
         /// 􀭸
-        let wave3LeftCircleFill:String = "wave.3.left.circle.fill"
+        public let wave3LeftCircleFill:String = "wave.3.left.circle.fill"
         /// 􀱘
-        let wave3Backward:String = "wave.3.backward"
+        public let wave3Backward:String = "wave.3.backward"
         /// 􀱙
-        let wave3BackwardCircle:String = "wave.3.backward.circle"
+        public let wave3BackwardCircle:String = "wave.3.backward.circle"
         /// 􀱚
-        let wave3BackwardCircleFill:String = "wave.3.backward.circle.fill"
+        public let wave3BackwardCircleFill:String = "wave.3.backward.circle.fill"
         /// 􀙲
-        let wave3Right:String = "wave.3.right"
+        public let wave3Right:String = "wave.3.right"
         /// 􀭹
-        let wave3RightCircle:String = "wave.3.right.circle"
+        public let wave3RightCircle:String = "wave.3.right.circle"
         /// 􀭺
-        let wave3RightCircleFill:String = "wave.3.right.circle.fill"
+        public let wave3RightCircleFill:String = "wave.3.right.circle.fill"
         /// 􀱛
-        let wave3Forward:String = "wave.3.forward"
+        public let wave3Forward:String = "wave.3.forward"
         /// 􀱜
-        let wave3ForwardCircle:String = "wave.3.forward.circle"
+        public let wave3ForwardCircle:String = "wave.3.forward.circle"
         /// 􀱝
-        let wave3ForwardCircleFill:String = "wave.3.forward.circle.fill"
+        public let wave3ForwardCircleFill:String = "wave.3.forward.circle.fill"
         /// 􀖀
-        let antennaRadiowavesLeftAndRight:String = "antenna.radiowaves.left.and.right"
+        public let antennaRadiowavesLeftAndRight:String = "antenna.radiowaves.left.and.right"
         /// 􀠳
-        let pip:String = "pip"
+        public let pip:String = "pip"
         /// 􀠴
-        let pipFill:String = "pip.fill"
+        public let pipFill:String = "pip.fill"
         /// 􀑧
-        let pipExit:String = "pip.exit"
+        public let pipExit:String = "pip.exit"
         /// 􀑨
-        let pipEnter:String = "pip.enter"
+        public let pipEnter:String = "pip.enter"
         /// 􀭱
-        let pipSwap:String = "pip.swap"
+        public let pipSwap:String = "pip.swap"
         /// 􀭲
-        let pipRemove:String = "pip.remove"
+        public let pipRemove:String = "pip.remove"
         /// 􀫹
-        let rectangleArrowtriangle2Outward:String = "rectangle.arrowtriangle.2.outward"
+        public let rectangleArrowtriangle2Outward:String = "rectangle.arrowtriangle.2.outward"
         /// 􀫺
-        let rectangleArrowtriangle2Inward:String = "rectangle.arrowtriangle.2.inward"
+        public let rectangleArrowtriangle2Inward:String = "rectangle.arrowtriangle.2.inward"
         /// 􀫻
-        let rectanglePortraitArrowtriangle2Outward:String = "rectangle.portrait.arrowtriangle.2.outward"
+        public let rectanglePortraitArrowtriangle2Outward:String = "rectangle.portrait.arrowtriangle.2.outward"
         /// 􀫼
-        let rectanglePortraitArrowtriangle2Inward:String = "rectangle.portrait.arrowtriangle.2.inward"
+        public let rectanglePortraitArrowtriangle2Inward:String = "rectangle.portrait.arrowtriangle.2.inward"
         /// 􀑭
-        let guitars:String = "guitars"
+        public let guitars:String = "guitars"
         /// 􀟑
-        let guitarsFill:String = "guitars.fill"
+        public let guitarsFill:String = "guitars.fill"
         /// 􀙘
-        let car:String = "car"
+        public let car:String = "car"
         /// 􀙙
-        let carFill:String = "car.fill"
+        public let carFill:String = "car.fill"
         /// 􀭯
-        let carCircle:String = "car.circle"
+        public let carCircle:String = "car.circle"
         /// 􀭰
-        let carCircleFill:String = "car.circle.fill"
+        public let carCircleFill:String = "car.circle.fill"
         /// 􀡞
-        let boltCar:String = "bolt.car"
+        public let boltCar:String = "bolt.car"
         /// 􀝃
-        let boltCarFill:String = "bolt.car.fill"
+        public let boltCarFill:String = "bolt.car.fill"
         /// 􀝄
-        let car2:String = "car.2"
+        public let car2:String = "car.2"
         /// 􀝅
-        let car2Fill:String = "car.2.fill"
+        public let car2Fill:String = "car.2.fill"
         /// 􀝈
-        let bus:String = "bus"
+        public let bus:String = "bus"
         /// 􀝉
-        let busFill:String = "bus.fill"
+        public let busFill:String = "bus.fill"
         /// 􀜛
-        let busDoubledecker:String = "bus.doubledecker"
+        public let busDoubledecker:String = "bus.doubledecker"
         /// 􀜜
-        let busDoubledeckerFill:String = "bus.doubledecker.fill"
+        public let busDoubledeckerFill:String = "bus.doubledecker.fill"
         /// 􀝆
-        let tram:String = "tram"
+        public let tram:String = "tram"
         /// 􀝇
-        let tramFill:String = "tram.fill"
+        public let tramFill:String = "tram.fill"
         /// 􀲛
-        let tramCircle:String = "tram.circle"
+        public let tramCircle:String = "tram.circle"
         /// 􀲜
-        let tramCircleFill:String = "tram.circle.fill"
+        public let tramCircleFill:String = "tram.circle.fill"
         /// 􀜝
-        let tramTunnelFill:String = "tram.tunnel.fill"
+        public let tramTunnelFill:String = "tram.tunnel.fill"
         /// 􀡥
-        let bicycle:String = "bicycle"
+        public let bicycle:String = "bicycle"
         /// 􀱬
-        let bicycleCircle:String = "bicycle.circle"
+        public let bicycleCircle:String = "bicycle.circle"
         /// 􀱭
-        let bicycleCircleFill:String = "bicycle.circle.fill"
+        public let bicycleCircleFill:String = "bicycle.circle.fill"
         /// 􀙩
-        let bedDouble:String = "bed.double"
+        public let bedDouble:String = "bed.double"
         /// 􀙪
-        let bedDoubleFill:String = "bed.double.fill"
+        public let bedDoubleFill:String = "bed.double.fill"
         /// 􀦚
-        let lungs:String = "lungs"
+        public let lungs:String = "lungs"
         /// 􀦛
-        let lungsFill:String = "lungs.fill"
+        public let lungsFill:String = "lungs.fill"
         /// 􀠱
-        let pills:String = "pills"
+        public let pills:String = "pills"
         /// 􀠲
-        let pillsFill:String = "pills.fill"
+        public let pillsFill:String = "pills.fill"
         /// 􀣜
-        let cross:String = "cross"
+        public let cross:String = "cross"
         /// 􀣝
-        let crossFill:String = "cross.fill"
+        public let crossFill:String = "cross.fill"
         /// 􀣞
-        let crossCircle:String = "cross.circle"
+        public let crossCircle:String = "cross.circle"
         /// 􀣟
-        let crossCircleFill:String = "cross.circle.fill"
+        public let crossCircleFill:String = "cross.circle.fill"
         /// 􀓎
-        let hare:String = "hare"
+        public let hare:String = "hare"
         /// 􀓏
-        let hareFill:String = "hare.fill"
+        public let hareFill:String = "hare.fill"
         /// 􀓐
-        let tortoise:String = "tortoise"
+        public let tortoise:String = "tortoise"
         /// 􀓑
-        let tortoiseFill:String = "tortoise.fill"
+        public let tortoiseFill:String = "tortoise.fill"
         /// 􀌚
-        let ant:String = "ant"
+        public let ant:String = "ant"
         /// 􀌛
-        let antFill:String = "ant.fill"
+        public let antFill:String = "ant.fill"
         /// 􀌜
-        let antCircle:String = "ant.circle"
+        public let antCircle:String = "ant.circle"
         /// 􀌝
-        let antCircleFill:String = "ant.circle.fill"
+        public let antCircleFill:String = "ant.circle.fill"
         /// 􀯔
-        let ladybug:String = "ladybug"
+        public let ladybug:String = "ladybug"
         /// 􀯕
-        let ladybugFill:String = "ladybug.fill"
+        public let ladybugFill:String = "ladybug.fill"
         /// 􀥲
-        let leaf:String = "leaf"
+        public let leaf:String = "leaf"
         /// 􀥳
-        let leafFill:String = "leaf.fill"
+        public let leafFill:String = "leaf.fill"
         /// 􀙜
-        let leafArrowTriangleCirclepath:String = "leaf.arrow.triangle.circlepath"
+        public let leafArrowTriangleCirclepath:String = "leaf.arrow.triangle.circlepath"
         /// 􀎶
-        let film:String = "film"
+        public let film:String = "film"
         /// 􀎷
-        let filmFill:String = "film.fill"
+        public let filmFill:String = "film.fill"
         /// 􀝐
-        let sportscourt:String = "sportscourt"
+        public let sportscourt:String = "sportscourt"
         /// 􀝑
-        let sportscourtFill:String = "sportscourt.fill"
+        public let sportscourtFill:String = "sportscourt.fill"
         /// 􀎸
-        let faceSmiling:String = "face.smiling"
+        public let faceSmiling:String = "face.smiling"
         /// 􀙌
-        let faceSmilingFill:String = "face.smiling.fill"
+        public let faceSmilingFill:String = "face.smiling.fill"
         /// 􀥧
-        let faceDashed:String = "face.dashed"
+        public let faceDashed:String = "face.dashed"
         /// 􀨸
-        let faceDashedFill:String = "face.dashed.fill"
+        public let faceDashedFill:String = "face.dashed.fill"
         /// 􀦅
-        let crown:String = "crown"
+        public let crown:String = "crown"
         /// 􀦆
-        let crownFill:String = "crown.fill"
+        public let crownFill:String = "crown.fill"
         /// 􀦈
-        let comb:String = "comb"
+        public let comb:String = "comb"
         /// 􀦉
-        let combFill:String = "comb.fill"
+        public let combFill:String = "comb.fill"
         /// 􀖂
-        let qrcode:String = "qrcode"
+        public let qrcode:String = "qrcode"
         /// 􀘱
-        let barcode:String = "barcode"
+        public let barcode:String = "barcode"
         /// 􀎹
-        let viewfinder:String = "viewfinder"
+        public let viewfinder:String = "viewfinder"
         /// 􀎿
-        let viewfinderCircle:String = "viewfinder.circle"
+        public let viewfinderCircle:String = "viewfinder.circle"
         /// 􀏀
-        let viewfinderCircleFill:String = "viewfinder.circle.fill"
+        public let viewfinderCircleFill:String = "viewfinder.circle.fill"
         /// 􀎺
-        let barcodeViewfinder:String = "barcode.viewfinder"
+        public let barcodeViewfinder:String = "barcode.viewfinder"
         /// 􀎻
-        let qrcodeViewfinder:String = "qrcode.viewfinder"
+        public let qrcodeViewfinder:String = "qrcode.viewfinder"
         /// 􀥄
-        let plusViewfinder:String = "plus.viewfinder"
+        public let plusViewfinder:String = "plus.viewfinder"
         /// 􀎼
-        let cameraViewfinder:String = "camera.viewfinder"
+        public let cameraViewfinder:String = "camera.viewfinder"
         /// 􀎽
-        let faceid:String = "faceid"
+        public let faceid:String = "faceid"
         /// 􀎾
-        let docTextViewfinder:String = "doc.text.viewfinder"
+        public let docTextViewfinder:String = "doc.text.viewfinder"
         /// 􀡢
-        let docTextFillViewfinder:String = "doc.text.fill.viewfinder"
+        public let docTextFillViewfinder:String = "doc.text.fill.viewfinder"
         /// 􀮃
-        let locationViewfinder:String = "location.viewfinder"
+        public let locationViewfinder:String = "location.viewfinder"
         /// 􀮄
-        let locationFillViewfinder:String = "location.fill.viewfinder"
+        public let locationFillViewfinder:String = "location.fill.viewfinder"
         /// 􀲏
-        let personFillViewfinder:String = "person.fill.viewfinder"
+        public let personFillViewfinder:String = "person.fill.viewfinder"
         /// 􀤳
-        let rectangleInsetFill:String = "rectangle.inset.fill"
+        public let rectangleInsetFill:String = "rectangle.inset.fill"
         /// 􀤴
-        let rectangleLefthalfInsetFill:String = "rectangle.lefthalf.inset.fill"
+        public let rectangleLefthalfInsetFill:String = "rectangle.lefthalf.inset.fill"
         /// 􀤵
-        let rectangleRighthalfInsetFill:String = "rectangle.righthalf.inset.fill"
+        public let rectangleRighthalfInsetFill:String = "rectangle.righthalf.inset.fill"
         /// 􀴊
-        let rectangleTopthirdInset:String = "rectangle.topthird.inset"
+        public let rectangleTopthirdInset:String = "rectangle.topthird.inset"
         /// 􀨨
-        let rectangleBottomthirdInsetFill:String = "rectangle.bottomthird.inset.fill"
+        public let rectangleBottomthirdInsetFill:String = "rectangle.bottomthird.inset.fill"
         /// 􀨱
-        let rectangleLeftthirdInsetFill:String = "rectangle.leftthird.inset.fill"
+        public let rectangleLeftthirdInsetFill:String = "rectangle.leftthird.inset.fill"
         /// 􀨩
-        let rectangleRightthirdInsetFill:String = "rectangle.rightthird.inset.fill"
+        public let rectangleRightthirdInsetFill:String = "rectangle.rightthird.inset.fill"
         /// 􀥝
-        let rectangleCenterInsetFill:String = "rectangle.center.inset.fill"
+        public let rectangleCenterInsetFill:String = "rectangle.center.inset.fill"
         /// 􀭳
-        let rectangleInsetTopleftFill:String = "rectangle.inset.topleft.fill"
+        public let rectangleInsetTopleftFill:String = "rectangle.inset.topleft.fill"
         /// 􀭴
-        let rectangleInsetToprightFill:String = "rectangle.inset.topright.fill"
+        public let rectangleInsetToprightFill:String = "rectangle.inset.topright.fill"
         /// 􀭵
-        let rectangleInsetBottomleftFill:String = "rectangle.inset.bottomleft.fill"
+        public let rectangleInsetBottomleftFill:String = "rectangle.inset.bottomleft.fill"
         /// 􀭶
-        let rectangleInsetBottomrightFill:String = "rectangle.inset.bottomright.fill"
+        public let rectangleInsetBottomrightFill:String = "rectangle.inset.bottomright.fill"
         /// 􀥞
-        let rectangleLefthalfInsetFillArrowLeft:String = "rectangle.lefthalf.inset.fill.arrow.left"
+        public let rectangleLefthalfInsetFillArrowLeft:String = "rectangle.lefthalf.inset.fill.arrow.left"
         /// 􀥟
-        let rectangleRighthalfInsetFillArrowRight:String = "rectangle.righthalf.inset.fill.arrow.right"
+        public let rectangleRighthalfInsetFillArrowRight:String = "rectangle.righthalf.inset.fill.arrow.right"
         /// 􀤶
-        let rectangleLefthalfFill:String = "rectangle.lefthalf.fill"
+        public let rectangleLefthalfFill:String = "rectangle.lefthalf.fill"
         /// 􀤷
-        let rectangleRighthalfFill:String = "rectangle.righthalf.fill"
+        public let rectangleRighthalfFill:String = "rectangle.righthalf.fill"
         /// 􀏏
-        let personCropRectangle:String = "person.crop.rectangle"
+        public let personCropRectangle:String = "person.crop.rectangle"
         /// 􀏐
-        let personCropRectangleFill:String = "person.crop.rectangle.fill"
+        public let personCropRectangleFill:String = "person.crop.rectangle.fill"
         /// 􀪨
-        let arrowUpAndPersonRectanglePortrait:String = "arrow.up.and.person.rectangle.portrait"
+        public let arrowUpAndPersonRectanglePortrait:String = "arrow.up.and.person.rectangle.portrait"
         /// 􀪩
-        let arrowUpAndPersonRectangleTurnRight:String = "arrow.up.and.person.rectangle.turn.right"
+        public let arrowUpAndPersonRectangleTurnRight:String = "arrow.up.and.person.rectangle.turn.right"
         /// 􀪪
-        let arrowUpAndPersonRectangleTurnLeft:String = "arrow.up.and.person.rectangle.turn.left"
+        public let arrowUpAndPersonRectangleTurnLeft:String = "arrow.up.and.person.rectangle.turn.left"
         /// 􀏅
-        let photo:String = "photo"
+        public let photo:String = "photo"
         /// 􀏆
-        let photoFill:String = "photo.fill"
+        public let photoFill:String = "photo.fill"
         /// 􀲱
-        let textBelowPhoto:String = "text.below.photo"
+        public let textBelowPhoto:String = "text.below.photo"
         /// 􀲲
-        let textBelowPhotoFill:String = "text.below.photo.fill"
+        public let textBelowPhotoFill:String = "text.below.photo.fill"
         /// 􀪫
-        let checkerboardRectangle:String = "checkerboard.rectangle"
+        public let checkerboardRectangle:String = "checkerboard.rectangle"
         /// 􀞲
-        let cameraMeteringCenterWeightedAverage:String = "camera.metering.center.weighted.average"
+        public let cameraMeteringCenterWeightedAverage:String = "camera.metering.center.weighted.average"
         /// 􀢪
-        let cameraMeteringCenterWeighted:String = "camera.metering.center.weighted"
+        public let cameraMeteringCenterWeighted:String = "camera.metering.center.weighted"
         /// 􀢫
-        let cameraMeteringMatrix:String = "camera.metering.matrix"
+        public let cameraMeteringMatrix:String = "camera.metering.matrix"
         /// 􀢬
-        let cameraMeteringMultispot:String = "camera.metering.multispot"
+        public let cameraMeteringMultispot:String = "camera.metering.multispot"
         /// 􀢭
-        let cameraMeteringNone:String = "camera.metering.none"
+        public let cameraMeteringNone:String = "camera.metering.none"
         /// 􀢮
-        let cameraMeteringPartial:String = "camera.metering.partial"
+        public let cameraMeteringPartial:String = "camera.metering.partial"
         /// 􀢯
-        let cameraMeteringSpot:String = "camera.metering.spot"
+        public let cameraMeteringSpot:String = "camera.metering.spot"
         /// 􀢰
-        let cameraMeteringUnknown:String = "camera.metering.unknown"
+        public let cameraMeteringUnknown:String = "camera.metering.unknown"
         /// 􀨺
-        let cameraAperture:String = "camera.aperture"
+        public let cameraAperture:String = "camera.aperture"
         /// 􀥁
-        let rectangleDashed:String = "rectangle.dashed"
+        public let rectangleDashed:String = "rectangle.dashed"
         /// 􀥂
-        let rectangleDashedBadgeRecord:String = "rectangle.dashed.badge.record"
+        public let rectangleDashedBadgeRecord:String = "rectangle.dashed.badge.record"
         /// 􀏑
-        let rectangleBadgePlus:String = "rectangle.badge.plus"
+        public let rectangleBadgePlus:String = "rectangle.badge.plus"
         /// 􀏒
-        let rectangleFillBadgePlus:String = "rectangle.fill.badge.plus"
+        public let rectangleFillBadgePlus:String = "rectangle.fill.badge.plus"
         /// 􀏓
-        let rectangleBadgeMinus:String = "rectangle.badge.minus"
+        public let rectangleBadgeMinus:String = "rectangle.badge.minus"
         /// 􀏔
-        let rectangleFillBadgeMinus:String = "rectangle.fill.badge.minus"
+        public let rectangleFillBadgeMinus:String = "rectangle.fill.badge.minus"
         /// 􀏕
-        let rectangleBadgeCheckmark:String = "rectangle.badge.checkmark"
+        public let rectangleBadgeCheckmark:String = "rectangle.badge.checkmark"
         /// 􀏖
-        let rectangleFillBadgeCheckmark:String = "rectangle.fill.badge.checkmark"
+        public let rectangleFillBadgeCheckmark:String = "rectangle.fill.badge.checkmark"
         /// 􀏗
-        let rectangleBadgeXmark:String = "rectangle.badge.xmark"
+        public let rectangleBadgeXmark:String = "rectangle.badge.xmark"
         /// 􀏘
-        let rectangleFillBadgeXmark:String = "rectangle.fill.badge.xmark"
+        public let rectangleFillBadgeXmark:String = "rectangle.fill.badge.xmark"
         /// 􀵚
-        let rectangleBadgePersonCrop:String = "rectangle.badge.person.crop"
+        public let rectangleBadgePersonCrop:String = "rectangle.badge.person.crop"
         /// 􀵛
-        let rectangleFillBadgePersonCrop:String = "rectangle.fill.badge.person.crop"
+        public let rectangleFillBadgePersonCrop:String = "rectangle.fill.badge.person.crop"
         /// 􀏚
-        let sidebarLeft:String = "sidebar.left"
+        public let sidebarLeft:String = "sidebar.left"
         /// 􀏛
-        let sidebarRight:String = "sidebar.right"
+        public let sidebarRight:String = "sidebar.right"
         /// 􀰱
-        let sidebarLeading:String = "sidebar.leading"
+        public let sidebarLeading:String = "sidebar.leading"
         /// 􀰲
-        let sidebarTrailing:String = "sidebar.trailing"
+        public let sidebarTrailing:String = "sidebar.trailing"
         /// 􀱤
-        let sidebarSquaresLeft:String = "sidebar.squares.left"
+        public let sidebarSquaresLeft:String = "sidebar.squares.left"
         /// 􀱥
-        let sidebarSquaresRight:String = "sidebar.squares.right"
+        public let sidebarSquaresRight:String = "sidebar.squares.right"
         /// 􀱦
-        let sidebarSquaresLeading:String = "sidebar.squares.leading"
+        public let sidebarSquaresLeading:String = "sidebar.squares.leading"
         /// 􀱧
-        let sidebarSquaresTrailing:String = "sidebar.squares.trailing"
+        public let sidebarSquaresTrailing:String = "sidebar.squares.trailing"
         /// 􀏜
-        let macwindow:String = "macwindow"
+        public let macwindow:String = "macwindow"
         /// 􀥃
-        let macwindowBadgePlus:String = "macwindow.badge.plus"
+        public let macwindowBadgePlus:String = "macwindow.badge.plus"
         /// 􀏞
-        let dockRectangle:String = "dock.rectangle"
+        public let dockRectangle:String = "dock.rectangle"
         /// 􀣾
-        let dockArrowUpRectangle:String = "dock.arrow.up.rectangle"
+        public let dockArrowUpRectangle:String = "dock.arrow.up.rectangle"
         /// 􀣿
-        let dockArrowDownRectangle:String = "dock.arrow.down.rectangle"
+        public let dockArrowDownRectangle:String = "dock.arrow.down.rectangle"
         /// 􀦍
-        let menubarRectangle:String = "menubar.rectangle"
+        public let menubarRectangle:String = "menubar.rectangle"
         /// 􀣰
-        let menubarDockRectangle:String = "menubar.dock.rectangle"
+        public let menubarDockRectangle:String = "menubar.dock.rectangle"
         /// 􀣑
-        let menubarDockRectangleBadgeRecord:String = "menubar.dock.rectangle.badge.record"
+        public let menubarDockRectangleBadgeRecord:String = "menubar.dock.rectangle.badge.record"
         /// 􀤀
-        let menubarArrowUpRectangle:String = "menubar.arrow.up.rectangle"
+        public let menubarArrowUpRectangle:String = "menubar.arrow.up.rectangle"
         /// 􀤁
-        let menubarArrowDownRectangle:String = "menubar.arrow.down.rectangle"
+        public let menubarArrowDownRectangle:String = "menubar.arrow.down.rectangle"
         /// 􀢌
-        let macwindowOnRectangle:String = "macwindow.on.rectangle"
+        public let macwindowOnRectangle:String = "macwindow.on.rectangle"
         /// 􀣚
-        let textAndCommandMacwindow:String = "text.and.command.macwindow"
+        public let textAndCommandMacwindow:String = "text.and.command.macwindow"
         /// 􀤯
-        let keyboardMacwindow:String = "keyboard.macwindow"
+        public let keyboardMacwindow:String = "keyboard.macwindow"
         /// 􀏝
-        let uiwindowSplit2x1:String = "uiwindow.split.2x1"
+        public let uiwindowSplit2x1:String = "uiwindow.split.2x1"
         /// 􀏟
-        let rectangleSplit3x1:String = "rectangle.split.3x1"
+        public let rectangleSplit3x1:String = "rectangle.split.3x1"
         /// 􀕸
-        let rectangleSplit3x1Fill:String = "rectangle.split.3x1.fill"
+        public let rectangleSplit3x1Fill:String = "rectangle.split.3x1.fill"
         /// 􀏠
-        let squareSplit2x1:String = "square.split.2x1"
+        public let squareSplit2x1:String = "square.split.2x1"
         /// 􀘜
-        let squareSplit2x1Fill:String = "square.split.2x1.fill"
+        public let squareSplit2x1Fill:String = "square.split.2x1.fill"
         /// 􀕰
-        let squareSplit1x2:String = "square.split.1x2"
+        public let squareSplit1x2:String = "square.split.1x2"
         /// 􀕱
-        let squareSplit1x2Fill:String = "square.split.1x2.fill"
+        public let squareSplit1x2Fill:String = "square.split.1x2.fill"
         /// 􀕮
-        let squareSplit2x2:String = "square.split.2x2"
+        public let squareSplit2x2:String = "square.split.2x2"
         /// 􀕯
-        let squareSplit2x2Fill:String = "square.split.2x2.fill"
+        public let squareSplit2x2Fill:String = "square.split.2x2.fill"
         /// 􀕲
-        let squareSplitDiagonal2x2:String = "square.split.diagonal.2x2"
+        public let squareSplitDiagonal2x2:String = "square.split.diagonal.2x2"
         /// 􀕳
-        let squareSplitDiagonal2x2Fill:String = "square.split.diagonal.2x2.fill"
+        public let squareSplitDiagonal2x2Fill:String = "square.split.diagonal.2x2.fill"
         /// 􀡗
-        let squareSplitDiagonal:String = "square.split.diagonal"
+        public let squareSplitDiagonal:String = "square.split.diagonal"
         /// 􀡘
-        let squareSplitDiagonalFill:String = "square.split.diagonal.fill"
+        public let squareSplitDiagonalFill:String = "square.split.diagonal.fill"
         /// 􀯫
-        let mosaic:String = "mosaic"
+        public let mosaic:String = "mosaic"
         /// 􀯬
-        let mosaicFill:String = "mosaic.fill"
+        public let mosaicFill:String = "mosaic.fill"
         /// 􀏡
-        let squaresBelowRectangle:String = "squares.below.rectangle"
+        public let squaresBelowRectangle:String = "squares.below.rectangle"
         /// 􀏢
-        let rectangleSplit3x3:String = "rectangle.split.3x3"
+        public let rectangleSplit3x3:String = "rectangle.split.3x3"
         /// 􀘮
-        let rectangleSplit3x3Fill:String = "rectangle.split.3x3.fill"
+        public let rectangleSplit3x3Fill:String = "rectangle.split.3x3.fill"
         /// 􀧈
-        let rectangleSplit2x1:String = "rectangle.split.2x1"
+        public let rectangleSplit2x1:String = "rectangle.split.2x1"
         /// 􀧉
-        let rectangleSplit2x1Fill:String = "rectangle.split.2x1.fill"
+        public let rectangleSplit2x1Fill:String = "rectangle.split.2x1.fill"
         /// 􀧊
-        let rectangleSplit1x2:String = "rectangle.split.1x2"
+        public let rectangleSplit1x2:String = "rectangle.split.1x2"
         /// 􀧋
-        let rectangleSplit1x2Fill:String = "rectangle.split.1x2.fill"
+        public let rectangleSplit1x2Fill:String = "rectangle.split.1x2.fill"
         /// 􀧌
-        let rectangleSplit2x2:String = "rectangle.split.2x2"
+        public let rectangleSplit2x2:String = "rectangle.split.2x2"
         /// 􀧍
-        let rectangleSplit2x2Fill:String = "rectangle.split.2x2.fill"
+        public let rectangleSplit2x2Fill:String = "rectangle.split.2x2.fill"
         /// 􀏣
-        let tablecells:String = "tablecells"
+        public let tablecells:String = "tablecells"
         /// 􀏤
-        let tablecellsFill:String = "tablecells.fill"
+        public let tablecellsFill:String = "tablecells.fill"
         /// 􀏥
-        let tablecellsBadgeEllipsis:String = "tablecells.badge.ellipsis"
+        public let tablecellsBadgeEllipsis:String = "tablecells.badge.ellipsis"
         /// 􀏦
-        let tablecellsBadgeEllipsisFill:String = "tablecells.badge.ellipsis.fill"
+        public let tablecellsBadgeEllipsisFill:String = "tablecells.badge.ellipsis.fill"
         /// 􀏧
-        let rectangleOnRectangle:String = "rectangle.on.rectangle"
+        public let rectangleOnRectangle:String = "rectangle.on.rectangle"
         /// 􀏨
-        let rectangleFillOnRectangleFill:String = "rectangle.fill.on.rectangle.fill"
+        public let rectangleFillOnRectangleFill:String = "rectangle.fill.on.rectangle.fill"
         /// 􀤽
-        let rectangleFillOnRectangleFillCircle:String = "rectangle.fill.on.rectangle.fill.circle"
+        public let rectangleFillOnRectangleFillCircle:String = "rectangle.fill.on.rectangle.fill.circle"
         /// 􀤾
-        let rectangleFillOnRectangleFillCircleFill:String = "rectangle.fill.on.rectangle.fill.circle.fill"
+        public let rectangleFillOnRectangleFillCircleFill:String = "rectangle.fill.on.rectangle.fill.circle.fill"
         /// 􀥀
-        let rectangleOnRectangleSlash:String = "rectangle.on.rectangle.slash"
+        public let rectangleOnRectangleSlash:String = "rectangle.on.rectangle.slash"
         /// 􀤿
-        let rectangleFillOnRectangleFillSlashFill:String = "rectangle.fill.on.rectangle.fill.slash.fill"
+        public let rectangleFillOnRectangleFillSlashFill:String = "rectangle.fill.on.rectangle.fill.slash.fill"
         /// 􀏩
-        let plusRectangleOnRectangle:String = "plus.rectangle.on.rectangle"
+        public let plusRectangleOnRectangle:String = "plus.rectangle.on.rectangle"
         /// 􀏪
-        let plusRectangleFillOnRectangleFill:String = "plus.rectangle.fill.on.rectangle.fill"
+        public let plusRectangleFillOnRectangleFill:String = "plus.rectangle.fill.on.rectangle.fill"
         /// 􀏫
-        let photoOnRectangle:String = "photo.on.rectangle"
+        public let photoOnRectangle:String = "photo.on.rectangle"
         /// 􀏬
-        let photoFillOnRectangleFill:String = "photo.fill.on.rectangle.fill"
+        public let photoFillOnRectangleFill:String = "photo.fill.on.rectangle.fill"
         /// 􀑯
-        let rectangleOnRectangleAngled:String = "rectangle.on.rectangle.angled"
+        public let rectangleOnRectangleAngled:String = "rectangle.on.rectangle.angled"
         /// 􀑰
-        let rectangleFillOnRectangleAngledFill:String = "rectangle.fill.on.rectangle.angled.fill"
+        public let rectangleFillOnRectangleAngledFill:String = "rectangle.fill.on.rectangle.angled.fill"
         /// 􀣵
-        let photoOnRectangleAngled:String = "photo.on.rectangle.angled"
+        public let photoOnRectangleAngled:String = "photo.on.rectangle.angled"
         /// 􀏭
-        let rectangleStack:String = "rectangle.stack"
+        public let rectangleStack:String = "rectangle.stack"
         /// 􀏮
-        let rectangleStackFill:String = "rectangle.stack.fill"
+        public let rectangleStackFill:String = "rectangle.stack.fill"
         /// 􀏱
-        let rectangleStackBadgePlus:String = "rectangle.stack.badge.plus"
+        public let rectangleStackBadgePlus:String = "rectangle.stack.badge.plus"
         /// 􀏲
-        let rectangleStackFillBadgePlus:String = "rectangle.stack.fill.badge.plus"
+        public let rectangleStackFillBadgePlus:String = "rectangle.stack.fill.badge.plus"
         /// 􀏳
-        let rectangleStackBadgeMinus:String = "rectangle.stack.badge.minus"
+        public let rectangleStackBadgeMinus:String = "rectangle.stack.badge.minus"
         /// 􀏴
-        let rectangleStackFillBadgeMinus:String = "rectangle.stack.fill.badge.minus"
+        public let rectangleStackFillBadgeMinus:String = "rectangle.stack.fill.badge.minus"
         /// 􀏹
-        let rectangleStackBadgePersonCrop:String = "rectangle.stack.badge.person.crop"
+        public let rectangleStackBadgePersonCrop:String = "rectangle.stack.badge.person.crop"
         /// 􀏺
-        let rectangleStackFillBadgePersonCrop:String = "rectangle.stack.fill.badge.person.crop"
+        public let rectangleStackFillBadgePersonCrop:String = "rectangle.stack.fill.badge.person.crop"
         /// 􀲳
-        let sparklesRectangleStack:String = "sparkles.rectangle.stack"
+        public let sparklesRectangleStack:String = "sparkles.rectangle.stack"
         /// 􀲴
-        let sparklesRectangleStackFill:String = "sparkles.rectangle.stack.fill"
+        public let sparklesRectangleStackFill:String = "sparkles.rectangle.stack.fill"
         /// 􀭘
-        let rSquareOnSquare:String = "r.square.on.square"
+        public let rSquareOnSquare:String = "r.square.on.square"
         /// 􀭙
-        let rSquareFillOnSquareFill:String = "r.square.fill.on.square.fill"
+        public let rSquareFillOnSquareFill:String = "r.square.fill.on.square.fill"
         /// 􀭚
-        let jSquareOnSquare:String = "j.square.on.square"
+        public let jSquareOnSquare:String = "j.square.on.square"
         /// 􀭛
-        let jSquareFillOnSquareFill:String = "j.square.fill.on.square.fill"
+        public let jSquareFillOnSquareFill:String = "j.square.fill.on.square.fill"
         /// 􀭜
-        let hSquareOnSquare:String = "h.square.on.square"
+        public let hSquareOnSquare:String = "h.square.on.square"
         /// 􀭝
-        let hSquareFillOnSquareFill:String = "h.square.fill.on.square.fill"
+        public let hSquareFillOnSquareFill:String = "h.square.fill.on.square.fill"
         /// 􀐅
-        let squareOnSquare:String = "square.on.square"
+        public let squareOnSquare:String = "square.on.square"
         /// 􀐆
-        let squareFillOnSquareFill:String = "square.fill.on.square.fill"
+        public let squareFillOnSquareFill:String = "square.fill.on.square.fill"
         /// 􀫝
-        let squareFillOnSquare:String = "square.fill.on.square"
+        public let squareFillOnSquare:String = "square.fill.on.square"
         /// 􀰙
-        let sparklesSquareFillOnSquare:String = "sparkles.square.fill.on.square"
+        public let sparklesSquareFillOnSquare:String = "sparkles.square.fill.on.square"
         /// 􀯇
-        let squareOnSquareDashed:String = "square.on.square.dashed"
+        public let squareOnSquareDashed:String = "square.on.square.dashed"
         /// 􀐇
-        let plusSquareOnSquare:String = "plus.square.on.square"
+        public let plusSquareOnSquare:String = "plus.square.on.square"
         /// 􀐈
-        let plusSquareFillOnSquareFill:String = "plus.square.fill.on.square.fill"
+        public let plusSquareFillOnSquareFill:String = "plus.square.fill.on.square.fill"
         /// 􀐉
-        let squareOnCircle:String = "square.on.circle"
+        public let squareOnCircle:String = "square.on.circle"
         /// 􀐊
-        let squareFillOnCircleFill:String = "square.fill.on.circle.fill"
+        public let squareFillOnCircleFill:String = "square.fill.on.circle.fill"
         /// 􀩶
-        let squareOnSquareSquareshapeControlhandles:String = "square.on.square.squareshape.controlhandles"
+        public let squareOnSquareSquareshapeControlhandles:String = "square.on.square.squareshape.controlhandles"
         /// 􀩷
-        let squareshapeControlhandlesOnSquareshapeControlhandles:String = "squareshape.controlhandles.on.squareshape.controlhandles"
+        public let squareshapeControlhandlesOnSquareshapeControlhandles:String = "squareshape.controlhandles.on.squareshape.controlhandles"
         /// 􀐋
-        let squareStack:String = "square.stack"
+        public let squareStack:String = "square.stack"
         /// 􀐌
-        let squareStackFill:String = "square.stack.fill"
+        public let squareStackFill:String = "square.stack.fill"
         /// 􀐏
-        let pano:String = "pano"
+        public let pano:String = "pano"
         /// 􀐐
-        let panoFill:String = "pano.fill"
+        public let panoFill:String = "pano.fill"
         /// 􀐑
-        let squareAndLineVerticalAndSquare:String = "square.and.line.vertical.and.square"
+        public let squareAndLineVerticalAndSquare:String = "square.and.line.vertical.and.square"
         /// 􀐒
-        let squareFillAndLineVerticalSquareFill:String = "square.fill.and.line.vertical.square.fill"
+        public let squareFillAndLineVerticalSquareFill:String = "square.fill.and.line.vertical.square.fill"
         /// 􀐓
-        let squareFillAndLineVerticalAndSquare:String = "square.fill.and.line.vertical.and.square"
+        public let squareFillAndLineVerticalAndSquare:String = "square.fill.and.line.vertical.and.square"
         /// 􀐔
-        let squareAndLineVerticalAndSquareFill:String = "square.and.line.vertical.and.square.fill"
+        public let squareAndLineVerticalAndSquareFill:String = "square.and.line.vertical.and.square.fill"
         /// 􀐕
-        let flowchart:String = "flowchart"
+        public let flowchart:String = "flowchart"
         /// 􀐖
-        let flowchartFill:String = "flowchart.fill"
+        public let flowchartFill:String = "flowchart.fill"
         /// 􀩲
-        let rectangleConnectedToLineBelow:String = "rectangle.connected.to.line.below"
+        public let rectangleConnectedToLineBelow:String = "rectangle.connected.to.line.below"
         /// 􀙦
-        let shield:String = "shield"
+        public let shield:String = "shield"
         /// 􀞡
-        let shieldSlash:String = "shield.slash"
+        public let shieldSlash:String = "shield.slash"
         /// 􀙧
-        let shieldFill:String = "shield.fill"
+        public let shieldFill:String = "shield.fill"
         /// 􀞢
-        let shieldSlashFill:String = "shield.slash.fill"
+        public let shieldSlashFill:String = "shield.slash.fill"
         /// 􀙨
-        let shieldLefthalfFill:String = "shield.lefthalf.fill"
+        public let shieldLefthalfFill:String = "shield.lefthalf.fill"
         /// 􀲊
-        let shieldLefthalfFillSlash:String = "shield.lefthalf.fill.slash"
+        public let shieldLefthalfFillSlash:String = "shield.lefthalf.fill.slash"
         /// 􀵔
-        let shieldCheckerboard:String = "shield.checkerboard"
+        public let shieldCheckerboard:String = "shield.checkerboard"
         /// 􀜊
-        let switch2:String = "switch.2"
+        public let switch2:String = "switch.2"
         /// 􀣱
-        let pointTopleftDownCurvedtoPointBottomrightUp:String = "point.topleft.down.curvedto.point.bottomright.up"
+        public let pointTopleftDownCurvedtoPointBottomrightUp:String = "point.topleft.down.curvedto.point.bottomright.up"
         /// 􀬱
-        let pointFillTopleftDownCurvedtoPointFillBottomrightUp:String = "point.fill.topleft.down.curvedto.point.fill.bottomright.up"
+        public let pointFillTopleftDownCurvedtoPointFillBottomrightUp:String = "point.fill.topleft.down.curvedto.point.fill.bottomright.up"
         /// 􀌆
-        let sliderHorizontal3:String = "slider.horizontal.3"
+        public let sliderHorizontal3:String = "slider.horizontal.3"
         /// 􀐗
-        let sliderHorizontalBelowRectangle:String = "slider.horizontal.below.rectangle"
+        public let sliderHorizontalBelowRectangle:String = "slider.horizontal.below.rectangle"
         /// 􀰗
-        let sliderHorizontalBelowSquareFillAndSquare:String = "slider.horizontal.below.square.fill.and.square"
+        public let sliderHorizontalBelowSquareFillAndSquare:String = "slider.horizontal.below.square.fill.and.square"
         /// 􀟲
-        let sliderVertical3:String = "slider.vertical.3"
+        public let sliderVertical3:String = "slider.vertical.3"
         /// 􀐘
-        let cube:String = "cube"
+        public let cube:String = "cube"
         /// 􀐙
-        let cubeFill:String = "cube.fill"
+        public let cubeFill:String = "cube.fill"
         /// 􀬨
-        let cubeTransparent:String = "cube.transparent"
+        public let cubeTransparent:String = "cube.transparent"
         /// 􀳴
-        let cubeTransparentFill:String = "cube.transparent.fill"
+        public let cubeTransparentFill:String = "cube.transparent.fill"
         /// 􀐚
-        let shippingbox:String = "shippingbox"
+        public let shippingbox:String = "shippingbox"
         /// 􀐛
-        let shippingboxFill:String = "shippingbox.fill"
+        public let shippingboxFill:String = "shippingbox.fill"
         /// 􀘸
-        let arkit:String = "arkit"
+        public let arkit:String = "arkit"
         /// 􀳇
-        let cone:String = "cone"
+        public let cone:String = "cone"
         /// 􀳈
-        let coneFill:String = "cone.fill"
+        public let coneFill:String = "cone.fill"
         /// 􀳋
-        let pyramid:String = "pyramid"
+        public let pyramid:String = "pyramid"
         /// 􀳌
-        let pyramidFill:String = "pyramid.fill"
+        public let pyramidFill:String = "pyramid.fill"
         /// 􀐜
-        let squareStack3dDownRight:String = "square.stack.3d.down.right"
+        public let squareStack3dDownRight:String = "square.stack.3d.down.right"
         /// 􀐝
-        let squareStack3dDownRightFill:String = "square.stack.3d.down.right.fill"
+        public let squareStack3dDownRightFill:String = "square.stack.3d.down.right.fill"
         /// 􀰳
-        let squareStack3dDownForward:String = "square.stack.3d.down.forward"
+        public let squareStack3dDownForward:String = "square.stack.3d.down.forward"
         /// 􀰴
-        let squareStack3dDownForwardFill:String = "square.stack.3d.down.forward.fill"
+        public let squareStack3dDownForwardFill:String = "square.stack.3d.down.forward.fill"
         /// 􀐞
-        let squareStack3dUp:String = "square.stack.3d.up"
+        public let squareStack3dUp:String = "square.stack.3d.up"
         /// 􀐟
-        let squareStack3dUpFill:String = "square.stack.3d.up.fill"
+        public let squareStack3dUpFill:String = "square.stack.3d.up.fill"
         /// 􀙒
-        let squareStack3dUpSlash:String = "square.stack.3d.up.slash"
+        public let squareStack3dUpSlash:String = "square.stack.3d.up.slash"
         /// 􀙓
-        let squareStack3dUpSlashFill:String = "square.stack.3d.up.slash.fill"
+        public let squareStack3dUpSlashFill:String = "square.stack.3d.up.slash.fill"
         /// 􀙐
-        let squareStack3dUpBadgeA:String = "square.stack.3d.up.badge.a"
+        public let squareStack3dUpBadgeA:String = "square.stack.3d.up.badge.a"
         /// 􀙑
-        let squareStack3dUpBadgeAFill:String = "square.stack.3d.up.badge.a.fill"
+        public let squareStack3dUpBadgeAFill:String = "square.stack.3d.up.badge.a.fill"
         /// 􀐠
-        let squareStack3dForwardDottedline:String = "square.stack.3d.forward.dottedline"
+        public let squareStack3dForwardDottedline:String = "square.stack.3d.forward.dottedline"
         /// 􀧏
-        let squareStack3dForwardDottedlineFill:String = "square.stack.3d.forward.dottedline.fill"
+        public let squareStack3dForwardDottedlineFill:String = "square.stack.3d.forward.dottedline.fill"
         /// 􀐡
-        let livephoto:String = "livephoto"
+        public let livephoto:String = "livephoto"
         /// 􀐢
-        let livephotoSlash:String = "livephoto.slash"
+        public let livephotoSlash:String = "livephoto.slash"
         /// 􀙔
-        let livephotoBadgeA:String = "livephoto.badge.a"
+        public let livephotoBadgeA:String = "livephoto.badge.a"
         /// 􀐣
-        let livephotoPlay:String = "livephoto.play"
+        public let livephotoPlay:String = "livephoto.play"
         /// 􀐩
-        let scope:String = "scope"
+        public let scope:String = "scope"
         /// 􀐪
-        let helm:String = "helm"
+        public let helm:String = "helm"
         /// 􀐫
-        let clock:String = "clock"
+        public let clock:String = "clock"
         /// 􀐬
-        let clockFill:String = "clock.fill"
+        public let clockFill:String = "clock.fill"
         /// 􀡑
-        let deskclock:String = "deskclock"
+        public let deskclock:String = "deskclock"
         /// 􀡒
-        let deskclockFill:String = "deskclock.fill"
+        public let deskclockFill:String = "deskclock.fill"
         /// 􀐭
-        let alarm:String = "alarm"
+        public let alarm:String = "alarm"
         /// 􀐮
-        let alarmFill:String = "alarm.fill"
+        public let alarmFill:String = "alarm.fill"
         /// 􀐯
-        let stopwatch:String = "stopwatch"
+        public let stopwatch:String = "stopwatch"
         /// 􀐰
-        let stopwatchFill:String = "stopwatch.fill"
+        public let stopwatchFill:String = "stopwatch.fill"
         /// 􀐱
-        let timer:String = "timer"
+        public let timer:String = "timer"
         /// 􀭄
-        let timerSquare:String = "timer.square"
+        public let timerSquare:String = "timer.square"
         /// 􀣔
-        let clockArrowCirclepath:String = "clock.arrow.circlepath"
+        public let clockArrowCirclepath:String = "clock.arrow.circlepath"
         /// 􀱨
-        let exclamationmarkArrowCirclepath:String = "exclamationmark.arrow.circlepath"
+        public let exclamationmarkArrowCirclepath:String = "exclamationmark.arrow.circlepath"
         /// 􀯛
-        let clockArrow2Circlepath:String = "clock.arrow.2.circlepath"
+        public let clockArrow2Circlepath:String = "clock.arrow.2.circlepath"
         /// 􀛸
-        let gamecontroller:String = "gamecontroller"
+        public let gamecontroller:String = "gamecontroller"
         /// 􀛹
-        let gamecontrollerFill:String = "gamecontroller.fill"
+        public let gamecontrollerFill:String = "gamecontroller.fill"
         /// 􀦒
-        let lJoystick:String = "l.joystick"
+        public let lJoystick:String = "l.joystick"
         /// 􀫁
-        let lJoystickFill:String = "l.joystick.fill"
+        public let lJoystickFill:String = "l.joystick.fill"
         /// 􀦓
-        let rJoystick:String = "r.joystick"
+        public let rJoystick:String = "r.joystick"
         /// 􀫂
-        let rJoystickFill:String = "r.joystick.fill"
+        public let rJoystickFill:String = "r.joystick.fill"
         /// 􀦔
-        let lJoystickDown:String = "l.joystick.down"
+        public let lJoystickDown:String = "l.joystick.down"
         /// 􀫃
-        let lJoystickDownFill:String = "l.joystick.down.fill"
+        public let lJoystickDownFill:String = "l.joystick.down.fill"
         /// 􀦕
-        let rJoystickDown:String = "r.joystick.down"
+        public let rJoystickDown:String = "r.joystick.down"
         /// 􀫄
-        let rJoystickDownFill:String = "r.joystick.down.fill"
+        public let rJoystickDownFill:String = "r.joystick.down.fill"
         /// 􀨲
-        let dpad:String = "dpad"
+        public let dpad:String = "dpad"
         /// 􀧼
-        let dpadFill:String = "dpad.fill"
+        public let dpadFill:String = "dpad.fill"
         /// 􀧽
-        let dpadLeftFill:String = "dpad.left.fill"
+        public let dpadLeftFill:String = "dpad.left.fill"
         /// 􀧾
-        let dpadUpFill:String = "dpad.up.fill"
+        public let dpadUpFill:String = "dpad.up.fill"
         /// 􀧿
-        let dpadRightFill:String = "dpad.right.fill"
+        public let dpadRightFill:String = "dpad.right.fill"
         /// 􀨀
-        let dpadDownFill:String = "dpad.down.fill"
+        public let dpadDownFill:String = "dpad.down.fill"
         /// 􀨁
-        let circleCircle:String = "circle.circle"
+        public let circleCircle:String = "circle.circle"
         /// 􀨂
-        let circleCircleFill:String = "circle.circle.fill"
+        public let circleCircleFill:String = "circle.circle.fill"
         /// 􀨃
-        let squareCircle:String = "square.circle"
+        public let squareCircle:String = "square.circle"
         /// 􀨄
-        let squareCircleFill:String = "square.circle.fill"
+        public let squareCircleFill:String = "square.circle.fill"
         /// 􀨅
-        let triangleCircle:String = "triangle.circle"
+        public let triangleCircle:String = "triangle.circle"
         /// 􀨆
-        let triangleCircleFill:String = "triangle.circle.fill"
+        public let triangleCircleFill:String = "triangle.circle.fill"
         /// 􀩸
-        let rectangleRoundedtop:String = "rectangle.roundedtop"
+        public let rectangleRoundedtop:String = "rectangle.roundedtop"
         /// 􀩹
-        let rectangleRoundedtopFill:String = "rectangle.roundedtop.fill"
+        public let rectangleRoundedtopFill:String = "rectangle.roundedtop.fill"
         /// 􀩺
-        let rectangleRoundedbottom:String = "rectangle.roundedbottom"
+        public let rectangleRoundedbottom:String = "rectangle.roundedbottom"
         /// 􀩻
-        let rectangleRoundedbottomFill:String = "rectangle.roundedbottom.fill"
+        public let rectangleRoundedbottomFill:String = "rectangle.roundedbottom.fill"
         /// 􀨇
-        let lRectangleRoundedbottom:String = "l.rectangle.roundedbottom"
+        public let lRectangleRoundedbottom:String = "l.rectangle.roundedbottom"
         /// 􀨈
-        let lRectangleRoundedbottomFill:String = "l.rectangle.roundedbottom.fill"
+        public let lRectangleRoundedbottomFill:String = "l.rectangle.roundedbottom.fill"
         /// 􀨉
-        let l1RectangleRoundedbottom:String = "l1.rectangle.roundedbottom"
+        public let l1RectangleRoundedbottom:String = "l1.rectangle.roundedbottom"
         /// 􀨊
-        let l1RectangleRoundedbottomFill:String = "l1.rectangle.roundedbottom.fill"
+        public let l1RectangleRoundedbottomFill:String = "l1.rectangle.roundedbottom.fill"
         /// 􀨋
-        let l2RectangleRoundedtop:String = "l2.rectangle.roundedtop"
+        public let l2RectangleRoundedtop:String = "l2.rectangle.roundedtop"
         /// 􀨌
-        let l2RectangleRoundedtopFill:String = "l2.rectangle.roundedtop.fill"
+        public let l2RectangleRoundedtopFill:String = "l2.rectangle.roundedtop.fill"
         /// 􀨍
-        let rRectangleRoundedbottom:String = "r.rectangle.roundedbottom"
+        public let rRectangleRoundedbottom:String = "r.rectangle.roundedbottom"
         /// 􀨎
-        let rRectangleRoundedbottomFill:String = "r.rectangle.roundedbottom.fill"
+        public let rRectangleRoundedbottomFill:String = "r.rectangle.roundedbottom.fill"
         /// 􀨏
-        let r1RectangleRoundedbottom:String = "r1.rectangle.roundedbottom"
+        public let r1RectangleRoundedbottom:String = "r1.rectangle.roundedbottom"
         /// 􀨐
-        let r1RectangleRoundedbottomFill:String = "r1.rectangle.roundedbottom.fill"
+        public let r1RectangleRoundedbottomFill:String = "r1.rectangle.roundedbottom.fill"
         /// 􀨑
-        let r2RectangleRoundedtop:String = "r2.rectangle.roundedtop"
+        public let r2RectangleRoundedtop:String = "r2.rectangle.roundedtop"
         /// 􀨒
-        let r2RectangleRoundedtopFill:String = "r2.rectangle.roundedtop.fill"
+        public let r2RectangleRoundedtopFill:String = "r2.rectangle.roundedtop.fill"
         /// 􀨓
-        let lbRectangleRoundedbottom:String = "lb.rectangle.roundedbottom"
+        public let lbRectangleRoundedbottom:String = "lb.rectangle.roundedbottom"
         /// 􀨔
-        let lbRectangleRoundedbottomFill:String = "lb.rectangle.roundedbottom.fill"
+        public let lbRectangleRoundedbottomFill:String = "lb.rectangle.roundedbottom.fill"
         /// 􀨕
-        let rbRectangleRoundedbottom:String = "rb.rectangle.roundedbottom"
+        public let rbRectangleRoundedbottom:String = "rb.rectangle.roundedbottom"
         /// 􀨖
-        let rbRectangleRoundedbottomFill:String = "rb.rectangle.roundedbottom.fill"
+        public let rbRectangleRoundedbottomFill:String = "rb.rectangle.roundedbottom.fill"
         /// 􀨗
-        let ltRectangleRoundedtop:String = "lt.rectangle.roundedtop"
+        public let ltRectangleRoundedtop:String = "lt.rectangle.roundedtop"
         /// 􀨘
-        let ltRectangleRoundedtopFill:String = "lt.rectangle.roundedtop.fill"
+        public let ltRectangleRoundedtopFill:String = "lt.rectangle.roundedtop.fill"
         /// 􀨙
-        let rtRectangleRoundedtop:String = "rt.rectangle.roundedtop"
+        public let rtRectangleRoundedtop:String = "rt.rectangle.roundedtop"
         /// 􀨚
-        let rtRectangleRoundedtopFill:String = "rt.rectangle.roundedtop.fill"
+        public let rtRectangleRoundedtopFill:String = "rt.rectangle.roundedtop.fill"
         /// 􀨛
-        let zlRectangleRoundedtop:String = "zl.rectangle.roundedtop"
+        public let zlRectangleRoundedtop:String = "zl.rectangle.roundedtop"
         /// 􀨜
-        let zlRectangleRoundedtopFill:String = "zl.rectangle.roundedtop.fill"
+        public let zlRectangleRoundedtopFill:String = "zl.rectangle.roundedtop.fill"
         /// 􀨝
-        let zrRectangleRoundedtop:String = "zr.rectangle.roundedtop"
+        public let zrRectangleRoundedtop:String = "zr.rectangle.roundedtop"
         /// 􀨞
-        let zrRectangleRoundedtopFill:String = "zr.rectangle.roundedtop.fill"
+        public let zrRectangleRoundedtopFill:String = "zr.rectangle.roundedtop.fill"
         /// 􀝥
-        let paintpalette:String = "paintpalette"
+        public let paintpalette:String = "paintpalette"
         /// 􀝦
-        let paintpaletteFill:String = "paintpalette.fill"
+        public let paintpaletteFill:String = "paintpalette.fill"
         /// 􀝢
-        let figureWalk:String = "figure.walk"
+        public let figureWalk:String = "figure.walk"
         /// 􀝣
-        let figureWalkCircle:String = "figure.walk.circle"
+        public let figureWalkCircle:String = "figure.walk.circle"
         /// 􀝤
-        let figureWalkCircleFill:String = "figure.walk.circle.fill"
+        public let figureWalkCircleFill:String = "figure.walk.circle.fill"
         /// 􀪢
-        let figureWalkDiamond:String = "figure.walk.diamond"
+        public let figureWalkDiamond:String = "figure.walk.diamond"
         /// 􀪣
-        let figureWalkDiamondFill:String = "figure.walk.diamond.fill"
+        public let figureWalkDiamondFill:String = "figure.walk.diamond.fill"
         /// 􀳾
-        let figureStand:String = "figure.stand"
+        public let figureStand:String = "figure.stand"
         /// 􀳿
-        let figureStandLineDottedFigureStand:String = "figure.stand.line.dotted.figure.stand"
+        public let figureStandLineDottedFigureStand:String = "figure.stand.line.dotted.figure.stand"
         /// 􀝻
-        let figureWave:String = "figure.wave"
+        public let figureWave:String = "figure.wave"
         /// 􀝼
-        let figureWaveCircle:String = "figure.wave.circle"
+        public let figureWaveCircle:String = "figure.wave.circle"
         /// 􀝽
-        let figureWaveCircleFill:String = "figure.wave.circle.fill"
+        public let figureWaveCircleFill:String = "figure.wave.circle.fill"
         /// 􀜣
-        let ear:String = "ear"
+        public let ear:String = "ear"
         /// 􀦿
-        let earBadgeCheckmark:String = "ear.badge.checkmark"
+        public let earBadgeCheckmark:String = "ear.badge.checkmark"
         /// 􀧁
-        let earTrianglebadgeExclamationmark:String = "ear.trianglebadge.exclamationmark"
+        public let earTrianglebadgeExclamationmark:String = "ear.trianglebadge.exclamationmark"
         /// 􀞇
-        let earFill:String = "ear.fill"
+        public let earFill:String = "ear.fill"
         /// 􀪓
-        let hearingaidEar:String = "hearingaid.ear"
+        public let hearingaidEar:String = "hearingaid.ear"
         /// 􀉻
-        let handRaised:String = "hand.raised"
+        public let handRaised:String = "hand.raised"
         /// 􀉼
-        let handRaisedFill:String = "hand.raised.fill"
+        public let handRaisedFill:String = "hand.raised.fill"
         /// 􀉽
-        let handRaisedSlash:String = "hand.raised.slash"
+        public let handRaisedSlash:String = "hand.raised.slash"
         /// 􀉾
-        let handRaisedSlashFill:String = "hand.raised.slash.fill"
+        public let handRaisedSlashFill:String = "hand.raised.slash.fill"
         /// 􀉿
-        let handThumbsup:String = "hand.thumbsup"
+        public let handThumbsup:String = "hand.thumbsup"
         /// 􀊀
-        let handThumbsupFill:String = "hand.thumbsup.fill"
+        public let handThumbsupFill:String = "hand.thumbsup.fill"
         /// 􀊁
-        let handThumbsdown:String = "hand.thumbsdown"
+        public let handThumbsdown:String = "hand.thumbsdown"
         /// 􀊂
-        let handThumbsdownFill:String = "hand.thumbsdown.fill"
+        public let handThumbsdownFill:String = "hand.thumbsdown.fill"
         /// 􀝰
-        let handPointUpLeft:String = "hand.point.up.left"
+        public let handPointUpLeft:String = "hand.point.up.left"
         /// 􀝱
-        let handPointUpLeftFill:String = "hand.point.up.left.fill"
+        public let handPointUpLeftFill:String = "hand.point.up.left.fill"
         /// 􀖓
-        let handDraw:String = "hand.draw"
+        public let handDraw:String = "hand.draw"
         /// 􀖔
-        let handDrawFill:String = "hand.draw.fill"
+        public let handDrawFill:String = "hand.draw.fill"
         /// 􀬁
-        let handTap:String = "hand.tap"
+        public let handTap:String = "hand.tap"
         /// 􀬂
-        let handTapFill:String = "hand.tap.fill"
+        public let handTapFill:String = "hand.tap.fill"
         /// 􀙽
-        let handPointLeft:String = "hand.point.left"
+        public let handPointLeft:String = "hand.point.left"
         /// 􀙾
-        let handPointLeftFill:String = "hand.point.left.fill"
+        public let handPointLeftFill:String = "hand.point.left.fill"
         /// 􀙿
-        let handPointRight:String = "hand.point.right"
+        public let handPointRight:String = "hand.point.right"
         /// 􀚀
-        let handPointRightFill:String = "hand.point.right.fill"
+        public let handPointRightFill:String = "hand.point.right.fill"
         /// 􀤹
-        let handPointUp:String = "hand.point.up"
+        public let handPointUp:String = "hand.point.up"
         /// 􀤺
-        let handPointUpFill:String = "hand.point.up.fill"
+        public let handPointUpFill:String = "hand.point.up.fill"
         /// 􀦂
-        let handPointUpBraille:String = "hand.point.up.braille"
+        public let handPointUpBraille:String = "hand.point.up.braille"
         /// 􀦃
-        let handPointUpBrailleFill:String = "hand.point.up.braille.fill"
+        public let handPointUpBrailleFill:String = "hand.point.up.braille.fill"
         /// 􀤻
-        let handPointDown:String = "hand.point.down"
+        public let handPointDown:String = "hand.point.down"
         /// 􀤼
-        let handPointDownFill:String = "hand.point.down.fill"
+        public let handPointDownFill:String = "hand.point.down.fill"
         /// 􀟰
-        let handWave:String = "hand.wave"
+        public let handWave:String = "hand.wave"
         /// 􀟱
-        let handWaveFill:String = "hand.wave.fill"
+        public let handWaveFill:String = "hand.wave.fill"
         /// 􀟮
-        let handsClap:String = "hands.clap"
+        public let handsClap:String = "hands.clap"
         /// 􀟯
-        let handsClapFill:String = "hands.clap.fill"
+        public let handsClapFill:String = "hands.clap.fill"
         /// 􀲮
-        let handsSparkles:String = "hands.sparkles"
+        public let handsSparkles:String = "hands.sparkles"
         /// 􀲯
-        let handsSparklesFill:String = "hands.sparkles.fill"
+        public let handsSparklesFill:String = "hands.sparkles.fill"
         /// 􀐷
-        let rectangleCompressVertical:String = "rectangle.compress.vertical"
+        public let rectangleCompressVertical:String = "rectangle.compress.vertical"
         /// 􀐸
-        let rectangleExpandVertical:String = "rectangle.expand.vertical"
+        public let rectangleExpandVertical:String = "rectangle.expand.vertical"
         /// 􀙮
-        let rectangleAndArrowUpRightAndArrowDownLeft:String = "rectangle.and.arrow.up.right.and.arrow.down.left"
+        public let rectangleAndArrowUpRightAndArrowDownLeft:String = "rectangle.and.arrow.up.right.and.arrow.down.left"
         /// 􀙯
-        let rectangleAndArrowUpRightAndArrowDownLeftSlash:String = "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
+        public let rectangleAndArrowUpRightAndArrowDownLeftSlash:String = "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
         /// 􀯭
-        let square2Stack3d:String = "square.2.stack.3d"
+        public let square2Stack3d:String = "square.2.stack.3d"
         /// 􀯮
-        let square2Stack3dTopFill:String = "square.2.stack.3d.top.fill"
+        public let square2Stack3dTopFill:String = "square.2.stack.3d.top.fill"
         /// 􀯯
-        let square2Stack3dBottomFill:String = "square.2.stack.3d.bottom.fill"
+        public let square2Stack3dBottomFill:String = "square.2.stack.3d.bottom.fill"
         /// 􀯰
-        let square3Stack3d:String = "square.3.stack.3d"
+        public let square3Stack3d:String = "square.3.stack.3d"
         /// 􀯱
-        let square3Stack3dTopFill:String = "square.3.stack.3d.top.fill"
+        public let square3Stack3dTopFill:String = "square.3.stack.3d.top.fill"
         /// 􀯲
-        let square3Stack3dMiddleFill:String = "square.3.stack.3d.middle.fill"
+        public let square3Stack3dMiddleFill:String = "square.3.stack.3d.middle.fill"
         /// 􀯳
-        let square3Stack3dBottomFill:String = "square.3.stack.3d.bottom.fill"
+        public let square3Stack3dBottomFill:String = "square.3.stack.3d.bottom.fill"
         /// 􀳃
-        let cylinder:String = "cylinder"
+        public let cylinder:String = "cylinder"
         /// 􀳄
-        let cylinderFill:String = "cylinder.fill"
+        public let cylinderFill:String = "cylinder.fill"
         /// 􀡓
-        let cylinderSplit1x2:String = "cylinder.split.1x2"
+        public let cylinderSplit1x2:String = "cylinder.split.1x2"
         /// 􀡔
-        let cylinderSplit1x2Fill:String = "cylinder.split.1x2.fill"
+        public let cylinderSplit1x2Fill:String = "cylinder.split.1x2.fill"
         /// 􀐾
-        let chartBar:String = "chart.bar"
+        public let chartBar:String = "chart.bar"
         /// 􀐿
-        let chartBarFill:String = "chart.bar.fill"
+        public let chartBarFill:String = "chart.bar.fill"
         /// 􀑀
-        let chartPie:String = "chart.pie"
+        public let chartPie:String = "chart.pie"
         /// 􀜋
-        let chartPieFill:String = "chart.pie.fill"
+        public let chartPieFill:String = "chart.pie.fill"
         /// 􀣉
-        let chartBarXaxis:String = "chart.bar.xaxis"
+        public let chartBarXaxis:String = "chart.bar.xaxis"
         /// 􀮋
-        let dotSquareshapeSplit2x2:String = "dot.squareshape.split.2x2"
+        public let dotSquareshapeSplit2x2:String = "dot.squareshape.split.2x2"
         /// 􀮌
-        let squareshapeSplit2x2Dotted:String = "squareshape.split.2x2.dotted"
+        public let squareshapeSplit2x2Dotted:String = "squareshape.split.2x2.dotted"
         /// 􀮞
-        let squareshapeSplit2x2:String = "squareshape.split.2x2"
+        public let squareshapeSplit2x2:String = "squareshape.split.2x2"
         /// 􀮟
-        let squareshapeSplit3x3:String = "squareshape.split.3x3"
+        public let squareshapeSplit3x3:String = "squareshape.split.3x3"
         /// 􀑂
-        let burst:String = "burst"
+        public let burst:String = "burst"
         /// 􀘞
-        let burstFill:String = "burst.fill"
+        public let burstFill:String = "burst.fill"
         /// 􀜟
-        let waveformPathEcg:String = "waveform.path.ecg"
+        public let waveformPathEcg:String = "waveform.path.ecg"
         /// 􀟪
-        let waveformPathEcgRectangle:String = "waveform.path.ecg.rectangle"
+        public let waveformPathEcgRectangle:String = "waveform.path.ecg.rectangle"
         /// 􀟫
-        let waveformPathEcgRectangleFill:String = "waveform.path.ecg.rectangle.fill"
+        public let waveformPathEcgRectangleFill:String = "waveform.path.ecg.rectangle.fill"
         /// 􀑃
-        let waveformPath:String = "waveform.path"
+        public let waveformPath:String = "waveform.path"
         /// 􀑄
-        let waveformPathBadgePlus:String = "waveform.path.badge.plus"
+        public let waveformPathBadgePlus:String = "waveform.path.badge.plus"
         /// 􀑅
-        let waveformPathBadgeMinus:String = "waveform.path.badge.minus"
+        public let waveformPathBadgeMinus:String = "waveform.path.badge.minus"
         /// 􀙫
-        let waveform:String = "waveform"
+        public let waveform:String = "waveform"
         /// 􀞈
-        let waveformCircle:String = "waveform.circle"
+        public let waveformCircle:String = "waveform.circle"
         /// 􀞉
-        let waveformCircleFill:String = "waveform.circle.fill"
+        public let waveformCircleFill:String = "waveform.circle.fill"
         /// 􀑆
-        let staroflife:String = "staroflife"
+        public let staroflife:String = "staroflife"
         /// 􀑇
-        let staroflifeFill:String = "staroflife.fill"
+        public let staroflifeFill:String = "staroflife.fill"
         /// 􀒺
-        let staroflifeCircle:String = "staroflife.circle"
+        public let staroflifeCircle:String = "staroflife.circle"
         /// 􀒻
-        let staroflifeCircleFill:String = "staroflife.circle.fill"
+        public let staroflifeCircleFill:String = "staroflife.circle.fill"
         /// 􀠅
-        let simcard:String = "simcard"
+        public let simcard:String = "simcard"
         /// 􀠆
-        let simcardFill:String = "simcard.fill"
+        public let simcardFill:String = "simcard.fill"
         /// 􀡹
-        let simcard2:String = "simcard.2"
+        public let simcard2:String = "simcard.2"
         /// 􀡺
-        let simcard2Fill:String = "simcard.2.fill"
+        public let simcard2Fill:String = "simcard.2.fill"
         /// 􀲵
-        let esim:String = "esim"
+        public let esim:String = "esim"
         /// 􀲶
-        let esimFill:String = "esim.fill"
+        public let esimFill:String = "esim.fill"
         /// 􀪇
-        let sdcard:String = "sdcard"
+        public let sdcard:String = "sdcard"
         /// 􀪈
-        let sdcardFill:String = "sdcard.fill"
+        public let sdcardFill:String = "sdcard.fill"
         /// 􀟒
-        let touchid:String = "touchid"
+        public let touchid:String = "touchid"
         /// 􀥠
-        let bonjour:String = "bonjour"
+        public let bonjour:String = "bonjour"
         /// 􀬚
-        let atom:String = "atom"
+        public let atom:String = "atom"
         /// 􀭭
-        let scalemass:String = "scalemass"
+        public let scalemass:String = "scalemass"
         /// 􀭮
-        let scalemassFill:String = "scalemass.fill"
+        public let scalemassFill:String = "scalemass.fill"
         /// 􀑈
-        let headphones:String = "headphones"
+        public let headphones:String = "headphones"
         /// 􀒾
-        let headphonesCircle:String = "headphones.circle"
+        public let headphonesCircle:String = "headphones.circle"
         /// 􀒿
-        let headphonesCircleFill:String = "headphones.circle.fill"
+        public let headphonesCircleFill:String = "headphones.circle.fill"
         /// 􀑉
-        let gift:String = "gift"
+        public let gift:String = "gift"
         /// 􀑊
-        let giftFill:String = "gift.fill"
+        public let giftFill:String = "gift.fill"
         /// 􀓀
-        let giftCircle:String = "gift.circle"
+        public let giftCircle:String = "gift.circle"
         /// 􀓁
-        let giftCircleFill:String = "gift.circle.fill"
+        public let giftCircleFill:String = "gift.circle.fill"
         /// 􀑍
-        let plusApp:String = "plus.app"
+        public let plusApp:String = "plus.app"
         /// 􀑎
-        let plusAppFill:String = "plus.app.fill"
+        public let plusAppFill:String = "plus.app.fill"
         /// 􀯴
-        let arrowDownApp:String = "arrow.down.app"
+        public let arrowDownApp:String = "arrow.down.app"
         /// 􀯵
-        let arrowDownAppFill:String = "arrow.down.app.fill"
+        public let arrowDownAppFill:String = "arrow.down.app.fill"
         /// 􀮵
-        let arrowUpForwardApp:String = "arrow.up.forward.app"
+        public let arrowUpForwardApp:String = "arrow.up.forward.app"
         /// 􀮶
-        let arrowUpForwardAppFill:String = "arrow.up.forward.app.fill"
+        public let arrowUpForwardAppFill:String = "arrow.up.forward.app.fill"
         /// 􀑏
-        let appBadge:String = "app.badge"
+        public let appBadge:String = "app.badge"
         /// 􀑐
-        let appBadgeFill:String = "app.badge.fill"
+        public let appBadgeFill:String = "app.badge.fill"
         /// 􀭨
-        let appclip:String = "appclip"
+        public let appclip:String = "appclip"
         /// 􀑑
-        let appGift:String = "app.gift"
+        public let appGift:String = "app.gift"
         /// 􀑒
-        let appGiftFill:String = "app.gift.fill"
+        public let appGiftFill:String = "app.gift.fill"
         /// 􀑓
-        let airplane:String = "airplane"
+        public let airplane:String = "airplane"
         /// 􀒸
-        let airplaneCircle:String = "airplane.circle"
+        public let airplaneCircle:String = "airplane.circle"
         /// 􀒹
-        let airplaneCircleFill:String = "airplane.circle.fill"
+        public let airplaneCircleFill:String = "airplane.circle.fill"
         /// 􀑔
-        let studentdesk:String = "studentdesk"
+        public let studentdesk:String = "studentdesk"
         /// 􀖇
-        let hourglass:String = "hourglass"
+        public let hourglass:String = "hourglass"
         /// 􀣬
-        let hourglassBadgePlus:String = "hourglass.badge.plus"
+        public let hourglassBadgePlus:String = "hourglass.badge.plus"
         /// 􀖈
-        let hourglassBottomhalfFill:String = "hourglass.bottomhalf.fill"
+        public let hourglassBottomhalfFill:String = "hourglass.bottomhalf.fill"
         /// 􀖉
-        let hourglassTophalfFill:String = "hourglass.tophalf.fill"
+        public let hourglassTophalfFill:String = "hourglass.tophalf.fill"
         /// 􀭿
-        let banknote:String = "banknote"
+        public let banknote:String = "banknote"
         /// 􀮀
-        let banknoteFill:String = "banknote.fill"
+        public let banknoteFill:String = "banknote.fill"
         /// 􀒆
-        let paragraphsign:String = "paragraphsign"
+        public let paragraphsign:String = "paragraphsign"
         /// 􀚐
-        let purchased:String = "purchased"
+        public let purchased:String = "purchased"
         /// 􀚑
-        let purchasedCircle:String = "purchased.circle"
+        public let purchasedCircle:String = "purchased.circle"
         /// 􀚒
-        let purchasedCircleFill:String = "purchased.circle.fill"
+        public let purchasedCircleFill:String = "purchased.circle.fill"
         /// 􀒱
-        let perspective:String = "perspective"
+        public let perspective:String = "perspective"
         /// 􀞖
-        let aspectratio:String = "aspectratio"
+        public let aspectratio:String = "aspectratio"
         /// 􀞏
-        let aspectratioFill:String = "aspectratio.fill"
+        public let aspectratioFill:String = "aspectratio.fill"
         /// 􀟗
-        let cameraFilters:String = "camera.filters"
+        public let cameraFilters:String = "camera.filters"
         /// 􀍵
-        let skew:String = "skew"
+        public let skew:String = "skew"
         /// 􀞒
-        let arrowLeftAndRightRighttriangleLeftRighttriangleRight:String = "arrow.left.and.right.righttriangle.left.righttriangle.right"
+        public let arrowLeftAndRightRighttriangleLeftRighttriangleRight:String = "arrow.left.and.right.righttriangle.left.righttriangle.right"
         /// 􀞓
-        let arrowLeftAndRightRighttriangleLeftRighttriangleRightFill:String = "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
+        public let arrowLeftAndRightRighttriangleLeftRighttriangleRightFill:String = "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
         /// 􀟨
-        let arrowUpAndDownRighttriangleUpRighttriangleDown:String = "arrow.up.and.down.righttriangle.up.righttriangle.down"
+        public let arrowUpAndDownRighttriangleUpRighttriangleDown:String = "arrow.up.and.down.righttriangle.up.righttriangle.down"
         /// 􀟩
-        let arrowUpAndDownRighttriangleUpFillRighttriangleDownFill:String = "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill"
+        public let arrowUpAndDownRighttriangleUpFillRighttriangleDownFill:String = "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill"
         /// 􀠉
-        let arrowtriangleLeftAndLineVerticalAndArrowtriangleRight:String = "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
+        public let arrowtriangleLeftAndLineVerticalAndArrowtriangleRight:String = "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
         /// 􀟦
-        let arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill:String = "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"
+        public let arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill:String = "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"
         /// 􀠊
-        let arrowtriangleRightAndLineVerticalAndArrowtriangleLeft:String = "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"
+        public let arrowtriangleRightAndLineVerticalAndArrowtriangleLeft:String = "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"
         /// 􀟧
-        let arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill:String = "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
+        public let arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill:String = "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
         /// 􀓗
-        let grid:String = "grid"
+        public let grid:String = "grid"
         /// 􀓘
-        let gridCircle:String = "grid.circle"
+        public let gridCircle:String = "grid.circle"
         /// 􀘟
-        let gridCircleFill:String = "grid.circle.fill"
+        public let gridCircleFill:String = "grid.circle.fill"
         /// 􀓜
-        let burn:String = "burn"
+        public let burn:String = "burn"
         /// 􀡦
-        let lifepreserver:String = "lifepreserver"
+        public let lifepreserver:String = "lifepreserver"
         /// 􀡧
-        let lifepreserverFill:String = "lifepreserver.fill"
+        public let lifepreserverFill:String = "lifepreserver.fill"
         /// 􀕼
-        let recordingtape:String = "recordingtape"
+        public let recordingtape:String = "recordingtape"
         /// 􀖆
-        let eyeglasses:String = "eyeglasses"
+        public let eyeglasses:String = "eyeglasses"
         /// 􀠍
-        let binoculars:String = "binoculars"
+        public let binoculars:String = "binoculars"
         /// 􀠎
-        let binocularsFill:String = "binoculars.fill"
+        public let binocularsFill:String = "binoculars.fill"
         /// 􀛨
-        let battery100:String = "battery.100"
+        public let battery100:String = "battery.100"
         /// 􀛩
-        let battery25:String = "battery.25"
+        public let battery25:String = "battery.25"
         /// 􀛪
-        let battery0:String = "battery.0"
+        public let battery0:String = "battery.0"
         /// 􀢋
-        let battery100Bolt:String = "battery.100.bolt"
+        public let battery100Bolt:String = "battery.100.bolt"
         /// 􀫬
-        let minusPlusBatteryblock:String = "minus.plus.batteryblock"
+        public let minusPlusBatteryblock:String = "minus.plus.batteryblock"
         /// 􀫭
-        let minusPlusBatteryblockFill:String = "minus.plus.batteryblock.fill"
+        public let minusPlusBatteryblockFill:String = "minus.plus.batteryblock.fill"
         /// 􀫮
-        let boltFillBatteryblock:String = "bolt.fill.batteryblock"
+        public let boltFillBatteryblock:String = "bolt.fill.batteryblock"
         /// 􀫯
-        let boltFillBatteryblockFill:String = "bolt.fill.batteryblock.fill"
+        public let boltFillBatteryblockFill:String = "bolt.fill.batteryblock.fill"
         /// 􀛭
-        let lightbulb:String = "lightbulb"
+        public let lightbulb:String = "lightbulb"
         /// 􀛮
-        let lightbulbFill:String = "lightbulb.fill"
+        public let lightbulbFill:String = "lightbulb.fill"
         /// 􀞃
-        let lightbulbSlash:String = "lightbulb.slash"
+        public let lightbulbSlash:String = "lightbulb.slash"
         /// 􀞄
-        let lightbulbSlashFill:String = "lightbulb.slash.fill"
+        public let lightbulbSlashFill:String = "lightbulb.slash.fill"
         /// 􀥢
-        let fiberchannel:String = "fiberchannel"
+        public let fiberchannel:String = "fiberchannel"
         /// 􀭞
-        let squareFillTextGrid1x2:String = "square.fill.text.grid.1x2"
+        public let squareFillTextGrid1x2:String = "square.fill.text.grid.1x2"
         /// 􀋱
-        let listDash:String = "list.dash"
+        public let listDash:String = "list.dash"
         /// 􀋲
-        let listBullet:String = "list.bullet"
+        public let listBullet:String = "list.bullet"
         /// 􀢽
-        let listTriangle:String = "list.triangle"
+        public let listTriangle:String = "list.triangle"
         /// 􀋳
-        let listBulletIndent:String = "list.bullet.indent"
+        public let listBulletIndent:String = "list.bullet.indent"
         /// 􀋴
-        let listNumber:String = "list.number"
+        public let listNumber:String = "list.number"
         /// 􀣩
-        let listStar:String = "list.star"
+        public let listStar:String = "list.star"
         /// 􀋵
-        let increaseIndent:String = "increase.indent"
+        public let increaseIndent:String = "increase.indent"
         /// 􀋶
-        let decreaseIndent:String = "decrease.indent"
+        public let decreaseIndent:String = "decrease.indent"
         /// 􀝿
-        let decreaseQuotelevel:String = "decrease.quotelevel"
+        public let decreaseQuotelevel:String = "decrease.quotelevel"
         /// 􀞀
-        let increaseQuotelevel:String = "increase.quotelevel"
+        public let increaseQuotelevel:String = "increase.quotelevel"
         /// 􀋷
-        let listBulletBelowRectangle:String = "list.bullet.below.rectangle"
+        public let listBulletBelowRectangle:String = "list.bullet.below.rectangle"
         /// 􀋸
-        let textBadgePlus:String = "text.badge.plus"
+        public let textBadgePlus:String = "text.badge.plus"
         /// 􀋹
-        let textBadgeMinus:String = "text.badge.minus"
+        public let textBadgeMinus:String = "text.badge.minus"
         /// 􀋺
-        let textBadgeCheckmark:String = "text.badge.checkmark"
+        public let textBadgeCheckmark:String = "text.badge.checkmark"
         /// 􀋻
-        let textBadgeXmark:String = "text.badge.xmark"
+        public let textBadgeXmark:String = "text.badge.xmark"
         /// 􀋼
-        let textBadgeStar:String = "text.badge.star"
+        public let textBadgeStar:String = "text.badge.star"
         /// 􀋽
-        let textInsert:String = "text.insert"
+        public let textInsert:String = "text.insert"
         /// 􀋾
-        let textAppend:String = "text.append"
+        public let textAppend:String = "text.append"
         /// 􀋿
-        let textQuote:String = "text.quote"
+        public let textQuote:String = "text.quote"
         /// 􀌀
-        let textAlignleft:String = "text.alignleft"
+        public let textAlignleft:String = "text.alignleft"
         /// 􀌁
-        let textAligncenter:String = "text.aligncenter"
+        public let textAligncenter:String = "text.aligncenter"
         /// 􀌂
-        let textAlignright:String = "text.alignright"
+        public let textAlignright:String = "text.alignright"
         /// 􀌃
-        let textJustify:String = "text.justify"
+        public let textJustify:String = "text.justify"
         /// 􀌄
-        let textJustifyleft:String = "text.justifyleft"
+        public let textJustifyleft:String = "text.justifyleft"
         /// 􀌅
-        let textJustifyright:String = "text.justifyright"
+        public let textJustifyright:String = "text.justifyright"
         /// 􀧎
-        let textRedaction:String = "text.redaction"
+        public let textRedaction:String = "text.redaction"
         /// 􀬉
-        let listAndFilm:String = "list.and.film"
+        public let listAndFilm:String = "list.and.film"
         /// 􀌇
-        let lineHorizontal3:String = "line.horizontal.3"
+        public let lineHorizontal3:String = "line.horizontal.3"
         /// 􀜓
-        let lineHorizontal3Decrease:String = "line.horizontal.3.decrease"
+        public let lineHorizontal3Decrease:String = "line.horizontal.3.decrease"
         /// 􀌈
-        let lineHorizontal3DecreaseCircle:String = "line.horizontal.3.decrease.circle"
+        public let lineHorizontal3DecreaseCircle:String = "line.horizontal.3.decrease.circle"
         /// 􀌉
-        let lineHorizontal3DecreaseCircleFill:String = "line.horizontal.3.decrease.circle.fill"
+        public let lineHorizontal3DecreaseCircleFill:String = "line.horizontal.3.decrease.circle.fill"
         /// 􀧱
-        let lineHorizontal3Circle:String = "line.horizontal.3.circle"
+        public let lineHorizontal3Circle:String = "line.horizontal.3.circle"
         /// 􀧲
-        let lineHorizontal3CircleFill:String = "line.horizontal.3.circle.fill"
+        public let lineHorizontal3CircleFill:String = "line.horizontal.3.circle.fill"
         /// 􀘵
-        let lineHorizontal2DecreaseCircle:String = "line.horizontal.2.decrease.circle"
+        public let lineHorizontal2DecreaseCircle:String = "line.horizontal.2.decrease.circle"
         /// 􀘶
-        let lineHorizontal2DecreaseCircleFill:String = "line.horizontal.2.decrease.circle.fill"
+        public let lineHorizontal2DecreaseCircleFill:String = "line.horizontal.2.decrease.circle.fill"
         /// 􀅏
-        let character:String = "character"
+        public let character:String = "character"
         /// 􀵷
-        let textformatSizeSmaller:String = "textformat.size.smaller"
+        public let textformatSizeSmaller:String = "textformat.size.smaller"
         /// 􀵿
-        let textformatSizeLarger:String = "textformat.size.larger"
+        public let textformatSizeLarger:String = "textformat.size.larger"
         /// 􀥊
-        let abc:String = "abc"
+        public let abc:String = "abc"
         /// 􀅑
-        let textformatAlt:String = "textformat.alt"
+        public let textformatAlt:String = "textformat.alt"
         /// 􀅒
-        let textformat:String = "textformat"
+        public let textformat:String = "textformat"
         /// 􀅐
-        let textformatSize:String = "textformat.size"
+        public let textformatSize:String = "textformat.size"
         /// 􀓢
-        let textformatSuperscript:String = "textformat.superscript"
+        public let textformatSuperscript:String = "textformat.superscript"
         /// 􀓡
-        let textformatSubscript:String = "textformat.subscript"
+        public let textformatSubscript:String = "textformat.subscript"
         /// 􀅓
-        let bold:String = "bold"
+        public let bold:String = "bold"
         /// 􀅔
-        let italic:String = "italic"
+        public let italic:String = "italic"
         /// 􀅕
-        let underline:String = "underline"
+        public let underline:String = "underline"
         /// 􀅖
-        let strikethrough:String = "strikethrough"
+        public let strikethrough:String = "strikethrough"
         /// 􀨡
-        let shadow:String = "shadow"
+        public let shadow:String = "shadow"
         /// 􀅗
-        let boldItalicUnderline:String = "bold.italic.underline"
+        public let boldItalicUnderline:String = "bold.italic.underline"
         /// 􀅘
-        let boldUnderline:String = "bold.underline"
+        public let boldUnderline:String = "bold.underline"
         /// 􀅙
-        let view2d:String = "view.2d"
+        public let view2d:String = "view.2d"
         /// 􀅪
-        let view3d:String = "view.3d"
+        public let view3d:String = "view.3d"
         /// 􀅫
-        let textCursor:String = "text.cursor"
+        public let textCursor:String = "text.cursor"
         /// 􀅬
-        let fx:String = "fx"
+        public let fx:String = "fx"
         /// 􀅭
-        let fCursive:String = "f.cursive"
+        public let fCursive:String = "f.cursive"
         /// 􀝧
-        let fCursiveCircle:String = "f.cursive.circle"
+        public let fCursiveCircle:String = "f.cursive.circle"
         /// 􀝨
-        let fCursiveCircleFill:String = "f.cursive.circle.fill"
+        public let fCursiveCircleFill:String = "f.cursive.circle.fill"
         /// 􀥋
-        let k:String = "k"
+        public let k:String = "k"
         /// 􀘽
-        let sum:String = "sum"
+        public let sum:String = "sum"
         /// 􀘾
-        let percent:String = "percent"
+        public let percent:String = "percent"
         /// 􀅮
-        let function:String = "function"
+        public let function:String = "function"
         /// 􀅯
-        let textformatAbc:String = "textformat.abc"
+        public let textformatAbc:String = "textformat.abc"
         /// 􀅰
-        let textformatAbcDottedunderline:String = "textformat.abc.dottedunderline"
+        public let textformatAbcDottedunderline:String = "textformat.abc.dottedunderline"
         /// 􀥌
-        let fn:String = "fn"
+        public let fn:String = "fn"
         /// 􀅱
-        let textformat123:String = "textformat.123"
+        public let textformat123:String = "textformat.123"
         /// 􀅶
-        let textbox:String = "textbox"
+        public let textbox:String = "textbox"
         /// 􀤍
-        let aMagnify:String = "a.magnify"
+        public let aMagnify:String = "a.magnify"
         /// 􀅳
-        let info:String = "info"
+        public let info:String = "info"
         /// 􀅴
-        let infoCircle:String = "info.circle"
+        public let infoCircle:String = "info.circle"
         /// 􀅵
-        let infoCircleFill:String = "info.circle.fill"
+        public let infoCircleFill:String = "info.circle.fill"
         /// 􀅷
-        let at:String = "at"
+        public let at:String = "at"
         /// 􀢐
-        let atCircle:String = "at.circle"
+        public let atCircle:String = "at.circle"
         /// 􀢑
-        let atCircleFill:String = "at.circle.fill"
+        public let atCircleFill:String = "at.circle.fill"
         /// 􀅸
-        let atBadgePlus:String = "at.badge.plus"
+        public let atBadgePlus:String = "at.badge.plus"
         /// 􀅹
-        let atBadgeMinus:String = "at.badge.minus"
+        public let atBadgeMinus:String = "at.badge.minus"
         /// 􀅍
-        let questionmark:String = "questionmark"
+        public let questionmark:String = "questionmark"
         /// 􀁜
-        let questionmarkCircle:String = "questionmark.circle"
+        public let questionmarkCircle:String = "questionmark.circle"
         /// 􀁝
-        let questionmarkCircleFill:String = "questionmark.circle.fill"
+        public let questionmarkCircleFill:String = "questionmark.circle.fill"
         /// 􀃬
-        let questionmarkSquare:String = "questionmark.square"
+        public let questionmarkSquare:String = "questionmark.square"
         /// 􀃭
-        let questionmarkSquareFill:String = "questionmark.square.fill"
+        public let questionmarkSquareFill:String = "questionmark.square.fill"
         /// 􀄢
-        let questionmarkDiamond:String = "questionmark.diamond"
+        public let questionmarkDiamond:String = "questionmark.diamond"
         /// 􀄣
-        let questionmarkDiamondFill:String = "questionmark.diamond.fill"
+        public let questionmarkDiamondFill:String = "questionmark.diamond.fill"
         /// 􀅎
-        let exclamationmark:String = "exclamationmark"
+        public let exclamationmark:String = "exclamationmark"
         /// 􀢒
-        let exclamationmark2:String = "exclamationmark.2"
+        public let exclamationmark2:String = "exclamationmark.2"
         /// 􀣴
-        let exclamationmark3:String = "exclamationmark.3"
+        public let exclamationmark3:String = "exclamationmark.3"
         /// 􀁞
-        let exclamationmarkCircle:String = "exclamationmark.circle"
+        public let exclamationmarkCircle:String = "exclamationmark.circle"
         /// 􀁟
-        let exclamationmarkCircleFill:String = "exclamationmark.circle.fill"
+        public let exclamationmarkCircleFill:String = "exclamationmark.circle.fill"
         /// 􀃮
-        let exclamationmarkSquare:String = "exclamationmark.square"
+        public let exclamationmarkSquare:String = "exclamationmark.square"
         /// 􀃯
-        let exclamationmarkSquareFill:String = "exclamationmark.square.fill"
+        public let exclamationmarkSquareFill:String = "exclamationmark.square.fill"
         /// 􀘯
-        let exclamationmarkOctagon:String = "exclamationmark.octagon"
+        public let exclamationmarkOctagon:String = "exclamationmark.octagon"
         /// 􀘰
-        let exclamationmarkOctagonFill:String = "exclamationmark.octagon.fill"
+        public let exclamationmarkOctagonFill:String = "exclamationmark.octagon.fill"
         /// 􀞟
-        let exclamationmarkShield:String = "exclamationmark.shield"
+        public let exclamationmarkShield:String = "exclamationmark.shield"
         /// 􀞠
-        let exclamationmarkShieldFill:String = "exclamationmark.shield.fill"
+        public let exclamationmarkShieldFill:String = "exclamationmark.shield.fill"
         /// 􀅼
-        let plus:String = "plus"
+        public let plus:String = "plus"
         /// 􀁌
-        let plusCircle:String = "plus.circle"
+        public let plusCircle:String = "plus.circle"
         /// 􀁍
-        let plusCircleFill:String = "plus.circle.fill"
+        public let plusCircleFill:String = "plus.circle.fill"
         /// 􀃜
-        let plusSquare:String = "plus.square"
+        public let plusSquare:String = "plus.square"
         /// 􀃝
-        let plusSquareFill:String = "plus.square.fill"
+        public let plusSquareFill:String = "plus.square.fill"
         /// 􀏇
-        let plusRectangle:String = "plus.rectangle"
+        public let plusRectangle:String = "plus.rectangle"
         /// 􀏈
-        let plusRectangleFill:String = "plus.rectangle.fill"
+        public let plusRectangleFill:String = "plus.rectangle.fill"
         /// 􀡪
-        let plusRectanglePortrait:String = "plus.rectangle.portrait"
+        public let plusRectanglePortrait:String = "plus.rectangle.portrait"
         /// 􀡫
-        let plusRectanglePortraitFill:String = "plus.rectangle.portrait.fill"
+        public let plusRectanglePortraitFill:String = "plus.rectangle.portrait.fill"
         /// 􀡿
-        let plusDiamond:String = "plus.diamond"
+        public let plusDiamond:String = "plus.diamond"
         /// 􀢀
-        let plusDiamondFill:String = "plus.diamond.fill"
+        public let plusDiamondFill:String = "plus.diamond.fill"
         /// 􀅽
-        let minus:String = "minus"
+        public let minus:String = "minus"
         /// 􀁎
-        let minusCircle:String = "minus.circle"
+        public let minusCircle:String = "minus.circle"
         /// 􀁏
-        let minusCircleFill:String = "minus.circle.fill"
+        public let minusCircleFill:String = "minus.circle.fill"
         /// 􀃞
-        let minusSquare:String = "minus.square"
+        public let minusSquare:String = "minus.square"
         /// 􀃟
-        let minusSquareFill:String = "minus.square.fill"
+        public let minusSquareFill:String = "minus.square.fill"
         /// 􀏉
-        let minusRectangle:String = "minus.rectangle"
+        public let minusRectangle:String = "minus.rectangle"
         /// 􀏊
-        let minusRectangleFill:String = "minus.rectangle.fill"
+        public let minusRectangleFill:String = "minus.rectangle.fill"
         /// 􀡬
-        let minusRectanglePortrait:String = "minus.rectangle.portrait"
+        public let minusRectanglePortrait:String = "minus.rectangle.portrait"
         /// 􀡭
-        let minusRectanglePortraitFill:String = "minus.rectangle.portrait.fill"
+        public let minusRectanglePortraitFill:String = "minus.rectangle.portrait.fill"
         /// 􀢁
-        let minusDiamond:String = "minus.diamond"
+        public let minusDiamond:String = "minus.diamond"
         /// 􀢂
-        let minusDiamondFill:String = "minus.diamond.fill"
+        public let minusDiamondFill:String = "minus.diamond.fill"
         /// 􀛺
-        let plusminus:String = "plusminus"
+        public let plusminus:String = "plusminus"
         /// 􀍶
-        let plusminusCircle:String = "plusminus.circle"
+        public let plusminusCircle:String = "plusminus.circle"
         /// 􀘝
-        let plusminusCircleFill:String = "plusminus.circle.fill"
+        public let plusminusCircleFill:String = "plusminus.circle.fill"
         /// 􀅺
-        let plusSlashMinus:String = "plus.slash.minus"
+        public let plusSlashMinus:String = "plus.slash.minus"
         /// 􀅻
-        let minusSlashPlus:String = "minus.slash.plus"
+        public let minusSlashPlus:String = "minus.slash.plus"
         /// 􀅾
-        let multiply:String = "multiply"
+        public let multiply:String = "multiply"
         /// 􀁐
-        let multiplyCircle:String = "multiply.circle"
+        public let multiplyCircle:String = "multiply.circle"
         /// 􀁑
-        let multiplyCircleFill:String = "multiply.circle.fill"
+        public let multiplyCircleFill:String = "multiply.circle.fill"
         /// 􀃠
-        let multiplySquare:String = "multiply.square"
+        public let multiplySquare:String = "multiply.square"
         /// 􀃡
-        let multiplySquareFill:String = "multiply.square.fill"
+        public let multiplySquareFill:String = "multiply.square.fill"
         /// 􀏍
-        let xmarkRectangle:String = "xmark.rectangle"
+        public let xmarkRectangle:String = "xmark.rectangle"
         /// 􀏎
-        let xmarkRectangleFill:String = "xmark.rectangle.fill"
+        public let xmarkRectangleFill:String = "xmark.rectangle.fill"
         /// 􀡰
-        let xmarkRectanglePortrait:String = "xmark.rectangle.portrait"
+        public let xmarkRectanglePortrait:String = "xmark.rectangle.portrait"
         /// 􀡱
-        let xmarkRectanglePortraitFill:String = "xmark.rectangle.portrait.fill"
+        public let xmarkRectanglePortraitFill:String = "xmark.rectangle.portrait.fill"
         /// 􀢃
-        let xmarkDiamond:String = "xmark.diamond"
+        public let xmarkDiamond:String = "xmark.diamond"
         /// 􀢄
-        let xmarkDiamondFill:String = "xmark.diamond.fill"
+        public let xmarkDiamondFill:String = "xmark.diamond.fill"
         /// 􀞝
-        let xmarkShield:String = "xmark.shield"
+        public let xmarkShield:String = "xmark.shield"
         /// 􀞞
-        let xmarkShieldFill:String = "xmark.shield.fill"
+        public let xmarkShieldFill:String = "xmark.shield.fill"
         /// 􀒉
-        let xmarkOctagon:String = "xmark.octagon"
+        public let xmarkOctagon:String = "xmark.octagon"
         /// 􀒊
-        let xmarkOctagonFill:String = "xmark.octagon.fill"
+        public let xmarkOctagonFill:String = "xmark.octagon.fill"
         /// 􀅿
-        let divide:String = "divide"
+        public let divide:String = "divide"
         /// 􀁒
-        let divideCircle:String = "divide.circle"
+        public let divideCircle:String = "divide.circle"
         /// 􀁓
-        let divideCircleFill:String = "divide.circle.fill"
+        public let divideCircleFill:String = "divide.circle.fill"
         /// 􀃢
-        let divideSquare:String = "divide.square"
+        public let divideSquare:String = "divide.square"
         /// 􀃣
-        let divideSquareFill:String = "divide.square.fill"
+        public let divideSquareFill:String = "divide.square.fill"
         /// 􀆀
-        let equal:String = "equal"
+        public let equal:String = "equal"
         /// 􀁔
-        let equalCircle:String = "equal.circle"
+        public let equalCircle:String = "equal.circle"
         /// 􀁕
-        let equalCircleFill:String = "equal.circle.fill"
+        public let equalCircleFill:String = "equal.circle.fill"
         /// 􀃤
-        let equalSquare:String = "equal.square"
+        public let equalSquare:String = "equal.square"
         /// 􀃥
-        let equalSquareFill:String = "equal.square.fill"
+        public let equalSquareFill:String = "equal.square.fill"
         /// 􀆁
-        let lessthan:String = "lessthan"
+        public let lessthan:String = "lessthan"
         /// 􀁘
-        let lessthanCircle:String = "lessthan.circle"
+        public let lessthanCircle:String = "lessthan.circle"
         /// 􀁙
-        let lessthanCircleFill:String = "lessthan.circle.fill"
+        public let lessthanCircleFill:String = "lessthan.circle.fill"
         /// 􀃦
-        let lessthanSquare:String = "lessthan.square"
+        public let lessthanSquare:String = "lessthan.square"
         /// 􀃧
-        let lessthanSquareFill:String = "lessthan.square.fill"
+        public let lessthanSquareFill:String = "lessthan.square.fill"
         /// 􀆂
-        let greaterthan:String = "greaterthan"
+        public let greaterthan:String = "greaterthan"
         /// 􀁖
-        let greaterthanCircle:String = "greaterthan.circle"
+        public let greaterthanCircle:String = "greaterthan.circle"
         /// 􀁗
-        let greaterthanCircleFill:String = "greaterthan.circle.fill"
+        public let greaterthanCircleFill:String = "greaterthan.circle.fill"
         /// 􀃨
-        let greaterthanSquare:String = "greaterthan.square"
+        public let greaterthanSquare:String = "greaterthan.square"
         /// 􀃩
-        let greaterthanSquareFill:String = "greaterthan.square.fill"
+        public let greaterthanSquareFill:String = "greaterthan.square.fill"
         /// 􀙚
-        let chevronLeftSlashChevronRight:String = "chevron.left.slash.chevron.right"
+        public let chevronLeftSlashChevronRight:String = "chevron.left.slash.chevron.right"
         /// 􀡅
-        let curlybraces:String = "curlybraces"
+        public let curlybraces:String = "curlybraces"
         /// 􀤘
-        let curlybracesSquare:String = "curlybraces.square"
+        public let curlybracesSquare:String = "curlybraces.square"
         /// 􀤙
-        let curlybracesSquareFill:String = "curlybraces.square.fill"
+        public let curlybracesSquareFill:String = "curlybraces.square.fill"
         /// 􀆃
-        let number:String = "number"
+        public let number:String = "number"
         /// 􀁚
-        let numberCircle:String = "number.circle"
+        public let numberCircle:String = "number.circle"
         /// 􀁛
-        let numberCircleFill:String = "number.circle.fill"
+        public let numberCircleFill:String = "number.circle.fill"
         /// 􀃪
-        let numberSquare:String = "number.square"
+        public let numberSquare:String = "number.square"
         /// 􀃫
-        let numberSquareFill:String = "number.square.fill"
+        public let numberSquareFill:String = "number.square.fill"
         /// 􀓪
-        let xSquareroot:String = "x.squareroot"
+        public let xSquareroot:String = "x.squareroot"
         /// 􀆄
-        let xmark:String = "xmark"
+        public let xmark:String = "xmark"
         /// 􀁠
-        let xmarkCircle:String = "xmark.circle"
+        public let xmarkCircle:String = "xmark.circle"
         /// 􀁡
-        let xmarkCircleFill:String = "xmark.circle.fill"
+        public let xmarkCircleFill:String = "xmark.circle.fill"
         /// 􀃰
-        let xmarkSquare:String = "xmark.square"
+        public let xmarkSquare:String = "xmark.square"
         /// 􀃱
-        let xmarkSquareFill:String = "xmark.square.fill"
+        public let xmarkSquareFill:String = "xmark.square.fill"
         /// 􀆅
-        let checkmark:String = "checkmark"
+        public let checkmark:String = "checkmark"
         /// 􀁢
-        let checkmarkCircle:String = "checkmark.circle"
+        public let checkmarkCircle:String = "checkmark.circle"
         /// 􀁣
-        let checkmarkCircleFill:String = "checkmark.circle.fill"
+        public let checkmarkCircleFill:String = "checkmark.circle.fill"
         /// 􀃲
-        let checkmarkSquare:String = "checkmark.square"
+        public let checkmarkSquare:String = "checkmark.square"
         /// 􀃳
-        let checkmarkSquareFill:String = "checkmark.square.fill"
+        public let checkmarkSquareFill:String = "checkmark.square.fill"
         /// 􀏋
-        let checkmarkRectangle:String = "checkmark.rectangle"
+        public let checkmarkRectangle:String = "checkmark.rectangle"
         /// 􀏌
-        let checkmarkRectangleFill:String = "checkmark.rectangle.fill"
+        public let checkmarkRectangleFill:String = "checkmark.rectangle.fill"
         /// 􀡮
-        let checkmarkRectanglePortrait:String = "checkmark.rectangle.portrait"
+        public let checkmarkRectanglePortrait:String = "checkmark.rectangle.portrait"
         /// 􀡯
-        let checkmarkRectanglePortraitFill:String = "checkmark.rectangle.portrait.fill"
+        public let checkmarkRectanglePortraitFill:String = "checkmark.rectangle.portrait.fill"
         /// 􀞛
-        let checkmarkShield:String = "checkmark.shield"
+        public let checkmarkShield:String = "checkmark.shield"
         /// 􀞜
-        let checkmarkShieldFill:String = "checkmark.shield.fill"
+        public let checkmarkShieldFill:String = "checkmark.shield.fill"
         /// 􀆉
-        let chevronLeft:String = "chevron.left"
+        public let chevronLeft:String = "chevron.left"
         /// 􀁲
-        let chevronLeftCircle:String = "chevron.left.circle"
+        public let chevronLeftCircle:String = "chevron.left.circle"
         /// 􀁳
-        let chevronLeftCircleFill:String = "chevron.left.circle.fill"
+        public let chevronLeftCircleFill:String = "chevron.left.circle.fill"
         /// 􀄂
-        let chevronLeftSquare:String = "chevron.left.square"
+        public let chevronLeftSquare:String = "chevron.left.square"
         /// 􀄃
-        let chevronLeftSquareFill:String = "chevron.left.square.fill"
+        public let chevronLeftSquareFill:String = "chevron.left.square.fill"
         /// 􀯶
-        let chevronBackward:String = "chevron.backward"
+        public let chevronBackward:String = "chevron.backward"
         /// 􀯷
-        let chevronBackwardCircle:String = "chevron.backward.circle"
+        public let chevronBackwardCircle:String = "chevron.backward.circle"
         /// 􀯸
-        let chevronBackwardCircleFill:String = "chevron.backward.circle.fill"
+        public let chevronBackwardCircleFill:String = "chevron.backward.circle.fill"
         /// 􀯹
-        let chevronBackwardSquare:String = "chevron.backward.square"
+        public let chevronBackwardSquare:String = "chevron.backward.square"
         /// 􀯺
-        let chevronBackwardSquareFill:String = "chevron.backward.square.fill"
+        public let chevronBackwardSquareFill:String = "chevron.backward.square.fill"
         /// 􀆊
-        let chevronRight:String = "chevron.right"
+        public let chevronRight:String = "chevron.right"
         /// 􀁴
-        let chevronRightCircle:String = "chevron.right.circle"
+        public let chevronRightCircle:String = "chevron.right.circle"
         /// 􀁵
-        let chevronRightCircleFill:String = "chevron.right.circle.fill"
+        public let chevronRightCircleFill:String = "chevron.right.circle.fill"
         /// 􀄄
-        let chevronRightSquare:String = "chevron.right.square"
+        public let chevronRightSquare:String = "chevron.right.square"
         /// 􀄅
-        let chevronRightSquareFill:String = "chevron.right.square.fill"
+        public let chevronRightSquareFill:String = "chevron.right.square.fill"
         /// 􀯻
-        let chevronForward:String = "chevron.forward"
+        public let chevronForward:String = "chevron.forward"
         /// 􀯼
-        let chevronForwardCircle:String = "chevron.forward.circle"
+        public let chevronForwardCircle:String = "chevron.forward.circle"
         /// 􀯽
-        let chevronForwardCircleFill:String = "chevron.forward.circle.fill"
+        public let chevronForwardCircleFill:String = "chevron.forward.circle.fill"
         /// 􀯾
-        let chevronForwardSquare:String = "chevron.forward.square"
+        public let chevronForwardSquare:String = "chevron.forward.square"
         /// 􀯿
-        let chevronForwardSquareFill:String = "chevron.forward.square.fill"
+        public let chevronForwardSquareFill:String = "chevron.forward.square.fill"
         /// 􀆋
-        let chevronLeft2:String = "chevron.left.2"
+        public let chevronLeft2:String = "chevron.left.2"
         /// 􀰪
-        let chevronBackward2:String = "chevron.backward.2"
+        public let chevronBackward2:String = "chevron.backward.2"
         /// 􀆌
-        let chevronRight2:String = "chevron.right.2"
+        public let chevronRight2:String = "chevron.right.2"
         /// 􀰫
-        let chevronForward2:String = "chevron.forward.2"
+        public let chevronForward2:String = "chevron.forward.2"
         /// 􀆇
-        let chevronUp:String = "chevron.up"
+        public let chevronUp:String = "chevron.up"
         /// 􀁮
-        let chevronUpCircle:String = "chevron.up.circle"
+        public let chevronUpCircle:String = "chevron.up.circle"
         /// 􀁯
-        let chevronUpCircleFill:String = "chevron.up.circle.fill"
+        public let chevronUpCircleFill:String = "chevron.up.circle.fill"
         /// 􀃾
-        let chevronUpSquare:String = "chevron.up.square"
+        public let chevronUpSquare:String = "chevron.up.square"
         /// 􀃿
-        let chevronUpSquareFill:String = "chevron.up.square.fill"
+        public let chevronUpSquareFill:String = "chevron.up.square.fill"
         /// 􀆈
-        let chevronDown:String = "chevron.down"
+        public let chevronDown:String = "chevron.down"
         /// 􀁰
-        let chevronDownCircle:String = "chevron.down.circle"
+        public let chevronDownCircle:String = "chevron.down.circle"
         /// 􀁱
-        let chevronDownCircleFill:String = "chevron.down.circle.fill"
+        public let chevronDownCircleFill:String = "chevron.down.circle.fill"
         /// 􀄀
-        let chevronDownSquare:String = "chevron.down.square"
+        public let chevronDownSquare:String = "chevron.down.square"
         /// 􀄁
-        let chevronDownSquareFill:String = "chevron.down.square.fill"
+        public let chevronDownSquareFill:String = "chevron.down.square.fill"
         /// 􀆍
-        let control:String = "control"
+        public let control:String = "control"
         /// 􀆎
-        let projective:String = "projective"
+        public let projective:String = "projective"
         /// 􀆏
-        let chevronUpChevronDown:String = "chevron.up.chevron.down"
+        public let chevronUpChevronDown:String = "chevron.up.chevron.down"
         /// 􀆐
-        let chevronCompactUp:String = "chevron.compact.up"
+        public let chevronCompactUp:String = "chevron.compact.up"
         /// 􀆑
-        let chevronCompactDown:String = "chevron.compact.down"
+        public let chevronCompactDown:String = "chevron.compact.down"
         /// 􀆒
-        let chevronCompactLeft:String = "chevron.compact.left"
+        public let chevronCompactLeft:String = "chevron.compact.left"
         /// 􀆓
-        let chevronCompactRight:String = "chevron.compact.right"
+        public let chevronCompactRight:String = "chevron.compact.right"
         /// 􀄪
-        let arrowLeft:String = "arrow.left"
+        public let arrowLeft:String = "arrow.left"
         /// 􀁺
-        let arrowLeftCircle:String = "arrow.left.circle"
+        public let arrowLeftCircle:String = "arrow.left.circle"
         /// 􀁻
-        let arrowLeftCircleFill:String = "arrow.left.circle.fill"
+        public let arrowLeftCircleFill:String = "arrow.left.circle.fill"
         /// 􀄊
-        let arrowLeftSquare:String = "arrow.left.square"
+        public let arrowLeftSquare:String = "arrow.left.square"
         /// 􀄋
-        let arrowLeftSquareFill:String = "arrow.left.square.fill"
+        public let arrowLeftSquareFill:String = "arrow.left.square.fill"
         /// 􀰌
-        let arrowBackward:String = "arrow.backward"
+        public let arrowBackward:String = "arrow.backward"
         /// 􀰍
-        let arrowBackwardCircle:String = "arrow.backward.circle"
+        public let arrowBackwardCircle:String = "arrow.backward.circle"
         /// 􀰎
-        let arrowBackwardCircleFill:String = "arrow.backward.circle.fill"
+        public let arrowBackwardCircleFill:String = "arrow.backward.circle.fill"
         /// 􀰏
-        let arrowBackwardSquare:String = "arrow.backward.square"
+        public let arrowBackwardSquare:String = "arrow.backward.square"
         /// 􀰐
-        let arrowBackwardSquareFill:String = "arrow.backward.square.fill"
+        public let arrowBackwardSquareFill:String = "arrow.backward.square.fill"
         /// 􀄫
-        let arrowRight:String = "arrow.right"
+        public let arrowRight:String = "arrow.right"
         /// 􀁼
-        let arrowRightCircle:String = "arrow.right.circle"
+        public let arrowRightCircle:String = "arrow.right.circle"
         /// 􀁽
-        let arrowRightCircleFill:String = "arrow.right.circle.fill"
+        public let arrowRightCircleFill:String = "arrow.right.circle.fill"
         /// 􀄌
-        let arrowRightSquare:String = "arrow.right.square"
+        public let arrowRightSquare:String = "arrow.right.square"
         /// 􀄍
-        let arrowRightSquareFill:String = "arrow.right.square.fill"
+        public let arrowRightSquareFill:String = "arrow.right.square.fill"
         /// 􀰑
-        let arrowForward:String = "arrow.forward"
+        public let arrowForward:String = "arrow.forward"
         /// 􀰒
-        let arrowForwardCircle:String = "arrow.forward.circle"
+        public let arrowForwardCircle:String = "arrow.forward.circle"
         /// 􀰓
-        let arrowForwardCircleFill:String = "arrow.forward.circle.fill"
+        public let arrowForwardCircleFill:String = "arrow.forward.circle.fill"
         /// 􀰔
-        let arrowForwardSquare:String = "arrow.forward.square"
+        public let arrowForwardSquare:String = "arrow.forward.square"
         /// 􀰕
-        let arrowForwardSquareFill:String = "arrow.forward.square.fill"
+        public let arrowForwardSquareFill:String = "arrow.forward.square.fill"
         /// 􀄨
-        let arrowUp:String = "arrow.up"
+        public let arrowUp:String = "arrow.up"
         /// 􀁶
-        let arrowUpCircle:String = "arrow.up.circle"
+        public let arrowUpCircle:String = "arrow.up.circle"
         /// 􀁷
-        let arrowUpCircleFill:String = "arrow.up.circle.fill"
+        public let arrowUpCircleFill:String = "arrow.up.circle.fill"
         /// 􀄆
-        let arrowUpSquare:String = "arrow.up.square"
+        public let arrowUpSquare:String = "arrow.up.square"
         /// 􀄇
-        let arrowUpSquareFill:String = "arrow.up.square.fill"
+        public let arrowUpSquareFill:String = "arrow.up.square.fill"
         /// 􀄩
-        let arrowDown:String = "arrow.down"
+        public let arrowDown:String = "arrow.down"
         /// 􀁸
-        let arrowDownCircle:String = "arrow.down.circle"
+        public let arrowDownCircle:String = "arrow.down.circle"
         /// 􀁹
-        let arrowDownCircleFill:String = "arrow.down.circle.fill"
+        public let arrowDownCircleFill:String = "arrow.down.circle.fill"
         /// 􀄈
-        let arrowDownSquare:String = "arrow.down.square"
+        public let arrowDownSquare:String = "arrow.down.square"
         /// 􀄉
-        let arrowDownSquareFill:String = "arrow.down.square.fill"
+        public let arrowDownSquareFill:String = "arrow.down.square.fill"
         /// 􀄮
-        let arrowUpLeft:String = "arrow.up.left"
+        public let arrowUpLeft:String = "arrow.up.left"
         /// 􀂂
-        let arrowUpLeftCircle:String = "arrow.up.left.circle"
+        public let arrowUpLeftCircle:String = "arrow.up.left.circle"
         /// 􀂃
-        let arrowUpLeftCircleFill:String = "arrow.up.left.circle.fill"
+        public let arrowUpLeftCircleFill:String = "arrow.up.left.circle.fill"
         /// 􀄒
-        let arrowUpLeftSquare:String = "arrow.up.left.square"
+        public let arrowUpLeftSquare:String = "arrow.up.left.square"
         /// 􀄓
-        let arrowUpLeftSquareFill:String = "arrow.up.left.square.fill"
+        public let arrowUpLeftSquareFill:String = "arrow.up.left.square.fill"
         /// 􀰹
-        let arrowUpBackward:String = "arrow.up.backward"
+        public let arrowUpBackward:String = "arrow.up.backward"
         /// 􀰺
-        let arrowUpBackwardCircle:String = "arrow.up.backward.circle"
+        public let arrowUpBackwardCircle:String = "arrow.up.backward.circle"
         /// 􀰻
-        let arrowUpBackwardCircleFill:String = "arrow.up.backward.circle.fill"
+        public let arrowUpBackwardCircleFill:String = "arrow.up.backward.circle.fill"
         /// 􀰼
-        let arrowUpBackwardSquare:String = "arrow.up.backward.square"
+        public let arrowUpBackwardSquare:String = "arrow.up.backward.square"
         /// 􀰽
-        let arrowUpBackwardSquareFill:String = "arrow.up.backward.square.fill"
+        public let arrowUpBackwardSquareFill:String = "arrow.up.backward.square.fill"
         /// 􀄯
-        let arrowUpRight:String = "arrow.up.right"
+        public let arrowUpRight:String = "arrow.up.right"
         /// 􀂄
-        let arrowUpRightCircle:String = "arrow.up.right.circle"
+        public let arrowUpRightCircle:String = "arrow.up.right.circle"
         /// 􀂅
-        let arrowUpRightCircleFill:String = "arrow.up.right.circle.fill"
+        public let arrowUpRightCircleFill:String = "arrow.up.right.circle.fill"
         /// 􀄔
-        let arrowUpRightSquare:String = "arrow.up.right.square"
+        public let arrowUpRightSquare:String = "arrow.up.right.square"
         /// 􀄕
-        let arrowUpRightSquareFill:String = "arrow.up.right.square.fill"
+        public let arrowUpRightSquareFill:String = "arrow.up.right.square.fill"
         /// 􀰾
-        let arrowUpForward:String = "arrow.up.forward"
+        public let arrowUpForward:String = "arrow.up.forward"
         /// 􀰿
-        let arrowUpForwardCircle:String = "arrow.up.forward.circle"
+        public let arrowUpForwardCircle:String = "arrow.up.forward.circle"
         /// 􀱀
-        let arrowUpForwardCircleFill:String = "arrow.up.forward.circle.fill"
+        public let arrowUpForwardCircleFill:String = "arrow.up.forward.circle.fill"
         /// 􀱁
-        let arrowUpForwardSquare:String = "arrow.up.forward.square"
+        public let arrowUpForwardSquare:String = "arrow.up.forward.square"
         /// 􀱂
-        let arrowUpForwardSquareFill:String = "arrow.up.forward.square.fill"
+        public let arrowUpForwardSquareFill:String = "arrow.up.forward.square.fill"
         /// 􀄰
-        let arrowDownLeft:String = "arrow.down.left"
+        public let arrowDownLeft:String = "arrow.down.left"
         /// 􀂆
-        let arrowDownLeftCircle:String = "arrow.down.left.circle"
+        public let arrowDownLeftCircle:String = "arrow.down.left.circle"
         /// 􀂇
-        let arrowDownLeftCircleFill:String = "arrow.down.left.circle.fill"
+        public let arrowDownLeftCircleFill:String = "arrow.down.left.circle.fill"
         /// 􀄖
-        let arrowDownLeftSquare:String = "arrow.down.left.square"
+        public let arrowDownLeftSquare:String = "arrow.down.left.square"
         /// 􀄗
-        let arrowDownLeftSquareFill:String = "arrow.down.left.square.fill"
+        public let arrowDownLeftSquareFill:String = "arrow.down.left.square.fill"
         /// 􀱃
-        let arrowDownBackward:String = "arrow.down.backward"
+        public let arrowDownBackward:String = "arrow.down.backward"
         /// 􀱄
-        let arrowDownBackwardCircle:String = "arrow.down.backward.circle"
+        public let arrowDownBackwardCircle:String = "arrow.down.backward.circle"
         /// 􀱅
-        let arrowDownBackwardCircleFill:String = "arrow.down.backward.circle.fill"
+        public let arrowDownBackwardCircleFill:String = "arrow.down.backward.circle.fill"
         /// 􀱆
-        let arrowDownBackwardSquare:String = "arrow.down.backward.square"
+        public let arrowDownBackwardSquare:String = "arrow.down.backward.square"
         /// 􀱇
-        let arrowDownBackwardSquareFill:String = "arrow.down.backward.square.fill"
+        public let arrowDownBackwardSquareFill:String = "arrow.down.backward.square.fill"
         /// 􀄱
-        let arrowDownRight:String = "arrow.down.right"
+        public let arrowDownRight:String = "arrow.down.right"
         /// 􀂈
-        let arrowDownRightCircle:String = "arrow.down.right.circle"
+        public let arrowDownRightCircle:String = "arrow.down.right.circle"
         /// 􀂉
-        let arrowDownRightCircleFill:String = "arrow.down.right.circle.fill"
+        public let arrowDownRightCircleFill:String = "arrow.down.right.circle.fill"
         /// 􀄘
-        let arrowDownRightSquare:String = "arrow.down.right.square"
+        public let arrowDownRightSquare:String = "arrow.down.right.square"
         /// 􀄙
-        let arrowDownRightSquareFill:String = "arrow.down.right.square.fill"
+        public let arrowDownRightSquareFill:String = "arrow.down.right.square.fill"
         /// 􀱈
-        let arrowDownForward:String = "arrow.down.forward"
+        public let arrowDownForward:String = "arrow.down.forward"
         /// 􀱉
-        let arrowDownForwardCircle:String = "arrow.down.forward.circle"
+        public let arrowDownForwardCircle:String = "arrow.down.forward.circle"
         /// 􀱊
-        let arrowDownForwardCircleFill:String = "arrow.down.forward.circle.fill"
+        public let arrowDownForwardCircleFill:String = "arrow.down.forward.circle.fill"
         /// 􀱋
-        let arrowDownForwardSquare:String = "arrow.down.forward.square"
+        public let arrowDownForwardSquare:String = "arrow.down.forward.square"
         /// 􀱌
-        let arrowDownForwardSquareFill:String = "arrow.down.forward.square.fill"
+        public let arrowDownForwardSquareFill:String = "arrow.down.forward.square.fill"
         /// 􀄭
-        let arrowLeftArrowRight:String = "arrow.left.arrow.right"
+        public let arrowLeftArrowRight:String = "arrow.left.arrow.right"
         /// 􀂀
-        let arrowLeftArrowRightCircle:String = "arrow.left.arrow.right.circle"
+        public let arrowLeftArrowRightCircle:String = "arrow.left.arrow.right.circle"
         /// 􀂁
-        let arrowLeftArrowRightCircleFill:String = "arrow.left.arrow.right.circle.fill"
+        public let arrowLeftArrowRightCircleFill:String = "arrow.left.arrow.right.circle.fill"
         /// 􀄐
-        let arrowLeftArrowRightSquare:String = "arrow.left.arrow.right.square"
+        public let arrowLeftArrowRightSquare:String = "arrow.left.arrow.right.square"
         /// 􀄑
-        let arrowLeftArrowRightSquareFill:String = "arrow.left.arrow.right.square.fill"
+        public let arrowLeftArrowRightSquareFill:String = "arrow.left.arrow.right.square.fill"
         /// 􀄬
-        let arrowUpArrowDown:String = "arrow.up.arrow.down"
+        public let arrowUpArrowDown:String = "arrow.up.arrow.down"
         /// 􀁾
-        let arrowUpArrowDownCircle:String = "arrow.up.arrow.down.circle"
+        public let arrowUpArrowDownCircle:String = "arrow.up.arrow.down.circle"
         /// 􀁿
-        let arrowUpArrowDownCircleFill:String = "arrow.up.arrow.down.circle.fill"
+        public let arrowUpArrowDownCircleFill:String = "arrow.up.arrow.down.circle.fill"
         /// 􀄎
-        let arrowUpArrowDownSquare:String = "arrow.up.arrow.down.square"
+        public let arrowUpArrowDownSquare:String = "arrow.up.arrow.down.square"
         /// 􀄏
-        let arrowUpArrowDownSquareFill:String = "arrow.up.arrow.down.square.fill"
+        public let arrowUpArrowDownSquareFill:String = "arrow.up.arrow.down.square.fill"
         /// 􀄴
-        let arrowTurnDownLeft:String = "arrow.turn.down.left"
+        public let arrowTurnDownLeft:String = "arrow.turn.down.left"
         /// 􀄸
-        let arrowTurnUpLeft:String = "arrow.turn.up.left"
+        public let arrowTurnUpLeft:String = "arrow.turn.up.left"
         /// 􀄵
-        let arrowTurnDownRight:String = "arrow.turn.down.right"
+        public let arrowTurnDownRight:String = "arrow.turn.down.right"
         /// 􀄹
-        let arrowTurnUpRight:String = "arrow.turn.up.right"
+        public let arrowTurnUpRight:String = "arrow.turn.up.right"
         /// 􀄲
-        let arrowTurnRightUp:String = "arrow.turn.right.up"
+        public let arrowTurnRightUp:String = "arrow.turn.right.up"
         /// 􀄶
-        let arrowTurnLeftUp:String = "arrow.turn.left.up"
+        public let arrowTurnLeftUp:String = "arrow.turn.left.up"
         /// 􀄳
-        let arrowTurnRightDown:String = "arrow.turn.right.down"
+        public let arrowTurnRightDown:String = "arrow.turn.right.down"
         /// 􀄷
-        let arrowTurnLeftDown:String = "arrow.turn.left.down"
+        public let arrowTurnLeftDown:String = "arrow.turn.left.down"
         /// 􀄼
-        let arrowUturnLeft:String = "arrow.uturn.left"
+        public let arrowUturnLeft:String = "arrow.uturn.left"
         /// 􀂎
-        let arrowUturnLeftCircle:String = "arrow.uturn.left.circle"
+        public let arrowUturnLeftCircle:String = "arrow.uturn.left.circle"
         /// 􀂏
-        let arrowUturnLeftCircleFill:String = "arrow.uturn.left.circle.fill"
+        public let arrowUturnLeftCircleFill:String = "arrow.uturn.left.circle.fill"
         /// 􀞸
-        let arrowUturnLeftCircleBadgeEllipsis:String = "arrow.uturn.left.circle.badge.ellipsis"
+        public let arrowUturnLeftCircleBadgeEllipsis:String = "arrow.uturn.left.circle.badge.ellipsis"
         /// 􀄞
-        let arrowUturnLeftSquare:String = "arrow.uturn.left.square"
+        public let arrowUturnLeftSquare:String = "arrow.uturn.left.square"
         /// 􀄟
-        let arrowUturnLeftSquareFill:String = "arrow.uturn.left.square.fill"
+        public let arrowUturnLeftSquareFill:String = "arrow.uturn.left.square.fill"
         /// 􀱍
-        let arrowUturnBackward:String = "arrow.uturn.backward"
+        public let arrowUturnBackward:String = "arrow.uturn.backward"
         /// 􀱎
-        let arrowUturnBackwardCircle:String = "arrow.uturn.backward.circle"
+        public let arrowUturnBackwardCircle:String = "arrow.uturn.backward.circle"
         /// 􀱏
-        let arrowUturnBackwardCircleFill:String = "arrow.uturn.backward.circle.fill"
+        public let arrowUturnBackwardCircleFill:String = "arrow.uturn.backward.circle.fill"
         /// 􀱐
-        let arrowUturnBackwardCircleBadgeEllipsis:String = "arrow.uturn.backward.circle.badge.ellipsis"
+        public let arrowUturnBackwardCircleBadgeEllipsis:String = "arrow.uturn.backward.circle.badge.ellipsis"
         /// 􀱑
-        let arrowUturnBackwardSquare:String = "arrow.uturn.backward.square"
+        public let arrowUturnBackwardSquare:String = "arrow.uturn.backward.square"
         /// 􀱒
-        let arrowUturnBackwardSquareFill:String = "arrow.uturn.backward.square.fill"
+        public let arrowUturnBackwardSquareFill:String = "arrow.uturn.backward.square.fill"
         /// 􀄽
-        let arrowUturnRight:String = "arrow.uturn.right"
+        public let arrowUturnRight:String = "arrow.uturn.right"
         /// 􀂐
-        let arrowUturnRightCircle:String = "arrow.uturn.right.circle"
+        public let arrowUturnRightCircle:String = "arrow.uturn.right.circle"
         /// 􀂑
-        let arrowUturnRightCircleFill:String = "arrow.uturn.right.circle.fill"
+        public let arrowUturnRightCircleFill:String = "arrow.uturn.right.circle.fill"
         /// 􀄠
-        let arrowUturnRightSquare:String = "arrow.uturn.right.square"
+        public let arrowUturnRightSquare:String = "arrow.uturn.right.square"
         /// 􀄡
-        let arrowUturnRightSquareFill:String = "arrow.uturn.right.square.fill"
+        public let arrowUturnRightSquareFill:String = "arrow.uturn.right.square.fill"
         /// 􀱓
-        let arrowUturnForward:String = "arrow.uturn.forward"
+        public let arrowUturnForward:String = "arrow.uturn.forward"
         /// 􀱔
-        let arrowUturnForwardCircle:String = "arrow.uturn.forward.circle"
+        public let arrowUturnForwardCircle:String = "arrow.uturn.forward.circle"
         /// 􀱕
-        let arrowUturnForwardCircleFill:String = "arrow.uturn.forward.circle.fill"
+        public let arrowUturnForwardCircleFill:String = "arrow.uturn.forward.circle.fill"
         /// 􀱖
-        let arrowUturnForwardSquare:String = "arrow.uturn.forward.square"
+        public let arrowUturnForwardSquare:String = "arrow.uturn.forward.square"
         /// 􀱗
-        let arrowUturnForwardSquareFill:String = "arrow.uturn.forward.square.fill"
+        public let arrowUturnForwardSquareFill:String = "arrow.uturn.forward.square.fill"
         /// 􀄺
-        let arrowUturnUp:String = "arrow.uturn.up"
+        public let arrowUturnUp:String = "arrow.uturn.up"
         /// 􀂊
-        let arrowUturnUpCircle:String = "arrow.uturn.up.circle"
+        public let arrowUturnUpCircle:String = "arrow.uturn.up.circle"
         /// 􀂋
-        let arrowUturnUpCircleFill:String = "arrow.uturn.up.circle.fill"
+        public let arrowUturnUpCircleFill:String = "arrow.uturn.up.circle.fill"
         /// 􀄚
-        let arrowUturnUpSquare:String = "arrow.uturn.up.square"
+        public let arrowUturnUpSquare:String = "arrow.uturn.up.square"
         /// 􀄛
-        let arrowUturnUpSquareFill:String = "arrow.uturn.up.square.fill"
+        public let arrowUturnUpSquareFill:String = "arrow.uturn.up.square.fill"
         /// 􀄻
-        let arrowUturnDown:String = "arrow.uturn.down"
+        public let arrowUturnDown:String = "arrow.uturn.down"
         /// 􀂌
-        let arrowUturnDownCircle:String = "arrow.uturn.down.circle"
+        public let arrowUturnDownCircle:String = "arrow.uturn.down.circle"
         /// 􀂍
-        let arrowUturnDownCircleFill:String = "arrow.uturn.down.circle.fill"
+        public let arrowUturnDownCircleFill:String = "arrow.uturn.down.circle.fill"
         /// 􀄜
-        let arrowUturnDownSquare:String = "arrow.uturn.down.square"
+        public let arrowUturnDownSquare:String = "arrow.uturn.down.square"
         /// 􀄝
-        let arrowUturnDownSquareFill:String = "arrow.uturn.down.square.fill"
+        public let arrowUturnDownSquareFill:String = "arrow.uturn.down.square.fill"
         /// 􀧐
-        let arrowUpAndDownAndArrowLeftAndRight:String = "arrow.up.and.down.and.arrow.left.and.right"
+        public let arrowUpAndDownAndArrowLeftAndRight:String = "arrow.up.and.down.and.arrow.left.and.right"
         /// 􀬑
-        let arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft:String = "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
+        public let arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft:String = "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
         /// 􀄾
-        let arrowLeftAndRight:String = "arrow.left.and.right"
+        public let arrowLeftAndRight:String = "arrow.left.and.right"
         /// 􀑾
-        let arrowLeftAndRightCircle:String = "arrow.left.and.right.circle"
+        public let arrowLeftAndRightCircle:String = "arrow.left.and.right.circle"
         /// 􀑿
-        let arrowLeftAndRightCircleFill:String = "arrow.left.and.right.circle.fill"
+        public let arrowLeftAndRightCircleFill:String = "arrow.left.and.right.circle.fill"
         /// 􀒀
-        let arrowLeftAndRightSquare:String = "arrow.left.and.right.square"
+        public let arrowLeftAndRightSquare:String = "arrow.left.and.right.square"
         /// 􀒁
-        let arrowLeftAndRightSquareFill:String = "arrow.left.and.right.square.fill"
+        public let arrowLeftAndRightSquareFill:String = "arrow.left.and.right.square.fill"
         /// 􀑹
-        let arrowUpAndDown:String = "arrow.up.and.down"
+        public let arrowUpAndDown:String = "arrow.up.and.down"
         /// 􀑺
-        let arrowUpAndDownCircle:String = "arrow.up.and.down.circle"
+        public let arrowUpAndDownCircle:String = "arrow.up.and.down.circle"
         /// 􀑻
-        let arrowUpAndDownCircleFill:String = "arrow.up.and.down.circle.fill"
+        public let arrowUpAndDownCircleFill:String = "arrow.up.and.down.circle.fill"
         /// 􀑼
-        let arrowUpAndDownSquare:String = "arrow.up.and.down.square"
+        public let arrowUpAndDownSquare:String = "arrow.up.and.down.square"
         /// 􀑽
-        let arrowUpAndDownSquareFill:String = "arrow.up.and.down.square.fill"
+        public let arrowUpAndDownSquareFill:String = "arrow.up.and.down.square.fill"
         /// 􀅅
-        let arrowLeftToLineAlt:String = "arrow.left.to.line.alt"
+        public let arrowLeftToLineAlt:String = "arrow.left.to.line.alt"
         /// 􀅁
-        let arrowLeftToLine:String = "arrow.left.to.line"
+        public let arrowLeftToLine:String = "arrow.left.to.line"
         /// 􀅆
-        let arrowRightToLineAlt:String = "arrow.right.to.line.alt"
+        public let arrowRightToLineAlt:String = "arrow.right.to.line.alt"
         /// 􀅂
-        let arrowRightToLine:String = "arrow.right.to.line"
+        public let arrowRightToLine:String = "arrow.right.to.line"
         /// 􀅃
-        let arrowUpToLineAlt:String = "arrow.up.to.line.alt"
+        public let arrowUpToLineAlt:String = "arrow.up.to.line.alt"
         /// 􀄿
-        let arrowUpToLine:String = "arrow.up.to.line"
+        public let arrowUpToLine:String = "arrow.up.to.line"
         /// 􀅄
-        let arrowDownToLineAlt:String = "arrow.down.to.line.alt"
+        public let arrowDownToLineAlt:String = "arrow.down.to.line.alt"
         /// 􀅀
-        let arrowDownToLine:String = "arrow.down.to.line"
+        public let arrowDownToLine:String = "arrow.down.to.line"
         /// 􀅈
-        let arrowClockwise:String = "arrow.clockwise"
+        public let arrowClockwise:String = "arrow.clockwise"
         /// 􀚁
-        let arrowClockwiseCircle:String = "arrow.clockwise.circle"
+        public let arrowClockwiseCircle:String = "arrow.clockwise.circle"
         /// 􀚂
-        let arrowClockwiseCircleFill:String = "arrow.clockwise.circle.fill"
+        public let arrowClockwiseCircleFill:String = "arrow.clockwise.circle.fill"
         /// 􀅉
-        let arrowCounterclockwise:String = "arrow.counterclockwise"
+        public let arrowCounterclockwise:String = "arrow.counterclockwise"
         /// 􀚃
-        let arrowCounterclockwiseCircle:String = "arrow.counterclockwise.circle"
+        public let arrowCounterclockwiseCircle:String = "arrow.counterclockwise.circle"
         /// 􀚄
-        let arrowCounterclockwiseCircleFill:String = "arrow.counterclockwise.circle.fill"
+        public let arrowCounterclockwiseCircleFill:String = "arrow.counterclockwise.circle.fill"
         /// 􀅊
-        let arrowUpLeftAndArrowDownRight:String = "arrow.up.left.and.arrow.down.right"
+        public let arrowUpLeftAndArrowDownRight:String = "arrow.up.left.and.arrow.down.right"
         /// 􀧛
-        let arrowUpLeftAndArrowDownRightCircle:String = "arrow.up.left.and.arrow.down.right.circle"
+        public let arrowUpLeftAndArrowDownRightCircle:String = "arrow.up.left.and.arrow.down.right.circle"
         /// 􀧜
-        let arrowUpLeftAndArrowDownRightCircleFill:String = "arrow.up.left.and.arrow.down.right.circle.fill"
+        public let arrowUpLeftAndArrowDownRightCircleFill:String = "arrow.up.left.and.arrow.down.right.circle.fill"
         /// 􀱶
-        let arrowUpBackwardAndArrowDownForward:String = "arrow.up.backward.and.arrow.down.forward"
+        public let arrowUpBackwardAndArrowDownForward:String = "arrow.up.backward.and.arrow.down.forward"
         /// 􀱷
-        let arrowUpBackwardAndArrowDownForwardCircle:String = "arrow.up.backward.and.arrow.down.forward.circle"
+        public let arrowUpBackwardAndArrowDownForwardCircle:String = "arrow.up.backward.and.arrow.down.forward.circle"
         /// 􀱸
-        let arrowUpBackwardAndArrowDownForwardCircleFill:String = "arrow.up.backward.and.arrow.down.forward.circle.fill"
+        public let arrowUpBackwardAndArrowDownForwardCircleFill:String = "arrow.up.backward.and.arrow.down.forward.circle.fill"
         /// 􀅋
-        let arrowDownRightAndArrowUpLeft:String = "arrow.down.right.and.arrow.up.left"
+        public let arrowDownRightAndArrowUpLeft:String = "arrow.down.right.and.arrow.up.left"
         /// 􀫞
-        let arrowDownRightAndArrowUpLeftCircle:String = "arrow.down.right.and.arrow.up.left.circle"
+        public let arrowDownRightAndArrowUpLeftCircle:String = "arrow.down.right.and.arrow.up.left.circle"
         /// 􀫟
-        let arrowDownRightAndArrowUpLeftCircleFill:String = "arrow.down.right.and.arrow.up.left.circle.fill"
+        public let arrowDownRightAndArrowUpLeftCircleFill:String = "arrow.down.right.and.arrow.up.left.circle.fill"
         /// 􀱻
-        let arrowDownForwardAndArrowUpBackward:String = "arrow.down.forward.and.arrow.up.backward"
+        public let arrowDownForwardAndArrowUpBackward:String = "arrow.down.forward.and.arrow.up.backward"
         /// 􀱼
-        let arrowDownForwardAndArrowUpBackwardCircle:String = "arrow.down.forward.and.arrow.up.backward.circle"
+        public let arrowDownForwardAndArrowUpBackwardCircle:String = "arrow.down.forward.and.arrow.up.backward.circle"
         /// 􀱽
-        let arrowDownForwardAndArrowUpBackwardCircleFill:String = "arrow.down.forward.and.arrow.up.backward.circle.fill"
+        public let arrowDownForwardAndArrowUpBackwardCircleFill:String = "arrow.down.forward.and.arrow.up.backward.circle.fill"
         /// 􀅇
-        let returnIcon:String = "return"
+        public let returnIcon:String = "return"
         /// 􀅌
-        let arrow2Squarepath:String = "arrow.2.squarepath"
+        public let arrow2Squarepath:String = "arrow.2.squarepath"
         /// 􀊯
-        let arrowTriangle2Circlepath:String = "arrow.triangle.2.circlepath"
+        public let arrowTriangle2Circlepath:String = "arrow.triangle.2.circlepath"
         /// 􀖊
-        let arrowTriangle2CirclepathCircle:String = "arrow.triangle.2.circlepath.circle"
+        public let arrowTriangle2CirclepathCircle:String = "arrow.triangle.2.circlepath.circle"
         /// 􀖋
-        let arrowTriangle2CirclepathCircleFill:String = "arrow.triangle.2.circlepath.circle.fill"
+        public let arrowTriangle2CirclepathCircleFill:String = "arrow.triangle.2.circlepath.circle.fill"
         /// 􀢤
-        let exclamationmarkArrowTriangle2Circlepath:String = "exclamationmark.arrow.triangle.2.circlepath"
+        public let exclamationmarkArrowTriangle2Circlepath:String = "exclamationmark.arrow.triangle.2.circlepath"
         /// 􀤖
-        let arrowTriangleCapsulepath:String = "arrow.triangle.capsulepath"
+        public let arrowTriangleCapsulepath:String = "arrow.triangle.capsulepath"
         /// 􀙛
-        let arrow3Trianglepath:String = "arrow.3.trianglepath"
+        public let arrow3Trianglepath:String = "arrow.3.trianglepath"
         /// 􀙞
-        let arrowTriangleTurnUpRightDiamond:String = "arrow.triangle.turn.up.right.diamond"
+        public let arrowTriangleTurnUpRightDiamond:String = "arrow.triangle.turn.up.right.diamond"
         /// 􀙟
-        let arrowTriangleTurnUpRightDiamondFill:String = "arrow.triangle.turn.up.right.diamond.fill"
+        public let arrowTriangleTurnUpRightDiamondFill:String = "arrow.triangle.turn.up.right.diamond.fill"
         /// 􀟷
-        let arrowTriangleTurnUpRightCircle:String = "arrow.triangle.turn.up.right.circle"
+        public let arrowTriangleTurnUpRightCircle:String = "arrow.triangle.turn.up.right.circle"
         /// 􀟸
-        let arrowTriangleTurnUpRightCircleFill:String = "arrow.triangle.turn.up.right.circle.fill"
+        public let arrowTriangleTurnUpRightCircleFill:String = "arrow.triangle.turn.up.right.circle.fill"
         /// 􀖄
-        let arrowTriangleMerge:String = "arrow.triangle.merge"
+        public let arrowTriangleMerge:String = "arrow.triangle.merge"
         /// 􀖅
-        let arrowTriangleSwap:String = "arrow.triangle.swap"
+        public let arrowTriangleSwap:String = "arrow.triangle.swap"
         /// 􀙠
-        let arrowTriangleBranch:String = "arrow.triangle.branch"
+        public let arrowTriangleBranch:String = "arrow.triangle.branch"
         /// 􀙡
-        let arrowTrianglePull:String = "arrow.triangle.pull"
+        public let arrowTrianglePull:String = "arrow.triangle.pull"
         /// 􀓄
-        let arrowtriangleLeft:String = "arrowtriangle.left"
+        public let arrowtriangleLeft:String = "arrowtriangle.left"
         /// 􀄦
-        let arrowtriangleLeftFill:String = "arrowtriangle.left.fill"
+        public let arrowtriangleLeftFill:String = "arrowtriangle.left.fill"
         /// 􀁪
-        let arrowtriangleLeftCircle:String = "arrowtriangle.left.circle"
+        public let arrowtriangleLeftCircle:String = "arrowtriangle.left.circle"
         /// 􀁫
-        let arrowtriangleLeftCircleFill:String = "arrowtriangle.left.circle.fill"
+        public let arrowtriangleLeftCircleFill:String = "arrowtriangle.left.circle.fill"
         /// 􀃺
-        let arrowtriangleLeftSquare:String = "arrowtriangle.left.square"
+        public let arrowtriangleLeftSquare:String = "arrowtriangle.left.square"
         /// 􀃻
-        let arrowtriangleLeftSquareFill:String = "arrowtriangle.left.square.fill"
+        public let arrowtriangleLeftSquareFill:String = "arrowtriangle.left.square.fill"
         /// 􀰀
-        let arrowtriangleBackward:String = "arrowtriangle.backward"
+        public let arrowtriangleBackward:String = "arrowtriangle.backward"
         /// 􀰁
-        let arrowtriangleBackwardFill:String = "arrowtriangle.backward.fill"
+        public let arrowtriangleBackwardFill:String = "arrowtriangle.backward.fill"
         /// 􀰂
-        let arrowtriangleBackwardCircle:String = "arrowtriangle.backward.circle"
+        public let arrowtriangleBackwardCircle:String = "arrowtriangle.backward.circle"
         /// 􀰃
-        let arrowtriangleBackwardCircleFill:String = "arrowtriangle.backward.circle.fill"
+        public let arrowtriangleBackwardCircleFill:String = "arrowtriangle.backward.circle.fill"
         /// 􀰄
-        let arrowtriangleBackwardSquare:String = "arrowtriangle.backward.square"
+        public let arrowtriangleBackwardSquare:String = "arrowtriangle.backward.square"
         /// 􀰅
-        let arrowtriangleBackwardSquareFill:String = "arrowtriangle.backward.square.fill"
+        public let arrowtriangleBackwardSquareFill:String = "arrowtriangle.backward.square.fill"
         /// 􀓅
-        let arrowtriangleRight:String = "arrowtriangle.right"
+        public let arrowtriangleRight:String = "arrowtriangle.right"
         /// 􀄧
-        let arrowtriangleRightFill:String = "arrowtriangle.right.fill"
+        public let arrowtriangleRightFill:String = "arrowtriangle.right.fill"
         /// 􀁬
-        let arrowtriangleRightCircle:String = "arrowtriangle.right.circle"
+        public let arrowtriangleRightCircle:String = "arrowtriangle.right.circle"
         /// 􀁭
-        let arrowtriangleRightCircleFill:String = "arrowtriangle.right.circle.fill"
+        public let arrowtriangleRightCircleFill:String = "arrowtriangle.right.circle.fill"
         /// 􀃼
-        let arrowtriangleRightSquare:String = "arrowtriangle.right.square"
+        public let arrowtriangleRightSquare:String = "arrowtriangle.right.square"
         /// 􀃽
-        let arrowtriangleRightSquareFill:String = "arrowtriangle.right.square.fill"
+        public let arrowtriangleRightSquareFill:String = "arrowtriangle.right.square.fill"
         /// 􀰆
-        let arrowtriangleForward:String = "arrowtriangle.forward"
+        public let arrowtriangleForward:String = "arrowtriangle.forward"
         /// 􀰇
-        let arrowtriangleForwardFill:String = "arrowtriangle.forward.fill"
+        public let arrowtriangleForwardFill:String = "arrowtriangle.forward.fill"
         /// 􀰈
-        let arrowtriangleForwardCircle:String = "arrowtriangle.forward.circle"
+        public let arrowtriangleForwardCircle:String = "arrowtriangle.forward.circle"
         /// 􀰉
-        let arrowtriangleForwardCircleFill:String = "arrowtriangle.forward.circle.fill"
+        public let arrowtriangleForwardCircleFill:String = "arrowtriangle.forward.circle.fill"
         /// 􀰊
-        let arrowtriangleForwardSquare:String = "arrowtriangle.forward.square"
+        public let arrowtriangleForwardSquare:String = "arrowtriangle.forward.square"
         /// 􀰋
-        let arrowtriangleForwardSquareFill:String = "arrowtriangle.forward.square.fill"
+        public let arrowtriangleForwardSquareFill:String = "arrowtriangle.forward.square.fill"
         /// 􀓂
-        let arrowtriangleUp:String = "arrowtriangle.up"
+        public let arrowtriangleUp:String = "arrowtriangle.up"
         /// 􀄤
-        let arrowtriangleUpFill:String = "arrowtriangle.up.fill"
+        public let arrowtriangleUpFill:String = "arrowtriangle.up.fill"
         /// 􀁦
-        let arrowtriangleUpCircle:String = "arrowtriangle.up.circle"
+        public let arrowtriangleUpCircle:String = "arrowtriangle.up.circle"
         /// 􀁧
-        let arrowtriangleUpCircleFill:String = "arrowtriangle.up.circle.fill"
+        public let arrowtriangleUpCircleFill:String = "arrowtriangle.up.circle.fill"
         /// 􀃶
-        let arrowtriangleUpSquare:String = "arrowtriangle.up.square"
+        public let arrowtriangleUpSquare:String = "arrowtriangle.up.square"
         /// 􀃷
-        let arrowtriangleUpSquareFill:String = "arrowtriangle.up.square.fill"
+        public let arrowtriangleUpSquareFill:String = "arrowtriangle.up.square.fill"
         /// 􀓃
-        let arrowtriangleDown:String = "arrowtriangle.down"
+        public let arrowtriangleDown:String = "arrowtriangle.down"
         /// 􀄥
-        let arrowtriangleDownFill:String = "arrowtriangle.down.fill"
+        public let arrowtriangleDownFill:String = "arrowtriangle.down.fill"
         /// 􀁨
-        let arrowtriangleDownCircle:String = "arrowtriangle.down.circle"
+        public let arrowtriangleDownCircle:String = "arrowtriangle.down.circle"
         /// 􀁩
-        let arrowtriangleDownCircleFill:String = "arrowtriangle.down.circle.fill"
+        public let arrowtriangleDownCircleFill:String = "arrowtriangle.down.circle.fill"
         /// 􀃸
-        let arrowtriangleDownSquare:String = "arrowtriangle.down.square"
+        public let arrowtriangleDownSquare:String = "arrowtriangle.down.square"
         /// 􀃹
-        let arrowtriangleDownSquareFill:String = "arrowtriangle.down.square.fill"
+        public let arrowtriangleDownSquareFill:String = "arrowtriangle.down.square.fill"
         /// 􀕧
-        let slashCircle:String = "slash.circle"
+        public let slashCircle:String = "slash.circle"
         /// 􀕨
-        let slashCircleFill:String = "slash.circle.fill"
+        public let slashCircleFill:String = "slash.circle.fill"
         /// 􀕬
-        let asteriskCircle:String = "asterisk.circle"
+        public let asteriskCircle:String = "asterisk.circle"
         /// 􀕭
-        let asteriskCircleFill:String = "asterisk.circle.fill"
+        public let asteriskCircleFill:String = "asterisk.circle.fill"
         /// 􀀄
-        let aCircle:String = "a.circle"
+        public let aCircle:String = "a.circle"
         /// 􀀅
-        let aCircleFill:String = "a.circle.fill"
+        public let aCircleFill:String = "a.circle.fill"
         /// 􀂔
-        let aSquare:String = "a.square"
+        public let aSquare:String = "a.square"
         /// 􀂕
-        let aSquareFill:String = "a.square.fill"
+        public let aSquareFill:String = "a.square.fill"
         /// 􀀆
-        let bCircle:String = "b.circle"
+        public let bCircle:String = "b.circle"
         /// 􀀇
-        let bCircleFill:String = "b.circle.fill"
+        public let bCircleFill:String = "b.circle.fill"
         /// 􀂖
-        let bSquare:String = "b.square"
+        public let bSquare:String = "b.square"
         /// 􀂗
-        let bSquareFill:String = "b.square.fill"
+        public let bSquareFill:String = "b.square.fill"
         /// 􀀈
-        let cCircle:String = "c.circle"
+        public let cCircle:String = "c.circle"
         /// 􀀉
-        let cCircleFill:String = "c.circle.fill"
+        public let cCircleFill:String = "c.circle.fill"
         /// 􀂘
-        let cSquare:String = "c.square"
+        public let cSquare:String = "c.square"
         /// 􀂙
-        let cSquareFill:String = "c.square.fill"
+        public let cSquareFill:String = "c.square.fill"
         /// 􀀊
-        let dCircle:String = "d.circle"
+        public let dCircle:String = "d.circle"
         /// 􀀋
-        let dCircleFill:String = "d.circle.fill"
+        public let dCircleFill:String = "d.circle.fill"
         /// 􀂚
-        let dSquare:String = "d.square"
+        public let dSquare:String = "d.square"
         /// 􀂛
-        let dSquareFill:String = "d.square.fill"
+        public let dSquareFill:String = "d.square.fill"
         /// 􀀌
-        let eCircle:String = "e.circle"
+        public let eCircle:String = "e.circle"
         /// 􀀍
-        let eCircleFill:String = "e.circle.fill"
+        public let eCircleFill:String = "e.circle.fill"
         /// 􀂜
-        let eSquare:String = "e.square"
+        public let eSquare:String = "e.square"
         /// 􀂝
-        let eSquareFill:String = "e.square.fill"
+        public let eSquareFill:String = "e.square.fill"
         /// 􀀎
-        let fCircle:String = "f.circle"
+        public let fCircle:String = "f.circle"
         /// 􀀏
-        let fCircleFill:String = "f.circle.fill"
+        public let fCircleFill:String = "f.circle.fill"
         /// 􀂞
-        let fSquare:String = "f.square"
+        public let fSquare:String = "f.square"
         /// 􀂟
-        let fSquareFill:String = "f.square.fill"
+        public let fSquareFill:String = "f.square.fill"
         /// 􀀐
-        let gCircle:String = "g.circle"
+        public let gCircle:String = "g.circle"
         /// 􀀑
-        let gCircleFill:String = "g.circle.fill"
+        public let gCircleFill:String = "g.circle.fill"
         /// 􀂠
-        let gSquare:String = "g.square"
+        public let gSquare:String = "g.square"
         /// 􀂡
-        let gSquareFill:String = "g.square.fill"
+        public let gSquareFill:String = "g.square.fill"
         /// 􀀒
-        let hCircle:String = "h.circle"
+        public let hCircle:String = "h.circle"
         /// 􀀓
-        let hCircleFill:String = "h.circle.fill"
+        public let hCircleFill:String = "h.circle.fill"
         /// 􀂢
-        let hSquare:String = "h.square"
+        public let hSquare:String = "h.square"
         /// 􀂣
-        let hSquareFill:String = "h.square.fill"
+        public let hSquareFill:String = "h.square.fill"
         /// 􀀔
-        let iCircle:String = "i.circle"
+        public let iCircle:String = "i.circle"
         /// 􀀕
-        let iCircleFill:String = "i.circle.fill"
+        public let iCircleFill:String = "i.circle.fill"
         /// 􀂤
-        let iSquare:String = "i.square"
+        public let iSquare:String = "i.square"
         /// 􀂥
-        let iSquareFill:String = "i.square.fill"
+        public let iSquareFill:String = "i.square.fill"
         /// 􀀖
-        let jCircle:String = "j.circle"
+        public let jCircle:String = "j.circle"
         /// 􀀗
-        let jCircleFill:String = "j.circle.fill"
+        public let jCircleFill:String = "j.circle.fill"
         /// 􀂦
-        let jSquare:String = "j.square"
+        public let jSquare:String = "j.square"
         /// 􀂧
-        let jSquareFill:String = "j.square.fill"
+        public let jSquareFill:String = "j.square.fill"
         /// 􀀘
-        let kCircle:String = "k.circle"
+        public let kCircle:String = "k.circle"
         /// 􀀙
-        let kCircleFill:String = "k.circle.fill"
+        public let kCircleFill:String = "k.circle.fill"
         /// 􀂨
-        let kSquare:String = "k.square"
+        public let kSquare:String = "k.square"
         /// 􀂩
-        let kSquareFill:String = "k.square.fill"
+        public let kSquareFill:String = "k.square.fill"
         /// 􀀚
-        let lCircle:String = "l.circle"
+        public let lCircle:String = "l.circle"
         /// 􀀛
-        let lCircleFill:String = "l.circle.fill"
+        public let lCircleFill:String = "l.circle.fill"
         /// 􀂪
-        let lSquare:String = "l.square"
+        public let lSquare:String = "l.square"
         /// 􀂫
-        let lSquareFill:String = "l.square.fill"
+        public let lSquareFill:String = "l.square.fill"
         /// 􀀜
-        let mCircle:String = "m.circle"
+        public let mCircle:String = "m.circle"
         /// 􀀝
-        let mCircleFill:String = "m.circle.fill"
+        public let mCircleFill:String = "m.circle.fill"
         /// 􀂬
-        let mSquare:String = "m.square"
+        public let mSquare:String = "m.square"
         /// 􀂭
-        let mSquareFill:String = "m.square.fill"
+        public let mSquareFill:String = "m.square.fill"
         /// 􀀞
-        let nCircle:String = "n.circle"
+        public let nCircle:String = "n.circle"
         /// 􀀟
-        let nCircleFill:String = "n.circle.fill"
+        public let nCircleFill:String = "n.circle.fill"
         /// 􀂮
-        let nSquare:String = "n.square"
+        public let nSquare:String = "n.square"
         /// 􀂯
-        let nSquareFill:String = "n.square.fill"
+        public let nSquareFill:String = "n.square.fill"
         /// 􀀠
-        let oCircle:String = "o.circle"
+        public let oCircle:String = "o.circle"
         /// 􀀡
-        let oCircleFill:String = "o.circle.fill"
+        public let oCircleFill:String = "o.circle.fill"
         /// 􀂰
-        let oSquare:String = "o.square"
+        public let oSquare:String = "o.square"
         /// 􀂱
-        let oSquareFill:String = "o.square.fill"
+        public let oSquareFill:String = "o.square.fill"
         /// 􀀢
-        let pCircle:String = "p.circle"
+        public let pCircle:String = "p.circle"
         /// 􀀣
-        let pCircleFill:String = "p.circle.fill"
+        public let pCircleFill:String = "p.circle.fill"
         /// 􀂲
-        let pSquare:String = "p.square"
+        public let pSquare:String = "p.square"
         /// 􀂳
-        let pSquareFill:String = "p.square.fill"
+        public let pSquareFill:String = "p.square.fill"
         /// 􀀤
-        let qCircle:String = "q.circle"
+        public let qCircle:String = "q.circle"
         /// 􀀥
-        let qCircleFill:String = "q.circle.fill"
+        public let qCircleFill:String = "q.circle.fill"
         /// 􀂴
-        let qSquare:String = "q.square"
+        public let qSquare:String = "q.square"
         /// 􀂵
-        let qSquareFill:String = "q.square.fill"
+        public let qSquareFill:String = "q.square.fill"
         /// 􀀦
-        let rCircle:String = "r.circle"
+        public let rCircle:String = "r.circle"
         /// 􀀧
-        let rCircleFill:String = "r.circle.fill"
+        public let rCircleFill:String = "r.circle.fill"
         /// 􀂶
-        let rSquare:String = "r.square"
+        public let rSquare:String = "r.square"
         /// 􀂷
-        let rSquareFill:String = "r.square.fill"
+        public let rSquareFill:String = "r.square.fill"
         /// 􀀨
-        let sCircle:String = "s.circle"
+        public let sCircle:String = "s.circle"
         /// 􀀩
-        let sCircleFill:String = "s.circle.fill"
+        public let sCircleFill:String = "s.circle.fill"
         /// 􀂸
-        let sSquare:String = "s.square"
+        public let sSquare:String = "s.square"
         /// 􀂹
-        let sSquareFill:String = "s.square.fill"
+        public let sSquareFill:String = "s.square.fill"
         /// 􀀪
-        let tCircle:String = "t.circle"
+        public let tCircle:String = "t.circle"
         /// 􀀫
-        let tCircleFill:String = "t.circle.fill"
+        public let tCircleFill:String = "t.circle.fill"
         /// 􀂺
-        let tSquare:String = "t.square"
+        public let tSquare:String = "t.square"
         /// 􀂻
-        let tSquareFill:String = "t.square.fill"
+        public let tSquareFill:String = "t.square.fill"
         /// 􀀬
-        let uCircle:String = "u.circle"
+        public let uCircle:String = "u.circle"
         /// 􀀭
-        let uCircleFill:String = "u.circle.fill"
+        public let uCircleFill:String = "u.circle.fill"
         /// 􀂼
-        let uSquare:String = "u.square"
+        public let uSquare:String = "u.square"
         /// 􀂽
-        let uSquareFill:String = "u.square.fill"
+        public let uSquareFill:String = "u.square.fill"
         /// 􀀮
-        let vCircle:String = "v.circle"
+        public let vCircle:String = "v.circle"
         /// 􀀯
-        let vCircleFill:String = "v.circle.fill"
+        public let vCircleFill:String = "v.circle.fill"
         /// 􀂾
-        let vSquare:String = "v.square"
+        public let vSquare:String = "v.square"
         /// 􀂿
-        let vSquareFill:String = "v.square.fill"
+        public let vSquareFill:String = "v.square.fill"
         /// 􀀰
-        let wCircle:String = "w.circle"
+        public let wCircle:String = "w.circle"
         /// 􀀱
-        let wCircleFill:String = "w.circle.fill"
+        public let wCircleFill:String = "w.circle.fill"
         /// 􀃀
-        let wSquare:String = "w.square"
+        public let wSquare:String = "w.square"
         /// 􀃁
-        let wSquareFill:String = "w.square.fill"
+        public let wSquareFill:String = "w.square.fill"
         /// 􀀲
-        let xCircle:String = "x.circle"
+        public let xCircle:String = "x.circle"
         /// 􀀳
-        let xCircleFill:String = "x.circle.fill"
+        public let xCircleFill:String = "x.circle.fill"
         /// 􀃂
-        let xSquare:String = "x.square"
+        public let xSquare:String = "x.square"
         /// 􀃃
-        let xSquareFill:String = "x.square.fill"
+        public let xSquareFill:String = "x.square.fill"
         /// 􀀴
-        let yCircle:String = "y.circle"
+        public let yCircle:String = "y.circle"
         /// 􀀵
-        let yCircleFill:String = "y.circle.fill"
+        public let yCircleFill:String = "y.circle.fill"
         /// 􀃄
-        let ySquare:String = "y.square"
+        public let ySquare:String = "y.square"
         /// 􀃅
-        let ySquareFill:String = "y.square.fill"
+        public let ySquareFill:String = "y.square.fill"
         /// 􀀶
-        let zCircle:String = "z.circle"
+        public let zCircle:String = "z.circle"
         /// 􀀷
-        let zCircleFill:String = "z.circle.fill"
+        public let zCircleFill:String = "z.circle.fill"
         /// 􀃆
-        let zSquare:String = "z.square"
+        public let zSquare:String = "z.square"
         /// 􀃇
-        let zSquareFill:String = "z.square.fill"
+        public let zSquareFill:String = "z.square.fill"
         /// 􀖗
-        let dollarsignCircle:String = "dollarsign.circle"
+        public let dollarsignCircle:String = "dollarsign.circle"
         /// 􀖘
-        let dollarsignCircleFill:String = "dollarsign.circle.fill"
+        public let dollarsignCircleFill:String = "dollarsign.circle.fill"
         /// 􀗗
-        let dollarsignSquare:String = "dollarsign.square"
+        public let dollarsignSquare:String = "dollarsign.square"
         /// 􀗘
-        let dollarsignSquareFill:String = "dollarsign.square.fill"
+        public let dollarsignSquareFill:String = "dollarsign.square.fill"
         /// 􀖙
-        let centsignCircle:String = "centsign.circle"
+        public let centsignCircle:String = "centsign.circle"
         /// 􀖚
-        let centsignCircleFill:String = "centsign.circle.fill"
+        public let centsignCircleFill:String = "centsign.circle.fill"
         /// 􀗙
-        let centsignSquare:String = "centsign.square"
+        public let centsignSquare:String = "centsign.square"
         /// 􀗚
-        let centsignSquareFill:String = "centsign.square.fill"
+        public let centsignSquareFill:String = "centsign.square.fill"
         /// 􀖛
-        let yensignCircle:String = "yensign.circle"
+        public let yensignCircle:String = "yensign.circle"
         /// 􀖜
-        let yensignCircleFill:String = "yensign.circle.fill"
+        public let yensignCircleFill:String = "yensign.circle.fill"
         /// 􀗛
-        let yensignSquare:String = "yensign.square"
+        public let yensignSquare:String = "yensign.square"
         /// 􀗜
-        let yensignSquareFill:String = "yensign.square.fill"
+        public let yensignSquareFill:String = "yensign.square.fill"
         /// 􀖝
-        let sterlingsignCircle:String = "sterlingsign.circle"
+        public let sterlingsignCircle:String = "sterlingsign.circle"
         /// 􀖞
-        let sterlingsignCircleFill:String = "sterlingsign.circle.fill"
+        public let sterlingsignCircleFill:String = "sterlingsign.circle.fill"
         /// 􀗝
-        let sterlingsignSquare:String = "sterlingsign.square"
+        public let sterlingsignSquare:String = "sterlingsign.square"
         /// 􀗞
-        let sterlingsignSquareFill:String = "sterlingsign.square.fill"
+        public let sterlingsignSquareFill:String = "sterlingsign.square.fill"
         /// 􀖟
-        let francsignCircle:String = "francsign.circle"
+        public let francsignCircle:String = "francsign.circle"
         /// 􀖠
-        let francsignCircleFill:String = "francsign.circle.fill"
+        public let francsignCircleFill:String = "francsign.circle.fill"
         /// 􀗟
-        let francsignSquare:String = "francsign.square"
+        public let francsignSquare:String = "francsign.square"
         /// 􀗠
-        let francsignSquareFill:String = "francsign.square.fill"
+        public let francsignSquareFill:String = "francsign.square.fill"
         /// 􀖡
-        let florinsignCircle:String = "florinsign.circle"
+        public let florinsignCircle:String = "florinsign.circle"
         /// 􀖢
-        let florinsignCircleFill:String = "florinsign.circle.fill"
+        public let florinsignCircleFill:String = "florinsign.circle.fill"
         /// 􀗡
-        let florinsignSquare:String = "florinsign.square"
+        public let florinsignSquare:String = "florinsign.square"
         /// 􀗢
-        let florinsignSquareFill:String = "florinsign.square.fill"
+        public let florinsignSquareFill:String = "florinsign.square.fill"
         /// 􀖣
-        let turkishlirasignCircle:String = "turkishlirasign.circle"
+        public let turkishlirasignCircle:String = "turkishlirasign.circle"
         /// 􀖤
-        let turkishlirasignCircleFill:String = "turkishlirasign.circle.fill"
+        public let turkishlirasignCircleFill:String = "turkishlirasign.circle.fill"
         /// 􀗣
-        let turkishlirasignSquare:String = "turkishlirasign.square"
+        public let turkishlirasignSquare:String = "turkishlirasign.square"
         /// 􀗤
-        let turkishlirasignSquareFill:String = "turkishlirasign.square.fill"
+        public let turkishlirasignSquareFill:String = "turkishlirasign.square.fill"
         /// 􀖥
-        let rublesignCircle:String = "rublesign.circle"
+        public let rublesignCircle:String = "rublesign.circle"
         /// 􀖦
-        let rublesignCircleFill:String = "rublesign.circle.fill"
+        public let rublesignCircleFill:String = "rublesign.circle.fill"
         /// 􀗥
-        let rublesignSquare:String = "rublesign.square"
+        public let rublesignSquare:String = "rublesign.square"
         /// 􀗦
-        let rublesignSquareFill:String = "rublesign.square.fill"
+        public let rublesignSquareFill:String = "rublesign.square.fill"
         /// 􀖧
-        let eurosignCircle:String = "eurosign.circle"
+        public let eurosignCircle:String = "eurosign.circle"
         /// 􀖨
-        let eurosignCircleFill:String = "eurosign.circle.fill"
+        public let eurosignCircleFill:String = "eurosign.circle.fill"
         /// 􀗧
-        let eurosignSquare:String = "eurosign.square"
+        public let eurosignSquare:String = "eurosign.square"
         /// 􀗨
-        let eurosignSquareFill:String = "eurosign.square.fill"
+        public let eurosignSquareFill:String = "eurosign.square.fill"
         /// 􀖩
-        let dongsignCircle:String = "dongsign.circle"
+        public let dongsignCircle:String = "dongsign.circle"
         /// 􀖪
-        let dongsignCircleFill:String = "dongsign.circle.fill"
+        public let dongsignCircleFill:String = "dongsign.circle.fill"
         /// 􀗩
-        let dongsignSquare:String = "dongsign.square"
+        public let dongsignSquare:String = "dongsign.square"
         /// 􀗪
-        let dongsignSquareFill:String = "dongsign.square.fill"
+        public let dongsignSquareFill:String = "dongsign.square.fill"
         /// 􀖫
-        let indianrupeesignCircle:String = "indianrupeesign.circle"
+        public let indianrupeesignCircle:String = "indianrupeesign.circle"
         /// 􀖬
-        let indianrupeesignCircleFill:String = "indianrupeesign.circle.fill"
+        public let indianrupeesignCircleFill:String = "indianrupeesign.circle.fill"
         /// 􀗫
-        let indianrupeesignSquare:String = "indianrupeesign.square"
+        public let indianrupeesignSquare:String = "indianrupeesign.square"
         /// 􀗬
-        let indianrupeesignSquareFill:String = "indianrupeesign.square.fill"
+        public let indianrupeesignSquareFill:String = "indianrupeesign.square.fill"
         /// 􀖭
-        let tengesignCircle:String = "tengesign.circle"
+        public let tengesignCircle:String = "tengesign.circle"
         /// 􀖮
-        let tengesignCircleFill:String = "tengesign.circle.fill"
+        public let tengesignCircleFill:String = "tengesign.circle.fill"
         /// 􀗭
-        let tengesignSquare:String = "tengesign.square"
+        public let tengesignSquare:String = "tengesign.square"
         /// 􀗮
-        let tengesignSquareFill:String = "tengesign.square.fill"
+        public let tengesignSquareFill:String = "tengesign.square.fill"
         /// 􀖯
-        let pesetasignCircle:String = "pesetasign.circle"
+        public let pesetasignCircle:String = "pesetasign.circle"
         /// 􀖰
-        let pesetasignCircleFill:String = "pesetasign.circle.fill"
+        public let pesetasignCircleFill:String = "pesetasign.circle.fill"
         /// 􀗯
-        let pesetasignSquare:String = "pesetasign.square"
+        public let pesetasignSquare:String = "pesetasign.square"
         /// 􀗰
-        let pesetasignSquareFill:String = "pesetasign.square.fill"
+        public let pesetasignSquareFill:String = "pesetasign.square.fill"
         /// 􀖱
-        let pesosignCircle:String = "pesosign.circle"
+        public let pesosignCircle:String = "pesosign.circle"
         /// 􀖲
-        let pesosignCircleFill:String = "pesosign.circle.fill"
+        public let pesosignCircleFill:String = "pesosign.circle.fill"
         /// 􀗱
-        let pesosignSquare:String = "pesosign.square"
+        public let pesosignSquare:String = "pesosign.square"
         /// 􀗲
-        let pesosignSquareFill:String = "pesosign.square.fill"
+        public let pesosignSquareFill:String = "pesosign.square.fill"
         /// 􀖳
-        let kipsignCircle:String = "kipsign.circle"
+        public let kipsignCircle:String = "kipsign.circle"
         /// 􀖴
-        let kipsignCircleFill:String = "kipsign.circle.fill"
+        public let kipsignCircleFill:String = "kipsign.circle.fill"
         /// 􀗳
-        let kipsignSquare:String = "kipsign.square"
+        public let kipsignSquare:String = "kipsign.square"
         /// 􀗴
-        let kipsignSquareFill:String = "kipsign.square.fill"
+        public let kipsignSquareFill:String = "kipsign.square.fill"
         /// 􀖵
-        let wonsignCircle:String = "wonsign.circle"
+        public let wonsignCircle:String = "wonsign.circle"
         /// 􀖶
-        let wonsignCircleFill:String = "wonsign.circle.fill"
+        public let wonsignCircleFill:String = "wonsign.circle.fill"
         /// 􀗵
-        let wonsignSquare:String = "wonsign.square"
+        public let wonsignSquare:String = "wonsign.square"
         /// 􀗶
-        let wonsignSquareFill:String = "wonsign.square.fill"
+        public let wonsignSquareFill:String = "wonsign.square.fill"
         /// 􀖷
-        let lirasignCircle:String = "lirasign.circle"
+        public let lirasignCircle:String = "lirasign.circle"
         /// 􀖸
-        let lirasignCircleFill:String = "lirasign.circle.fill"
+        public let lirasignCircleFill:String = "lirasign.circle.fill"
         /// 􀗷
-        let lirasignSquare:String = "lirasign.square"
+        public let lirasignSquare:String = "lirasign.square"
         /// 􀗸
-        let lirasignSquareFill:String = "lirasign.square.fill"
+        public let lirasignSquareFill:String = "lirasign.square.fill"
         /// 􀖹
-        let australsignCircle:String = "australsign.circle"
+        public let australsignCircle:String = "australsign.circle"
         /// 􀖺
-        let australsignCircleFill:String = "australsign.circle.fill"
+        public let australsignCircleFill:String = "australsign.circle.fill"
         /// 􀗹
-        let australsignSquare:String = "australsign.square"
+        public let australsignSquare:String = "australsign.square"
         /// 􀗺
-        let australsignSquareFill:String = "australsign.square.fill"
+        public let australsignSquareFill:String = "australsign.square.fill"
         /// 􀖻
-        let hryvniasignCircle:String = "hryvniasign.circle"
+        public let hryvniasignCircle:String = "hryvniasign.circle"
         /// 􀖼
-        let hryvniasignCircleFill:String = "hryvniasign.circle.fill"
+        public let hryvniasignCircleFill:String = "hryvniasign.circle.fill"
         /// 􀗻
-        let hryvniasignSquare:String = "hryvniasign.square"
+        public let hryvniasignSquare:String = "hryvniasign.square"
         /// 􀗼
-        let hryvniasignSquareFill:String = "hryvniasign.square.fill"
+        public let hryvniasignSquareFill:String = "hryvniasign.square.fill"
         /// 􀖽
-        let nairasignCircle:String = "nairasign.circle"
+        public let nairasignCircle:String = "nairasign.circle"
         /// 􀖾
-        let nairasignCircleFill:String = "nairasign.circle.fill"
+        public let nairasignCircleFill:String = "nairasign.circle.fill"
         /// 􀗽
-        let nairasignSquare:String = "nairasign.square"
+        public let nairasignSquare:String = "nairasign.square"
         /// 􀗾
-        let nairasignSquareFill:String = "nairasign.square.fill"
+        public let nairasignSquareFill:String = "nairasign.square.fill"
         /// 􀖿
-        let guaranisignCircle:String = "guaranisign.circle"
+        public let guaranisignCircle:String = "guaranisign.circle"
         /// 􀗀
-        let guaranisignCircleFill:String = "guaranisign.circle.fill"
+        public let guaranisignCircleFill:String = "guaranisign.circle.fill"
         /// 􀗿
-        let guaranisignSquare:String = "guaranisign.square"
+        public let guaranisignSquare:String = "guaranisign.square"
         /// 􀘀
-        let guaranisignSquareFill:String = "guaranisign.square.fill"
+        public let guaranisignSquareFill:String = "guaranisign.square.fill"
         /// 􀗁
-        let coloncurrencysignCircle:String = "coloncurrencysign.circle"
+        public let coloncurrencysignCircle:String = "coloncurrencysign.circle"
         /// 􀗂
-        let coloncurrencysignCircleFill:String = "coloncurrencysign.circle.fill"
+        public let coloncurrencysignCircleFill:String = "coloncurrencysign.circle.fill"
         /// 􀘁
-        let coloncurrencysignSquare:String = "coloncurrencysign.square"
+        public let coloncurrencysignSquare:String = "coloncurrencysign.square"
         /// 􀘂
-        let coloncurrencysignSquareFill:String = "coloncurrencysign.square.fill"
+        public let coloncurrencysignSquareFill:String = "coloncurrencysign.square.fill"
         /// 􀗃
-        let cedisignCircle:String = "cedisign.circle"
+        public let cedisignCircle:String = "cedisign.circle"
         /// 􀗄
-        let cedisignCircleFill:String = "cedisign.circle.fill"
+        public let cedisignCircleFill:String = "cedisign.circle.fill"
         /// 􀘃
-        let cedisignSquare:String = "cedisign.square"
+        public let cedisignSquare:String = "cedisign.square"
         /// 􀘄
-        let cedisignSquareFill:String = "cedisign.square.fill"
+        public let cedisignSquareFill:String = "cedisign.square.fill"
         /// 􀗅
-        let cruzeirosignCircle:String = "cruzeirosign.circle"
+        public let cruzeirosignCircle:String = "cruzeirosign.circle"
         /// 􀗆
-        let cruzeirosignCircleFill:String = "cruzeirosign.circle.fill"
+        public let cruzeirosignCircleFill:String = "cruzeirosign.circle.fill"
         /// 􀘅
-        let cruzeirosignSquare:String = "cruzeirosign.square"
+        public let cruzeirosignSquare:String = "cruzeirosign.square"
         /// 􀘆
-        let cruzeirosignSquareFill:String = "cruzeirosign.square.fill"
+        public let cruzeirosignSquareFill:String = "cruzeirosign.square.fill"
         /// 􀗇
-        let tugriksignCircle:String = "tugriksign.circle"
+        public let tugriksignCircle:String = "tugriksign.circle"
         /// 􀗈
-        let tugriksignCircleFill:String = "tugriksign.circle.fill"
+        public let tugriksignCircleFill:String = "tugriksign.circle.fill"
         /// 􀘇
-        let tugriksignSquare:String = "tugriksign.square"
+        public let tugriksignSquare:String = "tugriksign.square"
         /// 􀘈
-        let tugriksignSquareFill:String = "tugriksign.square.fill"
+        public let tugriksignSquareFill:String = "tugriksign.square.fill"
         /// 􀗉
-        let millsignCircle:String = "millsign.circle"
+        public let millsignCircle:String = "millsign.circle"
         /// 􀗊
-        let millsignCircleFill:String = "millsign.circle.fill"
+        public let millsignCircleFill:String = "millsign.circle.fill"
         /// 􀘉
-        let millsignSquare:String = "millsign.square"
+        public let millsignSquare:String = "millsign.square"
         /// 􀘊
-        let millsignSquareFill:String = "millsign.square.fill"
+        public let millsignSquareFill:String = "millsign.square.fill"
         /// 􀗋
-        let shekelsignCircle:String = "shekelsign.circle"
+        public let shekelsignCircle:String = "shekelsign.circle"
         /// 􀗌
-        let shekelsignCircleFill:String = "shekelsign.circle.fill"
+        public let shekelsignCircleFill:String = "shekelsign.circle.fill"
         /// 􀘋
-        let shekelsignSquare:String = "shekelsign.square"
+        public let shekelsignSquare:String = "shekelsign.square"
         /// 􀘌
-        let shekelsignSquareFill:String = "shekelsign.square.fill"
+        public let shekelsignSquareFill:String = "shekelsign.square.fill"
         /// 􀗍
-        let manatsignCircle:String = "manatsign.circle"
+        public let manatsignCircle:String = "manatsign.circle"
         /// 􀗎
-        let manatsignCircleFill:String = "manatsign.circle.fill"
+        public let manatsignCircleFill:String = "manatsign.circle.fill"
         /// 􀘍
-        let manatsignSquare:String = "manatsign.square"
+        public let manatsignSquare:String = "manatsign.square"
         /// 􀘎
-        let manatsignSquareFill:String = "manatsign.square.fill"
+        public let manatsignSquareFill:String = "manatsign.square.fill"
         /// 􀗏
-        let rupeesignCircle:String = "rupeesign.circle"
+        public let rupeesignCircle:String = "rupeesign.circle"
         /// 􀗐
-        let rupeesignCircleFill:String = "rupeesign.circle.fill"
+        public let rupeesignCircleFill:String = "rupeesign.circle.fill"
         /// 􀘏
-        let rupeesignSquare:String = "rupeesign.square"
+        public let rupeesignSquare:String = "rupeesign.square"
         /// 􀘐
-        let rupeesignSquareFill:String = "rupeesign.square.fill"
+        public let rupeesignSquareFill:String = "rupeesign.square.fill"
         /// 􀗑
-        let bahtsignCircle:String = "bahtsign.circle"
+        public let bahtsignCircle:String = "bahtsign.circle"
         /// 􀗒
-        let bahtsignCircleFill:String = "bahtsign.circle.fill"
+        public let bahtsignCircleFill:String = "bahtsign.circle.fill"
         /// 􀘑
-        let bahtsignSquare:String = "bahtsign.square"
+        public let bahtsignSquare:String = "bahtsign.square"
         /// 􀘒
-        let bahtsignSquareFill:String = "bahtsign.square.fill"
+        public let bahtsignSquareFill:String = "bahtsign.square.fill"
         /// 􀗓
-        let larisignCircle:String = "larisign.circle"
+        public let larisignCircle:String = "larisign.circle"
         /// 􀗔
-        let larisignCircleFill:String = "larisign.circle.fill"
+        public let larisignCircleFill:String = "larisign.circle.fill"
         /// 􀘓
-        let larisignSquare:String = "larisign.square"
+        public let larisignSquare:String = "larisign.square"
         /// 􀘔
-        let larisignSquareFill:String = "larisign.square.fill"
+        public let larisignSquareFill:String = "larisign.square.fill"
         /// 􀗕
-        let bitcoinsignCircle:String = "bitcoinsign.circle"
+        public let bitcoinsignCircle:String = "bitcoinsign.circle"
         /// 􀗖
-        let bitcoinsignCircleFill:String = "bitcoinsign.circle.fill"
+        public let bitcoinsignCircleFill:String = "bitcoinsign.circle.fill"
         /// 􀘕
-        let bitcoinsignSquare:String = "bitcoinsign.square"
+        public let bitcoinsignSquare:String = "bitcoinsign.square"
         /// 􀘖
-        let bitcoinsignSquareFill:String = "bitcoinsign.square.fill"
+        public let bitcoinsignSquareFill:String = "bitcoinsign.square.fill"
         /// 􀮰
-        let brazilianrealsignCircle:String = "brazilianrealsign.circle"
+        public let brazilianrealsignCircle:String = "brazilianrealsign.circle"
         /// 􀮱
-        let brazilianrealsignCircleFill:String = "brazilianrealsign.circle.fill"
+        public let brazilianrealsignCircleFill:String = "brazilianrealsign.circle.fill"
         /// 􀮲
-        let brazilianrealsignSquare:String = "brazilianrealsign.square"
+        public let brazilianrealsignSquare:String = "brazilianrealsign.square"
         /// 􀮳
-        let brazilianrealsignSquareFill:String = "brazilianrealsign.square.fill"
+        public let brazilianrealsignSquareFill:String = "brazilianrealsign.square.fill"
         /// 􀀸
-        let circle0:String = "0.circle"
+        public let circle0:String = "0.circle"
         /// 􀀹
-        let circle0Fill:String = "0.circle.fill"
+        public let circle0Fill:String = "0.circle.fill"
         /// 􀃈
-        let square0:String = "0.square"
+        public let square0:String = "0.square"
         /// 􀃉
-        let square0Fill:String = "0.square.fill"
+        public let square0Fill:String = "0.square.fill"
         /// 􀀺
-        let circle1:String = "1.circle"
+        public let circle1:String = "1.circle"
         /// 􀀻
-        let circle1Fill:String = "1.circle.fill"
+        public let circle1Fill:String = "1.circle.fill"
         /// 􀃊
-        let square1:String = "1.square"
+        public let square1:String = "1.square"
         /// 􀃋
-        let square1Fill:String = "1.square.fill"
+        public let square1Fill:String = "1.square.fill"
         /// 􀀼
-        let circle2:String = "2.circle"
+        public let circle2:String = "2.circle"
         /// 􀀽
-        let circle2Fill:String = "2.circle.fill"
+        public let circle2Fill:String = "2.circle.fill"
         /// 􀃌
-        let square2:String = "2.square"
+        public let square2:String = "2.square"
         /// 􀃍
-        let square2Fill:String = "2.square.fill"
+        public let square2Fill:String = "2.square.fill"
       /*
          Needs to be fixed
         /// 􀀾
-        let 3Circle:String = "3.circle"
+        public let 3Circle:String = "3.circle"
         /// 􀀿
-        let 3CircleFill:String = "3.circle.fill"
+        public let 3CircleFill:String = "3.circle.fill"
         /// 􀃎
-        let 3Square:String = "3.square"
+        public let 3Square:String = "3.square"
         /// 􀃏
-        let 3SquareFill:String = "3.square.fill"
+        public let 3SquareFill:String = "3.square.fill"
         /// 􀁀
-        let 4Circle:String = "4.circle"
+        public let 4Circle:String = "4.circle"
         /// 􀁁
-        let 4CircleFill:String = "4.circle.fill"
+        public let 4CircleFill:String = "4.circle.fill"
         /// 􀃐
-        let 4Square:String = "4.square"
+        public let 4Square:String = "4.square"
         /// 􀃑
-        let 4SquareFill:String = "4.square.fill"
+        public let 4SquareFill:String = "4.square.fill"
         /// 􀘗
-        let 4AltCircle:String = "4.alt.circle"
+        public let 4AltCircle:String = "4.alt.circle"
         /// 􀘘
-        let 4AltCircleFill:String = "4.alt.circle.fill"
+        public let 4AltCircleFill:String = "4.alt.circle.fill"
         /// 􀘙
-        let 4AltSquare:String = "4.alt.square"
+        public let 4AltSquare:String = "4.alt.square"
         /// 􀘚
-        let 4AltSquareFill:String = "4.alt.square.fill"
+        public let 4AltSquareFill:String = "4.alt.square.fill"
         /// 􀁂
-        let 5Circle:String = "5.circle"
+        public let 5Circle:String = "5.circle"
         /// 􀁃
-        let 5CircleFill:String = "5.circle.fill"
+        public let 5CircleFill:String = "5.circle.fill"
         /// 􀃒
-        let 5Square:String = "5.square"
+        public let 5Square:String = "5.square"
         /// 􀃓
-        let 5SquareFill:String = "5.square.fill"
+        public let 5SquareFill:String = "5.square.fill"
         /// 􀁄
-        let 6Circle:String = "6.circle"
+        public let 6Circle:String = "6.circle"
         /// 􀁅
-        let 6CircleFill:String = "6.circle.fill"
+        public let 6CircleFill:String = "6.circle.fill"
         /// 􀃔
-        let 6Square:String = "6.square"
+        public let 6Square:String = "6.square"
         /// 􀃕
-        let 6SquareFill:String = "6.square.fill"
+        public let 6SquareFill:String = "6.square.fill"
         /// 􀑱
-        let 6AltCircle:String = "6.alt.circle"
+        public let 6AltCircle:String = "6.alt.circle"
         /// 􀑲
-        let 6AltCircleFill:String = "6.alt.circle.fill"
+        public let 6AltCircleFill:String = "6.alt.circle.fill"
         /// 􀑵
-        let 6AltSquare:String = "6.alt.square"
+        public let 6AltSquare:String = "6.alt.square"
         /// 􀑶
-        let 6AltSquareFill:String = "6.alt.square.fill"
+        public let 6AltSquareFill:String = "6.alt.square.fill"
         /// 􀁆
-        let 7Circle:String = "7.circle"
+        public let 7Circle:String = "7.circle"
         /// 􀁇
-        let 7CircleFill:String = "7.circle.fill"
+        public let 7CircleFill:String = "7.circle.fill"
         /// 􀃖
-        let 7Square:String = "7.square"
+        public let 7Square:String = "7.square"
         /// 􀃗
-        let 7SquareFill:String = "7.square.fill"
+        public let 7SquareFill:String = "7.square.fill"
         /// 􀁈
-        let 8Circle:String = "8.circle"
+        public let 8Circle:String = "8.circle"
         /// 􀁉
-        let 8CircleFill:String = "8.circle.fill"
+        public let 8CircleFill:String = "8.circle.fill"
         /// 􀃘
-        let 8Square:String = "8.square"
+        public let 8Square:String = "8.square"
         /// 􀃙
-        let 8SquareFill:String = "8.square.fill"
+        public let 8SquareFill:String = "8.square.fill"
         /// 􀁊
-        let 9Circle:String = "9.circle"
+        public let 9Circle:String = "9.circle"
         /// 􀁋
-        let 9CircleFill:String = "9.circle.fill"
+        public let 9CircleFill:String = "9.circle.fill"
         /// 􀃚
-        let 9Square:String = "9.square"
+        public let 9Square:String = "9.square"
         /// 􀃛
-        let 9SquareFill:String = "9.square.fill"
+        public let 9SquareFill:String = "9.square.fill"
         /// 􀑳
-        let 9AltCircle:String = "9.alt.circle"
+        public let 9AltCircle:String = "9.alt.circle"
         /// 􀑴
-        let 9AltCircleFill:String = "9.alt.circle.fill"
+        public let 9AltCircleFill:String = "9.alt.circle.fill"
         /// 􀑷
-        let 9AltSquare:String = "9.alt.square"
+        public let 9AltSquare:String = "9.alt.square"
         /// 􀑸
-        let 9AltSquareFill:String = "9.alt.square.fill"
+        public let 9AltSquareFill:String = "9.alt.square.fill"
         /// 􀓫
-        let 00Circle:String = "00.circle"
+        public let 00Circle:String = "00.circle"
         /// 􀔊
-        let 00CircleFill:String = "00.circle.fill"
+        public let 00CircleFill:String = "00.circle.fill"
         /// 􀔩
-        let 00Square:String = "00.square"
+        public let 00Square:String = "00.square"
         /// 􀕈
-        let 00SquareFill:String = "00.square.fill"
+        public let 00SquareFill:String = "00.square.fill"
         /// 􀓬
-        let 01Circle:String = "01.circle"
+        public let 01Circle:String = "01.circle"
         /// 􀔋
-        let 01CircleFill:String = "01.circle.fill"
+        public let 01CircleFill:String = "01.circle.fill"
         /// 􀔪
-        let 01Square:String = "01.square"
+        public let 01Square:String = "01.square"
         /// 􀕉
-        let 01SquareFill:String = "01.square.fill"
+        public let 01SquareFill:String = "01.square.fill"
         /// 􀓭
-        let 02Circle:String = "02.circle"
+        public let 02Circle:String = "02.circle"
         /// 􀔌
-        let 02CircleFill:String = "02.circle.fill"
+        public let 02CircleFill:String = "02.circle.fill"
         /// 􀔫
-        let 02Square:String = "02.square"
+        public let 02Square:String = "02.square"
         /// 􀕊
-        let 02SquareFill:String = "02.square.fill"
+        public let 02SquareFill:String = "02.square.fill"
         /// 􀓮
-        let 03Circle:String = "03.circle"
+        public let 03Circle:String = "03.circle"
         /// 􀔍
-        let 03CircleFill:String = "03.circle.fill"
+        public let 03CircleFill:String = "03.circle.fill"
         /// 􀔬
-        let 03Square:String = "03.square"
+        public let 03Square:String = "03.square"
         /// 􀕋
-        let 03SquareFill:String = "03.square.fill"
+        public let 03SquareFill:String = "03.square.fill"
         /// 􀓯
-        let 04Circle:String = "04.circle"
+        public let 04Circle:String = "04.circle"
         /// 􀔎
-        let 04CircleFill:String = "04.circle.fill"
+        public let 04CircleFill:String = "04.circle.fill"
         /// 􀔭
-        let 04Square:String = "04.square"
+        public let 04Square:String = "04.square"
         /// 􀕌
-        let 04SquareFill:String = "04.square.fill"
+        public let 04SquareFill:String = "04.square.fill"
         /// 􀓰
-        let 05Circle:String = "05.circle"
+        public let 05Circle:String = "05.circle"
         /// 􀔏
-        let 05CircleFill:String = "05.circle.fill"
+        public let 05CircleFill:String = "05.circle.fill"
         /// 􀔮
-        let 05Square:String = "05.square"
+        public let 05Square:String = "05.square"
         /// 􀕍
-        let 05SquareFill:String = "05.square.fill"
+        public let 05SquareFill:String = "05.square.fill"
         /// 􀓱
-        let 06Circle:String = "06.circle"
+        public let 06Circle:String = "06.circle"
         /// 􀔐
-        let 06CircleFill:String = "06.circle.fill"
+        public let 06CircleFill:String = "06.circle.fill"
         /// 􀔯
-        let 06Square:String = "06.square"
+        public let 06Square:String = "06.square"
         /// 􀕎
-        let 06SquareFill:String = "06.square.fill"
+        public let 06SquareFill:String = "06.square.fill"
         /// 􀓲
-        let 07Circle:String = "07.circle"
+        public let 07Circle:String = "07.circle"
         /// 􀔑
-        let 07CircleFill:String = "07.circle.fill"
+        public let 07CircleFill:String = "07.circle.fill"
         /// 􀔰
-        let 07Square:String = "07.square"
+        public let 07Square:String = "07.square"
         /// 􀕏
-        let 07SquareFill:String = "07.square.fill"
+        public let 07SquareFill:String = "07.square.fill"
         /// 􀓳
-        let 08Circle:String = "08.circle"
+        public let 08Circle:String = "08.circle"
         /// 􀔒
-        let 08CircleFill:String = "08.circle.fill"
+        public let 08CircleFill:String = "08.circle.fill"
         /// 􀔱
-        let 08Square:String = "08.square"
+        public let 08Square:String = "08.square"
         /// 􀕐
-        let 08SquareFill:String = "08.square.fill"
+        public let 08SquareFill:String = "08.square.fill"
         /// 􀓴
-        let 09Circle:String = "09.circle"
+        public let 09Circle:String = "09.circle"
         /// 􀔓
-        let 09CircleFill:String = "09.circle.fill"
+        public let 09CircleFill:String = "09.circle.fill"
         /// 􀔲
-        let 09Square:String = "09.square"
+        public let 09Square:String = "09.square"
         /// 􀕑
-        let 09SquareFill:String = "09.square.fill"
+        public let 09SquareFill:String = "09.square.fill"
         /// 􀓵
-        let 10Circle:String = "10.circle"
+        public let 10Circle:String = "10.circle"
         /// 􀔔
-        let 10CircleFill:String = "10.circle.fill"
+        public let 10CircleFill:String = "10.circle.fill"
         /// 􀔳
-        let 10Square:String = "10.square"
+        public let 10Square:String = "10.square"
         /// 􀕒
-        let 10SquareFill:String = "10.square.fill"
+        public let 10SquareFill:String = "10.square.fill"
         /// 􀓶
-        let 11Circle:String = "11.circle"
+        public let 11Circle:String = "11.circle"
         /// 􀔕
-        let 11CircleFill:String = "11.circle.fill"
+        public let 11CircleFill:String = "11.circle.fill"
         /// 􀔴
-        let 11Square:String = "11.square"
+        public let 11Square:String = "11.square"
         /// 􀕓
-        let 11SquareFill:String = "11.square.fill"
+        public let 11SquareFill:String = "11.square.fill"
         /// 􀓷
-        let 12Circle:String = "12.circle"
+        public let 12Circle:String = "12.circle"
         /// 􀔖
-        let 12CircleFill:String = "12.circle.fill"
+        public let 12CircleFill:String = "12.circle.fill"
         /// 􀔵
-        let 12Square:String = "12.square"
+        public let 12Square:String = "12.square"
         /// 􀕔
-        let 12SquareFill:String = "12.square.fill"
+        public let 12SquareFill:String = "12.square.fill"
         /// 􀓸
-        let 13Circle:String = "13.circle"
+        public let 13Circle:String = "13.circle"
         /// 􀔗
-        let 13CircleFill:String = "13.circle.fill"
+        public let 13CircleFill:String = "13.circle.fill"
         /// 􀔶
-        let 13Square:String = "13.square"
+        public let 13Square:String = "13.square"
         /// 􀕕
-        let 13SquareFill:String = "13.square.fill"
+        public let 13SquareFill:String = "13.square.fill"
         /// 􀓹
-        let 14Circle:String = "14.circle"
+        public let 14Circle:String = "14.circle"
         /// 􀔘
-        let 14CircleFill:String = "14.circle.fill"
+        public let 14CircleFill:String = "14.circle.fill"
         /// 􀔷
-        let 14Square:String = "14.square"
+        public let 14Square:String = "14.square"
         /// 􀕖
-        let 14SquareFill:String = "14.square.fill"
+        public let 14SquareFill:String = "14.square.fill"
         /// 􀓺
-        let 15Circle:String = "15.circle"
+        public let 15Circle:String = "15.circle"
         /// 􀔙
-        let 15CircleFill:String = "15.circle.fill"
+        public let 15CircleFill:String = "15.circle.fill"
         /// 􀔸
-        let 15Square:String = "15.square"
+        public let 15Square:String = "15.square"
         /// 􀕗
-        let 15SquareFill:String = "15.square.fill"
+        public let 15SquareFill:String = "15.square.fill"
         /// 􀓻
-        let 16Circle:String = "16.circle"
+        public let 16Circle:String = "16.circle"
         /// 􀔚
-        let 16CircleFill:String = "16.circle.fill"
+        public let 16CircleFill:String = "16.circle.fill"
         /// 􀔹
-        let 16Square:String = "16.square"
+        public let 16Square:String = "16.square"
         /// 􀕘
-        let 16SquareFill:String = "16.square.fill"
+        public let 16SquareFill:String = "16.square.fill"
         /// 􀓼
-        let 17Circle:String = "17.circle"
+        public let 17Circle:String = "17.circle"
         /// 􀔛
-        let 17CircleFill:String = "17.circle.fill"
+        public let 17CircleFill:String = "17.circle.fill"
         /// 􀔺
-        let 17Square:String = "17.square"
+        public let 17Square:String = "17.square"
         /// 􀕙
-        let 17SquareFill:String = "17.square.fill"
+        public let 17SquareFill:String = "17.square.fill"
         /// 􀓽
-        let 18Circle:String = "18.circle"
+        public let 18Circle:String = "18.circle"
         /// 􀔜
-        let 18CircleFill:String = "18.circle.fill"
+        public let 18CircleFill:String = "18.circle.fill"
         /// 􀔻
-        let 18Square:String = "18.square"
+        public let 18Square:String = "18.square"
         /// 􀕚
-        let 18SquareFill:String = "18.square.fill"
+        public let 18SquareFill:String = "18.square.fill"
         /// 􀓾
-        let 19Circle:String = "19.circle"
+        public let 19Circle:String = "19.circle"
         /// 􀔝
-        let 19CircleFill:String = "19.circle.fill"
+        public let 19CircleFill:String = "19.circle.fill"
         /// 􀔼
-        let 19Square:String = "19.square"
+        public let 19Square:String = "19.square"
         /// 􀕛
-        let 19SquareFill:String = "19.square.fill"
+        public let 19SquareFill:String = "19.square.fill"
         /// 􀓿
-        let 20Circle:String = "20.circle"
+        public let 20Circle:String = "20.circle"
         /// 􀔞
-        let 20CircleFill:String = "20.circle.fill"
+        public let 20CircleFill:String = "20.circle.fill"
         /// 􀔽
-        let 20Square:String = "20.square"
+        public let 20Square:String = "20.square"
         /// 􀕜
-        let 20SquareFill:String = "20.square.fill"
+        public let 20SquareFill:String = "20.square.fill"
         /// 􀔀
-        let 21Circle:String = "21.circle"
+        public let 21Circle:String = "21.circle"
         /// 􀔟
-        let 21CircleFill:String = "21.circle.fill"
+        public let 21CircleFill:String = "21.circle.fill"
         /// 􀔾
-        let 21Square:String = "21.square"
+        public let 21Square:String = "21.square"
         /// 􀕝
-        let 21SquareFill:String = "21.square.fill"
+        public let 21SquareFill:String = "21.square.fill"
         /// 􀔁
-        let 22Circle:String = "22.circle"
+        public let 22Circle:String = "22.circle"
         /// 􀔠
-        let 22CircleFill:String = "22.circle.fill"
+        public let 22CircleFill:String = "22.circle.fill"
         /// 􀔿
-        let 22Square:String = "22.square"
+        public let 22Square:String = "22.square"
         /// 􀕞
-        let 22SquareFill:String = "22.square.fill"
+        public let 22SquareFill:String = "22.square.fill"
         /// 􀔂
-        let 23Circle:String = "23.circle"
+        public let 23Circle:String = "23.circle"
         /// 􀔡
-        let 23CircleFill:String = "23.circle.fill"
+        public let 23CircleFill:String = "23.circle.fill"
         /// 􀕀
-        let 23Square:String = "23.square"
+        public let 23Square:String = "23.square"
         /// 􀕟
-        let 23SquareFill:String = "23.square.fill"
+        public let 23SquareFill:String = "23.square.fill"
         /// 􀔃
-        let 24Circle:String = "24.circle"
+        public let 24Circle:String = "24.circle"
         /// 􀔢
-        let 24CircleFill:String = "24.circle.fill"
+        public let 24CircleFill:String = "24.circle.fill"
         /// 􀕁
-        let 24Square:String = "24.square"
+        public let 24Square:String = "24.square"
         /// 􀕠
-        let 24SquareFill:String = "24.square.fill"
+        public let 24SquareFill:String = "24.square.fill"
         /// 􀔄
-        let 25Circle:String = "25.circle"
+        public let 25Circle:String = "25.circle"
         /// 􀔣
-        let 25CircleFill:String = "25.circle.fill"
+        public let 25CircleFill:String = "25.circle.fill"
         /// 􀕂
-        let 25Square:String = "25.square"
+        public let 25Square:String = "25.square"
         /// 􀕡
-        let 25SquareFill:String = "25.square.fill"
+        public let 25SquareFill:String = "25.square.fill"
         /// 􀔅
-        let 26Circle:String = "26.circle"
+        public let 26Circle:String = "26.circle"
         /// 􀔤
-        let 26CircleFill:String = "26.circle.fill"
+        public let 26CircleFill:String = "26.circle.fill"
         /// 􀕃
-        let 26Square:String = "26.square"
+        public let 26Square:String = "26.square"
         /// 􀕢
-        let 26SquareFill:String = "26.square.fill"
+        public let 26SquareFill:String = "26.square.fill"
         /// 􀔆
-        let 27Circle:String = "27.circle"
+        public let 27Circle:String = "27.circle"
         /// 􀔥
-        let 27CircleFill:String = "27.circle.fill"
+        public let 27CircleFill:String = "27.circle.fill"
         /// 􀕄
-        let 27Square:String = "27.square"
+        public let 27Square:String = "27.square"
         /// 􀕣
-        let 27SquareFill:String = "27.square.fill"
+        public let 27SquareFill:String = "27.square.fill"
         /// 􀔇
-        let 28Circle:String = "28.circle"
+        public let 28Circle:String = "28.circle"
         /// 􀔦
-        let 28CircleFill:String = "28.circle.fill"
+        public let 28CircleFill:String = "28.circle.fill"
         /// 􀕅
-        let 28Square:String = "28.square"
+        public let 28Square:String = "28.square"
         /// 􀕤
-        let 28SquareFill:String = "28.square.fill"
+        public let 28SquareFill:String = "28.square.fill"
         /// 􀔈
-        let 29Circle:String = "29.circle"
+        public let 29Circle:String = "29.circle"
         /// 􀔧
-        let 29CircleFill:String = "29.circle.fill"
+        public let 29CircleFill:String = "29.circle.fill"
         /// 􀕆
-        let 29Square:String = "29.square"
+        public let 29Square:String = "29.square"
         /// 􀕥
-        let 29SquareFill:String = "29.square.fill"
+        public let 29SquareFill:String = "29.square.fill"
         /// 􀔉
-        let 30Circle:String = "30.circle"
+        public let 30Circle:String = "30.circle"
         /// 􀔨
-        let 30CircleFill:String = "30.circle.fill"
+        public let 30CircleFill:String = "30.circle.fill"
         /// 􀕇
-        let 30Square:String = "30.square"
+        public let 30Square:String = "30.square"
         /// 􀕦
-        let 30SquareFill:String = "30.square.fill"
+        public let 30SquareFill:String = "30.square.fill"
         /// 􀘠
-        let 31Circle:String = "31.circle"
+        public let 31Circle:String = "31.circle"
         /// 􀘡
-        let 31CircleFill:String = "31.circle.fill"
+        public let 31CircleFill:String = "31.circle.fill"
         /// 􀘢
-        let 31Square:String = "31.square"
+        public let 31Square:String = "31.square"
         /// 􀘣
-        let 31SquareFill:String = "31.square.fill"
+        public let 31SquareFill:String = "31.square.fill"
         /// 􀚗
-        let 32Circle:String = "32.circle"
+        public let 32Circle:String = "32.circle"
         /// 􀚘
-        let 32CircleFill:String = "32.circle.fill"
+        public let 32CircleFill:String = "32.circle.fill"
         /// 􀚽
-        let 32Square:String = "32.square"
+        public let 32Square:String = "32.square"
         /// 􀚾
-        let 32SquareFill:String = "32.square.fill"
+        public let 32SquareFill:String = "32.square.fill"
         /// 􀚙
-        let 33Circle:String = "33.circle"
+        public let 33Circle:String = "33.circle"
         /// 􀚚
-        let 33CircleFill:String = "33.circle.fill"
+        public let 33CircleFill:String = "33.circle.fill"
         /// 􀚿
-        let 33Square:String = "33.square"
+        public let 33Square:String = "33.square"
         /// 􀛀
-        let 33SquareFill:String = "33.square.fill"
+        public let 33SquareFill:String = "33.square.fill"
         /// 􀚛
-        let 34Circle:String = "34.circle"
+        public let 34Circle:String = "34.circle"
         /// 􀚜
-        let 34CircleFill:String = "34.circle.fill"
+        public let 34CircleFill:String = "34.circle.fill"
         /// 􀛁
-        let 34Square:String = "34.square"
+        public let 34Square:String = "34.square"
         /// 􀛂
-        let 34SquareFill:String = "34.square.fill"
+        public let 34SquareFill:String = "34.square.fill"
         /// 􀚝
-        let 35Circle:String = "35.circle"
+        public let 35Circle:String = "35.circle"
         /// 􀚞
-        let 35CircleFill:String = "35.circle.fill"
+        public let 35CircleFill:String = "35.circle.fill"
         /// 􀛃
-        let 35Square:String = "35.square"
+        public let 35Square:String = "35.square"
         /// 􀛄
-        let 35SquareFill:String = "35.square.fill"
+        public let 35SquareFill:String = "35.square.fill"
         /// 􀚟
-        let 36Circle:String = "36.circle"
+        public let 36Circle:String = "36.circle"
         /// 􀚠
-        let 36CircleFill:String = "36.circle.fill"
+        public let 36CircleFill:String = "36.circle.fill"
         /// 􀛅
-        let 36Square:String = "36.square"
+        public let 36Square:String = "36.square"
         /// 􀛆
-        let 36SquareFill:String = "36.square.fill"
+        public let 36SquareFill:String = "36.square.fill"
         /// 􀚡
-        let 37Circle:String = "37.circle"
+        public let 37Circle:String = "37.circle"
         /// 􀚢
-        let 37CircleFill:String = "37.circle.fill"
+        public let 37CircleFill:String = "37.circle.fill"
         /// 􀛇
-        let 37Square:String = "37.square"
+        public let 37Square:String = "37.square"
         /// 􀛈
-        let 37SquareFill:String = "37.square.fill"
+        public let 37SquareFill:String = "37.square.fill"
         /// 􀚣
-        let 38Circle:String = "38.circle"
+        public let 38Circle:String = "38.circle"
         /// 􀚤
-        let 38CircleFill:String = "38.circle.fill"
+        public let 38CircleFill:String = "38.circle.fill"
         /// 􀛉
-        let 38Square:String = "38.square"
+        public let 38Square:String = "38.square"
         /// 􀛊
-        let 38SquareFill:String = "38.square.fill"
+        public let 38SquareFill:String = "38.square.fill"
         /// 􀚥
-        let 39Circle:String = "39.circle"
+        public let 39Circle:String = "39.circle"
         /// 􀚦
-        let 39CircleFill:String = "39.circle.fill"
+        public let 39CircleFill:String = "39.circle.fill"
         /// 􀛋
-        let 39Square:String = "39.square"
+        public let 39Square:String = "39.square"
         /// 􀛌
-        let 39SquareFill:String = "39.square.fill"
+        public let 39SquareFill:String = "39.square.fill"
         /// 􀚧
-        let 40Circle:String = "40.circle"
+        public let 40Circle:String = "40.circle"
         /// 􀚨
-        let 40CircleFill:String = "40.circle.fill"
+        public let 40CircleFill:String = "40.circle.fill"
         /// 􀛍
-        let 40Square:String = "40.square"
+        public let 40Square:String = "40.square"
         /// 􀛎
-        let 40SquareFill:String = "40.square.fill"
+        public let 40SquareFill:String = "40.square.fill"
         /// 􀚩
-        let 41Circle:String = "41.circle"
+        public let 41Circle:String = "41.circle"
         /// 􀚪
-        let 41CircleFill:String = "41.circle.fill"
+        public let 41CircleFill:String = "41.circle.fill"
         /// 􀛏
-        let 41Square:String = "41.square"
+        public let 41Square:String = "41.square"
         /// 􀛐
-        let 41SquareFill:String = "41.square.fill"
+        public let 41SquareFill:String = "41.square.fill"
         /// 􀚫
-        let 42Circle:String = "42.circle"
+        public let 42Circle:String = "42.circle"
         /// 􀚬
-        let 42CircleFill:String = "42.circle.fill"
+        public let 42CircleFill:String = "42.circle.fill"
         /// 􀛑
-        let 42Square:String = "42.square"
+        public let 42Square:String = "42.square"
         /// 􀛒
-        let 42SquareFill:String = "42.square.fill"
+        public let 42SquareFill:String = "42.square.fill"
         /// 􀚭
-        let 43Circle:String = "43.circle"
+        public let 43Circle:String = "43.circle"
         /// 􀚮
-        let 43CircleFill:String = "43.circle.fill"
+        public let 43CircleFill:String = "43.circle.fill"
         /// 􀛓
-        let 43Square:String = "43.square"
+        public let 43Square:String = "43.square"
         /// 􀛔
-        let 43SquareFill:String = "43.square.fill"
+        public let 43SquareFill:String = "43.square.fill"
         /// 􀚯
-        let 44Circle:String = "44.circle"
+        public let 44Circle:String = "44.circle"
         /// 􀚰
-        let 44CircleFill:String = "44.circle.fill"
+        public let 44CircleFill:String = "44.circle.fill"
         /// 􀛕
-        let 44Square:String = "44.square"
+        public let 44Square:String = "44.square"
         /// 􀛖
-        let 44SquareFill:String = "44.square.fill"
+        public let 44SquareFill:String = "44.square.fill"
         /// 􀚱
-        let 45Circle:String = "45.circle"
+        public let 45Circle:String = "45.circle"
         /// 􀚲
-        let 45CircleFill:String = "45.circle.fill"
+        public let 45CircleFill:String = "45.circle.fill"
         /// 􀛗
-        let 45Square:String = "45.square"
+        public let 45Square:String = "45.square"
         /// 􀛘
-        let 45SquareFill:String = "45.square.fill"
+        public let 45SquareFill:String = "45.square.fill"
         /// 􀚳
-        let 46Circle:String = "46.circle"
+        public let 46Circle:String = "46.circle"
         /// 􀚴
-        let 46CircleFill:String = "46.circle.fill"
+        public let 46CircleFill:String = "46.circle.fill"
         /// 􀛙
-        let 46Square:String = "46.square"
+        public let 46Square:String = "46.square"
         /// 􀛚
-        let 46SquareFill:String = "46.square.fill"
+        public let 46SquareFill:String = "46.square.fill"
         /// 􀚵
-        let 47Circle:String = "47.circle"
+        public let 47Circle:String = "47.circle"
         /// 􀚶
-        let 47CircleFill:String = "47.circle.fill"
+        public let 47CircleFill:String = "47.circle.fill"
         /// 􀛛
-        let 47Square:String = "47.square"
+        public let 47Square:String = "47.square"
         /// 􀛜
-        let 47SquareFill:String = "47.square.fill"
+        public let 47SquareFill:String = "47.square.fill"
         /// 􀚷
-        let 48Circle:String = "48.circle"
+        public let 48Circle:String = "48.circle"
         /// 􀚸
-        let 48CircleFill:String = "48.circle.fill"
+        public let 48CircleFill:String = "48.circle.fill"
         /// 􀛝
-        let 48Square:String = "48.square"
+        public let 48Square:String = "48.square"
         /// 􀛞
-        let 48SquareFill:String = "48.square.fill"
+        public let 48SquareFill:String = "48.square.fill"
         /// 􀚹
-        let 49Circle:String = "49.circle"
+        public let 49Circle:String = "49.circle"
         /// 􀚺
-        let 49CircleFill:String = "49.circle.fill"
+        public let 49CircleFill:String = "49.circle.fill"
         /// 􀛟
-        let 49Square:String = "49.square"
+        public let 49Square:String = "49.square"
         /// 􀛠
-        let 49SquareFill:String = "49.square.fill"
+        public let 49SquareFill:String = "49.square.fill"
         /// 􀚻
-        let 50Circle:String = "50.circle"
+        public let 50Circle:String = "50.circle"
         /// 􀚼
-        let 50CircleFill:String = "50.circle.fill"
+        public let 50CircleFill:String = "50.circle.fill"
         /// 􀛡
-        let 50Square:String = "50.square"
+        public let 50Square:String = "50.square"
         /// 􀛢
-        let 50SquareFill:String = "50.square.fill"
+        public let 50SquareFill:String = "50.square.fill"
         */
         /// 􀣺
-        let applelogo:String = "applelogo"
+        public let applelogo:String = "applelogo"
 
     
 
