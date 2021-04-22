@@ -1,4 +1,4 @@
-final struct SFIcons {
+final class SFIcons {
         /// 􀈂
         static let squareAndArrowUp:String = "square.and.arrow.up"
         /// 􀈃
