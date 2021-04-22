@@ -1,5 +1,8 @@
 public struct SFIcons {
 
+    init() {
+        
+    }
     public enum Icons: String{
         /// 􀈂
         case squareAndArrowUp = "square.and.arrow.up"
