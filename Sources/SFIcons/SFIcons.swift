@@ -1,5232 +1,5233 @@
-final class SFIcons {
+final struct SFIcons {
+        enum Icons:String{
         /// 􀈂
-        static let squareAndArrowUp:String = "square.and.arrow.up"
+        case squareAndArrowUp = "square.and.arrow.up"
         /// 􀈃
-        static let squareAndArrowUpFill:String = "square.and.arrow.up.fill"
+        case squareAndArrowUpFill = "square.and.arrow.up.fill"
         /// 􀈄
-        static let squareAndArrowDown:String = "square.and.arrow.down"
+        case squareAndArrowDown = "square.and.arrow.down"
         /// 􀈅
-        static let squareAndArrowDownFill:String = "square.and.arrow.down.fill"
+        case squareAndArrowDownFill = "square.and.arrow.down.fill"
         /// 􀈆
-        static let squareAndArrowUpOnSquare:String = "square.and.arrow.up.on.square"
+        case squareAndArrowUpOnSquare = "square.and.arrow.up.on.square"
         /// 􀈇
-        static let squareAndArrowUpOnSquareFill:String = "square.and.arrow.up.on.square.fill"
+        case squareAndArrowUpOnSquareFill = "square.and.arrow.up.on.square.fill"
         /// 􀈈
-        static let squareAndArrowDownOnSquare:String = "square.and.arrow.down.on.square"
+        case squareAndArrowDownOnSquare = "square.and.arrow.down.on.square"
         /// 􀈉
-        static let squareAndArrowDownOnSquareFill:String = "square.and.arrow.down.on.square.fill"
+        case squareAndArrowDownOnSquareFill = "square.and.arrow.down.on.square.fill"
         /// 􀈊
-        static let pencil:String = "pencil"
+        case pencil = "pencil"
         /// 􀈋
-        static let pencilCircle:String = "pencil.circle"
+        case pencilCircle = "pencil.circle"
         /// 􀈌
-        static let pencilCircleFill:String = "pencil.circle.fill"
+        case pencilCircleFill = "pencil.circle.fill"
         /// 􀈍
-        static let pencilSlash:String = "pencil.slash"
+        case pencilSlash = "pencil.slash"
         /// 􀈎
-        static let squareAndPencil:String = "square.and.pencil"
+        case squareAndPencil = "square.and.pencil"
         /// 􀈏
-        static let rectangleAndPencilAndEllipsis:String = "rectangle.and.pencil.and.ellipsis"
+        case rectangleAndPencilAndEllipsis = "rectangle.and.pencil.and.ellipsis"
         /// 􀓨
-        static let scribble:String = "scribble"
+        case scribble = "scribble"
         /// 􀤑
-        static let scribbleVariable:String = "scribble.variable"
+        case scribbleVariable = "scribble.variable"
         /// 􀦇
-        static let highlighter:String = "highlighter"
+        case highlighter = "highlighter"
         /// 􀈐
-        static let pencilAndOutline:String = "pencil.and.outline"
+        case pencilAndOutline = "pencil.and.outline"
         /// 􀒋
-        static let pencilTip:String = "pencil.tip"
+        case pencilTip = "pencil.tip"
         /// 􀉥
-        static let pencilTipCropCircle:String = "pencil.tip.crop.circle"
+        case pencilTipCropCircle = "pencil.tip.crop.circle"
         /// 􀉦
-        static let pencilTipCropCircleBadgePlus:String = "pencil.tip.crop.circle.badge.plus"
+        case pencilTipCropCircleBadgePlus = "pencil.tip.crop.circle.badge.plus"
         /// 􀉧
-        static let pencilTipCropCircleBadgeMinus:String = "pencil.tip.crop.circle.badge.minus"
+        case pencilTipCropCircleBadgeMinus = "pencil.tip.crop.circle.badge.minus"
         /// 􀧚
-        static let pencilTipCropCircleBadgeArrowForward:String = "pencil.tip.crop.circle.badge.arrow.forward"
+        case pencilTipCropCircleBadgeArrowForward = "pencil.tip.crop.circle.badge.arrow.forward"
         /// 􀓩
-        static let lasso:String = "lasso"
+        case lasso = "lasso"
         /// 􀣳
-        static let lassoSparkles:String = "lasso.sparkles"
+        case lassoSparkles = "lasso.sparkles"
         /// 􀈑
-        static let trash:String = "trash"
+        case trash = "trash"
         /// 􀈒
-        static let trashFill:String = "trash.fill"
+        case trashFill = "trash.fill"
         /// 􀈓
-        static let trashCircle:String = "trash.circle"
+        case trashCircle = "trash.circle"
         /// 􀈔
-        static let trashCircleFill:String = "trash.circle.fill"
+        case trashCircleFill = "trash.circle.fill"
         /// 􀜧
-        static let trashSlash:String = "trash.slash"
+        case trashSlash = "trash.slash"
         /// 􀜨
-        static let trashSlashFill:String = "trash.slash.fill"
+        case trashSlashFill = "trash.slash.fill"
         /// 􀈕
-        static let folder:String = "folder"
+        case folder = "folder"
         /// 􀈖
-        static let folderFill:String = "folder.fill"
+        case folderFill = "folder.fill"
         /// 􀈗
-        static let folderCircle:String = "folder.circle"
+        case folderCircle = "folder.circle"
         /// 􀈘
-        static let folderCircleFill:String = "folder.circle.fill"
+        case folderCircleFill = "folder.circle.fill"
         /// 􀈙
-        static let folderBadgePlus:String = "folder.badge.plus"
+        case folderBadgePlus = "folder.badge.plus"
         /// 􀈚
-        static let folderFillBadgePlus:String = "folder.fill.badge.plus"
+        case folderFillBadgePlus = "folder.fill.badge.plus"
         /// 􀈛
-        static let folderBadgeMinus:String = "folder.badge.minus"
+        case folderBadgeMinus = "folder.badge.minus"
         /// 􀈜
-        static let folderFillBadgeMinus:String = "folder.fill.badge.minus"
+        case folderFillBadgeMinus = "folder.fill.badge.minus"
         /// 􀧆
-        static let folderBadgeQuestionmark:String = "folder.badge.questionmark"
+        case folderBadgeQuestionmark = "folder.badge.questionmark"
         /// 􀧇
-        static let folderFillBadgeQuestionmark:String = "folder.fill.badge.questionmark"
+        case folderFillBadgeQuestionmark = "folder.fill.badge.questionmark"
         /// 􀈝
-        static let folderBadgePersonCrop:String = "folder.badge.person.crop"
+        case folderBadgePersonCrop = "folder.badge.person.crop"
         /// 􀈞
-        static let folderFillBadgePersonCrop:String = "folder.fill.badge.person.crop"
+        case folderFillBadgePersonCrop = "folder.fill.badge.person.crop"
         /// 􀣕
-        static let squareGrid3x1FolderBadgePlus:String = "square.grid.3x1.folder.badge.plus"
+        case squareGrid3x1FolderBadgePlus = "square.grid.3x1.folder.badge.plus"
         /// 􀣖
-        static let squareGrid3x1FolderFillBadgePlus:String = "square.grid.3x1.folder.fill.badge.plus"
+        case squareGrid3x1FolderFillBadgePlus = "square.grid.3x1.folder.fill.badge.plus"
         /// 􀣍
-        static let folderBadgeGear:String = "folder.badge.gear"
+        case folderBadgeGear = "folder.badge.gear"
         /// 􀣎
-        static let folderFillBadgeGear:String = "folder.fill.badge.gear"
+        case folderFillBadgeGear = "folder.fill.badge.gear"
         /// 􀤰
-        static let plusRectangleOnFolder:String = "plus.rectangle.on.folder"
+        case plusRectangleOnFolder = "plus.rectangle.on.folder"
         /// 􀤱
-        static let plusRectangleFillOnFolderFill:String = "plus.rectangle.fill.on.folder.fill"
+        case plusRectangleFillOnFolderFill = "plus.rectangle.fill.on.folder.fill"
         /// 􀬔
-        static let questionmarkFolder:String = "questionmark.folder"
+        case questionmarkFolder = "questionmark.folder"
         /// 􀬕
-        static let questionmarkFolderFill:String = "questionmark.folder.fill"
+        case questionmarkFolderFill = "questionmark.folder.fill"
         /// 􀈟
-        static let paperplane:String = "paperplane"
+        case paperplane = "paperplane"
         /// 􀈠
-        static let paperplaneFill:String = "paperplane.fill"
+        case paperplaneFill = "paperplane.fill"
         /// 􀈡
-        static let paperplaneCircle:String = "paperplane.circle"
+        case paperplaneCircle = "paperplane.circle"
         /// 􀈢
-        static let paperplaneCircleFill:String = "paperplane.circle.fill"
+        case paperplaneCircleFill = "paperplane.circle.fill"
         /// 􀈣
-        static let tray:String = "tray"
+        case tray = "tray"
         /// 􀈤
-        static let trayFill:String = "tray.fill"
+        case trayFill = "tray.fill"
         /// 􀒌
-        static let trayCircle:String = "tray.circle"
+        case trayCircle = "tray.circle"
         /// 􀒍
-        static let trayCircleFill:String = "tray.circle.fill"
+        case trayCircleFill = "tray.circle.fill"
         /// 􀈥
-        static let trayAndArrowUp:String = "tray.and.arrow.up"
+        case trayAndArrowUp = "tray.and.arrow.up"
         /// 􀈦
-        static let trayAndArrowUpFill:String = "tray.and.arrow.up.fill"
+        case trayAndArrowUpFill = "tray.and.arrow.up.fill"
         /// 􀈧
-        static let trayAndArrowDown:String = "tray.and.arrow.down"
+        case trayAndArrowDown = "tray.and.arrow.down"
         /// 􀈨
-        static let trayAndArrowDownFill:String = "tray.and.arrow.down.fill"
+        case trayAndArrowDownFill = "tray.and.arrow.down.fill"
         /// 􀈩
-        static let tray2:String = "tray.2"
+        case tray2 = "tray.2"
         /// 􀈪
-        static let tray2Fill:String = "tray.2.fill"
+        case tray2Fill = "tray.2.fill"
         /// 􀈫
-        static let trayFull:String = "tray.full"
+        case trayFull = "tray.full"
         /// 􀈬
-        static let trayFullFill:String = "tray.full.fill"
+        case trayFullFill = "tray.full.fill"
         /// 􀤂
-        static let externaldrive:String = "externaldrive"
+        case externaldrive = "externaldrive"
         /// 􀤃
-        static let externaldriveFill:String = "externaldrive.fill"
+        case externaldriveFill = "externaldrive.fill"
         /// 􀩎
-        static let externaldriveBadgePlus:String = "externaldrive.badge.plus"
+        case externaldriveBadgePlus = "externaldrive.badge.plus"
         /// 􀩒
-        static let externaldriveFillBadgePlus:String = "externaldrive.fill.badge.plus"
+        case externaldriveFillBadgePlus = "externaldrive.fill.badge.plus"
         /// 􀩏
-        static let externaldriveBadgeMinus:String = "externaldrive.badge.minus"
+        case externaldriveBadgeMinus = "externaldrive.badge.minus"
         /// 􀩓
-        static let externaldriveFillBadgeMinus:String = "externaldrive.fill.badge.minus"
+        case externaldriveFillBadgeMinus = "externaldrive.fill.badge.minus"
         /// 􀩐
-        static let externaldriveBadgeCheckmark:String = "externaldrive.badge.checkmark"
+        case externaldriveBadgeCheckmark = "externaldrive.badge.checkmark"
         /// 􀩔
-        static let externaldriveFillBadgeCheckmark:String = "externaldrive.fill.badge.checkmark"
+        case externaldriveFillBadgeCheckmark = "externaldrive.fill.badge.checkmark"
         /// 􀩑
-        static let externaldriveBadgeXmark:String = "externaldrive.badge.xmark"
+        case externaldriveBadgeXmark = "externaldrive.badge.xmark"
         /// 􀩕
-        static let externaldriveFillBadgeXmark:String = "externaldrive.fill.badge.xmark"
+        case externaldriveFillBadgeXmark = "externaldrive.fill.badge.xmark"
         /// 􀩬
-        static let externaldriveBadgePersonCrop:String = "externaldrive.badge.person.crop"
+        case externaldriveBadgePersonCrop = "externaldrive.badge.person.crop"
         /// 􀩭
-        static let externaldriveFillBadgePersonCrop:String = "externaldrive.fill.badge.person.crop"
+        case externaldriveFillBadgePersonCrop = "externaldrive.fill.badge.person.crop"
         /// 􀪹
-        static let externaldriveBadgeIcloud:String = "externaldrive.badge.icloud"
+        case externaldriveBadgeIcloud = "externaldrive.badge.icloud"
         /// 􀪺
-        static let externaldriveFillBadgeIcloud:String = "externaldrive.fill.badge.icloud"
+        case externaldriveFillBadgeIcloud = "externaldrive.fill.badge.icloud"
         /// 􀩮
-        static let externaldriveBadgeWifi:String = "externaldrive.badge.wifi"
+        case externaldriveBadgeWifi = "externaldrive.badge.wifi"
         /// 􀩯
-        static let externaldriveFillBadgeWifi:String = "externaldrive.fill.badge.wifi"
+        case externaldriveFillBadgeWifi = "externaldrive.fill.badge.wifi"
         /// 􀤜
-        static let externaldriveBadgeTimemachine:String = "externaldrive.badge.timemachine"
+        case externaldriveBadgeTimemachine = "externaldrive.badge.timemachine"
         /// 􀤝
-        static let externaldriveFillBadgeTimemachine:String = "externaldrive.fill.badge.timemachine"
+        case externaldriveFillBadgeTimemachine = "externaldrive.fill.badge.timemachine"
         /// 􀥾
-        static let internaldrive:String = "internaldrive"
+        case internaldrive = "internaldrive"
         /// 􀨪
-        static let internaldriveFill:String = "internaldrive.fill"
+        case internaldriveFill = "internaldrive.fill"
         /// 􀤄
-        static let opticaldiscdrive:String = "opticaldiscdrive"
+        case opticaldiscdrive = "opticaldiscdrive"
         /// 􀤅
-        static let opticaldiscdriveFill:String = "opticaldiscdrive.fill"
+        case opticaldiscdriveFill = "opticaldiscdrive.fill"
         /// 􀨤
-        static let externaldriveConnectedToLineBelow:String = "externaldrive.connected.to.line.below"
+        case externaldriveConnectedToLineBelow = "externaldrive.connected.to.line.below"
         /// 􀨥
-        static let externaldriveConnectedToLineBelowFill:String = "externaldrive.connected.to.line.below.fill"
+        case externaldriveConnectedToLineBelowFill = "externaldrive.connected.to.line.below.fill"
         /// 􀈭
-        static let archivebox:String = "archivebox"
+        case archivebox = "archivebox"
         /// 􀈮
-        static let archiveboxFill:String = "archivebox.fill"
+        case archiveboxFill = "archivebox.fill"
         /// 􀈯
-        static let archiveboxCircle:String = "archivebox.circle"
+        case archiveboxCircle = "archivebox.circle"
         /// 􀈰
-        static let archiveboxCircleFill:String = "archivebox.circle.fill"
+        case archiveboxCircleFill = "archivebox.circle.fill"
         /// 􀈱
-        static let xmarkBin:String = "xmark.bin"
+        case xmarkBin = "xmark.bin"
         /// 􀈲
-        static let xmarkBinFill:String = "xmark.bin.fill"
+        case xmarkBinFill = "xmark.bin.fill"
         /// 􀈳
-        static let xmarkBinCircle:String = "xmark.bin.circle"
+        case xmarkBinCircle = "xmark.bin.circle"
         /// 􀈴
-        static let xmarkBinCircleFill:String = "xmark.bin.circle.fill"
+        case xmarkBinCircleFill = "xmark.bin.circle.fill"
         /// 􀈵
-        static let arrowUpBin:String = "arrow.up.bin"
+        case arrowUpBin = "arrow.up.bin"
         /// 􀈶
-        static let arrowUpBinFill:String = "arrow.up.bin.fill"
+        case arrowUpBinFill = "arrow.up.bin.fill"
         /// 􀈷
-        static let doc:String = "doc"
+        case doc = "doc"
         /// 􀈸
-        static let docFill:String = "doc.fill"
+        case docFill = "doc.fill"
         /// 􀈹
-        static let docCircle:String = "doc.circle"
+        case docCircle = "doc.circle"
         /// 􀈺
-        static let docCircleFill:String = "doc.circle.fill"
+        case docCircleFill = "doc.circle.fill"
         /// 􀣗
-        static let docBadgePlus:String = "doc.badge.plus"
+        case docBadgePlus = "doc.badge.plus"
         /// 􀣘
-        static let docFillBadgePlus:String = "doc.fill.badge.plus"
+        case docFillBadgePlus = "doc.fill.badge.plus"
         /// 􀩚
-        static let docBadgeGearshape:String = "doc.badge.gearshape"
+        case docBadgeGearshape = "doc.badge.gearshape"
         /// 􀩛
-        static let docBadgeGearshapeFill:String = "doc.badge.gearshape.fill"
+        case docBadgeGearshapeFill = "doc.badge.gearshape.fill"
         /// 􀩴
-        static let docBadgeEllipsis:String = "doc.badge.ellipsis"
+        case docBadgeEllipsis = "doc.badge.ellipsis"
         /// 􀩵
-        static let docFillBadgeEllipsis:String = "doc.fill.badge.ellipsis"
+        case docFillBadgeEllipsis = "doc.fill.badge.ellipsis"
         /// 􀢍
-        static let lockDoc:String = "lock.doc"
+        case lockDoc = "lock.doc"
         /// 􀢎
-        static let lockDocFill:String = "lock.doc.fill"
+        case lockDocFill = "lock.doc.fill"
         /// 􀈻
-        static let arrowUpDoc:String = "arrow.up.doc"
+        case arrowUpDoc = "arrow.up.doc"
         /// 􀈼
-        static let arrowUpDocFill:String = "arrow.up.doc.fill"
+        case arrowUpDocFill = "arrow.up.doc.fill"
         /// 􀈽
-        static let arrowDownDoc:String = "arrow.down.doc"
+        case arrowDownDoc = "arrow.down.doc"
         /// 􀈾
-        static let arrowDownDocFill:String = "arrow.down.doc.fill"
+        case arrowDownDocFill = "arrow.down.doc.fill"
         /// 􀈿
-        static let docText:String = "doc.text"
+        case docText = "doc.text"
         /// 􀉀
-        static let docTextFill:String = "doc.text.fill"
+        case docTextFill = "doc.text.fill"
         /// 􀤧
-        static let docZipper:String = "doc.zipper"
+        case docZipper = "doc.zipper"
         /// 􀉁
-        static let docOnDoc:String = "doc.on.doc"
+        case docOnDoc = "doc.on.doc"
         /// 􀉂
-        static let docOnDocFill:String = "doc.on.doc.fill"
+        case docOnDocFill = "doc.on.doc.fill"
         /// 􀉃
-        static let docOnClipboard:String = "doc.on.clipboard"
+        case docOnClipboard = "doc.on.clipboard"
         /// 􀫵
-        static let arrowRightDocOnClipboard:String = "arrow.right.doc.on.clipboard"
+        case arrowRightDocOnClipboard = "arrow.right.doc.on.clipboard"
         /// 􀫶
-        static let arrowUpDocOnClipboard:String = "arrow.up.doc.on.clipboard"
+        case arrowUpDocOnClipboard = "arrow.up.doc.on.clipboard"
         /// 􀫷
-        static let arrowTriangle2CirclepathDocOnClipboard:String = "arrow.triangle.2.circlepath.doc.on.clipboard"
+        case arrowTriangle2CirclepathDocOnClipboard = "arrow.triangle.2.circlepath.doc.on.clipboard"
         /// 􀉄
-        static let docOnClipboardFill:String = "doc.on.clipboard.fill"
+        case docOnClipboardFill = "doc.on.clipboard.fill"
         /// 􀉅
-        static let docRichtext:String = "doc.richtext"
+        case docRichtext = "doc.richtext"
         /// 􀦊
-        static let docRichtextFill:String = "doc.richtext.fill"
+        case docRichtextFill = "doc.richtext.fill"
         /// 􀉆
-        static let docPlaintext:String = "doc.plaintext"
+        case docPlaintext = "doc.plaintext"
         /// 􀥨
-        static let docPlaintextFill:String = "doc.plaintext.fill"
+        case docPlaintextFill = "doc.plaintext.fill"
         /// 􀉇
-        static let docAppend:String = "doc.append"
+        case docAppend = "doc.append"
         /// 􀦋
-        static let docAppendFill:String = "doc.append.fill"
+        case docAppendFill = "doc.append.fill"
         /// 􀳼
-        static let docTextBelowEcg:String = "doc.text.below.ecg"
+        case docTextBelowEcg = "doc.text.below.ecg"
         /// 􀳽
-        static let docTextBelowEcgFill:String = "doc.text.below.ecg.fill"
+        case docTextBelowEcgFill = "doc.text.below.ecg.fill"
         /// 􀥜
-        static let chartBarDocHorizontal:String = "chart.bar.doc.horizontal"
+        case chartBarDocHorizontal = "chart.bar.doc.horizontal"
         /// 􀦌
-        static let chartBarDocHorizontalFill:String = "chart.bar.doc.horizontal.fill"
+        case chartBarDocHorizontalFill = "chart.bar.doc.horizontal.fill"
         /// 􀩳
-        static let listBulletRectangle:String = "list.bullet.rectangle"
+        case listBulletRectangle = "list.bullet.rectangle"
         /// 􀩼
-        static let terminal:String = "terminal"
+        case terminal = "terminal"
         /// 􀪏
-        static let terminalFill:String = "terminal.fill"
+        case terminalFill = "terminal.fill"
         /// 􀕹
-        static let docTextMagnifyingglass:String = "doc.text.magnifyingglass"
+        case docTextMagnifyingglass = "doc.text.magnifyingglass"
         /// 􀧵
-        static let note:String = "note"
+        case note = "note"
         /// 􀓕
-        static let noteText:String = "note.text"
+        case noteText = "note.text"
         /// 􀣙
-        static let noteTextBadgePlus:String = "note.text.badge.plus"
+        case noteTextBadgePlus = "note.text.badge.plus"
         /// 􀉉
-        static let calendar:String = "calendar"
+        case calendar = "calendar"
         /// 􀒎
-        static let calendarCircle:String = "calendar.circle"
+        case calendarCircle = "calendar.circle"
         /// 􀒏
-        static let calendarCircleFill:String = "calendar.circle.fill"
+        case calendarCircleFill = "calendar.circle.fill"
         /// 􀉊
-        static let calendarBadgePlus:String = "calendar.badge.plus"
+        case calendarBadgePlus = "calendar.badge.plus"
         /// 􀉋
-        static let calendarBadgeMinus:String = "calendar.badge.minus"
+        case calendarBadgeMinus = "calendar.badge.minus"
         /// 􀧞
-        static let calendarBadgeClock:String = "calendar.badge.clock"
+        case calendarBadgeClock = "calendar.badge.clock"
         /// 􀮝
-        static let calendarBadgeExclamationmark:String = "calendar.badge.exclamationmark"
+        case calendarBadgeExclamationmark = "calendar.badge.exclamationmark"
         /// 􀉌
-        static let arrowshapeTurnUpLeft:String = "arrowshape.turn.up.left"
+        case arrowshapeTurnUpLeft = "arrowshape.turn.up.left"
         /// 􀉍
-        static let arrowshapeTurnUpLeftFill:String = "arrowshape.turn.up.left.fill"
+        case arrowshapeTurnUpLeftFill = "arrowshape.turn.up.left.fill"
         /// 􀉎
-        static let arrowshapeTurnUpLeftCircle:String = "arrowshape.turn.up.left.circle"
+        case arrowshapeTurnUpLeftCircle = "arrowshape.turn.up.left.circle"
         /// 􀉏
-        static let arrowshapeTurnUpLeftCircleFill:String = "arrowshape.turn.up.left.circle.fill"
+        case arrowshapeTurnUpLeftCircleFill = "arrowshape.turn.up.left.circle.fill"
         /// 􀰚
-        static let arrowshapeTurnUpBackward:String = "arrowshape.turn.up.backward"
+        case arrowshapeTurnUpBackward = "arrowshape.turn.up.backward"
         /// 􀰛
-        static let arrowshapeTurnUpBackwardFill:String = "arrowshape.turn.up.backward.fill"
+        case arrowshapeTurnUpBackwardFill = "arrowshape.turn.up.backward.fill"
         /// 􀰜
-        static let arrowshapeTurnUpBackwardCircle:String = "arrowshape.turn.up.backward.circle"
+        case arrowshapeTurnUpBackwardCircle = "arrowshape.turn.up.backward.circle"
         /// 􀰝
-        static let arrowshapeTurnUpBackwardCircleFill:String = "arrowshape.turn.up.backward.circle.fill"
+        case arrowshapeTurnUpBackwardCircleFill = "arrowshape.turn.up.backward.circle.fill"
         /// 􀉐
-        static let arrowshapeTurnUpRight:String = "arrowshape.turn.up.right"
+        case arrowshapeTurnUpRight = "arrowshape.turn.up.right"
         /// 􀉑
-        static let arrowshapeTurnUpRightFill:String = "arrowshape.turn.up.right.fill"
+        case arrowshapeTurnUpRightFill = "arrowshape.turn.up.right.fill"
         /// 􀉒
-        static let arrowshapeTurnUpRightCircle:String = "arrowshape.turn.up.right.circle"
+        case arrowshapeTurnUpRightCircle = "arrowshape.turn.up.right.circle"
         /// 􀉓
-        static let arrowshapeTurnUpRightCircleFill:String = "arrowshape.turn.up.right.circle.fill"
+        case arrowshapeTurnUpRightCircleFill = "arrowshape.turn.up.right.circle.fill"
         /// 􀰞
-        static let arrowshapeTurnUpForward:String = "arrowshape.turn.up.forward"
+        case arrowshapeTurnUpForward = "arrowshape.turn.up.forward"
         /// 􀰟
-        static let arrowshapeTurnUpForwardFill:String = "arrowshape.turn.up.forward.fill"
+        case arrowshapeTurnUpForwardFill = "arrowshape.turn.up.forward.fill"
         /// 􀰠
-        static let arrowshapeTurnUpForwardCircle:String = "arrowshape.turn.up.forward.circle"
+        case arrowshapeTurnUpForwardCircle = "arrowshape.turn.up.forward.circle"
         /// 􀰡
-        static let arrowshapeTurnUpForwardCircleFill:String = "arrowshape.turn.up.forward.circle.fill"
+        case arrowshapeTurnUpForwardCircleFill = "arrowshape.turn.up.forward.circle.fill"
         /// 􀉔
-        static let arrowshapeTurnUpLeft2:String = "arrowshape.turn.up.left.2"
+        case arrowshapeTurnUpLeft2 = "arrowshape.turn.up.left.2"
         /// 􀉕
-        static let arrowshapeTurnUpLeft2Fill:String = "arrowshape.turn.up.left.2.fill"
+        case arrowshapeTurnUpLeft2Fill = "arrowshape.turn.up.left.2.fill"
         /// 􀉖
-        static let arrowshapeTurnUpLeft2Circle:String = "arrowshape.turn.up.left.2.circle"
+        case arrowshapeTurnUpLeft2Circle = "arrowshape.turn.up.left.2.circle"
         /// 􀉗
-        static let arrowshapeTurnUpLeft2CircleFill:String = "arrowshape.turn.up.left.2.circle.fill"
+        case arrowshapeTurnUpLeft2CircleFill = "arrowshape.turn.up.left.2.circle.fill"
         /// 􀰢
-        static let arrowshapeTurnUpBackward2:String = "arrowshape.turn.up.backward.2"
+        case arrowshapeTurnUpBackward2 = "arrowshape.turn.up.backward.2"
         /// 􀰣
-        static let arrowshapeTurnUpBackward2Fill:String = "arrowshape.turn.up.backward.2.fill"
+        case arrowshapeTurnUpBackward2Fill = "arrowshape.turn.up.backward.2.fill"
         /// 􀰤
-        static let arrowshapeTurnUpBackward2Circle:String = "arrowshape.turn.up.backward.2.circle"
+        case arrowshapeTurnUpBackward2Circle = "arrowshape.turn.up.backward.2.circle"
         /// 􀰥
-        static let arrowshapeTurnUpBackward2CircleFill:String = "arrowshape.turn.up.backward.2.circle.fill"
+        case arrowshapeTurnUpBackward2CircleFill = "arrowshape.turn.up.backward.2.circle.fill"
         /// 􀉘
-        static let arrowshapeZigzagRight:String = "arrowshape.zigzag.right"
+        case arrowshapeZigzagRight = "arrowshape.zigzag.right"
         /// 􀒐
-        static let arrowshapeZigzagRightFill:String = "arrowshape.zigzag.right.fill"
+        case arrowshapeZigzagRightFill = "arrowshape.zigzag.right.fill"
         /// 􀰦
-        static let arrowshapeZigzagForward:String = "arrowshape.zigzag.forward"
+        case arrowshapeZigzagForward = "arrowshape.zigzag.forward"
         /// 􀰧
-        static let arrowshapeZigzagForwardFill:String = "arrowshape.zigzag.forward.fill"
+        case arrowshapeZigzagForwardFill = "arrowshape.zigzag.forward.fill"
         /// 􀉙
-        static let arrowshapeBounceRight:String = "arrowshape.bounce.right"
+        case arrowshapeBounceRight = "arrowshape.bounce.right"
         /// 􀒑
-        static let arrowshapeBounceRightFill:String = "arrowshape.bounce.right.fill"
+        case arrowshapeBounceRightFill = "arrowshape.bounce.right.fill"
         /// 􀰨
-        static let arrowshapeBounceForward:String = "arrowshape.bounce.forward"
+        case arrowshapeBounceForward = "arrowshape.bounce.forward"
         /// 􀰩
-        static let arrowshapeBounceForwardFill:String = "arrowshape.bounce.forward.fill"
+        case arrowshapeBounceForwardFill = "arrowshape.bounce.forward.fill"
         /// 􀉚
-        static let book:String = "book"
+        case book = "book"
         /// 􀉛
-        static let bookFill:String = "book.fill"
+        case bookFill = "book.fill"
         /// 􀉜
-        static let bookCircle:String = "book.circle"
+        case bookCircle = "book.circle"
         /// 􀉝
-        static let bookCircleFill:String = "book.circle.fill"
+        case bookCircleFill = "book.circle.fill"
         /// 􀤦
-        static let newspaper:String = "newspaper"
+        case newspaper = "newspaper"
         /// 􀥅
-        static let newspaperFill:String = "newspaper.fill"
+        case newspaperFill = "newspaper.fill"
         /// 􀬒
-        static let booksVertical:String = "books.vertical"
+        case booksVertical = "books.vertical"
         /// 􀬓
-        static let booksVerticalFill:String = "books.vertical.fill"
+        case booksVerticalFill = "books.vertical.fill"
         /// 􀤞
-        static let bookClosed:String = "book.closed"
+        case bookClosed = "book.closed"
         /// 􀤟
-        static let bookClosedFill:String = "book.closed.fill"
+        case bookClosedFill = "book.closed.fill"
         /// 􀫕
-        static let characterBookClosed:String = "character.book.closed"
+        case characterBookClosed = "character.book.closed"
         /// 􀫖
-        static let characterBookClosedFill:String = "character.book.closed.fill"
+        case characterBookClosedFill = "character.book.closed.fill"
         /// 􀫗
-        static let textBookClosed:String = "text.book.closed"
+        case textBookClosed = "text.book.closed"
         /// 􀫘
-        static let textBookClosedFill:String = "text.book.closed.fill"
+        case textBookClosedFill = "text.book.closed.fill"
         /// 􀤠
-        static let greetingcard:String = "greetingcard"
+        case greetingcard = "greetingcard"
         /// 􀤡
-        static let greetingcardFill:String = "greetingcard.fill"
+        case greetingcardFill = "greetingcard.fill"
         /// 􀉞
-        static let bookmark:String = "bookmark"
+        case bookmark = "bookmark"
         /// 􀉟
-        static let bookmarkFill:String = "bookmark.fill"
+        case bookmarkFill = "bookmark.fill"
         /// 􀉠
-        static let bookmarkCircle:String = "bookmark.circle"
+        case bookmarkCircle = "bookmark.circle"
         /// 􀉡
-        static let bookmarkCircleFill:String = "bookmark.circle.fill"
+        case bookmarkCircleFill = "bookmark.circle.fill"
         /// 􀟍
-        static let bookmarkSlash:String = "bookmark.slash"
+        case bookmarkSlash = "bookmark.slash"
         /// 􀟎
-        static let bookmarkSlashFill:String = "bookmark.slash.fill"
+        case bookmarkSlashFill = "bookmark.slash.fill"
         /// 􀛯
-        static let rosette:String = "rosette"
+        case rosette = "rosette"
         /// 􀫓
-        static let graduationcap:String = "graduationcap"
+        case graduationcap = "graduationcap"
         /// 􀫔
-        static let graduationcapFill:String = "graduationcap.fill"
+        case graduationcapFill = "graduationcap.fill"
         /// 􀪃
-        static let ticket:String = "ticket"
+        case ticket = "ticket"
         /// 􀪄
-        static let ticketFill:String = "ticket.fill"
+        case ticketFill = "ticket.fill"
         /// 􀉢
-        static let paperclip:String = "paperclip"
+        case paperclip = "paperclip"
         /// 􀒔
-        static let paperclipCircle:String = "paperclip.circle"
+        case paperclipCircle = "paperclip.circle"
         /// 􀒕
-        static let paperclipCircleFill:String = "paperclip.circle.fill"
+        case paperclipCircleFill = "paperclip.circle.fill"
         /// 􀢏
-        static let paperclipBadgeEllipsis:String = "paperclip.badge.ellipsis"
+        case paperclipBadgeEllipsis = "paperclip.badge.ellipsis"
         /// 􀒖
-        static let rectangleAndPaperclip:String = "rectangle.and.paperclip"
+        case rectangleAndPaperclip = "rectangle.and.paperclip"
         /// 􀥪
-        static let rectangleDashedAndPaperclip:String = "rectangle.dashed.and.paperclip"
+        case rectangleDashedAndPaperclip = "rectangle.dashed.and.paperclip"
         /// 􀉣
-        static let link:String = "link"
+        case link = "link"
         /// 􀒠
-        static let linkCircle:String = "link.circle"
+        case linkCircle = "link.circle"
         /// 􀒡
-        static let linkCircleFill:String = "link.circle.fill"
+        case linkCircleFill = "link.circle.fill"
         /// 􀥕
-        static let linkBadgePlus:String = "link.badge.plus"
+        case linkBadgePlus = "link.badge.plus"
         /// 􀉤
-        static let personalhotspot:String = "personalhotspot"
+        case personalhotspot = "personalhotspot"
         /// 􀉨
-        static let lineweight:String = "lineweight"
+        case lineweight = "lineweight"
         /// 􀉩
-        static let person:String = "person"
+        case person = "person"
         /// 􀉪
-        static let personFill:String = "person.fill"
+        case personFill = "person.fill"
         /// 􀯑
-        static let personFillTurnRight:String = "person.fill.turn.right"
+        case personFillTurnRight = "person.fill.turn.right"
         /// 􀯒
-        static let personFillTurnDown:String = "person.fill.turn.down"
+        case personFillTurnDown = "person.fill.turn.down"
         /// 􀯓
-        static let personFillTurnLeft:String = "person.fill.turn.left"
+        case personFillTurnLeft = "person.fill.turn.left"
         /// 􀯧
-        static let personFillCheckmark:String = "person.fill.checkmark"
+        case personFillCheckmark = "person.fill.checkmark"
         /// 􀯨
-        static let personFillXmark:String = "person.fill.xmark"
+        case personFillXmark = "person.fill.xmark"
         /// 􀯩
-        static let personFillQuestionmark:String = "person.fill.questionmark"
+        case personFillQuestionmark = "person.fill.questionmark"
         /// 􀓣
-        static let personCircle:String = "person.circle"
+        case personCircle = "person.circle"
         /// 􀓤
-        static let personCircleFill:String = "person.circle.fill"
+        case personCircleFill = "person.circle.fill"
         /// 􀜕
-        static let personBadgePlus:String = "person.badge.plus"
+        case personBadgePlus = "person.badge.plus"
         /// 􀜖
-        static let personFillBadgePlus:String = "person.fill.badge.plus"
+        case personFillBadgePlus = "person.fill.badge.plus"
         /// 􀜗
-        static let personBadgeMinus:String = "person.badge.minus"
+        case personBadgeMinus = "person.badge.minus"
         /// 􀜘
-        static let personFillBadgeMinus:String = "person.fill.badge.minus"
+        case personFillBadgeMinus = "person.fill.badge.minus"
         /// 􀪼
-        static let personAndArrowLeftAndArrowRight:String = "person.and.arrow.left.and.arrow.right"
+        case personAndArrowLeftAndArrowRight = "person.and.arrow.left.and.arrow.right"
         /// 􀪽
-        static let personFillAndArrowLeftAndArrowRight:String = "person.fill.and.arrow.left.and.arrow.right"
+        case personFillAndArrowLeftAndArrowRight = "person.fill.and.arrow.left.and.arrow.right"
         /// 􀉫
-        static let person2:String = "person.2"
+        case person2 = "person.2"
         /// 􀉬
-        static let person2Fill:String = "person.2.fill"
+        case person2Fill = "person.2.fill"
         /// 􀠃
-        static let person2Circle:String = "person.2.circle"
+        case person2Circle = "person.2.circle"
         /// 􀠄
-        static let person2CircleFill:String = "person.2.circle.fill"
+        case person2CircleFill = "person.2.circle.fill"
         /// 􀝊
-        static let person3:String = "person.3"
+        case person3 = "person.3"
         /// 􀝋
-        static let person3Fill:String = "person.3.fill"
+        case person3Fill = "person.3.fill"
         /// 􀉭
-        static let personCropCircle:String = "person.crop.circle"
+        case personCropCircle = "person.crop.circle"
         /// 􀉮
-        static let personCropCircleFill:String = "person.crop.circle.fill"
+        case personCropCircleFill = "person.crop.circle.fill"
         /// 􀉯
-        static let personCropCircleBadgePlus:String = "person.crop.circle.badge.plus"
+        case personCropCircleBadgePlus = "person.crop.circle.badge.plus"
         /// 􀉰
-        static let personCropCircleFillBadgePlus:String = "person.crop.circle.fill.badge.plus"
+        case personCropCircleFillBadgePlus = "person.crop.circle.fill.badge.plus"
         /// 􀉱
-        static let personCropCircleBadgeMinus:String = "person.crop.circle.badge.minus"
+        case personCropCircleBadgeMinus = "person.crop.circle.badge.minus"
         /// 􀉲
-        static let personCropCircleFillBadgeMinus:String = "person.crop.circle.fill.badge.minus"
+        case personCropCircleFillBadgeMinus = "person.crop.circle.fill.badge.minus"
         /// 􀉳
-        static let personCropCircleBadgeCheckmark:String = "person.crop.circle.badge.checkmark"
+        case personCropCircleBadgeCheckmark = "person.crop.circle.badge.checkmark"
         /// 􀉴
-        static let personCropCircleFillBadgeCheckmark:String = "person.crop.circle.fill.badge.checkmark"
+        case personCropCircleFillBadgeCheckmark = "person.crop.circle.fill.badge.checkmark"
         /// 􀉵
-        static let personCropCircleBadgeXmark:String = "person.crop.circle.badge.xmark"
+        case personCropCircleBadgeXmark = "person.crop.circle.badge.xmark"
         /// 􀉶
-        static let personCropCircleFillBadgeXmark:String = "person.crop.circle.fill.badge.xmark"
+        case personCropCircleFillBadgeXmark = "person.crop.circle.fill.badge.xmark"
         /// 􀭽
-        static let personCropCircleBadgeQuestionmark:String = "person.crop.circle.badge.questionmark"
+        case personCropCircleBadgeQuestionmark = "person.crop.circle.badge.questionmark"
         /// 􀭾
-        static let personCropCircleFillBadgeQuestionmark:String = "person.crop.circle.fill.badge.questionmark"
+        case personCropCircleFillBadgeQuestionmark = "person.crop.circle.fill.badge.questionmark"
         /// 􀉷
-        static let personCropCircleBadgeExclamationmark:String = "person.crop.circle.badge.exclamationmark"
+        case personCropCircleBadgeExclamationmark = "person.crop.circle.badge.exclamationmark"
         /// 􀉸
-        static let personCropCircleFillBadgeExclamationmark:String = "person.crop.circle.fill.badge.exclamationmark"
+        case personCropCircleFillBadgeExclamationmark = "person.crop.circle.fill.badge.exclamationmark"
         /// 􀉹
-        static let personCropSquare:String = "person.crop.square"
+        case personCropSquare = "person.crop.square"
         /// 􀉺
-        static let personCropSquareFill:String = "person.crop.square.fill"
+        case personCropSquareFill = "person.crop.square.fill"
         /// 􀏻
-        static let rectangleStackPersonCrop:String = "rectangle.stack.person.crop"
+        case rectangleStackPersonCrop = "rectangle.stack.person.crop"
         /// 􀏼
-        static let rectangleStackPersonCropFill:String = "rectangle.stack.person.crop.fill"
+        case rectangleStackPersonCropFill = "rectangle.stack.person.crop.fill"
         /// 􀓥
-        static let person2SquareStack:String = "person.2.square.stack"
+        case person2SquareStack = "person.2.square.stack"
         /// 􀓦
-        static let person2SquareStackFill:String = "person.2.square.stack.fill"
+        case person2SquareStackFill = "person.2.square.stack.fill"
         /// 􀦎
-        static let personCropSquareFillAndAtRectangle:String = "person.crop.square.fill.and.at.rectangle"
+        case personCropSquareFillAndAtRectangle = "person.crop.square.fill.and.at.rectangle"
         /// 􀦏
-        static let squareAndAtRectangle:String = "square.and.at.rectangle"
+        case squareAndAtRectangle = "square.and.at.rectangle"
         /// 􀆔
-        static let command:String = "command"
+        case command = "command"
         /// 􀩿
-        static let commandCircle:String = "command.circle"
+        case commandCircle = "command.circle"
         /// 􀪀
-        static let commandCircleFill:String = "command.circle.fill"
+        case commandCircleFill = "command.circle.fill"
         /// 􀪁
-        static let commandSquare:String = "command.square"
+        case commandSquare = "command.square"
         /// 􀪂
-        static let commandSquareFill:String = "command.square.fill"
+        case commandSquareFill = "command.square.fill"
         /// 􀆕
-        static let option:String = "option"
+        case option = "option"
         /// 􀆖
-        static let alt:String = "alt"
+        case alt = "alt"
         /// 􀆗
-        static let deleteRight:String = "delete.right"
+        case deleteRight = "delete.right"
         /// 􀆘
-        static let deleteRightFill:String = "delete.right.fill"
+        case deleteRightFill = "delete.right.fill"
         /// 􀆙
-        static let clear:String = "clear"
+        case clear = "clear"
         /// 􀆚
-        static let clearFill:String = "clear.fill"
+        case clearFill = "clear.fill"
         /// 􀆛
-        static let deleteLeft:String = "delete.left"
+        case deleteLeft = "delete.left"
         /// 􀆜
-        static let deleteLeftFill:String = "delete.left.fill"
+        case deleteLeftFill = "delete.left.fill"
         /// 􀆝
-        static let shift:String = "shift"
+        case shift = "shift"
         /// 􀆞
-        static let shiftFill:String = "shift.fill"
+        case shiftFill = "shift.fill"
         /// 􀆡
-        static let capslock:String = "capslock"
+        case capslock = "capslock"
         /// 􀆢
-        static let capslockFill:String = "capslock.fill"
+        case capslockFill = "capslock.fill"
         /// 􀆧
-        static let escape:String = "escape"
+        case escape = "escape"
         /// 􀯆
-        static let restart:String = "restart"
+        case restart = "restart"
         /// 􀣨
-        static let restartCircle:String = "restart.circle"
+        case restartCircle = "restart.circle"
         /// 􀜚
-        static let sleep:String = "sleep"
+        case sleep = "sleep"
         /// 􀪒
-        static let wake:String = "wake"
+        case wake = "wake"
         /// 􀆨
-        static let power:String = "power"
+        case power = "power"
         /// 􀥣
-        static let togglepower:String = "togglepower"
+        case togglepower = "togglepower"
         /// 􀥤
-        static let poweron:String = "poweron"
+        case poweron = "poweron"
         /// 􀥥
-        static let poweroff:String = "poweroff"
+        case poweroff = "poweroff"
         /// 􀥦
-        static let powersleep:String = "powersleep"
+        case powersleep = "powersleep"
         /// 􀯝
-        static let directcurrent:String = "directcurrent"
+        case directcurrent = "directcurrent"
         /// 􀝯
-        static let dotArrowtrianglesUpRightDownLeftCircle:String = "dot.arrowtriangles.up.right.down.left.circle"
+        case dotArrowtrianglesUpRightDownLeftCircle = "dot.arrowtriangles.up.right.down.left.circle"
         /// 􀆪
-        static let globe:String = "globe"
+        case globe = "globe"
         /// 􀤆
-        static let network:String = "network"
+        case network = "network"
         /// 􀆫
-        static let sunMin:String = "sun.min"
+        case sunMin = "sun.min"
         /// 􀆬
-        static let sunMinFill:String = "sun.min.fill"
+        case sunMinFill = "sun.min.fill"
         /// 􀆭
-        static let sunMax:String = "sun.max"
+        case sunMax = "sun.max"
         /// 􀆮
-        static let sunMaxFill:String = "sun.max.fill"
+        case sunMaxFill = "sun.max.fill"
         /// 􀆱
-        static let sunrise:String = "sunrise"
+        case sunrise = "sunrise"
         /// 􀆲
-        static let sunriseFill:String = "sunrise.fill"
+        case sunriseFill = "sunrise.fill"
         /// 􀆳
-        static let sunset:String = "sunset"
+        case sunset = "sunset"
         /// 􀆴
-        static let sunsetFill:String = "sunset.fill"
+        case sunsetFill = "sunset.fill"
         /// 􀆵
-        static let sunDust:String = "sun.dust"
+        case sunDust = "sun.dust"
         /// 􀆶
-        static let sunDustFill:String = "sun.dust.fill"
+        case sunDustFill = "sun.dust.fill"
         /// 􀆷
-        static let sunHaze:String = "sun.haze"
+        case sunHaze = "sun.haze"
         /// 􀆸
-        static let sunHazeFill:String = "sun.haze.fill"
+        case sunHazeFill = "sun.haze.fill"
         /// 􀆹
-        static let moon:String = "moon"
+        case moon = "moon"
         /// 􀆺
-        static let moonFill:String = "moon.fill"
+        case moonFill = "moon.fill"
         /// 􀆻
-        static let moonCircle:String = "moon.circle"
+        case moonCircle = "moon.circle"
         /// 􀆼
-        static let moonCircleFill:String = "moon.circle.fill"
+        case moonCircleFill = "moon.circle.fill"
         /// 􀖃
-        static let zzz:String = "zzz"
+        case zzz = "zzz"
         /// 􀆽
-        static let moonZzz:String = "moon.zzz"
+        case moonZzz = "moon.zzz"
         /// 􀆾
-        static let moonZzzFill:String = "moon.zzz.fill"
+        case moonZzzFill = "moon.zzz.fill"
         /// 􀫸
-        static let sparkle:String = "sparkle"
+        case sparkle = "sparkle"
         /// 􀆿
-        static let sparkles:String = "sparkles"
+        case sparkles = "sparkles"
         /// 􀇀
-        static let moonStars:String = "moon.stars"
+        case moonStars = "moon.stars"
         /// 􀇁
-        static let moonStarsFill:String = "moon.stars.fill"
+        case moonStarsFill = "moon.stars.fill"
         /// 􀇂
-        static let cloud:String = "cloud"
+        case cloud = "cloud"
         /// 􀇃
-        static let cloudFill:String = "cloud.fill"
+        case cloudFill = "cloud.fill"
         /// 􀇄
-        static let cloudDrizzle:String = "cloud.drizzle"
+        case cloudDrizzle = "cloud.drizzle"
         /// 􀇅
-        static let cloudDrizzleFill:String = "cloud.drizzle.fill"
+        case cloudDrizzleFill = "cloud.drizzle.fill"
         /// 􀇆
-        static let cloudRain:String = "cloud.rain"
+        case cloudRain = "cloud.rain"
         /// 􀇇
-        static let cloudRainFill:String = "cloud.rain.fill"
+        case cloudRainFill = "cloud.rain.fill"
         /// 􀇈
-        static let cloudHeavyrain:String = "cloud.heavyrain"
+        case cloudHeavyrain = "cloud.heavyrain"
         /// 􀇉
-        static let cloudHeavyrainFill:String = "cloud.heavyrain.fill"
+        case cloudHeavyrainFill = "cloud.heavyrain.fill"
         /// 􀇊
-        static let cloudFog:String = "cloud.fog"
+        case cloudFog = "cloud.fog"
         /// 􀇋
-        static let cloudFogFill:String = "cloud.fog.fill"
+        case cloudFogFill = "cloud.fog.fill"
         /// 􀇌
-        static let cloudHail:String = "cloud.hail"
+        case cloudHail = "cloud.hail"
         /// 􀇍
-        static let cloudHailFill:String = "cloud.hail.fill"
+        case cloudHailFill = "cloud.hail.fill"
         /// 􀇎
-        static let cloudSnow:String = "cloud.snow"
+        case cloudSnow = "cloud.snow"
         /// 􀇏
-        static let cloudSnowFill:String = "cloud.snow.fill"
+        case cloudSnowFill = "cloud.snow.fill"
         /// 􀇐
-        static let cloudSleet:String = "cloud.sleet"
+        case cloudSleet = "cloud.sleet"
         /// 􀇑
-        static let cloudSleetFill:String = "cloud.sleet.fill"
+        case cloudSleetFill = "cloud.sleet.fill"
         /// 􀇒
-        static let cloudBolt:String = "cloud.bolt"
+        case cloudBolt = "cloud.bolt"
         /// 􀇓
-        static let cloudBoltFill:String = "cloud.bolt.fill"
+        case cloudBoltFill = "cloud.bolt.fill"
         /// 􀇞
-        static let cloudBoltRain:String = "cloud.bolt.rain"
+        case cloudBoltRain = "cloud.bolt.rain"
         /// 􀇟
-        static let cloudBoltRainFill:String = "cloud.bolt.rain.fill"
+        case cloudBoltRainFill = "cloud.bolt.rain.fill"
         /// 􀇔
-        static let cloudSun:String = "cloud.sun"
+        case cloudSun = "cloud.sun"
         /// 􀇕
-        static let cloudSunFill:String = "cloud.sun.fill"
+        case cloudSunFill = "cloud.sun.fill"
         /// 􀇖
-        static let cloudSunRain:String = "cloud.sun.rain"
+        case cloudSunRain = "cloud.sun.rain"
         /// 􀇗
-        static let cloudSunRainFill:String = "cloud.sun.rain.fill"
+        case cloudSunRainFill = "cloud.sun.rain.fill"
         /// 􀇘
-        static let cloudSunBolt:String = "cloud.sun.bolt"
+        case cloudSunBolt = "cloud.sun.bolt"
         /// 􀇙
-        static let cloudSunBoltFill:String = "cloud.sun.bolt.fill"
+        case cloudSunBoltFill = "cloud.sun.bolt.fill"
         /// 􀇚
-        static let cloudMoon:String = "cloud.moon"
+        case cloudMoon = "cloud.moon"
         /// 􀇛
-        static let cloudMoonFill:String = "cloud.moon.fill"
+        case cloudMoonFill = "cloud.moon.fill"
         /// 􀇜
-        static let cloudMoonRain:String = "cloud.moon.rain"
+        case cloudMoonRain = "cloud.moon.rain"
         /// 􀇝
-        static let cloudMoonRainFill:String = "cloud.moon.rain.fill"
+        case cloudMoonRainFill = "cloud.moon.rain.fill"
         /// 􀇠
-        static let cloudMoonBolt:String = "cloud.moon.bolt"
+        case cloudMoonBolt = "cloud.moon.bolt"
         /// 􀇡
-        static let cloudMoonBoltFill:String = "cloud.moon.bolt.fill"
+        case cloudMoonBoltFill = "cloud.moon.bolt.fill"
         /// 􀇢
-        static let smoke:String = "smoke"
+        case smoke = "smoke"
         /// 􀇣
-        static let smokeFill:String = "smoke.fill"
+        case smokeFill = "smoke.fill"
         /// 􀇤
-        static let wind:String = "wind"
+        case wind = "wind"
         /// 􀇦
-        static let windSnow:String = "wind.snow"
+        case windSnow = "wind.snow"
         /// 􀇥
-        static let snow:String = "snow"
+        case snow = "snow"
         /// 􀇧
-        static let tornado:String = "tornado"
+        case tornado = "tornado"
         /// 􀇨
-        static let tropicalstorm:String = "tropicalstorm"
+        case tropicalstorm = "tropicalstorm"
         /// 􀇩
-        static let hurricane:String = "hurricane"
+        case hurricane = "hurricane"
         /// 􀇪
-        static let thermometerSun:String = "thermometer.sun"
+        case thermometerSun = "thermometer.sun"
         /// 􀦜
-        static let thermometerSunFill:String = "thermometer.sun.fill"
+        case thermometerSunFill = "thermometer.sun.fill"
         /// 􀇫
-        static let thermometerSnowflake:String = "thermometer.snowflake"
+        case thermometerSnowflake = "thermometer.snowflake"
         /// 􀇬
-        static let thermometer:String = "thermometer"
+        case thermometer = "thermometer"
         /// 􀴾
-        static let aqiLow:String = "aqi.low"
+        case aqiLow = "aqi.low"
         /// 􀴿
-        static let aqiMedium:String = "aqi.medium"
+        case aqiMedium = "aqi.medium"
         /// 􀵀
-        static let aqiHigh:String = "aqi.high"
+        case aqiHigh = "aqi.high"
         /// 􀙕
-        static let umbrella:String = "umbrella"
+        case umbrella = "umbrella"
         /// 􀙖
-        static let umbrellaFill:String = "umbrella.fill"
+        case umbrellaFill = "umbrella.fill"
         /// 􀙬
-        static let flame:String = "flame"
+        case flame = "flame"
         /// 􀙭
-        static let flameFill:String = "flame.fill"
+        case flameFill = "flame.fill"
         /// 􀇭
-        static let lightMin:String = "light.min"
+        case lightMin = "light.min"
         /// 􀇮
-        static let lightMax:String = "light.max"
+        case lightMax = "light.max"
         /// 􀇯
-        static let rays:String = "rays"
+        case rays = "rays"
         /// 􀇱
-        static let slowmo:String = "slowmo"
+        case slowmo = "slowmo"
         /// 􀇲
-        static let timelapse:String = "timelapse"
+        case timelapse = "timelapse"
         /// 􀇰
-        static let cursorarrowRays:String = "cursorarrow.rays"
+        case cursorarrowRays = "cursorarrow.rays"
         /// 􀫌
-        static let cursorarrow:String = "cursorarrow"
+        case cursorarrow = "cursorarrow"
         /// 􀭅
-        static let cursorarrowSquare:String = "cursorarrow.square"
+        case cursorarrowSquare = "cursorarrow.square"
         /// 􀮐
-        static let cursorarrowAndSquareOnSquareDashed:String = "cursorarrow.and.square.on.square.dashed"
+        case cursorarrowAndSquareOnSquareDashed = "cursorarrow.and.square.on.square.dashed"
         /// 􀭆
-        static let cursorarrowClick:String = "cursorarrow.click"
+        case cursorarrowClick = "cursorarrow.click"
         /// 􀭇
-        static let cursorarrowClick2:String = "cursorarrow.click.2"
+        case cursorarrowClick2 = "cursorarrow.click.2"
         /// 􀭈
-        static let contextualmenuAndCursorarrow:String = "contextualmenu.and.cursorarrow"
+        case contextualmenuAndCursorarrow = "contextualmenu.and.cursorarrow"
         /// 􀯪
-        static let filemenuAndCursorarrow:String = "filemenu.and.cursorarrow"
+        case filemenuAndCursorarrow = "filemenu.and.cursorarrow"
         /// 􀱢
-        static let filemenuAndSelection:String = "filemenu.and.selection"
+        case filemenuAndSelection = "filemenu.and.selection"
         /// 􀫍
-        static let dotCircleAndCursorarrow:String = "dot.circle.and.cursorarrow"
+        case dotCircleAndCursorarrow = "dot.circle.and.cursorarrow"
         /// 􀣠
-        static let cursorarrowMotionlines:String = "cursorarrow.motionlines"
+        case cursorarrowMotionlines = "cursorarrow.motionlines"
         /// 􀣡
-        static let cursorarrowMotionlinesClick:String = "cursorarrow.motionlines.click"
+        case cursorarrowMotionlinesClick = "cursorarrow.motionlines.click"
         /// 􀮴
-        static let cursorarrowClickBadgeClock:String = "cursorarrow.click.badge.clock"
+        case cursorarrowClickBadgeClock = "cursorarrow.click.badge.clock"
         /// 􀇳
-        static let keyboard:String = "keyboard"
+        case keyboard = "keyboard"
         /// 􀫒
-        static let keyboardBadgeEllipsis:String = "keyboard.badge.ellipsis"
+        case keyboardBadgeEllipsis = "keyboard.badge.ellipsis"
         /// 􀓖
-        static let keyboardChevronCompactDown:String = "keyboard.chevron.compact.down"
+        case keyboardChevronCompactDown = "keyboard.chevron.compact.down"
         /// 􀣭
-        static let keyboardChevronCompactLeft:String = "keyboard.chevron.compact.left"
+        case keyboardChevronCompactLeft = "keyboard.chevron.compact.left"
         /// 􀞹
-        static let keyboardOnehandedLeft:String = "keyboard.onehanded.left"
+        case keyboardOnehandedLeft = "keyboard.onehanded.left"
         /// 􀞺
-        static let keyboardOnehandedRight:String = "keyboard.onehanded.right"
+        case keyboardOnehandedRight = "keyboard.onehanded.right"
         /// 􀇴
-        static let rectangle3Offgrid:String = "rectangle.3.offgrid"
+        case rectangle3Offgrid = "rectangle.3.offgrid"
         /// 􀚅
-        static let rectangle3OffgridFill:String = "rectangle.3.offgrid.fill"
+        case rectangle3OffgridFill = "rectangle.3.offgrid.fill"
         /// 􀇵
-        static let squareGrid3x2:String = "square.grid.3x2"
+        case squareGrid3x2 = "square.grid.3x2"
         /// 􀚇
-        static let squareGrid3x2Fill:String = "square.grid.3x2.fill"
+        case squareGrid3x2Fill = "square.grid.3x2.fill"
         /// 􀇶
-        static let rectangleGrid3x2:String = "rectangle.grid.3x2"
+        case rectangleGrid3x2 = "rectangle.grid.3x2"
         /// 􀚆
-        static let rectangleGrid3x2Fill:String = "rectangle.grid.3x2.fill"
+        case rectangleGrid3x2Fill = "rectangle.grid.3x2.fill"
         /// 􀇷
-        static let squareGrid2x2:String = "square.grid.2x2"
+        case squareGrid2x2 = "square.grid.2x2"
         /// 􀚈
-        static let squareGrid2x2Fill:String = "square.grid.2x2.fill"
+        case squareGrid2x2Fill = "square.grid.2x2.fill"
         /// 􀛦
-        static let rectangleGrid2x2:String = "rectangle.grid.2x2"
+        case rectangleGrid2x2 = "rectangle.grid.2x2"
         /// 􀛧
-        static let rectangleGrid2x2Fill:String = "rectangle.grid.2x2.fill"
+        case rectangleGrid2x2Fill = "rectangle.grid.2x2.fill"
         /// 􀓙
-        static let squareGrid3x1BelowLineGrid1x2:String = "square.grid.3x1.below.line.grid.1x2"
+        case squareGrid3x1BelowLineGrid1x2 = "square.grid.3x1.below.line.grid.1x2"
         /// 􀤲
-        static let squareGrid3x1FillBelowLineGrid1x2:String = "square.grid.3x1.fill.below.line.grid.1x2"
+        case squareGrid3x1FillBelowLineGrid1x2 = "square.grid.3x1.fill.below.line.grid.1x2"
         /// 􀓚
-        static let squareGrid4x3Fill:String = "square.grid.4x3.fill"
+        case squareGrid4x3Fill = "square.grid.4x3.fill"
         /// 􀓛
-        static let rectangleGrid1x2:String = "rectangle.grid.1x2"
+        case rectangleGrid1x2 = "rectangle.grid.1x2"
         /// 􀚉
-        static let rectangleGrid1x2Fill:String = "rectangle.grid.1x2.fill"
+        case rectangleGrid1x2Fill = "rectangle.grid.1x2.fill"
         /// 􀞾
-        static let circleGrid2x2:String = "circle.grid.2x2"
+        case circleGrid2x2 = "circle.grid.2x2"
         /// 􀞿
-        static let circleGrid2x2Fill:String = "circle.grid.2x2.fill"
+        case circleGrid2x2Fill = "circle.grid.2x2.fill"
         /// 􀇸
-        static let circleGrid3x3:String = "circle.grid.3x3"
+        case circleGrid3x3 = "circle.grid.3x3"
         /// 􀇹
-        static let circleGrid3x3Fill:String = "circle.grid.3x3.fill"
+        case circleGrid3x3Fill = "circle.grid.3x3.fill"
         /// 􀦲
-        static let squareGrid3x3:String = "square.grid.3x3"
+        case squareGrid3x3 = "square.grid.3x3"
         /// 􀦳
-        static let squareGrid3x3Fill:String = "square.grid.3x3.fill"
+        case squareGrid3x3Fill = "square.grid.3x3.fill"
         /// 􀦴
-        static let squareGrid3x3TopleftFill:String = "square.grid.3x3.topleft.fill"
+        case squareGrid3x3TopleftFill = "square.grid.3x3.topleft.fill"
         /// 􀦵
-        static let squareGrid3x3TopmiddleFill:String = "square.grid.3x3.topmiddle.fill"
+        case squareGrid3x3TopmiddleFill = "square.grid.3x3.topmiddle.fill"
         /// 􀦶
-        static let squareGrid3x3ToprightFill:String = "square.grid.3x3.topright.fill"
+        case squareGrid3x3ToprightFill = "square.grid.3x3.topright.fill"
         /// 􀦷
-        static let squareGrid3x3MiddleleftFill:String = "square.grid.3x3.middleleft.fill"
+        case squareGrid3x3MiddleleftFill = "square.grid.3x3.middleleft.fill"
         /// 􀦸
-        static let squareGrid3x3MiddleFill:String = "square.grid.3x3.middle.fill"
+        case squareGrid3x3MiddleFill = "square.grid.3x3.middle.fill"
         /// 􀦹
-        static let squareGrid3x3MiddlerightFill:String = "square.grid.3x3.middleright.fill"
+        case squareGrid3x3MiddlerightFill = "square.grid.3x3.middleright.fill"
         /// 􀦺
-        static let squareGrid3x3BottomleftFill:String = "square.grid.3x3.bottomleft.fill"
+        case squareGrid3x3BottomleftFill = "square.grid.3x3.bottomleft.fill"
         /// 􀦻
-        static let squareGrid3x3BottommiddleFill:String = "square.grid.3x3.bottommiddle.fill"
+        case squareGrid3x3BottommiddleFill = "square.grid.3x3.bottommiddle.fill"
         /// 􀦼
-        static let squareGrid3x3BottomrightFill:String = "square.grid.3x3.bottomright.fill"
+        case squareGrid3x3BottomrightFill = "square.grid.3x3.bottomright.fill"
         /// 􀙢
-        static let circlesHexagongrid:String = "circles.hexagongrid"
+        case circlesHexagongrid = "circles.hexagongrid"
         /// 􀙣
-        static let circlesHexagongridFill:String = "circles.hexagongrid.fill"
+        case circlesHexagongridFill = "circles.hexagongrid.fill"
         /// 􀬎
-        static let circlesHexagonpath:String = "circles.hexagonpath"
+        case circlesHexagonpath = "circles.hexagonpath"
         /// 􀬏
-        static let circlesHexagonpathFill:String = "circles.hexagonpath.fill"
+        case circlesHexagonpathFill = "circles.hexagonpath.fill"
         /// 􀧸
-        static let circleGridCross:String = "circle.grid.cross"
+        case circleGridCross = "circle.grid.cross"
         /// 􀧹
-        static let circleGridCrossFill:String = "circle.grid.cross.fill"
+        case circleGridCrossFill = "circle.grid.cross.fill"
         /// 􀩄
-        static let circleGridCrossLeftFill:String = "circle.grid.cross.left.fill"
+        case circleGridCrossLeftFill = "circle.grid.cross.left.fill"
         /// 􀩅
-        static let circleGridCrossUpFill:String = "circle.grid.cross.up.fill"
+        case circleGridCrossUpFill = "circle.grid.cross.up.fill"
         /// 􀩆
-        static let circleGridCrossRightFill:String = "circle.grid.cross.right.fill"
+        case circleGridCrossRightFill = "circle.grid.cross.right.fill"
         /// 􀩇
-        static let circleGridCrossDownFill:String = "circle.grid.cross.down.fill"
+        case circleGridCrossDownFill = "circle.grid.cross.down.fill"
         /// 􀟆
-        static let seal:String = "seal"
+        case seal = "seal"
         /// 􀟇
-        static let sealFill:String = "seal.fill"
+        case sealFill = "seal.fill"
         /// 􀇺
-        static let checkmarkSeal:String = "checkmark.seal"
+        case checkmarkSeal = "checkmark.seal"
         /// 􀇻
-        static let checkmarkSealFill:String = "checkmark.seal.fill"
+        case checkmarkSealFill = "checkmark.seal.fill"
         /// 􀇼
-        static let xmarkSeal:String = "xmark.seal"
+        case xmarkSeal = "xmark.seal"
         /// 􀇽
-        static let xmarkSealFill:String = "xmark.seal.fill"
+        case xmarkSealFill = "xmark.seal.fill"
         /// 􀇾
-        static let exclamationmarkTriangle:String = "exclamationmark.triangle"
+        case exclamationmarkTriangle = "exclamationmark.triangle"
         /// 􀇿
-        static let exclamationmarkTriangleFill:String = "exclamationmark.triangle.fill"
+        case exclamationmarkTriangleFill = "exclamationmark.triangle.fill"
         /// 􀠑
-        static let drop:String = "drop"
+        case drop = "drop"
         /// 􀠒
-        static let dropFill:String = "drop.fill"
+        case dropFill = "drop.fill"
         /// 􀈀
-        static let dropTriangle:String = "drop.triangle"
+        case dropTriangle = "drop.triangle"
         /// 􀈁
-        static let dropTriangleFill:String = "drop.triangle.fill"
+        case dropTriangleFill = "drop.triangle.fill"
         /// 􀊃
-        static let play:String = "play"
+        case play = "play"
         /// 􀊄
-        static let playFill:String = "play.fill"
+        case playFill = "play.fill"
         /// 􀊕
-        static let playCircle:String = "play.circle"
+        case playCircle = "play.circle"
         /// 􀊖
-        static let playCircleFill:String = "play.circle.fill"
+        case playCircleFill = "play.circle.fill"
         /// 􀊙
-        static let playRectangle:String = "play.rectangle"
+        case playRectangle = "play.rectangle"
         /// 􀊚
-        static let playRectangleFill:String = "play.rectangle.fill"
+        case playRectangleFill = "play.rectangle.fill"
         /// 􀪅
-        static let playSlash:String = "play.slash"
+        case playSlash = "play.slash"
         /// 􀪆
-        static let playSlashFill:String = "play.slash.fill"
+        case playSlashFill = "play.slash.fill"
         /// 􀊅
-        static let pause:String = "pause"
+        case pause = "pause"
         /// 􀊆
-        static let pauseFill:String = "pause.fill"
+        case pauseFill = "pause.fill"
         /// 􀊗
-        static let pauseCircle:String = "pause.circle"
+        case pauseCircle = "pause.circle"
         /// 􀊘
-        static let pauseCircleFill:String = "pause.circle.fill"
+        case pauseCircleFill = "pause.circle.fill"
         /// 􀊛
-        static let pauseRectangle:String = "pause.rectangle"
+        case pauseRectangle = "pause.rectangle"
         /// 􀊜
-        static let pauseRectangleFill:String = "pause.rectangle.fill"
+        case pauseRectangleFill = "pause.rectangle.fill"
         /// 􀛶
-        static let stop:String = "stop"
+        case stop = "stop"
         /// 􀛷
-        static let stopFill:String = "stop.fill"
+        case stopFill = "stop.fill"
         /// 􀜪
-        static let stopCircle:String = "stop.circle"
+        case stopCircle = "stop.circle"
         /// 􀜫
-        static let stopCircleFill:String = "stop.circle.fill"
+        case stopCircleFill = "stop.circle.fill"
         /// 􀢙
-        static let recordCircle:String = "record.circle"
+        case recordCircle = "record.circle"
         /// 􀢚
-        static let recordCircleFill:String = "record.circle.fill"
+        case recordCircleFill = "record.circle.fill"
         /// 􀊇
-        static let playpause:String = "playpause"
+        case playpause = "playpause"
         /// 􀊈
-        static let playpauseFill:String = "playpause.fill"
+        case playpauseFill = "playpause.fill"
         /// 􀊉
-        static let backward:String = "backward"
+        case backward = "backward"
         /// 􀊊
-        static let backwardFill:String = "backward.fill"
+        case backwardFill = "backward.fill"
         /// 􀊋
-        static let forward:String = "forward"
+        case forward = "forward"
         /// 􀊌
-        static let forwardFill:String = "forward.fill"
+        case forwardFill = "forward.fill"
         /// 􀊍
-        static let backwardEnd:String = "backward.end"
+        case backwardEnd = "backward.end"
         /// 􀊎
-        static let backwardEndFill:String = "backward.end.fill"
+        case backwardEndFill = "backward.end.fill"
         /// 􀊏
-        static let forwardEnd:String = "forward.end"
+        case forwardEnd = "forward.end"
         /// 􀊐
-        static let forwardEndFill:String = "forward.end.fill"
+        case forwardEndFill = "forward.end.fill"
         /// 􀊑
-        static let backwardEndAlt:String = "backward.end.alt"
+        case backwardEndAlt = "backward.end.alt"
         /// 􀊒
-        static let backwardEndAltFill:String = "backward.end.alt.fill"
+        case backwardEndAltFill = "backward.end.alt.fill"
         /// 􀊓
-        static let forwardEndAlt:String = "forward.end.alt"
+        case forwardEndAlt = "forward.end.alt"
         /// 􀊔
-        static let forwardEndAltFill:String = "forward.end.alt.fill"
+        case forwardEndAltFill = "forward.end.alt.fill"
         /// 􀩨
-        static let backwardFrame:String = "backward.frame"
+        case backwardFrame = "backward.frame"
         /// 􀩩
-        static let backwardFrameFill:String = "backward.frame.fill"
+        case backwardFrameFill = "backward.frame.fill"
         /// 􀩪
-        static let forwardFrame:String = "forward.frame"
+        case forwardFrame = "forward.frame"
         /// 􀩫
-        static let forwardFrameFill:String = "forward.frame.fill"
+        case forwardFrameFill = "forward.frame.fill"
         /// 􀆥
-        static let eject:String = "eject"
+        case eject = "eject"
         /// 􀆦
-        static let ejectFill:String = "eject.fill"
+        case ejectFill = "eject.fill"
         /// 􀢡
-        static let ejectCircle:String = "eject.circle"
+        case ejectCircle = "eject.circle"
         /// 􀢢
-        static let ejectCircleFill:String = "eject.circle.fill"
+        case ejectCircleFill = "eject.circle.fill"
         /// 􀣊
-        static let mount:String = "mount"
+        case mount = "mount"
         /// 􀢣
-        static let mountFill:String = "mount.fill"
+        case mountFill = "mount.fill"
         /// 􀑖
-        static let memories:String = "memories"
+        case memories = "memories"
         /// 􀑗
-        static let memoriesBadgePlus:String = "memories.badge.plus"
+        case memoriesBadgePlus = "memories.badge.plus"
         /// 􀑘
-        static let memoriesBadgeMinus:String = "memories.badge.minus"
+        case memoriesBadgeMinus = "memories.badge.minus"
         /// 􀊝
-        static let shuffle:String = "shuffle"
+        case shuffle = "shuffle"
         /// 􀵉
-        static let shuffleCircle:String = "shuffle.circle"
+        case shuffleCircle = "shuffle.circle"
         /// 􀵊
-        static let shuffleCircleFill:String = "shuffle.circle.fill"
+        case shuffleCircleFill = "shuffle.circle.fill"
         /// 􀊞
-        static let repeatIcon:String = "repeat"
+        case repeatIcon = "repeat"
         /// 􀵋
-        static let repeatCircle:String = "repeat.circle"
+        case repeatCircle = "repeat.circle"
         /// 􀵌
-        static let repeatCircleFill:String = "repeat.circle.fill"
+        case repeatCircleFill = "repeat.circle.fill"
         /// 􀊟
-        static let repeat1:String = "repeat.1"
+        case repeat1 = "repeat.1"
         /// 􀵍
-        static let repeat1Circle:String = "repeat.1.circle"
+        case repeat1Circle = "repeat.1.circle"
         /// 􀵎
-        static let repeat1CircleFill:String = "repeat.1.circle.fill"
+        case repeat1CircleFill = "repeat.1.circle.fill"
         /// 􀯠
-        static let infinity:String = "infinity"
+        case infinity = "infinity"
         /// 􀵏
-        static let infinityCircle:String = "infinity.circle"
+        case infinityCircle = "infinity.circle"
         /// 􀵐
-        static let infinityCircleFill:String = "infinity.circle.fill"
+        case infinityCircleFill = "infinity.circle.fill"
         /// 􀬲
-        static let megaphone:String = "megaphone"
+        case megaphone = "megaphone"
         /// 􀬳
-        static let megaphoneFill:String = "megaphone.fill"
+        case megaphoneFill = "megaphone.fill"
         /// 􀊠
-        static let speaker:String = "speaker"
+        case speaker = "speaker"
         /// 􀊡
-        static let speakerFill:String = "speaker.fill"
+        case speakerFill = "speaker.fill"
         /// 􀊢
-        static let speakerSlash:String = "speaker.slash"
+        case speakerSlash = "speaker.slash"
         /// 􀊣
-        static let speakerSlashFill:String = "speaker.slash.fill"
+        case speakerSlashFill = "speaker.slash.fill"
         /// 􀫠
-        static let speakerSlashCircle:String = "speaker.slash.circle"
+        case speakerSlashCircle = "speaker.slash.circle"
         /// 􀫡
-        static let speakerSlashCircleFill:String = "speaker.slash.circle.fill"
+        case speakerSlashCircleFill = "speaker.slash.circle.fill"
         /// 􀌊
-        static let speakerZzz:String = "speaker.zzz"
+        case speakerZzz = "speaker.zzz"
         /// 􀑞
-        static let speakerZzzFill:String = "speaker.zzz.fill"
+        case speakerZzzFill = "speaker.zzz.fill"
         /// 􀊤
-        static let speakerWave1:String = "speaker.wave.1"
+        case speakerWave1 = "speaker.wave.1"
         /// 􀊥
-        static let speakerWave1Fill:String = "speaker.wave.1.fill"
+        case speakerWave1Fill = "speaker.wave.1.fill"
         /// 􀊦
-        static let speakerWave2:String = "speaker.wave.2"
+        case speakerWave2 = "speaker.wave.2"
         /// 􀊧
-        static let speakerWave2Fill:String = "speaker.wave.2.fill"
+        case speakerWave2Fill = "speaker.wave.2.fill"
         /// 􀥑
-        static let speakerWave2Circle:String = "speaker.wave.2.circle"
+        case speakerWave2Circle = "speaker.wave.2.circle"
         /// 􀥒
-        static let speakerWave2CircleFill:String = "speaker.wave.2.circle.fill"
+        case speakerWave2CircleFill = "speaker.wave.2.circle.fill"
         /// 􀊨
-        static let speakerWave3:String = "speaker.wave.3"
+        case speakerWave3 = "speaker.wave.3"
         /// 􀊩
-        static let speakerWave3Fill:String = "speaker.wave.3.fill"
+        case speakerWave3Fill = "speaker.wave.3.fill"
         /// 􀊪
-        static let badgePlusRadiowavesRight:String = "badge.plus.radiowaves.right"
+        case badgePlusRadiowavesRight = "badge.plus.radiowaves.right"
         /// 􀰮
-        static let badgePlusRadiowavesForward:String = "badge.plus.radiowaves.forward"
+        case badgePlusRadiowavesForward = "badge.plus.radiowaves.forward"
         /// 􀑪
-        static let musicNote:String = "music.note"
+        case musicNote = "music.note"
         /// 􀑬
-        static let musicNoteList:String = "music.note.list"
+        case musicNoteList = "music.note.list"
         /// 􀫀
-        static let musicQuarternote3:String = "music.quarternote.3"
+        case musicQuarternote3 = "music.quarternote.3"
         /// 􀑫
-        static let musicMic:String = "music.mic"
+        case musicMic = "music.mic"
         /// 􀣁
-        static let arrowRectanglepath:String = "arrow.rectanglepath"
+        case arrowRectanglepath = "arrow.rectanglepath"
         /// 􀍿
-        static let goforward:String = "goforward"
+        case goforward = "goforward"
         /// 􀎀
-        static let gobackward:String = "gobackward"
+        case gobackward = "gobackward"
         /// 􀎁
-        static let goforward10:String = "goforward.10"
+        case goforward10 = "goforward.10"
         /// 􀎂
-        static let gobackward10:String = "gobackward.10"
+        case gobackward10 = "gobackward.10"
         /// 􀎃
-        static let goforward15:String = "goforward.15"
+        case goforward15 = "goforward.15"
         /// 􀎄
-        static let gobackward15:String = "gobackward.15"
+        case gobackward15 = "gobackward.15"
         /// 􀎅
-        static let goforward30:String = "goforward.30"
+        case goforward30 = "goforward.30"
         /// 􀎆
-        static let gobackward30:String = "gobackward.30"
+        case gobackward30 = "gobackward.30"
         /// 􀎇
-        static let goforward45:String = "goforward.45"
+        case goforward45 = "goforward.45"
         /// 􀎈
-        static let gobackward45:String = "gobackward.45"
+        case gobackward45 = "gobackward.45"
         /// 􀎉
-        static let goforward60:String = "goforward.60"
+        case goforward60 = "goforward.60"
         /// 􀎊
-        static let gobackward60:String = "gobackward.60"
+        case gobackward60 = "gobackward.60"
         /// 􀘤
-        static let goforward75:String = "goforward.75"
+        case goforward75 = "goforward.75"
         /// 􀘥
-        static let gobackward75:String = "gobackward.75"
+        case gobackward75 = "gobackward.75"
         /// 􀘦
-        static let goforward90:String = "goforward.90"
+        case goforward90 = "goforward.90"
         /// 􀘧
-        static let gobackward90:String = "gobackward.90"
+        case gobackward90 = "gobackward.90"
         /// 􀘨
-        static let goforwardPlus:String = "goforward.plus"
+        case goforwardPlus = "goforward.plus"
         /// 􀘩
-        static let gobackwardMinus:String = "gobackward.minus"
+        case gobackwardMinus = "gobackward.minus"
         /// 􀫊
-        static let swift:String = "swift"
+        case swift = "swift"
         /// 􀊫
-        static let magnifyingglass:String = "magnifyingglass"
+        case magnifyingglass = "magnifyingglass"
         /// 􀒒
-        static let magnifyingglassCircle:String = "magnifyingglass.circle"
+        case magnifyingglassCircle = "magnifyingglass.circle"
         /// 􀒓
-        static let magnifyingglassCircleFill:String = "magnifyingglass.circle.fill"
+        case magnifyingglassCircleFill = "magnifyingglass.circle.fill"
         /// 􀊬
-        static let plusMagnifyingglass:String = "plus.magnifyingglass"
+        case plusMagnifyingglass = "plus.magnifyingglass"
         /// 􀊭
-        static let minusMagnifyingglass:String = "minus.magnifyingglass"
+        case minusMagnifyingglass = "minus.magnifyingglass"
         /// 􀊮
-        static let magnifyingglass1:String = "1.magnifyingglass"
+        case magnifyingglass1 = "1.magnifyingglass"
         /// 􀥩
-        static let arrowUpLeftAndDownRightMagnifyingglass:String = "arrow.up.left.and.down.right.magnifyingglass"
+        case arrowUpLeftAndDownRightMagnifyingglass = "arrow.up.left.and.down.right.magnifyingglass"
         /// 􀭥
-        static let textMagnifyingglass:String = "text.magnifyingglass"
+        case textMagnifyingglass = "text.magnifyingglass"
         /// 􀤎
-        static let loupe:String = "loupe"
+        case loupe = "loupe"
         /// 􀊰
-        static let mic:String = "mic"
+        case mic = "mic"
         /// 􀊱
-        static let micFill:String = "mic.fill"
+        case micFill = "mic.fill"
         /// 􀒩
-        static let micCircle:String = "mic.circle"
+        case micCircle = "mic.circle"
         /// 􀒪
-        static let micCircleFill:String = "mic.circle.fill"
+        case micCircleFill = "mic.circle.fill"
         /// 􀊲
-        static let micSlash:String = "mic.slash"
+        case micSlash = "mic.slash"
         /// 􀊳
-        static let micSlashFill:String = "mic.slash.fill"
+        case micSlashFill = "mic.slash.fill"
         /// 􀫰
-        static let lineDiagonal:String = "line.diagonal"
+        case lineDiagonal = "line.diagonal"
         /// 􀫱
-        static let lineDiagonalArrow:String = "line.diagonal.arrow"
+        case lineDiagonalArrow = "line.diagonal.arrow"
         /// 􀀀
-        static let circle:String = "circle"
+        case circle = "circle"
         /// 􀀁
-        static let circleFill:String = "circle.fill"
+        case circleFill = "circle.fill"
         /// 􀀂
-        static let circleLefthalfFill:String = "circle.lefthalf.fill"
+        case circleLefthalfFill = "circle.lefthalf.fill"
         /// 􀀃
-        static let circleRighthalfFill:String = "circle.righthalf.fill"
+        case circleRighthalfFill = "circle.righthalf.fill"
         /// 􀪖
-        static let circleBottomhalfFill:String = "circle.bottomhalf.fill"
+        case circleBottomhalfFill = "circle.bottomhalf.fill"
         /// 􀪗
-        static let circleTophalfFill:String = "circle.tophalf.fill"
+        case circleTophalfFill = "circle.tophalf.fill"
         /// 􀝜
-        static let largecircleFillCircle:String = "largecircle.fill.circle"
+        case largecircleFillCircle = "largecircle.fill.circle"
         /// 􀍷
-        static let smallcircleFillCircle:String = "smallcircle.fill.circle"
+        case smallcircleFillCircle = "smallcircle.fill.circle"
         /// 􀕩
-        static let smallcircleFillCircleFill:String = "smallcircle.fill.circle.fill"
+        case smallcircleFillCircleFill = "smallcircle.fill.circle.fill"
         /// 􀓞
-        static let circleDashed:String = "circle.dashed"
+        case circleDashed = "circle.dashed"
         /// 􀧒
-        static let circleDashedInsetFill:String = "circle.dashed.inset.fill"
+        case circleDashedInsetFill = "circle.dashed.inset.fill"
         /// 􀧙
-        static let circlebadge:String = "circlebadge"
+        case circlebadge = "circlebadge"
         /// 􀜞
-        static let circlebadgeFill:String = "circlebadge.fill"
+        case circlebadgeFill = "circlebadge.fill"
         /// 􀫲
-        static let circlebadge2:String = "circlebadge.2"
+        case circlebadge2 = "circlebadge.2"
         /// 􀣽
-        static let circlebadge2Fill:String = "circlebadge.2.fill"
+        case circlebadge2Fill = "circlebadge.2.fill"
         /// 􀕪
-        static let smallcircleCircle:String = "smallcircle.circle"
+        case smallcircleCircle = "smallcircle.circle"
         /// 􀕫
-        static let smallcircleCircleFill:String = "smallcircle.circle.fill"
+        case smallcircleCircleFill = "smallcircle.circle.fill"
         /// 􀢊
-        static let target:String = "target"
+        case target = "target"
         /// 􀝶
-        static let capsule:String = "capsule"
+        case capsule = "capsule"
         /// 􀝷
-        static let capsuleFill:String = "capsule.fill"
+        case capsuleFill = "capsule.fill"
         /// 􀧶
-        static let capsulePortrait:String = "capsule.portrait"
+        case capsulePortrait = "capsule.portrait"
         /// 􀧷
-        static let capsulePortraitFill:String = "capsule.portrait.fill"
+        case capsulePortraitFill = "capsule.portrait.fill"
         /// 􀲞
-        static let oval:String = "oval"
+        case oval = "oval"
         /// 􀲟
-        static let ovalFill:String = "oval.fill"
+        case ovalFill = "oval.fill"
         /// 􀲠
-        static let ovalPortrait:String = "oval.portrait"
+        case ovalPortrait = "oval.portrait"
         /// 􀲡
-        static let ovalPortraitFill:String = "oval.portrait.fill"
+        case ovalPortraitFill = "oval.portrait.fill"
         /// 􀮷
-        static let placeholdertextFill:String = "placeholdertext.fill"
+        case placeholdertextFill = "placeholdertext.fill"
         /// 􀂒
-        static let square:String = "square"
+        case square = "square"
         /// 􀂓
-        static let squareFill:String = "square.fill"
+        case squareFill = "square.fill"
         /// 􀚓
-        static let squareLefthalfFill:String = "square.lefthalf.fill"
+        case squareLefthalfFill = "square.lefthalf.fill"
         /// 􀚔
-        static let squareRighthalfFill:String = "square.righthalf.fill"
+        case squareRighthalfFill = "square.righthalf.fill"
         /// 􀪚
-        static let squareBottomhalfFill:String = "square.bottomhalf.fill"
+        case squareBottomhalfFill = "square.bottomhalf.fill"
         /// 􀪛
-        static let squareTophalfFill:String = "square.tophalf.fill"
+        case squareTophalfFill = "square.tophalf.fill"
         /// 􀣦
-        static let squareSlash:String = "square.slash"
+        case squareSlash = "square.slash"
         /// 􀣧
-        static let squareSlashFill:String = "square.slash.fill"
+        case squareSlashFill = "square.slash.fill"
         /// 􀕴
-        static let dotSquare:String = "dot.square"
+        case dotSquare = "dot.square"
         /// 􀕵
-        static let dotSquareFill:String = "dot.square.fill"
+        case dotSquareFill = "dot.square.fill"
         /// 􀧺
-        static let circleSquare:String = "circle.square"
+        case circleSquare = "circle.square"
         /// 􀧻
-        static let circleFillSquareFill:String = "circle.fill.square.fill"
+        case circleFillSquareFill = "circle.fill.square.fill"
         /// 􀓔
-        static let squareDashed:String = "square.dashed"
+        case squareDashed = "square.dashed"
         /// 􀧑
-        static let squareDashedInsetFill:String = "square.dashed.inset.fill"
+        case squareDashedInsetFill = "square.dashed.inset.fill"
         /// 􀭉
-        static let questionmarkSquareDashed:String = "questionmark.square.dashed"
+        case questionmarkSquareDashed = "questionmark.square.dashed"
         /// 􀣮
-        static let squareshape:String = "squareshape"
+        case squareshape = "squareshape"
         /// 􀣯
-        static let squareshapeFill:String = "squareshape.fill"
+        case squareshapeFill = "squareshape.fill"
         /// 􀩢
-        static let squareshapeDashedSquareshape:String = "squareshape.dashed.squareshape"
+        case squareshapeDashedSquareshape = "squareshape.dashed.squareshape"
         /// 􀫴
-        static let squareshapeSquareshapeDashed:String = "squareshape.squareshape.dashed"
+        case squareshapeSquareshapeDashed = "squareshape.squareshape.dashed"
         /// 􀪵
-        static let dotSquareshape:String = "dot.squareshape"
+        case dotSquareshape = "dot.squareshape"
         /// 􀪶
-        static let dotSquareshapeFill:String = "dot.squareshape.fill"
+        case dotSquareshapeFill = "dot.squareshape.fill"
         /// 􀑋
-        static let app:String = "app"
+        case app = "app"
         /// 􀑌
-        static let appFill:String = "app.fill"
+        case appFill = "app.fill"
         /// 􀏃
-        static let rectangle:String = "rectangle"
+        case rectangle = "rectangle"
         /// 􀏄
-        static let rectangleFill:String = "rectangle.fill"
+        case rectangleFill = "rectangle.fill"
         /// 􀣤
-        static let rectangleSlash:String = "rectangle.slash"
+        case rectangleSlash = "rectangle.slash"
         /// 􀣥
-        static let rectangleSlashFill:String = "rectangle.slash.fill"
+        case rectangleSlashFill = "rectangle.slash.fill"
         /// 􀟏
-        static let rectanglePortrait:String = "rectangle.portrait"
+        case rectanglePortrait = "rectangle.portrait"
         /// 􀟐
-        static let rectanglePortraitFill:String = "rectangle.portrait.fill"
+        case rectanglePortraitFill = "rectangle.portrait.fill"
         /// 􀛣
-        static let triangle:String = "triangle"
+        case triangle = "triangle"
         /// 􀛤
-        static let triangleFill:String = "triangle.fill"
+        case triangleFill = "triangle.fill"
         /// 􀚕
-        static let triangleLefthalfFill:String = "triangle.lefthalf.fill"
+        case triangleLefthalfFill = "triangle.lefthalf.fill"
         /// 􀚖
-        static let triangleRighthalfFill:String = "triangle.righthalf.fill"
+        case triangleRighthalfFill = "triangle.righthalf.fill"
         /// 􀟈
-        static let diamond:String = "diamond"
+        case diamond = "diamond"
         /// 􀟉
-        static let diamondFill:String = "diamond.fill"
+        case diamondFill = "diamond.fill"
         /// 􀟊
-        static let octagon:String = "octagon"
+        case octagon = "octagon"
         /// 􀟋
-        static let octagonFill:String = "octagon.fill"
+        case octagonFill = "octagon.fill"
         /// 􀝝
-        static let hexagon:String = "hexagon"
+        case hexagon = "hexagon"
         /// 􀝞
-        static let hexagonFill:String = "hexagon.fill"
+        case hexagonFill = "hexagon.fill"
         /// 􀒂
-        static let suitHeart:String = "suit.heart"
+        case suitHeart = "suit.heart"
         /// 􀊼
-        static let suitHeartFill:String = "suit.heart.fill"
+        case suitHeartFill = "suit.heart.fill"
         /// 􀒃
-        static let suitClub:String = "suit.club"
+        case suitClub = "suit.club"
         /// 􀊽
-        static let suitClubFill:String = "suit.club.fill"
+        case suitClubFill = "suit.club.fill"
         /// 􀒅
-        static let suitSpade:String = "suit.spade"
+        case suitSpade = "suit.spade"
         /// 􀊾
-        static let suitSpadeFill:String = "suit.spade.fill"
+        case suitSpadeFill = "suit.spade.fill"
         /// 􀒄
-        static let suitDiamond:String = "suit.diamond"
+        case suitDiamond = "suit.diamond"
         /// 􀊿
-        static let suitDiamondFill:String = "suit.diamond.fill"
+        case suitDiamondFill = "suit.diamond.fill"
         /// 􀊴
-        static let heart:String = "heart"
+        case heart = "heart"
         /// 􀊵
-        static let heartFill:String = "heart.fill"
+        case heartFill = "heart.fill"
         /// 􀊸
-        static let heartCircle:String = "heart.circle"
+        case heartCircle = "heart.circle"
         /// 􀊹
-        static let heartCircleFill:String = "heart.circle.fill"
+        case heartCircleFill = "heart.circle.fill"
         /// 􀊶
-        static let heartSlash:String = "heart.slash"
+        case heartSlash = "heart.slash"
         /// 􀊷
-        static let heartSlashFill:String = "heart.slash.fill"
+        case heartSlashFill = "heart.slash.fill"
         /// 􀊺
-        static let heartSlashCircle:String = "heart.slash.circle"
+        case heartSlashCircle = "heart.slash.circle"
         /// 􀊻
-        static let heartSlashCircleFill:String = "heart.slash.circle.fill"
+        case heartSlashCircleFill = "heart.slash.circle.fill"
         /// 􀥴
-        static let heartTextSquare:String = "heart.text.square"
+        case heartTextSquare = "heart.text.square"
         /// 􀥵
-        static let heartTextSquareFill:String = "heart.text.square.fill"
+        case heartTextSquareFill = "heart.text.square.fill"
         /// 􀞽
-        static let boltHeart:String = "bolt.heart"
+        case boltHeart = "bolt.heart"
         /// 􀛥
-        static let boltHeartFill:String = "bolt.heart.fill"
+        case boltHeartFill = "bolt.heart.fill"
         /// 􀲕
-        static let arrowUpHeart:String = "arrow.up.heart"
+        case arrowUpHeart = "arrow.up.heart"
         /// 􀲖
-        static let arrowUpHeartFill:String = "arrow.up.heart.fill"
+        case arrowUpHeartFill = "arrow.up.heart.fill"
         /// 􀲗
-        static let arrowDownHeart:String = "arrow.down.heart"
+        case arrowDownHeart = "arrow.down.heart"
         /// 􀲘
-        static let arrowDownHeartFill:String = "arrow.down.heart.fill"
+        case arrowDownHeartFill = "arrow.down.heart.fill"
         /// 􀧡
-        static let arrowClockwiseHeart:String = "arrow.clockwise.heart"
+        case arrowClockwiseHeart = "arrow.clockwise.heart"
         /// 􀧢
-        static let arrowClockwiseHeartFill:String = "arrow.clockwise.heart.fill"
+        case arrowClockwiseHeartFill = "arrow.clockwise.heart.fill"
         /// 􀋀
-        static let rhombus:String = "rhombus"
+        case rhombus = "rhombus"
         /// 􀋁
-        static let rhombusFill:String = "rhombus.fill"
+        case rhombusFill = "rhombus.fill"
         /// 􀋂
-        static let star:String = "star"
+        case star = "star"
         /// 􀋃
-        static let starFill:String = "star.fill"
+        case starFill = "star.fill"
         /// 􀋄
-        static let starLeadinghalfFill:String = "star.leadinghalf.fill"
+        case starLeadinghalfFill = "star.leadinghalf.fill"
         /// 􀋅
-        static let starCircle:String = "star.circle"
+        case starCircle = "star.circle"
         /// 􀋆
-        static let starCircleFill:String = "star.circle.fill"
+        case starCircleFill = "star.circle.fill"
         /// 􀠧
-        static let starSquare:String = "star.square"
+        case starSquare = "star.square"
         /// 􀠨
-        static let starSquareFill:String = "star.square.fill"
+        case starSquareFill = "star.square.fill"
         /// 􀋇
-        static let starSlash:String = "star.slash"
+        case starSlash = "star.slash"
         /// 􀋈
-        static let starSlashFill:String = "star.slash.fill"
+        case starSlashFill = "star.slash.fill"
         /// 􀑮
-        static let lineHorizontalStarFillLineHorizontal:String = "line.horizontal.star.fill.line.horizontal"
+        case lineHorizontalStarFillLineHorizontal = "line.horizontal.star.fill.line.horizontal"
         /// 􀋉
-        static let flag:String = "flag"
+        case flag = "flag"
         /// 􀋊
-        static let flagFill:String = "flag.fill"
+        case flagFill = "flag.fill"
         /// 􀋋
-        static let flagCircle:String = "flag.circle"
+        case flagCircle = "flag.circle"
         /// 􀋌
-        static let flagCircleFill:String = "flag.circle.fill"
+        case flagCircleFill = "flag.circle.fill"
         /// 􀋍
-        static let flagSlash:String = "flag.slash"
+        case flagSlash = "flag.slash"
         /// 􀋎
-        static let flagSlashFill:String = "flag.slash.fill"
+        case flagSlashFill = "flag.slash.fill"
         /// 􀋏
-        static let flagSlashCircle:String = "flag.slash.circle"
+        case flagSlashCircle = "flag.slash.circle"
         /// 􀋐
-        static let flagSlashCircleFill:String = "flag.slash.circle.fill"
+        case flagSlashCircleFill = "flag.slash.circle.fill"
         /// 􀤔
-        static let flagBadgeEllipsis:String = "flag.badge.ellipsis"
+        case flagBadgeEllipsis = "flag.badge.ellipsis"
         /// 􀤕
-        static let flagBadgeEllipsisFill:String = "flag.badge.ellipsis.fill"
+        case flagBadgeEllipsisFill = "flag.badge.ellipsis.fill"
         /// 􀋑
-        static let location:String = "location"
+        case location = "location"
         /// 􀋒
-        static let locationFill:String = "location.fill"
+        case locationFill = "location.fill"
         /// 􀘬
-        static let locationSlash:String = "location.slash"
+        case locationSlash = "location.slash"
         /// 􀘭
-        static let locationSlashFill:String = "location.slash.fill"
+        case locationSlashFill = "location.slash.fill"
         /// 􀋓
-        static let locationNorth:String = "location.north"
+        case locationNorth = "location.north"
         /// 􀋔
-        static let locationNorthFill:String = "location.north.fill"
+        case locationNorthFill = "location.north.fill"
         /// 􀋕
-        static let locationCircle:String = "location.circle"
+        case locationCircle = "location.circle"
         /// 􀋖
-        static let locationCircleFill:String = "location.circle.fill"
+        case locationCircleFill = "location.circle.fill"
         /// 􀋗
-        static let locationNorthLine:String = "location.north.line"
+        case locationNorthLine = "location.north.line"
         /// 􀋘
-        static let locationNorthLineFill:String = "location.north.line.fill"
+        case locationNorthLineFill = "location.north.line.fill"
         /// 􀋙
-        static let bell:String = "bell"
+        case bell = "bell"
         /// 􀋚
-        static let bellFill:String = "bell.fill"
+        case bellFill = "bell.fill"
         /// 􀋛
-        static let bellCircle:String = "bell.circle"
+        case bellCircle = "bell.circle"
         /// 􀋜
-        static let bellCircleFill:String = "bell.circle.fill"
+        case bellCircleFill = "bell.circle.fill"
         /// 􀋝
-        static let bellSlash:String = "bell.slash"
+        case bellSlash = "bell.slash"
         /// 􀋞
-        static let bellSlashFill:String = "bell.slash.fill"
+        case bellSlashFill = "bell.slash.fill"
         /// 􀋟
-        static let bellSlashCircle:String = "bell.slash.circle"
+        case bellSlashCircle = "bell.slash.circle"
         /// 􀋠
-        static let bellSlashCircleFill:String = "bell.slash.circle.fill"
+        case bellSlashCircleFill = "bell.slash.circle.fill"
         /// 􀝖
-        static let bellBadge:String = "bell.badge"
+        case bellBadge = "bell.badge"
         /// 􀝗
-        static let bellBadgeFill:String = "bell.badge.fill"
+        case bellBadgeFill = "bell.badge.fill"
         /// 􀋡
-        static let tag:String = "tag"
+        case tag = "tag"
         /// 􀋢
-        static let tagFill:String = "tag.fill"
+        case tagFill = "tag.fill"
         /// 􀋣
-        static let tagCircle:String = "tag.circle"
+        case tagCircle = "tag.circle"
         /// 􀋤
-        static let tagCircleFill:String = "tag.circle.fill"
+        case tagCircleFill = "tag.circle.fill"
         /// 􀦫
-        static let tagSlash:String = "tag.slash"
+        case tagSlash = "tag.slash"
         /// 􀦬
-        static let tagSlashFill:String = "tag.slash.fill"
+        case tagSlashFill = "tag.slash.fill"
         /// 􀋥
-        static let bolt:String = "bolt"
+        case bolt = "bolt"
         /// 􀋦
-        static let boltFill:String = "bolt.fill"
+        case boltFill = "bolt.fill"
         /// 􀋧
-        static let boltCircle:String = "bolt.circle"
+        case boltCircle = "bolt.circle"
         /// 􀋨
-        static let boltCircleFill:String = "bolt.circle.fill"
+        case boltCircleFill = "bolt.circle.fill"
         /// 􀋩
-        static let boltSlash:String = "bolt.slash"
+        case boltSlash = "bolt.slash"
         /// 􀋪
-        static let boltSlashFill:String = "bolt.slash.fill"
+        case boltSlashFill = "bolt.slash.fill"
         /// 􀋫
-        static let boltSlashCircle:String = "bolt.slash.circle"
+        case boltSlashCircle = "bolt.slash.circle"
         /// 􀋬
-        static let boltSlashCircleFill:String = "bolt.slash.circle.fill"
+        case boltSlashCircleFill = "bolt.slash.circle.fill"
         /// 􀘳
-        static let boltBadgeA:String = "bolt.badge.a"
+        case boltBadgeA = "bolt.badge.a"
         /// 􀘴
-        static let boltBadgeAFill:String = "bolt.badge.a.fill"
+        case boltBadgeAFill = "bolt.badge.a.fill"
         /// 􀒗
-        static let boltHorizontal:String = "bolt.horizontal"
+        case boltHorizontal = "bolt.horizontal"
         /// 􀒘
-        static let boltHorizontalFill:String = "bolt.horizontal.fill"
+        case boltHorizontalFill = "bolt.horizontal.fill"
         /// 􀒙
-        static let boltHorizontalCircle:String = "bolt.horizontal.circle"
+        case boltHorizontalCircle = "bolt.horizontal.circle"
         /// 􀒚
-        static let boltHorizontalCircleFill:String = "bolt.horizontal.circle.fill"
+        case boltHorizontalCircleFill = "bolt.horizontal.circle.fill"
         /// 􀋭
-        static let eye:String = "eye"
+        case eye = "eye"
         /// 􀋮
-        static let eyeFill:String = "eye.fill"
+        case eyeFill = "eye.fill"
         /// 􀛿
-        static let eyeCircle:String = "eye.circle"
+        case eyeCircle = "eye.circle"
         /// 􀜀
-        static let eyeCircleFill:String = "eye.circle.fill"
+        case eyeCircleFill = "eye.circle.fill"
         /// 􀋯
-        static let eyeSlash:String = "eye.slash"
+        case eyeSlash = "eye.slash"
         /// 􀋰
-        static let eyeSlashFill:String = "eye.slash.fill"
+        case eyeSlashFill = "eye.slash.fill"
         /// 􀦧
-        static let eyes:String = "eyes"
+        case eyes = "eyes"
         /// 􀨭
-        static let eyesInverse:String = "eyes.inverse"
+        case eyesInverse = "eyes.inverse"
         /// 􀦭
-        static let eyebrow:String = "eyebrow"
+        case eyebrow = "eyebrow"
         /// 􀨯
-        static let nose:String = "nose"
+        case nose = "nose"
         /// 􀨰
-        static let noseFill:String = "nose.fill"
+        case noseFill = "nose.fill"
         /// 􀥿
-        static let mustache:String = "mustache"
+        case mustache = "mustache"
         /// 􀦀
-        static let mustacheFill:String = "mustache.fill"
+        case mustacheFill = "mustache.fill"
         /// 􀦩
-        static let mouth:String = "mouth"
+        case mouth = "mouth"
         /// 􀦪
-        static let mouthFill:String = "mouth.fill"
+        case mouthFill = "mouth.fill"
         /// 􀌋
-        static let icloud:String = "icloud"
+        case icloud = "icloud"
         /// 􀌌
-        static let icloudFill:String = "icloud.fill"
+        case icloudFill = "icloud.fill"
         /// 􀌍
-        static let icloudCircle:String = "icloud.circle"
+        case icloudCircle = "icloud.circle"
         /// 􀌎
-        static let icloudCircleFill:String = "icloud.circle.fill"
+        case icloudCircleFill = "icloud.circle.fill"
         /// 􀌏
-        static let icloudSlash:String = "icloud.slash"
+        case icloudSlash = "icloud.slash"
         /// 􀌐
-        static let icloudSlashFill:String = "icloud.slash.fill"
+        case icloudSlashFill = "icloud.slash.fill"
         /// 􀌑
-        static let exclamationmarkIcloud:String = "exclamationmark.icloud"
+        case exclamationmarkIcloud = "exclamationmark.icloud"
         /// 􀌒
-        static let exclamationmarkIcloudFill:String = "exclamationmark.icloud.fill"
+        case exclamationmarkIcloudFill = "exclamationmark.icloud.fill"
         /// 􀢓
-        static let checkmarkIcloud:String = "checkmark.icloud"
+        case checkmarkIcloud = "checkmark.icloud"
         /// 􀢔
-        static let checkmarkIcloudFill:String = "checkmark.icloud.fill"
+        case checkmarkIcloudFill = "checkmark.icloud.fill"
         /// 􀌓
-        static let xmarkIcloud:String = "xmark.icloud"
+        case xmarkIcloud = "xmark.icloud"
         /// 􀌔
-        static let xmarkIcloudFill:String = "xmark.icloud.fill"
+        case xmarkIcloudFill = "xmark.icloud.fill"
         /// 􀒞
-        static let linkIcloud:String = "link.icloud"
+        case linkIcloud = "link.icloud"
         /// 􀒟
-        static let linkIcloudFill:String = "link.icloud.fill"
+        case linkIcloudFill = "link.icloud.fill"
         /// 􀘿
-        static let boltHorizontalIcloud:String = "bolt.horizontal.icloud"
+        case boltHorizontalIcloud = "bolt.horizontal.icloud"
         /// 􀙀
-        static let boltHorizontalIcloudFill:String = "bolt.horizontal.icloud.fill"
+        case boltHorizontalIcloudFill = "bolt.horizontal.icloud.fill"
         /// 􀙳
-        static let personIcloud:String = "person.icloud"
+        case personIcloud = "person.icloud"
         /// 􀙴
-        static let personIcloudFill:String = "person.icloud.fill"
+        case personIcloudFill = "person.icloud.fill"
         /// 􀙵
-        static let lockIcloud:String = "lock.icloud"
+        case lockIcloud = "lock.icloud"
         /// 􀙶
-        static let lockIcloudFill:String = "lock.icloud.fill"
+        case lockIcloudFill = "lock.icloud.fill"
         /// 􀢕
-        static let keyIcloud:String = "key.icloud"
+        case keyIcloud = "key.icloud"
         /// 􀢖
-        static let keyIcloudFill:String = "key.icloud.fill"
+        case keyIcloudFill = "key.icloud.fill"
         /// 􀙷
-        static let arrowClockwiseIcloud:String = "arrow.clockwise.icloud"
+        case arrowClockwiseIcloud = "arrow.clockwise.icloud"
         /// 􀙸
-        static let arrowClockwiseIcloudFill:String = "arrow.clockwise.icloud.fill"
+        case arrowClockwiseIcloudFill = "arrow.clockwise.icloud.fill"
         /// 􀙹
-        static let arrowCounterclockwiseIcloud:String = "arrow.counterclockwise.icloud"
+        case arrowCounterclockwiseIcloud = "arrow.counterclockwise.icloud"
         /// 􀙺
-        static let arrowCounterclockwiseIcloudFill:String = "arrow.counterclockwise.icloud.fill"
+        case arrowCounterclockwiseIcloudFill = "arrow.counterclockwise.icloud.fill"
         /// 􀌕
-        static let icloudAndArrowDown:String = "icloud.and.arrow.down"
+        case icloudAndArrowDown = "icloud.and.arrow.down"
         /// 􀌖
-        static let icloudAndArrowDownFill:String = "icloud.and.arrow.down.fill"
+        case icloudAndArrowDownFill = "icloud.and.arrow.down.fill"
         /// 􀌗
-        static let icloudAndArrowUp:String = "icloud.and.arrow.up"
+        case icloudAndArrowUp = "icloud.and.arrow.up"
         /// 􀌘
-        static let icloudAndArrowUpFill:String = "icloud.and.arrow.up.fill"
+        case icloudAndArrowUpFill = "icloud.and.arrow.up.fill"
         /// 􀝌
-        static let flashlightOffFill:String = "flashlight.off.fill"
+        case flashlightOffFill = "flashlight.off.fill"
         /// 􀞋
-        static let flashlightOnFill:String = "flashlight.on.fill"
+        case flashlightOnFill = "flashlight.on.fill"
         /// 􀌞
-        static let camera:String = "camera"
+        case camera = "camera"
         /// 􀌟
-        static let cameraFill:String = "camera.fill"
+        case cameraFill = "camera.fill"
         /// 􀌠
-        static let cameraCircle:String = "camera.circle"
+        case cameraCircle = "camera.circle"
         /// 􀌡
-        static let cameraCircleFill:String = "camera.circle.fill"
+        case cameraCircleFill = "camera.circle.fill"
         /// 􀢗
-        static let cameraBadgeEllipsis:String = "camera.badge.ellipsis"
+        case cameraBadgeEllipsis = "camera.badge.ellipsis"
         /// 􀢘
-        static let cameraFillBadgeEllipsis:String = "camera.fill.badge.ellipsis"
+        case cameraFillBadgeEllipsis = "camera.fill.badge.ellipsis"
         /// 􀌢
-        static let arrowTriangle2CirclepathCamera:String = "arrow.triangle.2.circlepath.camera"
+        case arrowTriangle2CirclepathCamera = "arrow.triangle.2.circlepath.camera"
         /// 􀌣
-        static let arrowTriangle2CirclepathCameraFill:String = "arrow.triangle.2.circlepath.camera.fill"
+        case arrowTriangle2CirclepathCameraFill = "arrow.triangle.2.circlepath.camera.fill"
         /// 􀝁
-        static let cameraOnRectangle:String = "camera.on.rectangle"
+        case cameraOnRectangle = "camera.on.rectangle"
         /// 􀝂
-        static let cameraOnRectangleFill:String = "camera.on.rectangle.fill"
+        case cameraOnRectangleFill = "camera.on.rectangle.fill"
         /// 􀌤
-        static let message:String = "message"
+        case message = "message"
         /// 􀌥
-        static let messageFill:String = "message.fill"
+        case messageFill = "message.fill"
         /// 􀌦
-        static let messageCircle:String = "message.circle"
+        case messageCircle = "message.circle"
         /// 􀌧
-        static let messageCircleFill:String = "message.circle.fill"
+        case messageCircleFill = "message.circle.fill"
         /// 􀜃
-        static let arrowUpMessage:String = "arrow.up.message"
+        case arrowUpMessage = "arrow.up.message"
         /// 􀜄
-        static let arrowUpMessageFill:String = "arrow.up.message.fill"
+        case arrowUpMessageFill = "arrow.up.message.fill"
         /// 􀡙
-        static let plusMessage:String = "plus.message"
+        case plusMessage = "plus.message"
         /// 􀡚
-        static let plusMessageFill:String = "plus.message.fill"
+        case plusMessageFill = "plus.message.fill"
         /// 􀌨
-        static let bubbleRight:String = "bubble.right"
+        case bubbleRight = "bubble.right"
         /// 􀌩
-        static let bubbleRightFill:String = "bubble.right.fill"
+        case bubbleRightFill = "bubble.right.fill"
         /// 􀌪
-        static let bubbleLeft:String = "bubble.left"
+        case bubbleLeft = "bubble.left"
         /// 􀌫
-        static let bubbleLeftFill:String = "bubble.left.fill"
+        case bubbleLeftFill = "bubble.left.fill"
         /// 􀌬
-        static let exclamationmarkBubble:String = "exclamationmark.bubble"
+        case exclamationmarkBubble = "exclamationmark.bubble"
         /// 􀌭
-        static let exclamationmarkBubbleFill:String = "exclamationmark.bubble.fill"
+        case exclamationmarkBubbleFill = "exclamationmark.bubble.fill"
         /// 􀌮
-        static let quoteBubble:String = "quote.bubble"
+        case quoteBubble = "quote.bubble"
         /// 􀌯
-        static let quoteBubbleFill:String = "quote.bubble.fill"
+        case quoteBubbleFill = "quote.bubble.fill"
         /// 􀌰
-        static let tBubble:String = "t.bubble"
+        case tBubble = "t.bubble"
         /// 􀌱
-        static let tBubbleFill:String = "t.bubble.fill"
+        case tBubbleFill = "t.bubble.fill"
         /// 􀌲
-        static let textBubble:String = "text.bubble"
+        case textBubble = "text.bubble"
         /// 􀌳
-        static let textBubbleFill:String = "text.bubble.fill"
+        case textBubbleFill = "text.bubble.fill"
         /// 􀌴
-        static let captionsBubble:String = "captions.bubble"
+        case captionsBubble = "captions.bubble"
         /// 􀌵
-        static let captionsBubbleFill:String = "captions.bubble.fill"
+        case captionsBubbleFill = "captions.bubble.fill"
         /// 􀌶
-        static let plusBubble:String = "plus.bubble"
+        case plusBubble = "plus.bubble"
         /// 􀌷
-        static let plusBubbleFill:String = "plus.bubble.fill"
+        case plusBubbleFill = "plus.bubble.fill"
         /// 􀬄
-        static let rectangle3OffgridBubbleLeft:String = "rectangle.3.offgrid.bubble.left"
+        case rectangle3OffgridBubbleLeft = "rectangle.3.offgrid.bubble.left"
         /// 􀬅
-        static let rectangle3OffgridBubbleLeftFill:String = "rectangle.3.offgrid.bubble.left.fill"
+        case rectangle3OffgridBubbleLeftFill = "rectangle.3.offgrid.bubble.left.fill"
         /// 􀕺
-        static let ellipsisBubble:String = "ellipsis.bubble"
+        case ellipsisBubble = "ellipsis.bubble"
         /// 􀕻
-        static let ellipsisBubbleFill:String = "ellipsis.bubble.fill"
+        case ellipsisBubbleFill = "ellipsis.bubble.fill"
         /// 􀱮
-        static let phoneBubbleLeft:String = "phone.bubble.left"
+        case phoneBubbleLeft = "phone.bubble.left"
         /// 􀱯
-        static let phoneBubbleLeftFill:String = "phone.bubble.left.fill"
+        case phoneBubbleLeftFill = "phone.bubble.left.fill"
         /// 􀱰
-        static let videoBubbleLeft:String = "video.bubble.left"
+        case videoBubbleLeft = "video.bubble.left"
         /// 􀱱
-        static let videoBubbleLeftFill:String = "video.bubble.left.fill"
+        case videoBubbleLeftFill = "video.bubble.left.fill"
         /// 􀌸
-        static let bubbleMiddleBottom:String = "bubble.middle.bottom"
+        case bubbleMiddleBottom = "bubble.middle.bottom"
         /// 􀌹
-        static let bubbleMiddleBottomFill:String = "bubble.middle.bottom.fill"
+        case bubbleMiddleBottomFill = "bubble.middle.bottom.fill"
         /// 􀌼
-        static let bubbleMiddleTop:String = "bubble.middle.top"
+        case bubbleMiddleTop = "bubble.middle.top"
         /// 􀌽
-        static let bubbleMiddleTopFill:String = "bubble.middle.top.fill"
+        case bubbleMiddleTopFill = "bubble.middle.top.fill"
         /// 􀒤
-        static let bubbleLeftAndBubbleRight:String = "bubble.left.and.bubble.right"
+        case bubbleLeftAndBubbleRight = "bubble.left.and.bubble.right"
         /// 􀘲
-        static let bubbleLeftAndBubbleRightFill:String = "bubble.left.and.bubble.right.fill"
+        case bubbleLeftAndBubbleRightFill = "bubble.left.and.bubble.right.fill"
         /// 􀌾
-        static let phone:String = "phone"
+        case phone = "phone"
         /// 􀌿
-        static let phoneFill:String = "phone.fill"
+        case phoneFill = "phone.fill"
         /// 􀒥
-        static let phoneCircle:String = "phone.circle"
+        case phoneCircle = "phone.circle"
         /// 􀒦
-        static let phoneCircleFill:String = "phone.circle.fill"
+        case phoneCircleFill = "phone.circle.fill"
         /// 􀖎
-        static let phoneBadgePlus:String = "phone.badge.plus"
+        case phoneBadgePlus = "phone.badge.plus"
         /// 􀖏
-        static let phoneFillBadgePlus:String = "phone.fill.badge.plus"
+        case phoneFillBadgePlus = "phone.fill.badge.plus"
         /// 􀬛
-        static let phoneConnection:String = "phone.connection"
+        case phoneConnection = "phone.connection"
         /// 􀬜
-        static let phoneFillConnection:String = "phone.fill.connection"
+        case phoneFillConnection = "phone.fill.connection"
         /// 􀍀
-        static let phoneArrowUpRight:String = "phone.arrow.up.right"
+        case phoneArrowUpRight = "phone.arrow.up.right"
         /// 􀍁
-        static let phoneFillArrowUpRight:String = "phone.fill.arrow.up.right"
+        case phoneFillArrowUpRight = "phone.fill.arrow.up.right"
         /// 􀍂
-        static let phoneArrowDownLeft:String = "phone.arrow.down.left"
+        case phoneArrowDownLeft = "phone.arrow.down.left"
         /// 􀍃
-        static let phoneFillArrowDownLeft:String = "phone.fill.arrow.down.left"
+        case phoneFillArrowDownLeft = "phone.fill.arrow.down.left"
         /// 􀍄
-        static let phoneArrowRight:String = "phone.arrow.right"
+        case phoneArrowRight = "phone.arrow.right"
         /// 􀍅
-        static let phoneFillArrowRight:String = "phone.fill.arrow.right"
+        case phoneFillArrowRight = "phone.fill.arrow.right"
         /// 􀍆
-        static let phoneDown:String = "phone.down"
+        case phoneDown = "phone.down"
         /// 􀍇
-        static let phoneDownFill:String = "phone.down.fill"
+        case phoneDownFill = "phone.down.fill"
         /// 􀒧
-        static let phoneDownCircle:String = "phone.down.circle"
+        case phoneDownCircle = "phone.down.circle"
         /// 􀒨
-        static let phoneDownCircleFill:String = "phone.down.circle.fill"
+        case phoneDownCircleFill = "phone.down.circle.fill"
         /// 􀍈
-        static let teletype:String = "teletype"
+        case teletype = "teletype"
         /// 􀜅
-        static let teletypeCircle:String = "teletype.circle"
+        case teletypeCircle = "teletype.circle"
         /// 􀜆
-        static let teletypeCircleFill:String = "teletype.circle.fill"
+        case teletypeCircleFill = "teletype.circle.fill"
         /// 􀙰
-        static let teletypeAnswer:String = "teletype.answer"
+        case teletypeAnswer = "teletype.answer"
         /// 􀍉
-        static let video:String = "video"
+        case video = "video"
         /// 􀍊
-        static let videoFill:String = "video.fill"
+        case videoFill = "video.fill"
         /// 􀍋
-        static let videoCircle:String = "video.circle"
+        case videoCircle = "video.circle"
         /// 􀍌
-        static let videoCircleFill:String = "video.circle.fill"
+        case videoCircleFill = "video.circle.fill"
         /// 􀍍
-        static let videoSlash:String = "video.slash"
+        case videoSlash = "video.slash"
         /// 􀍎
-        static let videoSlashFill:String = "video.slash.fill"
+        case videoSlashFill = "video.slash.fill"
         /// 􀜮
-        static let videoBadgePlus:String = "video.badge.plus"
+        case videoBadgePlus = "video.badge.plus"
         /// 􀜯
-        static let videoFillBadgePlus:String = "video.fill.badge.plus"
+        case videoFillBadgePlus = "video.fill.badge.plus"
         /// 􀮺
-        static let videoBadgeCheckmark:String = "video.badge.checkmark"
+        case videoBadgeCheckmark = "video.badge.checkmark"
         /// 􀮻
-        static let videoFillBadgeCheckmark:String = "video.fill.badge.checkmark"
+        case videoFillBadgeCheckmark = "video.fill.badge.checkmark"
         /// 􀍏
-        static let arrowUpRightVideo:String = "arrow.up.right.video"
+        case arrowUpRightVideo = "arrow.up.right.video"
         /// 􀍐
-        static let arrowUpRightVideoFill:String = "arrow.up.right.video.fill"
+        case arrowUpRightVideoFill = "arrow.up.right.video.fill"
         /// 􀍑
-        static let arrowDownLeftVideo:String = "arrow.down.left.video"
+        case arrowDownLeftVideo = "arrow.down.left.video"
         /// 􀍒
-        static let arrowDownLeftVideoFill:String = "arrow.down.left.video.fill"
+        case arrowDownLeftVideoFill = "arrow.down.left.video.fill"
         /// 􀍓
-        static let questionmarkVideo:String = "questionmark.video"
+        case questionmarkVideo = "questionmark.video"
         /// 􀍔
-        static let questionmarkVideoFill:String = "questionmark.video.fill"
+        case questionmarkVideoFill = "questionmark.video.fill"
         /// 􀍕
-        static let envelope:String = "envelope"
+        case envelope = "envelope"
         /// 􀍖
-        static let envelopeFill:String = "envelope.fill"
+        case envelopeFill = "envelope.fill"
         /// 􀍗
-        static let envelopeCircle:String = "envelope.circle"
+        case envelopeCircle = "envelope.circle"
         /// 􀍘
-        static let envelopeCircleFill:String = "envelope.circle.fill"
+        case envelopeCircleFill = "envelope.circle.fill"
         /// 􀦗
-        static let envelopeArrowTriangleBranch:String = "envelope.arrow.triangle.branch"
+        case envelopeArrowTriangleBranch = "envelope.arrow.triangle.branch"
         /// 􀦘
-        static let envelopeArrowTriangleBranchFill:String = "envelope.arrow.triangle.branch.fill"
+        case envelopeArrowTriangleBranchFill = "envelope.arrow.triangle.branch.fill"
         /// 􀍙
-        static let envelopeOpen:String = "envelope.open"
+        case envelopeOpen = "envelope.open"
         /// 􀍚
-        static let envelopeOpenFill:String = "envelope.open.fill"
+        case envelopeOpenFill = "envelope.open.fill"
         /// 􀍛
-        static let envelopeBadge:String = "envelope.badge"
+        case envelopeBadge = "envelope.badge"
         /// 􀍜
-        static let envelopeBadgeFill:String = "envelope.badge.fill"
+        case envelopeBadgeFill = "envelope.badge.fill"
         /// 􀫙
-        static let envelopeBadgeShieldLeadinghalfFill:String = "envelope.badge.shield.leadinghalf.fill"
+        case envelopeBadgeShieldLeadinghalfFill = "envelope.badge.shield.leadinghalf.fill"
         /// 􀫚
-        static let envelopeFillBadgeShieldTrailinghalfFill:String = "envelope.fill.badge.shield.trailinghalf.fill"
+        case envelopeFillBadgeShieldTrailinghalfFill = "envelope.fill.badge.shield.trailinghalf.fill"
         /// 􀍝
-        static let mailStack:String = "mail.stack"
+        case mailStack = "mail.stack"
         /// 􀍞
-        static let mailStackFill:String = "mail.stack.fill"
+        case mailStackFill = "mail.stack.fill"
         /// 􀣪
-        static let mail:String = "mail"
+        case mail = "mail"
         /// 􀣫
-        static let mailFill:String = "mail.fill"
+        case mailFill = "mail.fill"
         /// 􀢾
-        static let mailAndTextMagnifyingglass:String = "mail.and.text.magnifyingglass"
+        case mailAndTextMagnifyingglass = "mail.and.text.magnifyingglass"
         /// 􀬸
-        static let rectangleAndTextMagnifyingglass:String = "rectangle.and.text.magnifyingglass"
+        case rectangleAndTextMagnifyingglass = "rectangle.and.text.magnifyingglass"
         /// 􀢿
-        static let arrowUpRightAndArrowDownLeftRectangle:String = "arrow.up.right.and.arrow.down.left.rectangle"
+        case arrowUpRightAndArrowDownLeftRectangle = "arrow.up.right.and.arrow.down.left.rectangle"
         /// 􀣀
-        static let arrowUpRightAndArrowDownLeftRectangleFill:String = "arrow.up.right.and.arrow.down.left.rectangle.fill"
+        case arrowUpRightAndArrowDownLeftRectangleFill = "arrow.up.right.and.arrow.down.left.rectangle.fill"
         /// 􀍟
-        static let gear:String = "gear"
+        case gear = "gear"
         /// 􀣋
-        static let gearshape:String = "gearshape"
+        case gearshape = "gearshape"
         /// 􀣌
-        static let gearshapeFill:String = "gearshape.fill"
+        case gearshapeFill = "gearshape.fill"
         /// 􀥎
-        static let gearshape2:String = "gearshape.2"
+        case gearshape2 = "gearshape.2"
         /// 􀥏
-        static let gearshape2Fill:String = "gearshape.2.fill"
+        case gearshape2Fill = "gearshape.2.fill"
         /// 􀙤
-        static let signature:String = "signature"
+        case signature = "signature"
         /// 􀫎
-        static let line3CrossedSwirlCircle:String = "line.3.crossed.swirl.circle"
+        case line3CrossedSwirlCircle = "line.3.crossed.swirl.circle"
         /// 􀫏
-        static let line3CrossedSwirlCircleFill:String = "line.3.crossed.swirl.circle.fill"
+        case line3CrossedSwirlCircleFill = "line.3.crossed.swirl.circle.fill"
         /// 􀉈
-        static let scissors:String = "scissors"
+        case scissors = "scissors"
         /// 􀞷
-        static let scissorsBadgeEllipsis:String = "scissors.badge.ellipsis"
+        case scissorsBadgeEllipsis = "scissors.badge.ellipsis"
         /// 􀍠
-        static let ellipsis:String = "ellipsis"
+        case ellipsis = "ellipsis"
         /// 􀍡
-        static let ellipsisCircle:String = "ellipsis.circle"
+        case ellipsisCircle = "ellipsis.circle"
         /// 􀍢
-        static let ellipsisCircleFill:String = "ellipsis.circle.fill"
+        case ellipsisCircleFill = "ellipsis.circle.fill"
         /// 􀠩
-        static let ellipsisRectangle:String = "ellipsis.rectangle"
+        case ellipsisRectangle = "ellipsis.rectangle"
         /// 􀠪
-        static let ellipsisRectangleFill:String = "ellipsis.rectangle.fill"
+        case ellipsisRectangleFill = "ellipsis.rectangle.fill"
         /// 􀍣
-        static let bag:String = "bag"
+        case bag = "bag"
         /// 􀍤
-        static let bagFill:String = "bag.fill"
+        case bagFill = "bag.fill"
         /// 􀒫
-        static let bagCircle:String = "bag.circle"
+        case bagCircle = "bag.circle"
         /// 􀒬
-        static let bagCircleFill:String = "bag.circle.fill"
+        case bagCircleFill = "bag.circle.fill"
         /// 􀍥
-        static let bagBadgePlus:String = "bag.badge.plus"
+        case bagBadgePlus = "bag.badge.plus"
         /// 􀍦
-        static let bagFillBadgePlus:String = "bag.fill.badge.plus"
+        case bagFillBadgePlus = "bag.fill.badge.plus"
         /// 􀍧
-        static let bagBadgeMinus:String = "bag.badge.minus"
+        case bagBadgeMinus = "bag.badge.minus"
         /// 􀍨
-        static let bagFillBadgeMinus:String = "bag.fill.badge.minus"
+        case bagFillBadgeMinus = "bag.fill.badge.minus"
         /// 􀍩
-        static let cart:String = "cart"
+        case cart = "cart"
         /// 􀍪
-        static let cartFill:String = "cart.fill"
+        case cartFill = "cart.fill"
         /// 􀒭
-        static let cartCircle:String = "cart.circle"
+        case cartCircle = "cart.circle"
         /// 􀒮
-        static let cartCircleFill:String = "cart.circle.fill"
+        case cartCircleFill = "cart.circle.fill"
         /// 􀍫
-        static let cartBadgePlus:String = "cart.badge.plus"
+        case cartBadgePlus = "cart.badge.plus"
         /// 􀍬
-        static let cartFillBadgePlus:String = "cart.fill.badge.plus"
+        case cartFillBadgePlus = "cart.fill.badge.plus"
         /// 􀍭
-        static let cartBadgeMinus:String = "cart.badge.minus"
+        case cartBadgeMinus = "cart.badge.minus"
         /// 􀍮
-        static let cartFillBadgeMinus:String = "cart.fill.badge.minus"
+        case cartFillBadgeMinus = "cart.fill.badge.minus"
         /// 􀍯
-        static let creditcard:String = "creditcard"
+        case creditcard = "creditcard"
         /// 􀍰
-        static let creditcardFill:String = "creditcard.fill"
+        case creditcardFill = "creditcard.fill"
         /// 􀒯
-        static let creditcardCircle:String = "creditcard.circle"
+        case creditcardCircle = "creditcard.circle"
         /// 􀒰
-        static let creditcardCircleFill:String = "creditcard.circle.fill"
+        case creditcardCircleFill = "creditcard.circle.fill"
         /// 􀦠
-        static let giftcard:String = "giftcard"
+        case giftcard = "giftcard"
         /// 􀦡
-        static let giftcardFill:String = "giftcard.fill"
+        case giftcardFill = "giftcard.fill"
         /// 􀟾
-        static let walletPass:String = "wallet.pass"
+        case walletPass = "wallet.pass"
         /// 􀟿
-        static let walletPassFill:String = "wallet.pass.fill"
+        case walletPassFill = "wallet.pass.fill"
         /// 􀍱
-        static let wandAndRays:String = "wand.and.rays"
+        case wandAndRays = "wand.and.rays"
         /// 􀍲
-        static let wandAndRaysInverse:String = "wand.and.rays.inverse"
+        case wandAndRaysInverse = "wand.and.rays.inverse"
         /// 􀜍
-        static let wandAndStars:String = "wand.and.stars"
+        case wandAndStars = "wand.and.stars"
         /// 􀜎
-        static let wandAndStarsInverse:String = "wand.and.stars.inverse"
+        case wandAndStarsInverse = "wand.and.stars.inverse"
         /// 􀍳
-        static let crop:String = "crop"
+        case crop = "crop"
         /// 􀍴
-        static let cropRotate:String = "crop.rotate"
+        case cropRotate = "crop.rotate"
         /// 􀍺
-        static let dialMin:String = "dial.min"
+        case dialMin = "dial.min"
         /// 􀍻
-        static let dialMinFill:String = "dial.min.fill"
+        case dialMinFill = "dial.min.fill"
         /// 􀪐
-        static let dialMax:String = "dial.max"
+        case dialMax = "dial.max"
         /// 􀪑
-        static let dialMaxFill:String = "dial.max.fill"
+        case dialMaxFill = "dial.max.fill"
         /// 􀬗
-        static let gyroscope:String = "gyroscope"
+        case gyroscope = "gyroscope"
         /// 􀍼
-        static let nosign:String = "nosign"
+        case nosign = "nosign"
         /// 􀍽
-        static let gauge:String = "gauge"
+        case gauge = "gauge"
         /// 􀓓
-        static let gaugeBadgePlus:String = "gauge.badge.plus"
+        case gaugeBadgePlus = "gauge.badge.plus"
         /// 􀓧
-        static let gaugeBadgeMinus:String = "gauge.badge.minus"
+        case gaugeBadgeMinus = "gauge.badge.minus"
         /// 􀍾
-        static let speedometer:String = "speedometer"
+        case speedometer = "speedometer"
         /// 􀬧
-        static let barometer:String = "barometer"
+        case barometer = "barometer"
         /// 􀎌
-        static let metronome:String = "metronome"
+        case metronome = "metronome"
         /// 􀠕
-        static let metronomeFill:String = "metronome.fill"
+        case metronomeFill = "metronome.fill"
         /// 􀧰
-        static let amplifier:String = "amplifier"
+        case amplifier = "amplifier"
         /// 􀧣
-        static let dieFace1:String = "die.face.1"
+        case dieFace1 = "die.face.1"
         /// 􀧤
-        static let dieFace1Fill:String = "die.face.1.fill"
+        case dieFace1Fill = "die.face.1.fill"
         /// 􀧥
-        static let dieFace2:String = "die.face.2"
+        case dieFace2 = "die.face.2"
         /// 􀧦
-        static let dieFace2Fill:String = "die.face.2.fill"
+        case dieFace2Fill = "die.face.2.fill"
         /// 􀧧
-        static let dieFace3:String = "die.face.3"
+        case dieFace3 = "die.face.3"
         /// 􀧨
-        static let dieFace3Fill:String = "die.face.3.fill"
+        case dieFace3Fill = "die.face.3.fill"
         /// 􀧩
-        static let dieFace4:String = "die.face.4"
+        case dieFace4 = "die.face.4"
         /// 􀧪
-        static let dieFace4Fill:String = "die.face.4.fill"
+        case dieFace4Fill = "die.face.4.fill"
         /// 􀧫
-        static let dieFace5:String = "die.face.5"
+        case dieFace5 = "die.face.5"
         /// 􀧬
-        static let dieFace5Fill:String = "die.face.5.fill"
+        case dieFace5Fill = "die.face.5.fill"
         /// 􀧭
-        static let dieFace6:String = "die.face.6"
+        case dieFace6 = "die.face.6"
         /// 􀧮
-        static let dieFace6Fill:String = "die.face.6.fill"
+        case dieFace6Fill = "die.face.6.fill"
         /// 􀫐
-        static let squareGrid3x3FillSquare:String = "square.grid.3x3.fill.square"
+        case squareGrid3x3FillSquare = "square.grid.3x3.fill.square"
         /// 􀎏
-        static let pianokeys:String = "pianokeys"
+        case pianokeys = "pianokeys"
         /// 􀟽
-        static let pianokeysInverse:String = "pianokeys.inverse"
+        case pianokeysInverse = "pianokeys.inverse"
         /// 􀎐
-        static let tuningfork:String = "tuningfork"
+        case tuningfork = "tuningfork"
         /// 􀎑
-        static let paintbrush:String = "paintbrush"
+        case paintbrush = "paintbrush"
         /// 􀎒
-        static let paintbrushFill:String = "paintbrush.fill"
+        case paintbrushFill = "paintbrush.fill"
         /// 􀣶
-        static let paintbrushPointed:String = "paintbrush.pointed"
+        case paintbrushPointed = "paintbrush.pointed"
         /// 􀣷
-        static let paintbrushPointedFill:String = "paintbrush.pointed.fill"
+        case paintbrushPointedFill = "paintbrush.pointed.fill"
         /// 􀎓
-        static let bandage:String = "bandage"
+        case bandage = "bandage"
         /// 􀎔
-        static let bandageFill:String = "bandage.fill"
+        case bandageFill = "bandage.fill"
         /// 􀟀
-        static let ruler:String = "ruler"
+        case ruler = "ruler"
         /// 􀟁
-        static let rulerFill:String = "ruler.fill"
+        case rulerFill = "ruler.fill"
         /// 􀟂
-        static let level:String = "level"
+        case level = "level"
         /// 􀟃
-        static let levelFill:String = "level.fill"
+        case levelFill = "level.fill"
         /// 􀎕
-        static let wrench:String = "wrench"
+        case wrench = "wrench"
         /// 􀎖
-        static let wrenchFill:String = "wrench.fill"
+        case wrenchFill = "wrench.fill"
         /// 􀙄
-        static let hammer:String = "hammer"
+        case hammer = "hammer"
         /// 􀙅
-        static let hammerFill:String = "hammer.fill"
+        case hammerFill = "hammer.fill"
         /// 􀎗
-        static let eyedropper:String = "eyedropper"
+        case eyedropper = "eyedropper"
         /// 􀎘
-        static let eyedropperHalffull:String = "eyedropper.halffull"
+        case eyedropperHalffull = "eyedropper.halffull"
         /// 􀎙
-        static let eyedropperFull:String = "eyedropper.full"
+        case eyedropperFull = "eyedropper.full"
         /// 􀤊
-        static let wrenchAndScrewdriver:String = "wrench.and.screwdriver"
+        case wrenchAndScrewdriver = "wrench.and.screwdriver"
         /// 􀤋
-        static let wrenchAndScrewdriverFill:String = "wrench.and.screwdriver.fill"
+        case wrenchAndScrewdriverFill = "wrench.and.screwdriver.fill"
         /// 􀤭
-        static let applescript:String = "applescript"
+        case applescript = "applescript"
         /// 􀤮
-        static let applescriptFill:String = "applescript.fill"
+        case applescriptFill = "applescript.fill"
         /// 􀤏
-        static let scroll:String = "scroll"
+        case scroll = "scroll"
         /// 􀤐
-        static let scrollFill:String = "scroll.fill"
+        case scrollFill = "scroll.fill"
         /// 􀝾
-        static let stethoscope:String = "stethoscope"
+        case stethoscope = "stethoscope"
         /// 􀎚
-        static let printer:String = "printer"
+        case printer = "printer"
         /// 􀎛
-        static let printerFill:String = "printer.fill"
+        case printerFill = "printer.fill"
         /// 􀪾
-        static let printerFillAndPaperFill:String = "printer.fill.and.paper.fill"
+        case printerFillAndPaperFill = "printer.fill.and.paper.fill"
         /// 􀪞
-        static let printerDotmatrix:String = "printer.dotmatrix"
+        case printerDotmatrix = "printer.dotmatrix"
         /// 􀪟
-        static let printerDotmatrixFill:String = "printer.dotmatrix.fill"
+        case printerDotmatrixFill = "printer.dotmatrix.fill"
         /// 􀪿
-        static let printerDotmatrixFillAndPaperFill:String = "printer.dotmatrix.fill.and.paper.fill"
+        case printerDotmatrixFillAndPaperFill = "printer.dotmatrix.fill.and.paper.fill"
         /// 􀪊
-        static let scanner:String = "scanner"
+        case scanner = "scanner"
         /// 􀪋
-        static let scannerFill:String = "scanner.fill"
+        case scannerFill = "scanner.fill"
         /// 􀪌
-        static let faxmachine:String = "faxmachine"
+        case faxmachine = "faxmachine"
         /// 􀎜
-        static let briefcase:String = "briefcase"
+        case briefcase = "briefcase"
         /// 􀎝
-        static let briefcaseFill:String = "briefcase.fill"
+        case briefcaseFill = "briefcase.fill"
         /// 􀯡
-        static let caseIcon:String = "case"
+        case caseIcon = "case"
         /// 􀯢
-        static let caseFill:String = "case.fill"
+        case caseFill = "case.fill"
         /// 􀢟
-        static let latch2Case:String = "latch.2.case"
+        case latch2Case = "latch.2.case"
         /// 􀢠
-        static let latch2CaseFill:String = "latch.2.case.fill"
+        case latch2CaseFill = "latch.2.case.fill"
         /// 􀯙
-        static let crossCase:String = "cross.case"
+        case crossCase = "cross.case"
         /// 􀯚
-        static let crossCaseFill:String = "cross.case.fill"
+        case crossCaseFill = "cross.case.fill"
         /// 􀤚
-        static let puzzlepiece:String = "puzzlepiece"
+        case puzzlepiece = "puzzlepiece"
         /// 􀤛
-        static let puzzlepieceFill:String = "puzzlepiece.fill"
+        case puzzlepieceFill = "puzzlepiece.fill"
         /// 􀠀
-        static let homekit:String = "homekit"
+        case homekit = "homekit"
         /// 􀎞
-        static let house:String = "house"
+        case house = "house"
         /// 􀎟
-        static let houseFill:String = "house.fill"
+        case houseFill = "house.fill"
         /// 􀥆
-        static let houseCircle:String = "house.circle"
+        case houseCircle = "house.circle"
         /// 􀥇
-        static let houseCircleFill:String = "house.circle.fill"
+        case houseCircleFill = "house.circle.fill"
         /// 􀒼
-        static let musicNoteHouse:String = "music.note.house"
+        case musicNoteHouse = "music.note.house"
         /// 􀒽
-        static let musicNoteHouseFill:String = "music.note.house.fill"
+        case musicNoteHouseFill = "music.note.house.fill"
         /// 􀤨
-        static let buildingColumns:String = "building.columns"
+        case buildingColumns = "building.columns"
         /// 􀤩
-        static let buildingColumnsFill:String = "building.columns.fill"
+        case buildingColumnsFill = "building.columns.fill"
         /// 􀟻
-        static let squareSplitBottomrightquarter:String = "square.split.bottomrightquarter"
+        case squareSplitBottomrightquarter = "square.split.bottomrightquarter"
         /// 􀟼
-        static let squareSplitBottomrightquarterFill:String = "square.split.bottomrightquarter.fill"
+        case squareSplitBottomrightquarterFill = "square.split.bottomrightquarter.fill"
         /// 􀮅
-        static let building:String = "building"
+        case building = "building"
         /// 􀮆
-        static let buildingFill:String = "building.fill"
+        case buildingFill = "building.fill"
         /// 􀝒
-        static let building2:String = "building.2"
+        case building2 = "building.2"
         /// 􀝓
-        static let building2Fill:String = "building.2.fill"
+        case building2Fill = "building.2.fill"
         /// 􀝔
-        static let building2CropCircle:String = "building.2.crop.circle"
+        case building2CropCircle = "building.2.crop.circle"
         /// 􀝕
-        static let building2CropCircleFill:String = "building.2.crop.circle.fill"
+        case building2CropCircleFill = "building.2.crop.circle.fill"
         /// 􀎠
-        static let lock:String = "lock"
+        case lock = "lock"
         /// 􀎡
-        static let lockFill:String = "lock.fill"
+        case lockFill = "lock.fill"
         /// 􀒲
-        static let lockCircle:String = "lock.circle"
+        case lockCircle = "lock.circle"
         /// 􀒳
-        static let lockCircleFill:String = "lock.circle.fill"
+        case lockCircleFill = "lock.circle.fill"
         /// 􀢵
-        static let lockSquare:String = "lock.square"
+        case lockSquare = "lock.square"
         /// 􀢶
-        static let lockSquareFill:String = "lock.square.fill"
+        case lockSquareFill = "lock.square.fill"
         /// 􀡜
-        static let lockSquareStack:String = "lock.square.stack"
+        case lockSquareStack = "lock.square.stack"
         /// 􀡝
-        static let lockSquareStackFill:String = "lock.square.stack.fill"
+        case lockSquareStackFill = "lock.square.stack.fill"
         /// 􀢈
-        static let lockRectangle:String = "lock.rectangle"
+        case lockRectangle = "lock.rectangle"
         /// 􀢉
-        static let lockRectangleFill:String = "lock.rectangle.fill"
+        case lockRectangleFill = "lock.rectangle.fill"
         /// 􀢱
-        static let lockRectangleStack:String = "lock.rectangle.stack"
+        case lockRectangleStack = "lock.rectangle.stack"
         /// 􀢲
-        static let lockRectangleStackFill:String = "lock.rectangle.stack.fill"
+        case lockRectangleStackFill = "lock.rectangle.stack.fill"
         /// 􀢳
-        static let lockRectangleOnRectangle:String = "lock.rectangle.on.rectangle"
+        case lockRectangleOnRectangle = "lock.rectangle.on.rectangle"
         /// 􀢴
-        static let lockRectangleOnRectangleFill:String = "lock.rectangle.on.rectangle.fill"
+        case lockRectangleOnRectangleFill = "lock.rectangle.on.rectangle.fill"
         /// 􀞙
-        static let lockShield:String = "lock.shield"
+        case lockShield = "lock.shield"
         /// 􀞚
-        static let lockShieldFill:String = "lock.shield.fill"
+        case lockShieldFill = "lock.shield.fill"
         /// 􀎢
-        static let lockSlash:String = "lock.slash"
+        case lockSlash = "lock.slash"
         /// 􀎣
-        static let lockSlashFill:String = "lock.slash.fill"
+        case lockSlashFill = "lock.slash.fill"
         /// 􀎤
-        static let lockOpen:String = "lock.open"
+        case lockOpen = "lock.open"
         /// 􀎥
-        static let lockOpenFill:String = "lock.open.fill"
+        case lockOpenFill = "lock.open.fill"
         /// 􀑙
-        static let lockRotation:String = "lock.rotation"
+        case lockRotation = "lock.rotation"
         /// 􀑚
-        static let lockRotationOpen:String = "lock.rotation.open"
+        case lockRotationOpen = "lock.rotation.open"
         /// 􀟕
-        static let key:String = "key"
+        case key = "key"
         /// 􀟖
-        static let keyFill:String = "key.fill"
+        case keyFill = "key.fill"
         /// 􀙇
-        static let wifi:String = "wifi"
+        case wifi = "wifi"
         /// 􀙈
-        static let wifiSlash:String = "wifi.slash"
+        case wifiSlash = "wifi.slash"
         /// 􀙥
-        static let wifiExclamationmark:String = "wifi.exclamationmark"
+        case wifiExclamationmark = "wifi.exclamationmark"
         /// 􀎦
-        static let pin:String = "pin"
+        case pin = "pin"
         /// 􀎧
-        static let pinFill:String = "pin.fill"
+        case pinFill = "pin.fill"
         /// 􀒴
-        static let pinCircle:String = "pin.circle"
+        case pinCircle = "pin.circle"
         /// 􀒵
-        static let pinCircleFill:String = "pin.circle.fill"
+        case pinCircleFill = "pin.circle.fill"
         /// 􀎨
-        static let pinSlash:String = "pin.slash"
+        case pinSlash = "pin.slash"
         /// 􀎩
-        static let pinSlashFill:String = "pin.slash.fill"
+        case pinSlashFill = "pin.slash.fill"
         /// 􀎪
-        static let mappin:String = "mappin"
+        case mappin = "mappin"
         /// 􀜇
-        static let mappinCircle:String = "mappin.circle"
+        case mappinCircle = "mappin.circle"
         /// 􀜈
-        static let mappinCircleFill:String = "mappin.circle.fill"
+        case mappinCircleFill = "mappin.circle.fill"
         /// 􀙉
-        static let mappinSlash:String = "mappin.slash"
+        case mappinSlash = "mappin.slash"
         /// 􀎫
-        static let mappinAndEllipse:String = "mappin.and.ellipse"
+        case mappinAndEllipse = "mappin.and.ellipse"
         /// 􀙊
-        static let map:String = "map"
+        case map = "map"
         /// 􀙋
-        static let mapFill:String = "map.fill"
+        case mapFill = "map.fill"
         /// 􀎬
-        static let safari:String = "safari"
+        case safari = "safari"
         /// 􀎭
-        static let safariFill:String = "safari.fill"
+        case safariFill = "safari.fill"
         /// 􀢅
-        static let move3d:String = "move.3d"
+        case move3d = "move.3d"
         /// 􀢆
-        static let scale3d:String = "scale.3d"
+        case scale3d = "scale.3d"
         /// 􀢇
-        static let rotate3d:String = "rotate.3d"
+        case rotate3d = "rotate.3d"
         /// 􀴌
-        static let torus:String = "torus"
+        case torus = "torus"
         /// 􀎮
-        static let rotateLeft:String = "rotate.left"
+        case rotateLeft = "rotate.left"
         /// 􀎯
-        static let rotateLeftFill:String = "rotate.left.fill"
+        case rotateLeftFill = "rotate.left.fill"
         /// 􀎰
-        static let rotateRight:String = "rotate.right"
+        case rotateRight = "rotate.right"
         /// 􀎱
-        static let rotateRightFill:String = "rotate.right.fill"
+        case rotateRightFill = "rotate.right.fill"
         /// 􀑠
-        static let selectionPinInOut:String = "selection.pin.in.out"
+        case selectionPinInOut = "selection.pin.in.out"
         /// 􀣂
-        static let timelineSelection:String = "timeline.selection"
+        case timelineSelection = "timeline.selection"
         /// 􀫥
-        static let cpu:String = "cpu"
+        case cpu = "cpu"
         /// 􀫦
-        static let memorychip:String = "memorychip"
+        case memorychip = "memorychip"
         /// 􀢸
-        static let opticaldisc:String = "opticaldisc"
+        case opticaldisc = "opticaldisc"
         /// 􀎲
-        static let tv:String = "tv"
+        case tv = "tv"
         /// 􀒶
-        static let tvFill:String = "tv.fill"
+        case tvFill = "tv.fill"
         /// 􀎳
-        static let tvCircle:String = "tv.circle"
+        case tvCircle = "tv.circle"
         /// 􀎴
-        static let tvCircleFill:String = "tv.circle.fill"
+        case tvCircleFill = "tv.circle.fill"
         /// 􀦽
-        static let tv4K:String = "4k.tv"
+        case tv4K = "4k.tv"
         /// 􀦾
-        static let tv4KFill:String = "4k.tv.fill"
+        case tv4KFill = "4k.tv.fill"
         /// 􀎵
-        static let tvMusicNote:String = "tv.music.note"
+        case tvMusicNote = "tv.music.note"
         /// 􀒷
-        static let tvMusicNoteFill:String = "tv.music.note.fill"
+        case tvMusicNoteFill = "tv.music.note.fill"
         /// 􀵨
-        static let playTv:String = "play.tv"
+        case playTv = "play.tv"
         /// 􀵩
-        static let playTvFill:String = "play.tv.fill"
+        case playTvFill = "play.tv.fill"
         /// 􀵪
-        static let photoTv:String = "photo.tv"
+        case photoTv = "photo.tv"
         /// 􀫑
-        static let tvAndHifispeakerFill:String = "tv.and.hifispeaker.fill"
+        case tvAndHifispeakerFill = "tv.and.hifispeaker.fill"
         /// 􀲰
-        static let tvAndMediabox:String = "tv.and.mediabox"
+        case tvAndMediabox = "tv.and.mediabox"
         /// 􀢹
-        static let display:String = "display"
+        case display = "display"
         /// 􀨦
-        static let displayTrianglebadgeExclamationmark:String = "display.trianglebadge.exclamationmark"
+        case displayTrianglebadgeExclamationmark = "display.trianglebadge.exclamationmark"
         /// 􀨧
-        static let display2:String = "display.2"
+        case display2 = "display.2"
         /// 􀙗
-        static let desktopcomputer:String = "desktopcomputer"
+        case desktopcomputer = "desktopcomputer"
         /// 􀥺
-        static let pc:String = "pc"
+        case pc = "pc"
         /// 􀪲
-        static let macproGen1:String = "macpro.gen1"
+        case macproGen1 = "macpro.gen1"
         /// 􀦱
-        static let macproGen2:String = "macpro.gen2"
+        case macproGen2 = "macpro.gen2"
         /// 􀦮
-        static let macproGen2Fill:String = "macpro.gen2.fill"
+        case macproGen2Fill = "macpro.gen2.fill"
         /// 􀪱
-        static let macproGen3:String = "macpro.gen3"
+        case macproGen3 = "macpro.gen3"
         /// 􀪬
-        static let serverRack:String = "server.rack"
+        case serverRack = "server.rack"
         /// 􀧘
-        static let xserve:String = "xserve"
+        case xserve = "xserve"
         /// 􀨳
-        static let macproGen3Server:String = "macpro.gen3.server"
+        case macproGen3Server = "macpro.gen3.server"
         /// 􀟛
-        static let laptopcomputer:String = "laptopcomputer"
+        case laptopcomputer = "laptopcomputer"
         /// 􀬩
-        static let laptopcomputerAndIphone:String = "laptopcomputer.and.iphone"
+        case laptopcomputerAndIphone = "laptopcomputer.and.iphone"
         /// 􀪯
-        static let macmini:String = "macmini"
+        case macmini = "macmini"
         /// 􀪰
-        static let macminiFill:String = "macmini.fill"
+        case macminiFill = "macmini.fill"
         /// 􀦯
-        static let airportExpress:String = "airport.express"
+        case airportExpress = "airport.express"
         /// 􀦰
-        static let airportExtremeTower:String = "airport.extreme.tower"
+        case airportExtremeTower = "airport.extreme.tower"
         /// 􀑝
-        static let airportExtreme:String = "airport.extreme"
+        case airportExtreme = "airport.extreme"
         /// 􀢺
-        static let ipod:String = "ipod"
+        case ipod = "ipod"
         /// 􀪴
-        static let flipphone:String = "flipphone"
+        case flipphone = "flipphone"
         /// 􀪳
-        static let candybarphone:String = "candybarphone"
+        case candybarphone = "candybarphone"
         /// 􀟝
-        static let iphoneHomebutton:String = "iphone.homebutton"
+        case iphoneHomebutton = "iphone.homebutton"
         /// 􀴎
-        static let iphoneHomebuttonLandscape:String = "iphone.homebutton.landscape"
+        case iphoneHomebuttonLandscape = "iphone.homebutton.landscape"
         /// 􀡆
-        static let iphoneHomebuttonRadiowavesLeftAndRight:String = "iphone.homebutton.radiowaves.left.and.right"
+        case iphoneHomebuttonRadiowavesLeftAndRight = "iphone.homebutton.radiowaves.left.and.right"
         /// 􀨴
-        static let iphoneHomebuttonSlash:String = "iphone.homebutton.slash"
+        case iphoneHomebuttonSlash = "iphone.homebutton.slash"
         /// 􀟜
-        static let iphone:String = "iphone"
+        case iphone = "iphone"
         /// 􀴏
-        static let iphoneLandscape:String = "iphone.landscape"
+        case iphoneLandscape = "iphone.landscape"
         /// 􀡇
-        static let iphoneRadiowavesLeftAndRight:String = "iphone.radiowaves.left.and.right"
+        case iphoneRadiowavesLeftAndRight = "iphone.radiowaves.left.and.right"
         /// 􀨵
-        static let iphoneSlash:String = "iphone.slash"
+        case iphoneSlash = "iphone.slash"
         /// 􀐶
-        static let iphoneHomebuttonBadgePlay:String = "iphone.homebutton.badge.play"
+        case iphoneHomebuttonBadgePlay = "iphone.homebutton.badge.play"
         /// 􀴑
-        static let iphoneBadgePlay:String = "iphone.badge.play"
+        case iphoneBadgePlay = "iphone.badge.play"
         /// 􀴒
-        static let ipadHomebuttonBadgePlay:String = "ipad.homebutton.badge.play"
+        case ipadHomebuttonBadgePlay = "ipad.homebutton.badge.play"
         /// 􀴓
-        static let ipadBadgePlay:String = "ipad.badge.play"
+        case ipadBadgePlay = "ipad.badge.play"
         /// 􀵑
-        static let ipadHomebuttonLandscapeBadgePlay:String = "ipad.homebutton.landscape.badge.play"
+        case ipadHomebuttonLandscapeBadgePlay = "ipad.homebutton.landscape.badge.play"
         /// 􀵒
-        static let ipadLandscapeBadgePlay:String = "ipad.landscape.badge.play"
+        case ipadLandscapeBadgePlay = "ipad.landscape.badge.play"
         /// 􀬫
-        static let arrowTurnUpForwardIphone:String = "arrow.turn.up.forward.iphone"
+        case arrowTurnUpForwardIphone = "arrow.turn.up.forward.iphone"
         /// 􀬬
-        static let arrowTurnUpForwardIphoneFill:String = "arrow.turn.up.forward.iphone.fill"
+        case arrowTurnUpForwardIphoneFill = "arrow.turn.up.forward.iphone.fill"
         /// 􀟞
-        static let appsIphone:String = "apps.iphone"
+        case appsIphone = "apps.iphone"
         /// 􀯖
-        static let appsIphoneBadgePlus:String = "apps.iphone.badge.plus"
+        case appsIphoneBadgePlus = "apps.iphone.badge.plus"
         /// 􀮔
-        static let appsIphoneLandscape:String = "apps.iphone.landscape"
+        case appsIphoneLandscape = "apps.iphone.landscape"
         /// 􀫧
-        static let ipodtouch:String = "ipodtouch"
+        case ipodtouch = "ipodtouch"
         /// 􀴐
-        static let ipodtouchLandscape:String = "ipodtouch.landscape"
+        case ipodtouchLandscape = "ipodtouch.landscape"
         /// 􀫨
-        static let ipodshuffleGen1:String = "ipodshuffle.gen1"
+        case ipodshuffleGen1 = "ipodshuffle.gen1"
         /// 􀫩
-        static let ipodshuffleGen2:String = "ipodshuffle.gen2"
+        case ipodshuffleGen2 = "ipodshuffle.gen2"
         /// 􀫪
-        static let ipodshuffleGen3:String = "ipodshuffle.gen3"
+        case ipodshuffleGen3 = "ipodshuffle.gen3"
         /// 􀫫
-        static let ipodshuffleGen4:String = "ipodshuffle.gen4"
+        case ipodshuffleGen4 = "ipodshuffle.gen4"
         /// 􀟟
-        static let ipadHomebutton:String = "ipad.homebutton"
+        case ipadHomebutton = "ipad.homebutton"
         /// 􀟠
-        static let ipad:String = "ipad"
+        case ipad = "ipad"
         /// 􀮕
-        static let appsIpad:String = "apps.ipad"
+        case appsIpad = "apps.ipad"
         /// 􀥓
-        static let ipadHomebuttonLandscape:String = "ipad.homebutton.landscape"
+        case ipadHomebuttonLandscape = "ipad.homebutton.landscape"
         /// 􀥔
-        static let ipadLandscape:String = "ipad.landscape"
+        case ipadLandscape = "ipad.landscape"
         /// 􀮖
-        static let appsIpadLandscape:String = "apps.ipad.landscape"
+        case appsIpadLandscape = "apps.ipad.landscape"
         /// 􀟤
-        static let applewatch:String = "applewatch"
+        case applewatch = "applewatch"
         /// 􀫋
-        static let applewatchWatchface:String = "applewatch.watchface"
+        case applewatchWatchface = "applewatch.watchface"
         /// 􀵄
-        static let exclamationmarkApplewatch:String = "exclamationmark.applewatch"
+        case exclamationmarkApplewatch = "exclamationmark.applewatch"
         /// 􀵅
-        static let lockApplewatch:String = "lock.applewatch"
+        case lockApplewatch = "lock.applewatch"
         /// 􀢷
-        static let applewatchRadiowavesLeftAndRight:String = "applewatch.radiowaves.left.and.right"
+        case applewatchRadiowavesLeftAndRight = "applewatch.radiowaves.left.and.right"
         /// 􀨶
-        static let applewatchSlash:String = "applewatch.slash"
+        case applewatchSlash = "applewatch.slash"
         /// 􀠦
-        static let earpods:String = "earpods"
+        case earpods = "earpods"
         /// 􀟥
-        static let airpods:String = "airpods"
+        case airpods = "airpods"
         /// 􀲋
-        static let airpodRight:String = "airpod.right"
+        case airpodRight = "airpod.right"
         /// 􀲌
-        static let airpodLeft:String = "airpod.left"
+        case airpodLeft = "airpod.left"
         /// 􀪷
-        static let airpodspro:String = "airpodspro"
+        case airpodspro = "airpodspro"
         /// 􀲍
-        static let airpodproRight:String = "airpodpro.right"
+        case airpodproRight = "airpodpro.right"
         /// 􀲎
-        static let airpodproLeft:String = "airpodpro.left"
+        case airpodproLeft = "airpodpro.left"
         /// 􀟢
-        static let homepod:String = "homepod"
+        case homepod = "homepod"
         /// 􀟣
-        static let homepodFill:String = "homepod.fill"
+        case homepodFill = "homepod.fill"
         /// 􀮍
-        static let homepod2:String = "homepod.2"
+        case homepod2 = "homepod.2"
         /// 􀟳
-        static let homepod2Fill:String = "homepod.2.fill"
+        case homepod2Fill = "homepod.2.fill"
         /// 􀮎
-        static let hifispeakerAndHomepod:String = "hifispeaker.and.homepod"
+        case hifispeakerAndHomepod = "hifispeaker.and.homepod"
         /// 􀟴
-        static let hifispeakerAndHomepodFill:String = "hifispeaker.and.homepod.fill"
+        case hifispeakerAndHomepodFill = "hifispeaker.and.homepod.fill"
         /// 􀝎
-        static let hifispeaker:String = "hifispeaker"
+        case hifispeaker = "hifispeaker"
         /// 􀝏
-        static let hifispeakerFill:String = "hifispeaker.fill"
+        case hifispeakerFill = "hifispeaker.fill"
         /// 􀟵
-        static let hifispeaker2:String = "hifispeaker.2"
+        case hifispeaker2 = "hifispeaker.2"
         /// 􀟶
-        static let hifispeaker2Fill:String = "hifispeaker.2.fill"
+        case hifispeaker2Fill = "hifispeaker.2.fill"
         /// 􀪔
-        static let radio:String = "radio"
+        case radio = "radio"
         /// 􀪕
-        static let radioFill:String = "radio.fill"
+        case radioFill = "radio.fill"
         /// 􀨫
-        static let appletv:String = "appletv"
+        case appletv = "appletv"
         /// 􀡴
-        static let appletvFill:String = "appletv.fill"
+        case appletvFill = "appletv.fill"
         /// 􀰯
-        static let signpostLeft:String = "signpost.left"
+        case signpostLeft = "signpost.left"
         /// 􀰰
-        static let signpostLeftFill:String = "signpost.left.fill"
+        case signpostLeftFill = "signpost.left.fill"
         /// 􀯌
-        static let signpostRight:String = "signpost.right"
+        case signpostRight = "signpost.right"
         /// 􀯍
-        static let signpostRightFill:String = "signpost.right.fill"
+        case signpostRightFill = "signpost.right.fill"
         /// 􀑡
-        static let airplayvideo:String = "airplayvideo"
+        case airplayvideo = "airplayvideo"
         /// 􀑢
-        static let airplayaudio:String = "airplayaudio"
+        case airplayaudio = "airplayaudio"
         /// 􀌙
-        static let dotRadiowavesLeftAndRight:String = "dot.radiowaves.left.and.right"
+        case dotRadiowavesLeftAndRight = "dot.radiowaves.left.and.right"
         /// 􀖒
-        static let dotRadiowavesRight:String = "dot.radiowaves.right"
+        case dotRadiowavesRight = "dot.radiowaves.right"
         /// 􀰭
-        static let dotRadiowavesForward:String = "dot.radiowaves.forward"
+        case dotRadiowavesForward = "dot.radiowaves.forward"
         /// 􀙱
-        static let wave3Left:String = "wave.3.left"
+        case wave3Left = "wave.3.left"
         /// 􀭷
-        static let wave3LeftCircle:String = "wave.3.left.circle"
+        case wave3LeftCircle = "wave.3.left.circle"
         /// 􀭸
-        static let wave3LeftCircleFill:String = "wave.3.left.circle.fill"
+        case wave3LeftCircleFill = "wave.3.left.circle.fill"
         /// 􀱘
-        static let wave3Backward:String = "wave.3.backward"
+        case wave3Backward = "wave.3.backward"
         /// 􀱙
-        static let wave3BackwardCircle:String = "wave.3.backward.circle"
+        case wave3BackwardCircle = "wave.3.backward.circle"
         /// 􀱚
-        static let wave3BackwardCircleFill:String = "wave.3.backward.circle.fill"
+        case wave3BackwardCircleFill = "wave.3.backward.circle.fill"
         /// 􀙲
-        static let wave3Right:String = "wave.3.right"
+        case wave3Right = "wave.3.right"
         /// 􀭹
-        static let wave3RightCircle:String = "wave.3.right.circle"
+        case wave3RightCircle = "wave.3.right.circle"
         /// 􀭺
-        static let wave3RightCircleFill:String = "wave.3.right.circle.fill"
+        case wave3RightCircleFill = "wave.3.right.circle.fill"
         /// 􀱛
-        static let wave3Forward:String = "wave.3.forward"
+        case wave3Forward = "wave.3.forward"
         /// 􀱜
-        static let wave3ForwardCircle:String = "wave.3.forward.circle"
+        case wave3ForwardCircle = "wave.3.forward.circle"
         /// 􀱝
-        static let wave3ForwardCircleFill:String = "wave.3.forward.circle.fill"
+        case wave3ForwardCircleFill = "wave.3.forward.circle.fill"
         /// 􀖀
-        static let antennaRadiowavesLeftAndRight:String = "antenna.radiowaves.left.and.right"
+        case antennaRadiowavesLeftAndRight = "antenna.radiowaves.left.and.right"
         /// 􀠳
-        static let pip:String = "pip"
+        case pip = "pip"
         /// 􀠴
-        static let pipFill:String = "pip.fill"
+        case pipFill = "pip.fill"
         /// 􀑧
-        static let pipExit:String = "pip.exit"
+        case pipExit = "pip.exit"
         /// 􀑨
-        static let pipEnter:String = "pip.enter"
+        case pipEnter = "pip.enter"
         /// 􀭱
-        static let pipSwap:String = "pip.swap"
+        case pipSwap = "pip.swap"
         /// 􀭲
-        static let pipRemove:String = "pip.remove"
+        case pipRemove = "pip.remove"
         /// 􀫹
-        static let rectangleArrowtriangle2Outward:String = "rectangle.arrowtriangle.2.outward"
+        case rectangleArrowtriangle2Outward = "rectangle.arrowtriangle.2.outward"
         /// 􀫺
-        static let rectangleArrowtriangle2Inward:String = "rectangle.arrowtriangle.2.inward"
+        case rectangleArrowtriangle2Inward = "rectangle.arrowtriangle.2.inward"
         /// 􀫻
-        static let rectanglePortraitArrowtriangle2Outward:String = "rectangle.portrait.arrowtriangle.2.outward"
+        case rectanglePortraitArrowtriangle2Outward = "rectangle.portrait.arrowtriangle.2.outward"
         /// 􀫼
-        static let rectanglePortraitArrowtriangle2Inward:String = "rectangle.portrait.arrowtriangle.2.inward"
+        case rectanglePortraitArrowtriangle2Inward = "rectangle.portrait.arrowtriangle.2.inward"
         /// 􀑭
-        static let guitars:String = "guitars"
+        case guitars = "guitars"
         /// 􀟑
-        static let guitarsFill:String = "guitars.fill"
+        case guitarsFill = "guitars.fill"
         /// 􀙘
-        static let car:String = "car"
+        case car = "car"
         /// 􀙙
-        static let carFill:String = "car.fill"
+        case carFill = "car.fill"
         /// 􀭯
-        static let carCircle:String = "car.circle"
+        case carCircle = "car.circle"
         /// 􀭰
-        static let carCircleFill:String = "car.circle.fill"
+        case carCircleFill = "car.circle.fill"
         /// 􀡞
-        static let boltCar:String = "bolt.car"
+        case boltCar = "bolt.car"
         /// 􀝃
-        static let boltCarFill:String = "bolt.car.fill"
+        case boltCarFill = "bolt.car.fill"
         /// 􀝄
-        static let car2:String = "car.2"
+        case car2 = "car.2"
         /// 􀝅
-        static let car2Fill:String = "car.2.fill"
+        case car2Fill = "car.2.fill"
         /// 􀝈
-        static let bus:String = "bus"
+        case bus = "bus"
         /// 􀝉
-        static let busFill:String = "bus.fill"
+        case busFill = "bus.fill"
         /// 􀜛
-        static let busDoubledecker:String = "bus.doubledecker"
+        case busDoubledecker = "bus.doubledecker"
         /// 􀜜
-        static let busDoubledeckerFill:String = "bus.doubledecker.fill"
+        case busDoubledeckerFill = "bus.doubledecker.fill"
         /// 􀝆
-        static let tram:String = "tram"
+        case tram = "tram"
         /// 􀝇
-        static let tramFill:String = "tram.fill"
+        case tramFill = "tram.fill"
         /// 􀲛
-        static let tramCircle:String = "tram.circle"
+        case tramCircle = "tram.circle"
         /// 􀲜
-        static let tramCircleFill:String = "tram.circle.fill"
+        case tramCircleFill = "tram.circle.fill"
         /// 􀜝
-        static let tramTunnelFill:String = "tram.tunnel.fill"
+        case tramTunnelFill = "tram.tunnel.fill"
         /// 􀡥
-        static let bicycle:String = "bicycle"
+        case bicycle = "bicycle"
         /// 􀱬
-        static let bicycleCircle:String = "bicycle.circle"
+        case bicycleCircle = "bicycle.circle"
         /// 􀱭
-        static let bicycleCircleFill:String = "bicycle.circle.fill"
+        case bicycleCircleFill = "bicycle.circle.fill"
         /// 􀙩
-        static let bedDouble:String = "bed.double"
+        case bedDouble = "bed.double"
         /// 􀙪
-        static let bedDoubleFill:String = "bed.double.fill"
+        case bedDoubleFill = "bed.double.fill"
         /// 􀦚
-        static let lungs:String = "lungs"
+        case lungs = "lungs"
         /// 􀦛
-        static let lungsFill:String = "lungs.fill"
+        case lungsFill = "lungs.fill"
         /// 􀠱
-        static let pills:String = "pills"
+        case pills = "pills"
         /// 􀠲
-        static let pillsFill:String = "pills.fill"
+        case pillsFill = "pills.fill"
         /// 􀣜
-        static let cross:String = "cross"
+        case cross = "cross"
         /// 􀣝
-        static let crossFill:String = "cross.fill"
+        case crossFill = "cross.fill"
         /// 􀣞
-        static let crossCircle:String = "cross.circle"
+        case crossCircle = "cross.circle"
         /// 􀣟
-        static let crossCircleFill:String = "cross.circle.fill"
+        case crossCircleFill = "cross.circle.fill"
         /// 􀓎
-        static let hare:String = "hare"
+        case hare = "hare"
         /// 􀓏
-        static let hareFill:String = "hare.fill"
+        case hareFill = "hare.fill"
         /// 􀓐
-        static let tortoise:String = "tortoise"
+        case tortoise = "tortoise"
         /// 􀓑
-        static let tortoiseFill:String = "tortoise.fill"
+        case tortoiseFill = "tortoise.fill"
         /// 􀌚
-        static let ant:String = "ant"
+        case ant = "ant"
         /// 􀌛
-        static let antFill:String = "ant.fill"
+        case antFill = "ant.fill"
         /// 􀌜
-        static let antCircle:String = "ant.circle"
+        case antCircle = "ant.circle"
         /// 􀌝
-        static let antCircleFill:String = "ant.circle.fill"
+        case antCircleFill = "ant.circle.fill"
         /// 􀯔
-        static let ladybug:String = "ladybug"
+        case ladybug = "ladybug"
         /// 􀯕
-        static let ladybugFill:String = "ladybug.fill"
+        case ladybugFill = "ladybug.fill"
         /// 􀥲
-        static let leaf:String = "leaf"
+        case leaf = "leaf"
         /// 􀥳
-        static let leafFill:String = "leaf.fill"
+        case leafFill = "leaf.fill"
         /// 􀙜
-        static let leafArrowTriangleCirclepath:String = "leaf.arrow.triangle.circlepath"
+        case leafArrowTriangleCirclepath = "leaf.arrow.triangle.circlepath"
         /// 􀎶
-        static let film:String = "film"
+        case film = "film"
         /// 􀎷
-        static let filmFill:String = "film.fill"
+        case filmFill = "film.fill"
         /// 􀝐
-        static let sportscourt:String = "sportscourt"
+        case sportscourt = "sportscourt"
         /// 􀝑
-        static let sportscourtFill:String = "sportscourt.fill"
+        case sportscourtFill = "sportscourt.fill"
         /// 􀎸
-        static let faceSmiling:String = "face.smiling"
+        case faceSmiling = "face.smiling"
         /// 􀙌
-        static let faceSmilingFill:String = "face.smiling.fill"
+        case faceSmilingFill = "face.smiling.fill"
         /// 􀥧
-        static let faceDashed:String = "face.dashed"
+        case faceDashed = "face.dashed"
         /// 􀨸
-        static let faceDashedFill:String = "face.dashed.fill"
+        case faceDashedFill = "face.dashed.fill"
         /// 􀦅
-        static let crown:String = "crown"
+        case crown = "crown"
         /// 􀦆
-        static let crownFill:String = "crown.fill"
+        case crownFill = "crown.fill"
         /// 􀦈
-        static let comb:String = "comb"
+        case comb = "comb"
         /// 􀦉
-        static let combFill:String = "comb.fill"
+        case combFill = "comb.fill"
         /// 􀖂
-        static let qrcode:String = "qrcode"
+        case qrcode = "qrcode"
         /// 􀘱
-        static let barcode:String = "barcode"
+        case barcode = "barcode"
         /// 􀎹
-        static let viewfinder:String = "viewfinder"
+        case viewfinder = "viewfinder"
         /// 􀎿
-        static let viewfinderCircle:String = "viewfinder.circle"
+        case viewfinderCircle = "viewfinder.circle"
         /// 􀏀
-        static let viewfinderCircleFill:String = "viewfinder.circle.fill"
+        case viewfinderCircleFill = "viewfinder.circle.fill"
         /// 􀎺
-        static let barcodeViewfinder:String = "barcode.viewfinder"
+        case barcodeViewfinder = "barcode.viewfinder"
         /// 􀎻
-        static let qrcodeViewfinder:String = "qrcode.viewfinder"
+        case qrcodeViewfinder = "qrcode.viewfinder"
         /// 􀥄
-        static let plusViewfinder:String = "plus.viewfinder"
+        case plusViewfinder = "plus.viewfinder"
         /// 􀎼
-        static let cameraViewfinder:String = "camera.viewfinder"
+        case cameraViewfinder = "camera.viewfinder"
         /// 􀎽
-        static let faceid:String = "faceid"
+        case faceid = "faceid"
         /// 􀎾
-        static let docTextViewfinder:String = "doc.text.viewfinder"
+        case docTextViewfinder = "doc.text.viewfinder"
         /// 􀡢
-        static let docTextFillViewfinder:String = "doc.text.fill.viewfinder"
+        case docTextFillViewfinder = "doc.text.fill.viewfinder"
         /// 􀮃
-        static let locationViewfinder:String = "location.viewfinder"
+        case locationViewfinder = "location.viewfinder"
         /// 􀮄
-        static let locationFillViewfinder:String = "location.fill.viewfinder"
+        case locationFillViewfinder = "location.fill.viewfinder"
         /// 􀲏
-        static let personFillViewfinder:String = "person.fill.viewfinder"
+        case personFillViewfinder = "person.fill.viewfinder"
         /// 􀤳
-        static let rectangleInsetFill:String = "rectangle.inset.fill"
+        case rectangleInsetFill = "rectangle.inset.fill"
         /// 􀤴
-        static let rectangleLefthalfInsetFill:String = "rectangle.lefthalf.inset.fill"
+        case rectangleLefthalfInsetFill = "rectangle.lefthalf.inset.fill"
         /// 􀤵
-        static let rectangleRighthalfInsetFill:String = "rectangle.righthalf.inset.fill"
+        case rectangleRighthalfInsetFill = "rectangle.righthalf.inset.fill"
         /// 􀴊
-        static let rectangleTopthirdInset:String = "rectangle.topthird.inset"
+        case rectangleTopthirdInset = "rectangle.topthird.inset"
         /// 􀨨
-        static let rectangleBottomthirdInsetFill:String = "rectangle.bottomthird.inset.fill"
+        case rectangleBottomthirdInsetFill = "rectangle.bottomthird.inset.fill"
         /// 􀨱
-        static let rectangleLeftthirdInsetFill:String = "rectangle.leftthird.inset.fill"
+        case rectangleLeftthirdInsetFill = "rectangle.leftthird.inset.fill"
         /// 􀨩
-        static let rectangleRightthirdInsetFill:String = "rectangle.rightthird.inset.fill"
+        case rectangleRightthirdInsetFill = "rectangle.rightthird.inset.fill"
         /// 􀥝
-        static let rectangleCenterInsetFill:String = "rectangle.center.inset.fill"
+        case rectangleCenterInsetFill = "rectangle.center.inset.fill"
         /// 􀭳
-        static let rectangleInsetTopleftFill:String = "rectangle.inset.topleft.fill"
+        case rectangleInsetTopleftFill = "rectangle.inset.topleft.fill"
         /// 􀭴
-        static let rectangleInsetToprightFill:String = "rectangle.inset.topright.fill"
+        case rectangleInsetToprightFill = "rectangle.inset.topright.fill"
         /// 􀭵
-        static let rectangleInsetBottomleftFill:String = "rectangle.inset.bottomleft.fill"
+        case rectangleInsetBottomleftFill = "rectangle.inset.bottomleft.fill"
         /// 􀭶
-        static let rectangleInsetBottomrightFill:String = "rectangle.inset.bottomright.fill"
+        case rectangleInsetBottomrightFill = "rectangle.inset.bottomright.fill"
         /// 􀥞
-        static let rectangleLefthalfInsetFillArrowLeft:String = "rectangle.lefthalf.inset.fill.arrow.left"
+        case rectangleLefthalfInsetFillArrowLeft = "rectangle.lefthalf.inset.fill.arrow.left"
         /// 􀥟
-        static let rectangleRighthalfInsetFillArrowRight:String = "rectangle.righthalf.inset.fill.arrow.right"
+        case rectangleRighthalfInsetFillArrowRight = "rectangle.righthalf.inset.fill.arrow.right"
         /// 􀤶
-        static let rectangleLefthalfFill:String = "rectangle.lefthalf.fill"
+        case rectangleLefthalfFill = "rectangle.lefthalf.fill"
         /// 􀤷
-        static let rectangleRighthalfFill:String = "rectangle.righthalf.fill"
+        case rectangleRighthalfFill = "rectangle.righthalf.fill"
         /// 􀏏
-        static let personCropRectangle:String = "person.crop.rectangle"
+        case personCropRectangle = "person.crop.rectangle"
         /// 􀏐
-        static let personCropRectangleFill:String = "person.crop.rectangle.fill"
+        case personCropRectangleFill = "person.crop.rectangle.fill"
         /// 􀪨
-        static let arrowUpAndPersonRectanglePortrait:String = "arrow.up.and.person.rectangle.portrait"
+        case arrowUpAndPersonRectanglePortrait = "arrow.up.and.person.rectangle.portrait"
         /// 􀪩
-        static let arrowUpAndPersonRectangleTurnRight:String = "arrow.up.and.person.rectangle.turn.right"
+        case arrowUpAndPersonRectangleTurnRight = "arrow.up.and.person.rectangle.turn.right"
         /// 􀪪
-        static let arrowUpAndPersonRectangleTurnLeft:String = "arrow.up.and.person.rectangle.turn.left"
+        case arrowUpAndPersonRectangleTurnLeft = "arrow.up.and.person.rectangle.turn.left"
         /// 􀏅
-        static let photo:String = "photo"
+        case photo = "photo"
         /// 􀏆
-        static let photoFill:String = "photo.fill"
+        case photoFill = "photo.fill"
         /// 􀲱
-        static let textBelowPhoto:String = "text.below.photo"
+        case textBelowPhoto = "text.below.photo"
         /// 􀲲
-        static let textBelowPhotoFill:String = "text.below.photo.fill"
+        case textBelowPhotoFill = "text.below.photo.fill"
         /// 􀪫
-        static let checkerboardRectangle:String = "checkerboard.rectangle"
+        case checkerboardRectangle = "checkerboard.rectangle"
         /// 􀞲
-        static let cameraMeteringCenterWeightedAverage:String = "camera.metering.center.weighted.average"
+        case cameraMeteringCenterWeightedAverage = "camera.metering.center.weighted.average"
         /// 􀢪
-        static let cameraMeteringCenterWeighted:String = "camera.metering.center.weighted"
+        case cameraMeteringCenterWeighted = "camera.metering.center.weighted"
         /// 􀢫
-        static let cameraMeteringMatrix:String = "camera.metering.matrix"
+        case cameraMeteringMatrix = "camera.metering.matrix"
         /// 􀢬
-        static let cameraMeteringMultispot:String = "camera.metering.multispot"
+        case cameraMeteringMultispot = "camera.metering.multispot"
         /// 􀢭
-        static let cameraMeteringNone:String = "camera.metering.none"
+        case cameraMeteringNone = "camera.metering.none"
         /// 􀢮
-        static let cameraMeteringPartial:String = "camera.metering.partial"
+        case cameraMeteringPartial = "camera.metering.partial"
         /// 􀢯
-        static let cameraMeteringSpot:String = "camera.metering.spot"
+        case cameraMeteringSpot = "camera.metering.spot"
         /// 􀢰
-        static let cameraMeteringUnknown:String = "camera.metering.unknown"
+        case cameraMeteringUnknown = "camera.metering.unknown"
         /// 􀨺
-        static let cameraAperture:String = "camera.aperture"
+        case cameraAperture = "camera.aperture"
         /// 􀥁
-        static let rectangleDashed:String = "rectangle.dashed"
+        case rectangleDashed = "rectangle.dashed"
         /// 􀥂
-        static let rectangleDashedBadgeRecord:String = "rectangle.dashed.badge.record"
+        case rectangleDashedBadgeRecord = "rectangle.dashed.badge.record"
         /// 􀏑
-        static let rectangleBadgePlus:String = "rectangle.badge.plus"
+        case rectangleBadgePlus = "rectangle.badge.plus"
         /// 􀏒
-        static let rectangleFillBadgePlus:String = "rectangle.fill.badge.plus"
+        case rectangleFillBadgePlus = "rectangle.fill.badge.plus"
         /// 􀏓
-        static let rectangleBadgeMinus:String = "rectangle.badge.minus"
+        case rectangleBadgeMinus = "rectangle.badge.minus"
         /// 􀏔
-        static let rectangleFillBadgeMinus:String = "rectangle.fill.badge.minus"
+        case rectangleFillBadgeMinus = "rectangle.fill.badge.minus"
         /// 􀏕
-        static let rectangleBadgeCheckmark:String = "rectangle.badge.checkmark"
+        case rectangleBadgeCheckmark = "rectangle.badge.checkmark"
         /// 􀏖
-        static let rectangleFillBadgeCheckmark:String = "rectangle.fill.badge.checkmark"
+        case rectangleFillBadgeCheckmark = "rectangle.fill.badge.checkmark"
         /// 􀏗
-        static let rectangleBadgeXmark:String = "rectangle.badge.xmark"
+        case rectangleBadgeXmark = "rectangle.badge.xmark"
         /// 􀏘
-        static let rectangleFillBadgeXmark:String = "rectangle.fill.badge.xmark"
+        case rectangleFillBadgeXmark = "rectangle.fill.badge.xmark"
         /// 􀵚
-        static let rectangleBadgePersonCrop:String = "rectangle.badge.person.crop"
+        case rectangleBadgePersonCrop = "rectangle.badge.person.crop"
         /// 􀵛
-        static let rectangleFillBadgePersonCrop:String = "rectangle.fill.badge.person.crop"
+        case rectangleFillBadgePersonCrop = "rectangle.fill.badge.person.crop"
         /// 􀏚
-        static let sidebarLeft:String = "sidebar.left"
+        case sidebarLeft = "sidebar.left"
         /// 􀏛
-        static let sidebarRight:String = "sidebar.right"
+        case sidebarRight = "sidebar.right"
         /// 􀰱
-        static let sidebarLeading:String = "sidebar.leading"
+        case sidebarLeading = "sidebar.leading"
         /// 􀰲
-        static let sidebarTrailing:String = "sidebar.trailing"
+        case sidebarTrailing = "sidebar.trailing"
         /// 􀱤
-        static let sidebarSquaresLeft:String = "sidebar.squares.left"
+        case sidebarSquaresLeft = "sidebar.squares.left"
         /// 􀱥
-        static let sidebarSquaresRight:String = "sidebar.squares.right"
+        case sidebarSquaresRight = "sidebar.squares.right"
         /// 􀱦
-        static let sidebarSquaresLeading:String = "sidebar.squares.leading"
+        case sidebarSquaresLeading = "sidebar.squares.leading"
         /// 􀱧
-        static let sidebarSquaresTrailing:String = "sidebar.squares.trailing"
+        case sidebarSquaresTrailing = "sidebar.squares.trailing"
         /// 􀏜
-        static let macwindow:String = "macwindow"
+        case macwindow = "macwindow"
         /// 􀥃
-        static let macwindowBadgePlus:String = "macwindow.badge.plus"
+        case macwindowBadgePlus = "macwindow.badge.plus"
         /// 􀏞
-        static let dockRectangle:String = "dock.rectangle"
+        case dockRectangle = "dock.rectangle"
         /// 􀣾
-        static let dockArrowUpRectangle:String = "dock.arrow.up.rectangle"
+        case dockArrowUpRectangle = "dock.arrow.up.rectangle"
         /// 􀣿
-        static let dockArrowDownRectangle:String = "dock.arrow.down.rectangle"
+        case dockArrowDownRectangle = "dock.arrow.down.rectangle"
         /// 􀦍
-        static let menubarRectangle:String = "menubar.rectangle"
+        case menubarRectangle = "menubar.rectangle"
         /// 􀣰
-        static let menubarDockRectangle:String = "menubar.dock.rectangle"
+        case menubarDockRectangle = "menubar.dock.rectangle"
         /// 􀣑
-        static let menubarDockRectangleBadgeRecord:String = "menubar.dock.rectangle.badge.record"
+        case menubarDockRectangleBadgeRecord = "menubar.dock.rectangle.badge.record"
         /// 􀤀
-        static let menubarArrowUpRectangle:String = "menubar.arrow.up.rectangle"
+        case menubarArrowUpRectangle = "menubar.arrow.up.rectangle"
         /// 􀤁
-        static let menubarArrowDownRectangle:String = "menubar.arrow.down.rectangle"
+        case menubarArrowDownRectangle = "menubar.arrow.down.rectangle"
         /// 􀢌
-        static let macwindowOnRectangle:String = "macwindow.on.rectangle"
+        case macwindowOnRectangle = "macwindow.on.rectangle"
         /// 􀣚
-        static let textAndCommandMacwindow:String = "text.and.command.macwindow"
+        case textAndCommandMacwindow = "text.and.command.macwindow"
         /// 􀤯
-        static let keyboardMacwindow:String = "keyboard.macwindow"
+        case keyboardMacwindow = "keyboard.macwindow"
         /// 􀏝
-        static let uiwindowSplit2x1:String = "uiwindow.split.2x1"
+        case uiwindowSplit2x1 = "uiwindow.split.2x1"
         /// 􀏟
-        static let rectangleSplit3x1:String = "rectangle.split.3x1"
+        case rectangleSplit3x1 = "rectangle.split.3x1"
         /// 􀕸
-        static let rectangleSplit3x1Fill:String = "rectangle.split.3x1.fill"
+        case rectangleSplit3x1Fill = "rectangle.split.3x1.fill"
         /// 􀏠
-        static let squareSplit2x1:String = "square.split.2x1"
+        case squareSplit2x1 = "square.split.2x1"
         /// 􀘜
-        static let squareSplit2x1Fill:String = "square.split.2x1.fill"
+        case squareSplit2x1Fill = "square.split.2x1.fill"
         /// 􀕰
-        static let squareSplit1x2:String = "square.split.1x2"
+        case squareSplit1x2 = "square.split.1x2"
         /// 􀕱
-        static let squareSplit1x2Fill:String = "square.split.1x2.fill"
+        case squareSplit1x2Fill = "square.split.1x2.fill"
         /// 􀕮
-        static let squareSplit2x2:String = "square.split.2x2"
+        case squareSplit2x2 = "square.split.2x2"
         /// 􀕯
-        static let squareSplit2x2Fill:String = "square.split.2x2.fill"
+        case squareSplit2x2Fill = "square.split.2x2.fill"
         /// 􀕲
-        static let squareSplitDiagonal2x2:String = "square.split.diagonal.2x2"
+        case squareSplitDiagonal2x2 = "square.split.diagonal.2x2"
         /// 􀕳
-        static let squareSplitDiagonal2x2Fill:String = "square.split.diagonal.2x2.fill"
+        case squareSplitDiagonal2x2Fill = "square.split.diagonal.2x2.fill"
         /// 􀡗
-        static let squareSplitDiagonal:String = "square.split.diagonal"
+        case squareSplitDiagonal = "square.split.diagonal"
         /// 􀡘
-        static let squareSplitDiagonalFill:String = "square.split.diagonal.fill"
+        case squareSplitDiagonalFill = "square.split.diagonal.fill"
         /// 􀯫
-        static let mosaic:String = "mosaic"
+        case mosaic = "mosaic"
         /// 􀯬
-        static let mosaicFill:String = "mosaic.fill"
+        case mosaicFill = "mosaic.fill"
         /// 􀏡
-        static let squaresBelowRectangle:String = "squares.below.rectangle"
+        case squaresBelowRectangle = "squares.below.rectangle"
         /// 􀏢
-        static let rectangleSplit3x3:String = "rectangle.split.3x3"
+        case rectangleSplit3x3 = "rectangle.split.3x3"
         /// 􀘮
-        static let rectangleSplit3x3Fill:String = "rectangle.split.3x3.fill"
+        case rectangleSplit3x3Fill = "rectangle.split.3x3.fill"
         /// 􀧈
-        static let rectangleSplit2x1:String = "rectangle.split.2x1"
+        case rectangleSplit2x1 = "rectangle.split.2x1"
         /// 􀧉
-        static let rectangleSplit2x1Fill:String = "rectangle.split.2x1.fill"
+        case rectangleSplit2x1Fill = "rectangle.split.2x1.fill"
         /// 􀧊
-        static let rectangleSplit1x2:String = "rectangle.split.1x2"
+        case rectangleSplit1x2 = "rectangle.split.1x2"
         /// 􀧋
-        static let rectangleSplit1x2Fill:String = "rectangle.split.1x2.fill"
+        case rectangleSplit1x2Fill = "rectangle.split.1x2.fill"
         /// 􀧌
-        static let rectangleSplit2x2:String = "rectangle.split.2x2"
+        case rectangleSplit2x2 = "rectangle.split.2x2"
         /// 􀧍
-        static let rectangleSplit2x2Fill:String = "rectangle.split.2x2.fill"
+        case rectangleSplit2x2Fill = "rectangle.split.2x2.fill"
         /// 􀏣
-        static let tablecells:String = "tablecells"
+        case tablecells = "tablecells"
         /// 􀏤
-        static let tablecellsFill:String = "tablecells.fill"
+        case tablecellsFill = "tablecells.fill"
         /// 􀏥
-        static let tablecellsBadgeEllipsis:String = "tablecells.badge.ellipsis"
+        case tablecellsBadgeEllipsis = "tablecells.badge.ellipsis"
         /// 􀏦
-        static let tablecellsBadgeEllipsisFill:String = "tablecells.badge.ellipsis.fill"
+        case tablecellsBadgeEllipsisFill = "tablecells.badge.ellipsis.fill"
         /// 􀏧
-        static let rectangleOnRectangle:String = "rectangle.on.rectangle"
+        case rectangleOnRectangle = "rectangle.on.rectangle"
         /// 􀏨
-        static let rectangleFillOnRectangleFill:String = "rectangle.fill.on.rectangle.fill"
+        case rectangleFillOnRectangleFill = "rectangle.fill.on.rectangle.fill"
         /// 􀤽
-        static let rectangleFillOnRectangleFillCircle:String = "rectangle.fill.on.rectangle.fill.circle"
+        case rectangleFillOnRectangleFillCircle = "rectangle.fill.on.rectangle.fill.circle"
         /// 􀤾
-        static let rectangleFillOnRectangleFillCircleFill:String = "rectangle.fill.on.rectangle.fill.circle.fill"
+        case rectangleFillOnRectangleFillCircleFill = "rectangle.fill.on.rectangle.fill.circle.fill"
         /// 􀥀
-        static let rectangleOnRectangleSlash:String = "rectangle.on.rectangle.slash"
+        case rectangleOnRectangleSlash = "rectangle.on.rectangle.slash"
         /// 􀤿
-        static let rectangleFillOnRectangleFillSlashFill:String = "rectangle.fill.on.rectangle.fill.slash.fill"
+        case rectangleFillOnRectangleFillSlashFill = "rectangle.fill.on.rectangle.fill.slash.fill"
         /// 􀏩
-        static let plusRectangleOnRectangle:String = "plus.rectangle.on.rectangle"
+        case plusRectangleOnRectangle = "plus.rectangle.on.rectangle"
         /// 􀏪
-        static let plusRectangleFillOnRectangleFill:String = "plus.rectangle.fill.on.rectangle.fill"
+        case plusRectangleFillOnRectangleFill = "plus.rectangle.fill.on.rectangle.fill"
         /// 􀏫
-        static let photoOnRectangle:String = "photo.on.rectangle"
+        case photoOnRectangle = "photo.on.rectangle"
         /// 􀏬
-        static let photoFillOnRectangleFill:String = "photo.fill.on.rectangle.fill"
+        case photoFillOnRectangleFill = "photo.fill.on.rectangle.fill"
         /// 􀑯
-        static let rectangleOnRectangleAngled:String = "rectangle.on.rectangle.angled"
+        case rectangleOnRectangleAngled = "rectangle.on.rectangle.angled"
         /// 􀑰
-        static let rectangleFillOnRectangleAngledFill:String = "rectangle.fill.on.rectangle.angled.fill"
+        case rectangleFillOnRectangleAngledFill = "rectangle.fill.on.rectangle.angled.fill"
         /// 􀣵
-        static let photoOnRectangleAngled:String = "photo.on.rectangle.angled"
+        case photoOnRectangleAngled = "photo.on.rectangle.angled"
         /// 􀏭
-        static let rectangleStack:String = "rectangle.stack"
+        case rectangleStack = "rectangle.stack"
         /// 􀏮
-        static let rectangleStackFill:String = "rectangle.stack.fill"
+        case rectangleStackFill = "rectangle.stack.fill"
         /// 􀏱
-        static let rectangleStackBadgePlus:String = "rectangle.stack.badge.plus"
+        case rectangleStackBadgePlus = "rectangle.stack.badge.plus"
         /// 􀏲
-        static let rectangleStackFillBadgePlus:String = "rectangle.stack.fill.badge.plus"
+        case rectangleStackFillBadgePlus = "rectangle.stack.fill.badge.plus"
         /// 􀏳
-        static let rectangleStackBadgeMinus:String = "rectangle.stack.badge.minus"
+        case rectangleStackBadgeMinus = "rectangle.stack.badge.minus"
         /// 􀏴
-        static let rectangleStackFillBadgeMinus:String = "rectangle.stack.fill.badge.minus"
+        case rectangleStackFillBadgeMinus = "rectangle.stack.fill.badge.minus"
         /// 􀏹
-        static let rectangleStackBadgePersonCrop:String = "rectangle.stack.badge.person.crop"
+        case rectangleStackBadgePersonCrop = "rectangle.stack.badge.person.crop"
         /// 􀏺
-        static let rectangleStackFillBadgePersonCrop:String = "rectangle.stack.fill.badge.person.crop"
+        case rectangleStackFillBadgePersonCrop = "rectangle.stack.fill.badge.person.crop"
         /// 􀲳
-        static let sparklesRectangleStack:String = "sparkles.rectangle.stack"
+        case sparklesRectangleStack = "sparkles.rectangle.stack"
         /// 􀲴
-        static let sparklesRectangleStackFill:String = "sparkles.rectangle.stack.fill"
+        case sparklesRectangleStackFill = "sparkles.rectangle.stack.fill"
         /// 􀭘
-        static let rSquareOnSquare:String = "r.square.on.square"
+        case rSquareOnSquare = "r.square.on.square"
         /// 􀭙
-        static let rSquareFillOnSquareFill:String = "r.square.fill.on.square.fill"
+        case rSquareFillOnSquareFill = "r.square.fill.on.square.fill"
         /// 􀭚
-        static let jSquareOnSquare:String = "j.square.on.square"
+        case jSquareOnSquare = "j.square.on.square"
         /// 􀭛
-        static let jSquareFillOnSquareFill:String = "j.square.fill.on.square.fill"
+        case jSquareFillOnSquareFill = "j.square.fill.on.square.fill"
         /// 􀭜
-        static let hSquareOnSquare:String = "h.square.on.square"
+        case hSquareOnSquare = "h.square.on.square"
         /// 􀭝
-        static let hSquareFillOnSquareFill:String = "h.square.fill.on.square.fill"
+        case hSquareFillOnSquareFill = "h.square.fill.on.square.fill"
         /// 􀐅
-        static let squareOnSquare:String = "square.on.square"
+        case squareOnSquare = "square.on.square"
         /// 􀐆
-        static let squareFillOnSquareFill:String = "square.fill.on.square.fill"
+        case squareFillOnSquareFill = "square.fill.on.square.fill"
         /// 􀫝
-        static let squareFillOnSquare:String = "square.fill.on.square"
+        case squareFillOnSquare = "square.fill.on.square"
         /// 􀰙
-        static let sparklesSquareFillOnSquare:String = "sparkles.square.fill.on.square"
+        case sparklesSquareFillOnSquare = "sparkles.square.fill.on.square"
         /// 􀯇
-        static let squareOnSquareDashed:String = "square.on.square.dashed"
+        case squareOnSquareDashed = "square.on.square.dashed"
         /// 􀐇
-        static let plusSquareOnSquare:String = "plus.square.on.square"
+        case plusSquareOnSquare = "plus.square.on.square"
         /// 􀐈
-        static let plusSquareFillOnSquareFill:String = "plus.square.fill.on.square.fill"
+        case plusSquareFillOnSquareFill = "plus.square.fill.on.square.fill"
         /// 􀐉
-        static let squareOnCircle:String = "square.on.circle"
+        case squareOnCircle = "square.on.circle"
         /// 􀐊
-        static let squareFillOnCircleFill:String = "square.fill.on.circle.fill"
+        case squareFillOnCircleFill = "square.fill.on.circle.fill"
         /// 􀩶
-        static let squareOnSquareSquareshapeControlhandles:String = "square.on.square.squareshape.controlhandles"
+        case squareOnSquareSquareshapeControlhandles = "square.on.square.squareshape.controlhandles"
         /// 􀩷
-        static let squareshapeControlhandlesOnSquareshapeControlhandles:String = "squareshape.controlhandles.on.squareshape.controlhandles"
+        case squareshapeControlhandlesOnSquareshapeControlhandles = "squareshape.controlhandles.on.squareshape.controlhandles"
         /// 􀐋
-        static let squareStack:String = "square.stack"
+        case squareStack = "square.stack"
         /// 􀐌
-        static let squareStackFill:String = "square.stack.fill"
+        case squareStackFill = "square.stack.fill"
         /// 􀐏
-        static let pano:String = "pano"
+        case pano = "pano"
         /// 􀐐
-        static let panoFill:String = "pano.fill"
+        case panoFill = "pano.fill"
         /// 􀐑
-        static let squareAndLineVerticalAndSquare:String = "square.and.line.vertical.and.square"
+        case squareAndLineVerticalAndSquare = "square.and.line.vertical.and.square"
         /// 􀐒
-        static let squareFillAndLineVerticalSquareFill:String = "square.fill.and.line.vertical.square.fill"
+        case squareFillAndLineVerticalSquareFill = "square.fill.and.line.vertical.square.fill"
         /// 􀐓
-        static let squareFillAndLineVerticalAndSquare:String = "square.fill.and.line.vertical.and.square"
+        case squareFillAndLineVerticalAndSquare = "square.fill.and.line.vertical.and.square"
         /// 􀐔
-        static let squareAndLineVerticalAndSquareFill:String = "square.and.line.vertical.and.square.fill"
+        case squareAndLineVerticalAndSquareFill = "square.and.line.vertical.and.square.fill"
         /// 􀐕
-        static let flowchart:String = "flowchart"
+        case flowchart = "flowchart"
         /// 􀐖
-        static let flowchartFill:String = "flowchart.fill"
+        case flowchartFill = "flowchart.fill"
         /// 􀩲
-        static let rectangleConnectedToLineBelow:String = "rectangle.connected.to.line.below"
+        case rectangleConnectedToLineBelow = "rectangle.connected.to.line.below"
         /// 􀙦
-        static let shield:String = "shield"
+        case shield = "shield"
         /// 􀞡
-        static let shieldSlash:String = "shield.slash"
+        case shieldSlash = "shield.slash"
         /// 􀙧
-        static let shieldFill:String = "shield.fill"
+        case shieldFill = "shield.fill"
         /// 􀞢
-        static let shieldSlashFill:String = "shield.slash.fill"
+        case shieldSlashFill = "shield.slash.fill"
         /// 􀙨
-        static let shieldLefthalfFill:String = "shield.lefthalf.fill"
+        case shieldLefthalfFill = "shield.lefthalf.fill"
         /// 􀲊
-        static let shieldLefthalfFillSlash:String = "shield.lefthalf.fill.slash"
+        case shieldLefthalfFillSlash = "shield.lefthalf.fill.slash"
         /// 􀵔
-        static let shieldCheckerboard:String = "shield.checkerboard"
+        case shieldCheckerboard = "shield.checkerboard"
         /// 􀜊
-        static let switch2:String = "switch.2"
+        case switch2 = "switch.2"
         /// 􀣱
-        static let pointTopleftDownCurvedtoPointBottomrightUp:String = "point.topleft.down.curvedto.point.bottomright.up"
+        case pointTopleftDownCurvedtoPointBottomrightUp = "point.topleft.down.curvedto.point.bottomright.up"
         /// 􀬱
-        static let pointFillTopleftDownCurvedtoPointFillBottomrightUp:String = "point.fill.topleft.down.curvedto.point.fill.bottomright.up"
+        case pointFillTopleftDownCurvedtoPointFillBottomrightUp = "point.fill.topleft.down.curvedto.point.fill.bottomright.up"
         /// 􀌆
-        static let sliderHorizontal3:String = "slider.horizontal.3"
+        case sliderHorizontal3 = "slider.horizontal.3"
         /// 􀐗
-        static let sliderHorizontalBelowRectangle:String = "slider.horizontal.below.rectangle"
+        case sliderHorizontalBelowRectangle = "slider.horizontal.below.rectangle"
         /// 􀰗
-        static let sliderHorizontalBelowSquareFillAndSquare:String = "slider.horizontal.below.square.fill.and.square"
+        case sliderHorizontalBelowSquareFillAndSquare = "slider.horizontal.below.square.fill.and.square"
         /// 􀟲
-        static let sliderVertical3:String = "slider.vertical.3"
+        case sliderVertical3 = "slider.vertical.3"
         /// 􀐘
-        static let cube:String = "cube"
+        case cube = "cube"
         /// 􀐙
-        static let cubeFill:String = "cube.fill"
+        case cubeFill = "cube.fill"
         /// 􀬨
-        static let cubeTransparent:String = "cube.transparent"
+        case cubeTransparent = "cube.transparent"
         /// 􀳴
-        static let cubeTransparentFill:String = "cube.transparent.fill"
+        case cubeTransparentFill = "cube.transparent.fill"
         /// 􀐚
-        static let shippingbox:String = "shippingbox"
+        case shippingbox = "shippingbox"
         /// 􀐛
-        static let shippingboxFill:String = "shippingbox.fill"
+        case shippingboxFill = "shippingbox.fill"
         /// 􀘸
-        static let arkit:String = "arkit"
+        case arkit = "arkit"
         /// 􀳇
-        static let cone:String = "cone"
+        case cone = "cone"
         /// 􀳈
-        static let coneFill:String = "cone.fill"
+        case coneFill = "cone.fill"
         /// 􀳋
-        static let pyramid:String = "pyramid"
+        case pyramid = "pyramid"
         /// 􀳌
-        static let pyramidFill:String = "pyramid.fill"
+        case pyramidFill = "pyramid.fill"
         /// 􀐜
-        static let squareStack3dDownRight:String = "square.stack.3d.down.right"
+        case squareStack3dDownRight = "square.stack.3d.down.right"
         /// 􀐝
-        static let squareStack3dDownRightFill:String = "square.stack.3d.down.right.fill"
+        case squareStack3dDownRightFill = "square.stack.3d.down.right.fill"
         /// 􀰳
-        static let squareStack3dDownForward:String = "square.stack.3d.down.forward"
+        case squareStack3dDownForward = "square.stack.3d.down.forward"
         /// 􀰴
-        static let squareStack3dDownForwardFill:String = "square.stack.3d.down.forward.fill"
+        case squareStack3dDownForwardFill = "square.stack.3d.down.forward.fill"
         /// 􀐞
-        static let squareStack3dUp:String = "square.stack.3d.up"
+        case squareStack3dUp = "square.stack.3d.up"
         /// 􀐟
-        static let squareStack3dUpFill:String = "square.stack.3d.up.fill"
+        case squareStack3dUpFill = "square.stack.3d.up.fill"
         /// 􀙒
-        static let squareStack3dUpSlash:String = "square.stack.3d.up.slash"
+        case squareStack3dUpSlash = "square.stack.3d.up.slash"
         /// 􀙓
-        static let squareStack3dUpSlashFill:String = "square.stack.3d.up.slash.fill"
+        case squareStack3dUpSlashFill = "square.stack.3d.up.slash.fill"
         /// 􀙐
-        static let squareStack3dUpBadgeA:String = "square.stack.3d.up.badge.a"
+        case squareStack3dUpBadgeA = "square.stack.3d.up.badge.a"
         /// 􀙑
-        static let squareStack3dUpBadgeAFill:String = "square.stack.3d.up.badge.a.fill"
+        case squareStack3dUpBadgeAFill = "square.stack.3d.up.badge.a.fill"
         /// 􀐠
-        static let squareStack3dForwardDottedline:String = "square.stack.3d.forward.dottedline"
+        case squareStack3dForwardDottedline = "square.stack.3d.forward.dottedline"
         /// 􀧏
-        static let squareStack3dForwardDottedlineFill:String = "square.stack.3d.forward.dottedline.fill"
+        case squareStack3dForwardDottedlineFill = "square.stack.3d.forward.dottedline.fill"
         /// 􀐡
-        static let livephoto:String = "livephoto"
+        case livephoto = "livephoto"
         /// 􀐢
-        static let livephotoSlash:String = "livephoto.slash"
+        case livephotoSlash = "livephoto.slash"
         /// 􀙔
-        static let livephotoBadgeA:String = "livephoto.badge.a"
+        case livephotoBadgeA = "livephoto.badge.a"
         /// 􀐣
-        static let livephotoPlay:String = "livephoto.play"
+        case livephotoPlay = "livephoto.play"
         /// 􀐩
-        static let scope:String = "scope"
+        case scope = "scope"
         /// 􀐪
-        static let helm:String = "helm"
+        case helm = "helm"
         /// 􀐫
-        static let clock:String = "clock"
+        case clock = "clock"
         /// 􀐬
-        static let clockFill:String = "clock.fill"
+        case clockFill = "clock.fill"
         /// 􀡑
-        static let deskclock:String = "deskclock"
+        case deskclock = "deskclock"
         /// 􀡒
-        static let deskclockFill:String = "deskclock.fill"
+        case deskclockFill = "deskclock.fill"
         /// 􀐭
-        static let alarm:String = "alarm"
+        case alarm = "alarm"
         /// 􀐮
-        static let alarmFill:String = "alarm.fill"
+        case alarmFill = "alarm.fill"
         /// 􀐯
-        static let stopwatch:String = "stopwatch"
+        case stopwatch = "stopwatch"
         /// 􀐰
-        static let stopwatchFill:String = "stopwatch.fill"
+        case stopwatchFill = "stopwatch.fill"
         /// 􀐱
-        static let timer:String = "timer"
+        case timer = "timer"
         /// 􀭄
-        static let timerSquare:String = "timer.square"
+        case timerSquare = "timer.square"
         /// 􀣔
-        static let clockArrowCirclepath:String = "clock.arrow.circlepath"
+        case clockArrowCirclepath = "clock.arrow.circlepath"
         /// 􀱨
-        static let exclamationmarkArrowCirclepath:String = "exclamationmark.arrow.circlepath"
+        case exclamationmarkArrowCirclepath = "exclamationmark.arrow.circlepath"
         /// 􀯛
-        static let clockArrow2Circlepath:String = "clock.arrow.2.circlepath"
+        case clockArrow2Circlepath = "clock.arrow.2.circlepath"
         /// 􀛸
-        static let gamecontroller:String = "gamecontroller"
+        case gamecontroller = "gamecontroller"
         /// 􀛹
-        static let gamecontrollerFill:String = "gamecontroller.fill"
+        case gamecontrollerFill = "gamecontroller.fill"
         /// 􀦒
-        static let lJoystick:String = "l.joystick"
+        case lJoystick = "l.joystick"
         /// 􀫁
-        static let lJoystickFill:String = "l.joystick.fill"
+        case lJoystickFill = "l.joystick.fill"
         /// 􀦓
-        static let rJoystick:String = "r.joystick"
+        case rJoystick = "r.joystick"
         /// 􀫂
-        static let rJoystickFill:String = "r.joystick.fill"
+        case rJoystickFill = "r.joystick.fill"
         /// 􀦔
-        static let lJoystickDown:String = "l.joystick.down"
+        case lJoystickDown = "l.joystick.down"
         /// 􀫃
-        static let lJoystickDownFill:String = "l.joystick.down.fill"
+        case lJoystickDownFill = "l.joystick.down.fill"
         /// 􀦕
-        static let rJoystickDown:String = "r.joystick.down"
+        case rJoystickDown = "r.joystick.down"
         /// 􀫄
-        static let rJoystickDownFill:String = "r.joystick.down.fill"
+        case rJoystickDownFill = "r.joystick.down.fill"
         /// 􀨲
-        static let dpad:String = "dpad"
+        case dpad = "dpad"
         /// 􀧼
-        static let dpadFill:String = "dpad.fill"
+        case dpadFill = "dpad.fill"
         /// 􀧽
-        static let dpadLeftFill:String = "dpad.left.fill"
+        case dpadLeftFill = "dpad.left.fill"
         /// 􀧾
-        static let dpadUpFill:String = "dpad.up.fill"
+        case dpadUpFill = "dpad.up.fill"
         /// 􀧿
-        static let dpadRightFill:String = "dpad.right.fill"
+        case dpadRightFill = "dpad.right.fill"
         /// 􀨀
-        static let dpadDownFill:String = "dpad.down.fill"
+        case dpadDownFill = "dpad.down.fill"
         /// 􀨁
-        static let circleCircle:String = "circle.circle"
+        case circleCircle = "circle.circle"
         /// 􀨂
-        static let circleCircleFill:String = "circle.circle.fill"
+        case circleCircleFill = "circle.circle.fill"
         /// 􀨃
-        static let squareCircle:String = "square.circle"
+        case squareCircle = "square.circle"
         /// 􀨄
-        static let squareCircleFill:String = "square.circle.fill"
+        case squareCircleFill = "square.circle.fill"
         /// 􀨅
-        static let triangleCircle:String = "triangle.circle"
+        case triangleCircle = "triangle.circle"
         /// 􀨆
-        static let triangleCircleFill:String = "triangle.circle.fill"
+        case triangleCircleFill = "triangle.circle.fill"
         /// 􀩸
-        static let rectangleRoundedtop:String = "rectangle.roundedtop"
+        case rectangleRoundedtop = "rectangle.roundedtop"
         /// 􀩹
-        static let rectangleRoundedtopFill:String = "rectangle.roundedtop.fill"
+        case rectangleRoundedtopFill = "rectangle.roundedtop.fill"
         /// 􀩺
-        static let rectangleRoundedbottom:String = "rectangle.roundedbottom"
+        case rectangleRoundedbottom = "rectangle.roundedbottom"
         /// 􀩻
-        static let rectangleRoundedbottomFill:String = "rectangle.roundedbottom.fill"
+        case rectangleRoundedbottomFill = "rectangle.roundedbottom.fill"
         /// 􀨇
-        static let lRectangleRoundedbottom:String = "l.rectangle.roundedbottom"
+        case lRectangleRoundedbottom = "l.rectangle.roundedbottom"
         /// 􀨈
-        static let lRectangleRoundedbottomFill:String = "l.rectangle.roundedbottom.fill"
+        case lRectangleRoundedbottomFill = "l.rectangle.roundedbottom.fill"
         /// 􀨉
-        static let l1RectangleRoundedbottom:String = "l1.rectangle.roundedbottom"
+        case l1RectangleRoundedbottom = "l1.rectangle.roundedbottom"
         /// 􀨊
-        static let l1RectangleRoundedbottomFill:String = "l1.rectangle.roundedbottom.fill"
+        case l1RectangleRoundedbottomFill = "l1.rectangle.roundedbottom.fill"
         /// 􀨋
-        static let l2RectangleRoundedtop:String = "l2.rectangle.roundedtop"
+        case l2RectangleRoundedtop = "l2.rectangle.roundedtop"
         /// 􀨌
-        static let l2RectangleRoundedtopFill:String = "l2.rectangle.roundedtop.fill"
+        case l2RectangleRoundedtopFill = "l2.rectangle.roundedtop.fill"
         /// 􀨍
-        static let rRectangleRoundedbottom:String = "r.rectangle.roundedbottom"
+        case rRectangleRoundedbottom = "r.rectangle.roundedbottom"
         /// 􀨎
-        static let rRectangleRoundedbottomFill:String = "r.rectangle.roundedbottom.fill"
+        case rRectangleRoundedbottomFill = "r.rectangle.roundedbottom.fill"
         /// 􀨏
-        static let r1RectangleRoundedbottom:String = "r1.rectangle.roundedbottom"
+        case r1RectangleRoundedbottom = "r1.rectangle.roundedbottom"
         /// 􀨐
-        static let r1RectangleRoundedbottomFill:String = "r1.rectangle.roundedbottom.fill"
+        case r1RectangleRoundedbottomFill = "r1.rectangle.roundedbottom.fill"
         /// 􀨑
-        static let r2RectangleRoundedtop:String = "r2.rectangle.roundedtop"
+        case r2RectangleRoundedtop = "r2.rectangle.roundedtop"
         /// 􀨒
-        static let r2RectangleRoundedtopFill:String = "r2.rectangle.roundedtop.fill"
+        case r2RectangleRoundedtopFill = "r2.rectangle.roundedtop.fill"
         /// 􀨓
-        static let lbRectangleRoundedbottom:String = "lb.rectangle.roundedbottom"
+        case lbRectangleRoundedbottom = "lb.rectangle.roundedbottom"
         /// 􀨔
-        static let lbRectangleRoundedbottomFill:String = "lb.rectangle.roundedbottom.fill"
+        case lbRectangleRoundedbottomFill = "lb.rectangle.roundedbottom.fill"
         /// 􀨕
-        static let rbRectangleRoundedbottom:String = "rb.rectangle.roundedbottom"
+        case rbRectangleRoundedbottom = "rb.rectangle.roundedbottom"
         /// 􀨖
-        static let rbRectangleRoundedbottomFill:String = "rb.rectangle.roundedbottom.fill"
+        case rbRectangleRoundedbottomFill = "rb.rectangle.roundedbottom.fill"
         /// 􀨗
-        static let ltRectangleRoundedtop:String = "lt.rectangle.roundedtop"
+        case ltRectangleRoundedtop = "lt.rectangle.roundedtop"
         /// 􀨘
-        static let ltRectangleRoundedtopFill:String = "lt.rectangle.roundedtop.fill"
+        case ltRectangleRoundedtopFill = "lt.rectangle.roundedtop.fill"
         /// 􀨙
-        static let rtRectangleRoundedtop:String = "rt.rectangle.roundedtop"
+        case rtRectangleRoundedtop = "rt.rectangle.roundedtop"
         /// 􀨚
-        static let rtRectangleRoundedtopFill:String = "rt.rectangle.roundedtop.fill"
+        case rtRectangleRoundedtopFill = "rt.rectangle.roundedtop.fill"
         /// 􀨛
-        static let zlRectangleRoundedtop:String = "zl.rectangle.roundedtop"
+        case zlRectangleRoundedtop = "zl.rectangle.roundedtop"
         /// 􀨜
-        static let zlRectangleRoundedtopFill:String = "zl.rectangle.roundedtop.fill"
+        case zlRectangleRoundedtopFill = "zl.rectangle.roundedtop.fill"
         /// 􀨝
-        static let zrRectangleRoundedtop:String = "zr.rectangle.roundedtop"
+        case zrRectangleRoundedtop = "zr.rectangle.roundedtop"
         /// 􀨞
-        static let zrRectangleRoundedtopFill:String = "zr.rectangle.roundedtop.fill"
+        case zrRectangleRoundedtopFill = "zr.rectangle.roundedtop.fill"
         /// 􀝥
-        static let paintpalette:String = "paintpalette"
+        case paintpalette = "paintpalette"
         /// 􀝦
-        static let paintpaletteFill:String = "paintpalette.fill"
+        case paintpaletteFill = "paintpalette.fill"
         /// 􀝢
-        static let figureWalk:String = "figure.walk"
+        case figureWalk = "figure.walk"
         /// 􀝣
-        static let figureWalkCircle:String = "figure.walk.circle"
+        case figureWalkCircle = "figure.walk.circle"
         /// 􀝤
-        static let figureWalkCircleFill:String = "figure.walk.circle.fill"
+        case figureWalkCircleFill = "figure.walk.circle.fill"
         /// 􀪢
-        static let figureWalkDiamond:String = "figure.walk.diamond"
+        case figureWalkDiamond = "figure.walk.diamond"
         /// 􀪣
-        static let figureWalkDiamondFill:String = "figure.walk.diamond.fill"
+        case figureWalkDiamondFill = "figure.walk.diamond.fill"
         /// 􀳾
-        static let figureStand:String = "figure.stand"
+        case figureStand = "figure.stand"
         /// 􀳿
-        static let figureStandLineDottedFigureStand:String = "figure.stand.line.dotted.figure.stand"
+        case figureStandLineDottedFigureStand = "figure.stand.line.dotted.figure.stand"
         /// 􀝻
-        static let figureWave:String = "figure.wave"
+        case figureWave = "figure.wave"
         /// 􀝼
-        static let figureWaveCircle:String = "figure.wave.circle"
+        case figureWaveCircle = "figure.wave.circle"
         /// 􀝽
-        static let figureWaveCircleFill:String = "figure.wave.circle.fill"
+        case figureWaveCircleFill = "figure.wave.circle.fill"
         /// 􀜣
-        static let ear:String = "ear"
+        case ear = "ear"
         /// 􀦿
-        static let earBadgeCheckmark:String = "ear.badge.checkmark"
+        case earBadgeCheckmark = "ear.badge.checkmark"
         /// 􀧁
-        static let earTrianglebadgeExclamationmark:String = "ear.trianglebadge.exclamationmark"
+        case earTrianglebadgeExclamationmark = "ear.trianglebadge.exclamationmark"
         /// 􀞇
-        static let earFill:String = "ear.fill"
+        case earFill = "ear.fill"
         /// 􀪓
-        static let hearingaidEar:String = "hearingaid.ear"
+        case hearingaidEar = "hearingaid.ear"
         /// 􀉻
-        static let handRaised:String = "hand.raised"
+        case handRaised = "hand.raised"
         /// 􀉼
-        static let handRaisedFill:String = "hand.raised.fill"
+        case handRaisedFill = "hand.raised.fill"
         /// 􀉽
-        static let handRaisedSlash:String = "hand.raised.slash"
+        case handRaisedSlash = "hand.raised.slash"
         /// 􀉾
-        static let handRaisedSlashFill:String = "hand.raised.slash.fill"
+        case handRaisedSlashFill = "hand.raised.slash.fill"
         /// 􀉿
-        static let handThumbsup:String = "hand.thumbsup"
+        case handThumbsup = "hand.thumbsup"
         /// 􀊀
-        static let handThumbsupFill:String = "hand.thumbsup.fill"
+        case handThumbsupFill = "hand.thumbsup.fill"
         /// 􀊁
-        static let handThumbsdown:String = "hand.thumbsdown"
+        case handThumbsdown = "hand.thumbsdown"
         /// 􀊂
-        static let handThumbsdownFill:String = "hand.thumbsdown.fill"
+        case handThumbsdownFill = "hand.thumbsdown.fill"
         /// 􀝰
-        static let handPointUpLeft:String = "hand.point.up.left"
+        case handPointUpLeft = "hand.point.up.left"
         /// 􀝱
-        static let handPointUpLeftFill:String = "hand.point.up.left.fill"
+        case handPointUpLeftFill = "hand.point.up.left.fill"
         /// 􀖓
-        static let handDraw:String = "hand.draw"
+        case handDraw = "hand.draw"
         /// 􀖔
-        static let handDrawFill:String = "hand.draw.fill"
+        case handDrawFill = "hand.draw.fill"
         /// 􀬁
-        static let handTap:String = "hand.tap"
+        case handTap = "hand.tap"
         /// 􀬂
-        static let handTapFill:String = "hand.tap.fill"
+        case handTapFill = "hand.tap.fill"
         /// 􀙽
-        static let handPointLeft:String = "hand.point.left"
+        case handPointLeft = "hand.point.left"
         /// 􀙾
-        static let handPointLeftFill:String = "hand.point.left.fill"
+        case handPointLeftFill = "hand.point.left.fill"
         /// 􀙿
-        static let handPointRight:String = "hand.point.right"
+        case handPointRight = "hand.point.right"
         /// 􀚀
-        static let handPointRightFill:String = "hand.point.right.fill"
+        case handPointRightFill = "hand.point.right.fill"
         /// 􀤹
-        static let handPointUp:String = "hand.point.up"
+        case handPointUp = "hand.point.up"
         /// 􀤺
-        static let handPointUpFill:String = "hand.point.up.fill"
+        case handPointUpFill = "hand.point.up.fill"
         /// 􀦂
-        static let handPointUpBraille:String = "hand.point.up.braille"
+        case handPointUpBraille = "hand.point.up.braille"
         /// 􀦃
-        static let handPointUpBrailleFill:String = "hand.point.up.braille.fill"
+        case handPointUpBrailleFill = "hand.point.up.braille.fill"
         /// 􀤻
-        static let handPointDown:String = "hand.point.down"
+        case handPointDown = "hand.point.down"
         /// 􀤼
-        static let handPointDownFill:String = "hand.point.down.fill"
+        case handPointDownFill = "hand.point.down.fill"
         /// 􀟰
-        static let handWave:String = "hand.wave"
+        case handWave = "hand.wave"
         /// 􀟱
-        static let handWaveFill:String = "hand.wave.fill"
+        case handWaveFill = "hand.wave.fill"
         /// 􀟮
-        static let handsClap:String = "hands.clap"
+        case handsClap = "hands.clap"
         /// 􀟯
-        static let handsClapFill:String = "hands.clap.fill"
+        case handsClapFill = "hands.clap.fill"
         /// 􀲮
-        static let handsSparkles:String = "hands.sparkles"
+        case handsSparkles = "hands.sparkles"
         /// 􀲯
-        static let handsSparklesFill:String = "hands.sparkles.fill"
+        case handsSparklesFill = "hands.sparkles.fill"
         /// 􀐷
-        static let rectangleCompressVertical:String = "rectangle.compress.vertical"
+        case rectangleCompressVertical = "rectangle.compress.vertical"
         /// 􀐸
-        static let rectangleExpandVertical:String = "rectangle.expand.vertical"
+        case rectangleExpandVertical = "rectangle.expand.vertical"
         /// 􀙮
-        static let rectangleAndArrowUpRightAndArrowDownLeft:String = "rectangle.and.arrow.up.right.and.arrow.down.left"
+        case rectangleAndArrowUpRightAndArrowDownLeft = "rectangle.and.arrow.up.right.and.arrow.down.left"
         /// 􀙯
-        static let rectangleAndArrowUpRightAndArrowDownLeftSlash:String = "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
+        case rectangleAndArrowUpRightAndArrowDownLeftSlash = "rectangle.and.arrow.up.right.and.arrow.down.left.slash"
         /// 􀯭
-        static let square2Stack3d:String = "square.2.stack.3d"
+        case square2Stack3d = "square.2.stack.3d"
         /// 􀯮
-        static let square2Stack3dTopFill:String = "square.2.stack.3d.top.fill"
+        case square2Stack3dTopFill = "square.2.stack.3d.top.fill"
         /// 􀯯
-        static let square2Stack3dBottomFill:String = "square.2.stack.3d.bottom.fill"
+        case square2Stack3dBottomFill = "square.2.stack.3d.bottom.fill"
         /// 􀯰
-        static let square3Stack3d:String = "square.3.stack.3d"
+        case square3Stack3d = "square.3.stack.3d"
         /// 􀯱
-        static let square3Stack3dTopFill:String = "square.3.stack.3d.top.fill"
+        case square3Stack3dTopFill = "square.3.stack.3d.top.fill"
         /// 􀯲
-        static let square3Stack3dMiddleFill:String = "square.3.stack.3d.middle.fill"
+        case square3Stack3dMiddleFill = "square.3.stack.3d.middle.fill"
         /// 􀯳
-        static let square3Stack3dBottomFill:String = "square.3.stack.3d.bottom.fill"
+        case square3Stack3dBottomFill = "square.3.stack.3d.bottom.fill"
         /// 􀳃
-        static let cylinder:String = "cylinder"
+        case cylinder = "cylinder"
         /// 􀳄
-        static let cylinderFill:String = "cylinder.fill"
+        case cylinderFill = "cylinder.fill"
         /// 􀡓
-        static let cylinderSplit1x2:String = "cylinder.split.1x2"
+        case cylinderSplit1x2 = "cylinder.split.1x2"
         /// 􀡔
-        static let cylinderSplit1x2Fill:String = "cylinder.split.1x2.fill"
+        case cylinderSplit1x2Fill = "cylinder.split.1x2.fill"
         /// 􀐾
-        static let chartBar:String = "chart.bar"
+        case chartBar = "chart.bar"
         /// 􀐿
-        static let chartBarFill:String = "chart.bar.fill"
+        case chartBarFill = "chart.bar.fill"
         /// 􀑀
-        static let chartPie:String = "chart.pie"
+        case chartPie = "chart.pie"
         /// 􀜋
-        static let chartPieFill:String = "chart.pie.fill"
+        case chartPieFill = "chart.pie.fill"
         /// 􀣉
-        static let chartBarXaxis:String = "chart.bar.xaxis"
+        case chartBarXaxis = "chart.bar.xaxis"
         /// 􀮋
-        static let dotSquareshapeSplit2x2:String = "dot.squareshape.split.2x2"
+        case dotSquareshapeSplit2x2 = "dot.squareshape.split.2x2"
         /// 􀮌
-        static let squareshapeSplit2x2Dotted:String = "squareshape.split.2x2.dotted"
+        case squareshapeSplit2x2Dotted = "squareshape.split.2x2.dotted"
         /// 􀮞
-        static let squareshapeSplit2x2:String = "squareshape.split.2x2"
+        case squareshapeSplit2x2 = "squareshape.split.2x2"
         /// 􀮟
-        static let squareshapeSplit3x3:String = "squareshape.split.3x3"
+        case squareshapeSplit3x3 = "squareshape.split.3x3"
         /// 􀑂
-        static let burst:String = "burst"
+        case burst = "burst"
         /// 􀘞
-        static let burstFill:String = "burst.fill"
+        case burstFill = "burst.fill"
         /// 􀜟
-        static let waveformPathEcg:String = "waveform.path.ecg"
+        case waveformPathEcg = "waveform.path.ecg"
         /// 􀟪
-        static let waveformPathEcgRectangle:String = "waveform.path.ecg.rectangle"
+        case waveformPathEcgRectangle = "waveform.path.ecg.rectangle"
         /// 􀟫
-        static let waveformPathEcgRectangleFill:String = "waveform.path.ecg.rectangle.fill"
+        case waveformPathEcgRectangleFill = "waveform.path.ecg.rectangle.fill"
         /// 􀑃
-        static let waveformPath:String = "waveform.path"
+        case waveformPath = "waveform.path"
         /// 􀑄
-        static let waveformPathBadgePlus:String = "waveform.path.badge.plus"
+        case waveformPathBadgePlus = "waveform.path.badge.plus"
         /// 􀑅
-        static let waveformPathBadgeMinus:String = "waveform.path.badge.minus"
+        case waveformPathBadgeMinus = "waveform.path.badge.minus"
         /// 􀙫
-        static let waveform:String = "waveform"
+        case waveform = "waveform"
         /// 􀞈
-        static let waveformCircle:String = "waveform.circle"
+        case waveformCircle = "waveform.circle"
         /// 􀞉
-        static let waveformCircleFill:String = "waveform.circle.fill"
+        case waveformCircleFill = "waveform.circle.fill"
         /// 􀑆
-        static let staroflife:String = "staroflife"
+        case staroflife = "staroflife"
         /// 􀑇
-        static let staroflifeFill:String = "staroflife.fill"
+        case staroflifeFill = "staroflife.fill"
         /// 􀒺
-        static let staroflifeCircle:String = "staroflife.circle"
+        case staroflifeCircle = "staroflife.circle"
         /// 􀒻
-        static let staroflifeCircleFill:String = "staroflife.circle.fill"
+        case staroflifeCircleFill = "staroflife.circle.fill"
         /// 􀠅
-        static let simcard:String = "simcard"
+        case simcard = "simcard"
         /// 􀠆
-        static let simcardFill:String = "simcard.fill"
+        case simcardFill = "simcard.fill"
         /// 􀡹
-        static let simcard2:String = "simcard.2"
+        case simcard2 = "simcard.2"
         /// 􀡺
-        static let simcard2Fill:String = "simcard.2.fill"
+        case simcard2Fill = "simcard.2.fill"
         /// 􀲵
-        static let esim:String = "esim"
+        case esim = "esim"
         /// 􀲶
-        static let esimFill:String = "esim.fill"
+        case esimFill = "esim.fill"
         /// 􀪇
-        static let sdcard:String = "sdcard"
+        case sdcard = "sdcard"
         /// 􀪈
-        static let sdcardFill:String = "sdcard.fill"
+        case sdcardFill = "sdcard.fill"
         /// 􀟒
-        static let touchid:String = "touchid"
+        case touchid = "touchid"
         /// 􀥠
-        static let bonjour:String = "bonjour"
+        case bonjour = "bonjour"
         /// 􀬚
-        static let atom:String = "atom"
+        case atom = "atom"
         /// 􀭭
-        static let scalemass:String = "scalemass"
+        case scalemass = "scalemass"
         /// 􀭮
-        static let scalemassFill:String = "scalemass.fill"
+        case scalemassFill = "scalemass.fill"
         /// 􀑈
-        static let headphones:String = "headphones"
+        case headphones = "headphones"
         /// 􀒾
-        static let headphonesCircle:String = "headphones.circle"
+        case headphonesCircle = "headphones.circle"
         /// 􀒿
-        static let headphonesCircleFill:String = "headphones.circle.fill"
+        case headphonesCircleFill = "headphones.circle.fill"
         /// 􀑉
-        static let gift:String = "gift"
+        case gift = "gift"
         /// 􀑊
-        static let giftFill:String = "gift.fill"
+        case giftFill = "gift.fill"
         /// 􀓀
-        static let giftCircle:String = "gift.circle"
+        case giftCircle = "gift.circle"
         /// 􀓁
-        static let giftCircleFill:String = "gift.circle.fill"
+        case giftCircleFill = "gift.circle.fill"
         /// 􀑍
-        static let plusApp:String = "plus.app"
+        case plusApp = "plus.app"
         /// 􀑎
-        static let plusAppFill:String = "plus.app.fill"
+        case plusAppFill = "plus.app.fill"
         /// 􀯴
-        static let arrowDownApp:String = "arrow.down.app"
+        case arrowDownApp = "arrow.down.app"
         /// 􀯵
-        static let arrowDownAppFill:String = "arrow.down.app.fill"
+        case arrowDownAppFill = "arrow.down.app.fill"
         /// 􀮵
-        static let arrowUpForwardApp:String = "arrow.up.forward.app"
+        case arrowUpForwardApp = "arrow.up.forward.app"
         /// 􀮶
-        static let arrowUpForwardAppFill:String = "arrow.up.forward.app.fill"
+        case arrowUpForwardAppFill = "arrow.up.forward.app.fill"
         /// 􀑏
-        static let appBadge:String = "app.badge"
+        case appBadge = "app.badge"
         /// 􀑐
-        static let appBadgeFill:String = "app.badge.fill"
+        case appBadgeFill = "app.badge.fill"
         /// 􀭨
-        static let appclip:String = "appclip"
+        case appclip = "appclip"
         /// 􀑑
-        static let appGift:String = "app.gift"
+        case appGift = "app.gift"
         /// 􀑒
-        static let appGiftFill:String = "app.gift.fill"
+        case appGiftFill = "app.gift.fill"
         /// 􀑓
-        static let airplane:String = "airplane"
+        case airplane = "airplane"
         /// 􀒸
-        static let airplaneCircle:String = "airplane.circle"
+        case airplaneCircle = "airplane.circle"
         /// 􀒹
-        static let airplaneCircleFill:String = "airplane.circle.fill"
+        case airplaneCircleFill = "airplane.circle.fill"
         /// 􀑔
-        static let studentdesk:String = "studentdesk"
+        case studentdesk = "studentdesk"
         /// 􀖇
-        static let hourglass:String = "hourglass"
+        case hourglass = "hourglass"
         /// 􀣬
-        static let hourglassBadgePlus:String = "hourglass.badge.plus"
+        case hourglassBadgePlus = "hourglass.badge.plus"
         /// 􀖈
-        static let hourglassBottomhalfFill:String = "hourglass.bottomhalf.fill"
+        case hourglassBottomhalfFill = "hourglass.bottomhalf.fill"
         /// 􀖉
-        static let hourglassTophalfFill:String = "hourglass.tophalf.fill"
+        case hourglassTophalfFill = "hourglass.tophalf.fill"
         /// 􀭿
-        static let banknote:String = "banknote"
+        case banknote = "banknote"
         /// 􀮀
-        static let banknoteFill:String = "banknote.fill"
+        case banknoteFill = "banknote.fill"
         /// 􀒆
-        static let paragraphsign:String = "paragraphsign"
+        case paragraphsign = "paragraphsign"
         /// 􀚐
-        static let purchased:String = "purchased"
+        case purchased = "purchased"
         /// 􀚑
-        static let purchasedCircle:String = "purchased.circle"
+        case purchasedCircle = "purchased.circle"
         /// 􀚒
-        static let purchasedCircleFill:String = "purchased.circle.fill"
+        case purchasedCircleFill = "purchased.circle.fill"
         /// 􀒱
-        static let perspective:String = "perspective"
+        case perspective = "perspective"
         /// 􀞖
-        static let aspectratio:String = "aspectratio"
+        case aspectratio = "aspectratio"
         /// 􀞏
-        static let aspectratioFill:String = "aspectratio.fill"
+        case aspectratioFill = "aspectratio.fill"
         /// 􀟗
-        static let cameraFilters:String = "camera.filters"
+        case cameraFilters = "camera.filters"
         /// 􀍵
-        static let skew:String = "skew"
+        case skew = "skew"
         /// 􀞒
-        static let arrowLeftAndRightRighttriangleLeftRighttriangleRight:String = "arrow.left.and.right.righttriangle.left.righttriangle.right"
+        case arrowLeftAndRightRighttriangleLeftRighttriangleRight = "arrow.left.and.right.righttriangle.left.righttriangle.right"
         /// 􀞓
-        static let arrowLeftAndRightRighttriangleLeftRighttriangleRightFill:String = "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
+        case arrowLeftAndRightRighttriangleLeftRighttriangleRightFill = "arrow.left.and.right.righttriangle.left.righttriangle.right.fill"
         /// 􀟨
-        static let arrowUpAndDownRighttriangleUpRighttriangleDown:String = "arrow.up.and.down.righttriangle.up.righttriangle.down"
+        case arrowUpAndDownRighttriangleUpRighttriangleDown = "arrow.up.and.down.righttriangle.up.righttriangle.down"
         /// 􀟩
-        static let arrowUpAndDownRighttriangleUpFillRighttriangleDownFill:String = "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill"
+        case arrowUpAndDownRighttriangleUpFillRighttriangleDownFill = "arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill"
         /// 􀠉
-        static let arrowtriangleLeftAndLineVerticalAndArrowtriangleRight:String = "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
+        case arrowtriangleLeftAndLineVerticalAndArrowtriangleRight = "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right"
         /// 􀟦
-        static let arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill:String = "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"
+        case arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill = "arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill"
         /// 􀠊
-        static let arrowtriangleRightAndLineVerticalAndArrowtriangleLeft:String = "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"
+        case arrowtriangleRightAndLineVerticalAndArrowtriangleLeft = "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left"
         /// 􀟧
-        static let arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill:String = "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
+        case arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill = "arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill"
         /// 􀓗
-        static let grid:String = "grid"
+        case grid = "grid"
         /// 􀓘
-        static let gridCircle:String = "grid.circle"
+        case gridCircle = "grid.circle"
         /// 􀘟
-        static let gridCircleFill:String = "grid.circle.fill"
+        case gridCircleFill = "grid.circle.fill"
         /// 􀓜
-        static let burn:String = "burn"
+        case burn = "burn"
         /// 􀡦
-        static let lifepreserver:String = "lifepreserver"
+        case lifepreserver = "lifepreserver"
         /// 􀡧
-        static let lifepreserverFill:String = "lifepreserver.fill"
+        case lifepreserverFill = "lifepreserver.fill"
         /// 􀕼
-        static let recordingtape:String = "recordingtape"
+        case recordingtape = "recordingtape"
         /// 􀖆
-        static let eyeglasses:String = "eyeglasses"
+        case eyeglasses = "eyeglasses"
         /// 􀠍
-        static let binoculars:String = "binoculars"
+        case binoculars = "binoculars"
         /// 􀠎
-        static let binocularsFill:String = "binoculars.fill"
+        case binocularsFill = "binoculars.fill"
         /// 􀛨
-        static let battery100:String = "battery.100"
+        case battery100 = "battery.100"
         /// 􀛩
-        static let battery25:String = "battery.25"
+        case battery25 = "battery.25"
         /// 􀛪
-        static let battery0:String = "battery.0"
+        case battery0 = "battery.0"
         /// 􀢋
-        static let battery100Bolt:String = "battery.100.bolt"
+        case battery100Bolt = "battery.100.bolt"
         /// 􀫬
-        static let minusPlusBatteryblock:String = "minus.plus.batteryblock"
+        case minusPlusBatteryblock = "minus.plus.batteryblock"
         /// 􀫭
-        static let minusPlusBatteryblockFill:String = "minus.plus.batteryblock.fill"
+        case minusPlusBatteryblockFill = "minus.plus.batteryblock.fill"
         /// 􀫮
-        static let boltFillBatteryblock:String = "bolt.fill.batteryblock"
+        case boltFillBatteryblock = "bolt.fill.batteryblock"
         /// 􀫯
-        static let boltFillBatteryblockFill:String = "bolt.fill.batteryblock.fill"
+        case boltFillBatteryblockFill = "bolt.fill.batteryblock.fill"
         /// 􀛭
-        static let lightbulb:String = "lightbulb"
+        case lightbulb = "lightbulb"
         /// 􀛮
-        static let lightbulbFill:String = "lightbulb.fill"
+        case lightbulbFill = "lightbulb.fill"
         /// 􀞃
-        static let lightbulbSlash:String = "lightbulb.slash"
+        case lightbulbSlash = "lightbulb.slash"
         /// 􀞄
-        static let lightbulbSlashFill:String = "lightbulb.slash.fill"
+        case lightbulbSlashFill = "lightbulb.slash.fill"
         /// 􀥢
-        static let fiberchannel:String = "fiberchannel"
+        case fiberchannel = "fiberchannel"
         /// 􀭞
-        static let squareFillTextGrid1x2:String = "square.fill.text.grid.1x2"
+        case squareFillTextGrid1x2 = "square.fill.text.grid.1x2"
         /// 􀋱
-        static let listDash:String = "list.dash"
+        case listDash = "list.dash"
         /// 􀋲
-        static let listBullet:String = "list.bullet"
+        case listBullet = "list.bullet"
         /// 􀢽
-        static let listTriangle:String = "list.triangle"
+        case listTriangle = "list.triangle"
         /// 􀋳
-        static let listBulletIndent:String = "list.bullet.indent"
+        case listBulletIndent = "list.bullet.indent"
         /// 􀋴
-        static let listNumber:String = "list.number"
+        case listNumber = "list.number"
         /// 􀣩
-        static let listStar:String = "list.star"
+        case listStar = "list.star"
         /// 􀋵
-        static let increaseIndent:String = "increase.indent"
+        case increaseIndent = "increase.indent"
         /// 􀋶
-        static let decreaseIndent:String = "decrease.indent"
+        case decreaseIndent = "decrease.indent"
         /// 􀝿
-        static let decreaseQuotelevel:String = "decrease.quotelevel"
+        case decreaseQuotelevel = "decrease.quotelevel"
         /// 􀞀
-        static let increaseQuotelevel:String = "increase.quotelevel"
+        case increaseQuotelevel = "increase.quotelevel"
         /// 􀋷
-        static let listBulletBelowRectangle:String = "list.bullet.below.rectangle"
+        case listBulletBelowRectangle = "list.bullet.below.rectangle"
         /// 􀋸
-        static let textBadgePlus:String = "text.badge.plus"
+        case textBadgePlus = "text.badge.plus"
         /// 􀋹
-        static let textBadgeMinus:String = "text.badge.minus"
+        case textBadgeMinus = "text.badge.minus"
         /// 􀋺
-        static let textBadgeCheckmark:String = "text.badge.checkmark"
+        case textBadgeCheckmark = "text.badge.checkmark"
         /// 􀋻
-        static let textBadgeXmark:String = "text.badge.xmark"
+        case textBadgeXmark = "text.badge.xmark"
         /// 􀋼
-        static let textBadgeStar:String = "text.badge.star"
+        case textBadgeStar = "text.badge.star"
         /// 􀋽
-        static let textInsert:String = "text.insert"
+        case textInsert = "text.insert"
         /// 􀋾
-        static let textAppend:String = "text.append"
+        case textAppend = "text.append"
         /// 􀋿
-        static let textQuote:String = "text.quote"
+        case textQuote = "text.quote"
         /// 􀌀
-        static let textAlignleft:String = "text.alignleft"
+        case textAlignleft = "text.alignleft"
         /// 􀌁
-        static let textAligncenter:String = "text.aligncenter"
+        case textAligncenter = "text.aligncenter"
         /// 􀌂
-        static let textAlignright:String = "text.alignright"
+        case textAlignright = "text.alignright"
         /// 􀌃
-        static let textJustify:String = "text.justify"
+        case textJustify = "text.justify"
         /// 􀌄
-        static let textJustifyleft:String = "text.justifyleft"
+        case textJustifyleft = "text.justifyleft"
         /// 􀌅
-        static let textJustifyright:String = "text.justifyright"
+        case textJustifyright = "text.justifyright"
         /// 􀧎
-        static let textRedaction:String = "text.redaction"
+        case textRedaction = "text.redaction"
         /// 􀬉
-        static let listAndFilm:String = "list.and.film"
+        case listAndFilm = "list.and.film"
         /// 􀌇
-        static let lineHorizontal3:String = "line.horizontal.3"
+        case lineHorizontal3 = "line.horizontal.3"
         /// 􀜓
-        static let lineHorizontal3Decrease:String = "line.horizontal.3.decrease"
+        case lineHorizontal3Decrease = "line.horizontal.3.decrease"
         /// 􀌈
-        static let lineHorizontal3DecreaseCircle:String = "line.horizontal.3.decrease.circle"
+        case lineHorizontal3DecreaseCircle = "line.horizontal.3.decrease.circle"
         /// 􀌉
-        static let lineHorizontal3DecreaseCircleFill:String = "line.horizontal.3.decrease.circle.fill"
+        case lineHorizontal3DecreaseCircleFill = "line.horizontal.3.decrease.circle.fill"
         /// 􀧱
-        static let lineHorizontal3Circle:String = "line.horizontal.3.circle"
+        case lineHorizontal3Circle = "line.horizontal.3.circle"
         /// 􀧲
-        static let lineHorizontal3CircleFill:String = "line.horizontal.3.circle.fill"
+        case lineHorizontal3CircleFill = "line.horizontal.3.circle.fill"
         /// 􀘵
-        static let lineHorizontal2DecreaseCircle:String = "line.horizontal.2.decrease.circle"
+        case lineHorizontal2DecreaseCircle = "line.horizontal.2.decrease.circle"
         /// 􀘶
-        static let lineHorizontal2DecreaseCircleFill:String = "line.horizontal.2.decrease.circle.fill"
+        case lineHorizontal2DecreaseCircleFill = "line.horizontal.2.decrease.circle.fill"
         /// 􀅏
-        static let character:String = "character"
+        case character = "character"
         /// 􀵷
-        static let textformatSizeSmaller:String = "textformat.size.smaller"
+        case textformatSizeSmaller = "textformat.size.smaller"
         /// 􀵿
-        static let textformatSizeLarger:String = "textformat.size.larger"
+        case textformatSizeLarger = "textformat.size.larger"
         /// 􀥊
-        static let abc:String = "abc"
+        case abc = "abc"
         /// 􀅑
-        static let textformatAlt:String = "textformat.alt"
+        case textformatAlt = "textformat.alt"
         /// 􀅒
-        static let textformat:String = "textformat"
+        case textformat = "textformat"
         /// 􀅐
-        static let textformatSize:String = "textformat.size"
+        case textformatSize = "textformat.size"
         /// 􀓢
-        static let textformatSuperscript:String = "textformat.superscript"
+        case textformatSuperscript = "textformat.superscript"
         /// 􀓡
-        static let textformatSubscript:String = "textformat.subscript"
+        case textformatSubscript = "textformat.subscript"
         /// 􀅓
-        static let bold:String = "bold"
+        case bold = "bold"
         /// 􀅔
-        static let italic:String = "italic"
+        case italic = "italic"
         /// 􀅕
-        static let underline:String = "underline"
+        case underline = "underline"
         /// 􀅖
-        static let strikethrough:String = "strikethrough"
+        case strikethrough = "strikethrough"
         /// 􀨡
-        static let shadow:String = "shadow"
+        case shadow = "shadow"
         /// 􀅗
-        static let boldItalicUnderline:String = "bold.italic.underline"
+        case boldItalicUnderline = "bold.italic.underline"
         /// 􀅘
-        static let boldUnderline:String = "bold.underline"
+        case boldUnderline = "bold.underline"
         /// 􀅙
-        static let view2d:String = "view.2d"
+        case view2d = "view.2d"
         /// 􀅪
-        static let view3d:String = "view.3d"
+        case view3d = "view.3d"
         /// 􀅫
-        static let textCursor:String = "text.cursor"
+        case textCursor = "text.cursor"
         /// 􀅬
-        static let fx:String = "fx"
+        case fx = "fx"
         /// 􀅭
-        static let fCursive:String = "f.cursive"
+        case fCursive = "f.cursive"
         /// 􀝧
-        static let fCursiveCircle:String = "f.cursive.circle"
+        case fCursiveCircle = "f.cursive.circle"
         /// 􀝨
-        static let fCursiveCircleFill:String = "f.cursive.circle.fill"
+        case fCursiveCircleFill = "f.cursive.circle.fill"
         /// 􀥋
-        static let k:String = "k"
+        case k = "k"
         /// 􀘽
-        static let sum:String = "sum"
+        case sum = "sum"
         /// 􀘾
-        static let percent:String = "percent"
+        case percent = "percent"
         /// 􀅮
-        static let function:String = "function"
+        case function = "function"
         /// 􀅯
-        static let textformatAbc:String = "textformat.abc"
+        case textformatAbc = "textformat.abc"
         /// 􀅰
-        static let textformatAbcDottedunderline:String = "textformat.abc.dottedunderline"
+        case textformatAbcDottedunderline = "textformat.abc.dottedunderline"
         /// 􀥌
-        static let fn:String = "fn"
+        case fn = "fn"
         /// 􀅱
-        static let textformat123:String = "textformat.123"
+        case textformat123 = "textformat.123"
         /// 􀅶
-        static let textbox:String = "textbox"
+        case textbox = "textbox"
         /// 􀤍
-        static let aMagnify:String = "a.magnify"
+        case aMagnify = "a.magnify"
         /// 􀅳
-        static let info:String = "info"
+        case info = "info"
         /// 􀅴
-        static let infoCircle:String = "info.circle"
+        case infoCircle = "info.circle"
         /// 􀅵
-        static let infoCircleFill:String = "info.circle.fill"
+        case infoCircleFill = "info.circle.fill"
         /// 􀅷
-        static let at:String = "at"
+        case at = "at"
         /// 􀢐
-        static let atCircle:String = "at.circle"
+        case atCircle = "at.circle"
         /// 􀢑
-        static let atCircleFill:String = "at.circle.fill"
+        case atCircleFill = "at.circle.fill"
         /// 􀅸
-        static let atBadgePlus:String = "at.badge.plus"
+        case atBadgePlus = "at.badge.plus"
         /// 􀅹
-        static let atBadgeMinus:String = "at.badge.minus"
+        case atBadgeMinus = "at.badge.minus"
         /// 􀅍
-        static let questionmark:String = "questionmark"
+        case questionmark = "questionmark"
         /// 􀁜
-        static let questionmarkCircle:String = "questionmark.circle"
+        case questionmarkCircle = "questionmark.circle"
         /// 􀁝
-        static let questionmarkCircleFill:String = "questionmark.circle.fill"
+        case questionmarkCircleFill = "questionmark.circle.fill"
         /// 􀃬
-        static let questionmarkSquare:String = "questionmark.square"
+        case questionmarkSquare = "questionmark.square"
         /// 􀃭
-        static let questionmarkSquareFill:String = "questionmark.square.fill"
+        case questionmarkSquareFill = "questionmark.square.fill"
         /// 􀄢
-        static let questionmarkDiamond:String = "questionmark.diamond"
+        case questionmarkDiamond = "questionmark.diamond"
         /// 􀄣
-        static let questionmarkDiamondFill:String = "questionmark.diamond.fill"
+        case questionmarkDiamondFill = "questionmark.diamond.fill"
         /// 􀅎
-        static let exclamationmark:String = "exclamationmark"
+        case exclamationmark = "exclamationmark"
         /// 􀢒
-        static let exclamationmark2:String = "exclamationmark.2"
+        case exclamationmark2 = "exclamationmark.2"
         /// 􀣴
-        static let exclamationmark3:String = "exclamationmark.3"
+        case exclamationmark3 = "exclamationmark.3"
         /// 􀁞
-        static let exclamationmarkCircle:String = "exclamationmark.circle"
+        case exclamationmarkCircle = "exclamationmark.circle"
         /// 􀁟
-        static let exclamationmarkCircleFill:String = "exclamationmark.circle.fill"
+        case exclamationmarkCircleFill = "exclamationmark.circle.fill"
         /// 􀃮
-        static let exclamationmarkSquare:String = "exclamationmark.square"
+        case exclamationmarkSquare = "exclamationmark.square"
         /// 􀃯
-        static let exclamationmarkSquareFill:String = "exclamationmark.square.fill"
+        case exclamationmarkSquareFill = "exclamationmark.square.fill"
         /// 􀘯
-        static let exclamationmarkOctagon:String = "exclamationmark.octagon"
+        case exclamationmarkOctagon = "exclamationmark.octagon"
         /// 􀘰
-        static let exclamationmarkOctagonFill:String = "exclamationmark.octagon.fill"
+        case exclamationmarkOctagonFill = "exclamationmark.octagon.fill"
         /// 􀞟
-        static let exclamationmarkShield:String = "exclamationmark.shield"
+        case exclamationmarkShield = "exclamationmark.shield"
         /// 􀞠
-        static let exclamationmarkShieldFill:String = "exclamationmark.shield.fill"
+        case exclamationmarkShieldFill = "exclamationmark.shield.fill"
         /// 􀅼
-        static let plus:String = "plus"
+        case plus = "plus"
         /// 􀁌
-        static let plusCircle:String = "plus.circle"
+        case plusCircle = "plus.circle"
         /// 􀁍
-        static let plusCircleFill:String = "plus.circle.fill"
+        case plusCircleFill = "plus.circle.fill"
         /// 􀃜
-        static let plusSquare:String = "plus.square"
+        case plusSquare = "plus.square"
         /// 􀃝
-        static let plusSquareFill:String = "plus.square.fill"
+        case plusSquareFill = "plus.square.fill"
         /// 􀏇
-        static let plusRectangle:String = "plus.rectangle"
+        case plusRectangle = "plus.rectangle"
         /// 􀏈
-        static let plusRectangleFill:String = "plus.rectangle.fill"
+        case plusRectangleFill = "plus.rectangle.fill"
         /// 􀡪
-        static let plusRectanglePortrait:String = "plus.rectangle.portrait"
+        case plusRectanglePortrait = "plus.rectangle.portrait"
         /// 􀡫
-        static let plusRectanglePortraitFill:String = "plus.rectangle.portrait.fill"
+        case plusRectanglePortraitFill = "plus.rectangle.portrait.fill"
         /// 􀡿
-        static let plusDiamond:String = "plus.diamond"
+        case plusDiamond = "plus.diamond"
         /// 􀢀
-        static let plusDiamondFill:String = "plus.diamond.fill"
+        case plusDiamondFill = "plus.diamond.fill"
         /// 􀅽
-        static let minus:String = "minus"
+        case minus = "minus"
         /// 􀁎
-        static let minusCircle:String = "minus.circle"
+        case minusCircle = "minus.circle"
         /// 􀁏
-        static let minusCircleFill:String = "minus.circle.fill"
+        case minusCircleFill = "minus.circle.fill"
         /// 􀃞
-        static let minusSquare:String = "minus.square"
+        case minusSquare = "minus.square"
         /// 􀃟
-        static let minusSquareFill:String = "minus.square.fill"
+        case minusSquareFill = "minus.square.fill"
         /// 􀏉
-        static let minusRectangle:String = "minus.rectangle"
+        case minusRectangle = "minus.rectangle"
         /// 􀏊
-        static let minusRectangleFill:String = "minus.rectangle.fill"
+        case minusRectangleFill = "minus.rectangle.fill"
         /// 􀡬
-        static let minusRectanglePortrait:String = "minus.rectangle.portrait"
+        case minusRectanglePortrait = "minus.rectangle.portrait"
         /// 􀡭
-        static let minusRectanglePortraitFill:String = "minus.rectangle.portrait.fill"
+        case minusRectanglePortraitFill = "minus.rectangle.portrait.fill"
         /// 􀢁
-        static let minusDiamond:String = "minus.diamond"
+        case minusDiamond = "minus.diamond"
         /// 􀢂
-        static let minusDiamondFill:String = "minus.diamond.fill"
+        case minusDiamondFill = "minus.diamond.fill"
         /// 􀛺
-        static let plusminus:String = "plusminus"
+        case plusminus = "plusminus"
         /// 􀍶
-        static let plusminusCircle:String = "plusminus.circle"
+        case plusminusCircle = "plusminus.circle"
         /// 􀘝
-        static let plusminusCircleFill:String = "plusminus.circle.fill"
+        case plusminusCircleFill = "plusminus.circle.fill"
         /// 􀅺
-        static let plusSlashMinus:String = "plus.slash.minus"
+        case plusSlashMinus = "plus.slash.minus"
         /// 􀅻
-        static let minusSlashPlus:String = "minus.slash.plus"
+        case minusSlashPlus = "minus.slash.plus"
         /// 􀅾
-        static let multiply:String = "multiply"
+        case multiply = "multiply"
         /// 􀁐
-        static let multiplyCircle:String = "multiply.circle"
+        case multiplyCircle = "multiply.circle"
         /// 􀁑
-        static let multiplyCircleFill:String = "multiply.circle.fill"
+        case multiplyCircleFill = "multiply.circle.fill"
         /// 􀃠
-        static let multiplySquare:String = "multiply.square"
+        case multiplySquare = "multiply.square"
         /// 􀃡
-        static let multiplySquareFill:String = "multiply.square.fill"
+        case multiplySquareFill = "multiply.square.fill"
         /// 􀏍
-        static let xmarkRectangle:String = "xmark.rectangle"
+        case xmarkRectangle = "xmark.rectangle"
         /// 􀏎
-        static let xmarkRectangleFill:String = "xmark.rectangle.fill"
+        case xmarkRectangleFill = "xmark.rectangle.fill"
         /// 􀡰
-        static let xmarkRectanglePortrait:String = "xmark.rectangle.portrait"
+        case xmarkRectanglePortrait = "xmark.rectangle.portrait"
         /// 􀡱
-        static let xmarkRectanglePortraitFill:String = "xmark.rectangle.portrait.fill"
+        case xmarkRectanglePortraitFill = "xmark.rectangle.portrait.fill"
         /// 􀢃
-        static let xmarkDiamond:String = "xmark.diamond"
+        case xmarkDiamond = "xmark.diamond"
         /// 􀢄
-        static let xmarkDiamondFill:String = "xmark.diamond.fill"
+        case xmarkDiamondFill = "xmark.diamond.fill"
         /// 􀞝
-        static let xmarkShield:String = "xmark.shield"
+        case xmarkShield = "xmark.shield"
         /// 􀞞
-        static let xmarkShieldFill:String = "xmark.shield.fill"
+        case xmarkShieldFill = "xmark.shield.fill"
         /// 􀒉
-        static let xmarkOctagon:String = "xmark.octagon"
+        case xmarkOctagon = "xmark.octagon"
         /// 􀒊
-        static let xmarkOctagonFill:String = "xmark.octagon.fill"
+        case xmarkOctagonFill = "xmark.octagon.fill"
         /// 􀅿
-        static let divide:String = "divide"
+        case divide = "divide"
         /// 􀁒
-        static let divideCircle:String = "divide.circle"
+        case divideCircle = "divide.circle"
         /// 􀁓
-        static let divideCircleFill:String = "divide.circle.fill"
+        case divideCircleFill = "divide.circle.fill"
         /// 􀃢
-        static let divideSquare:String = "divide.square"
+        case divideSquare = "divide.square"
         /// 􀃣
-        static let divideSquareFill:String = "divide.square.fill"
+        case divideSquareFill = "divide.square.fill"
         /// 􀆀
-        static let equal:String = "equal"
+        case equal = "equal"
         /// 􀁔
-        static let equalCircle:String = "equal.circle"
+        case equalCircle = "equal.circle"
         /// 􀁕
-        static let equalCircleFill:String = "equal.circle.fill"
+        case equalCircleFill = "equal.circle.fill"
         /// 􀃤
-        static let equalSquare:String = "equal.square"
+        case equalSquare = "equal.square"
         /// 􀃥
-        static let equalSquareFill:String = "equal.square.fill"
+        case equalSquareFill = "equal.square.fill"
         /// 􀆁
-        static let lessthan:String = "lessthan"
+        case lessthan = "lessthan"
         /// 􀁘
-        static let lessthanCircle:String = "lessthan.circle"
+        case lessthanCircle = "lessthan.circle"
         /// 􀁙
-        static let lessthanCircleFill:String = "lessthan.circle.fill"
+        case lessthanCircleFill = "lessthan.circle.fill"
         /// 􀃦
-        static let lessthanSquare:String = "lessthan.square"
+        case lessthanSquare = "lessthan.square"
         /// 􀃧
-        static let lessthanSquareFill:String = "lessthan.square.fill"
+        case lessthanSquareFill = "lessthan.square.fill"
         /// 􀆂
-        static let greaterthan:String = "greaterthan"
+        case greaterthan = "greaterthan"
         /// 􀁖
-        static let greaterthanCircle:String = "greaterthan.circle"
+        case greaterthanCircle = "greaterthan.circle"
         /// 􀁗
-        static let greaterthanCircleFill:String = "greaterthan.circle.fill"
+        case greaterthanCircleFill = "greaterthan.circle.fill"
         /// 􀃨
-        static let greaterthanSquare:String = "greaterthan.square"
+        case greaterthanSquare = "greaterthan.square"
         /// 􀃩
-        static let greaterthanSquareFill:String = "greaterthan.square.fill"
+        case greaterthanSquareFill = "greaterthan.square.fill"
         /// 􀙚
-        static let chevronLeftSlashChevronRight:String = "chevron.left.slash.chevron.right"
+        case chevronLeftSlashChevronRight = "chevron.left.slash.chevron.right"
         /// 􀡅
-        static let curlybraces:String = "curlybraces"
+        case curlybraces = "curlybraces"
         /// 􀤘
-        static let curlybracesSquare:String = "curlybraces.square"
+        case curlybracesSquare = "curlybraces.square"
         /// 􀤙
-        static let curlybracesSquareFill:String = "curlybraces.square.fill"
+        case curlybracesSquareFill = "curlybraces.square.fill"
         /// 􀆃
-        static let number:String = "number"
+        case number = "number"
         /// 􀁚
-        static let numberCircle:String = "number.circle"
+        case numberCircle = "number.circle"
         /// 􀁛
-        static let numberCircleFill:String = "number.circle.fill"
+        case numberCircleFill = "number.circle.fill"
         /// 􀃪
-        static let numberSquare:String = "number.square"
+        case numberSquare = "number.square"
         /// 􀃫
-        static let numberSquareFill:String = "number.square.fill"
+        case numberSquareFill = "number.square.fill"
         /// 􀓪
-        static let xSquareroot:String = "x.squareroot"
+        case xSquareroot = "x.squareroot"
         /// 􀆄
-        static let xmark:String = "xmark"
+        case xmark = "xmark"
         /// 􀁠
-        static let xmarkCircle:String = "xmark.circle"
+        case xmarkCircle = "xmark.circle"
         /// 􀁡
-        static let xmarkCircleFill:String = "xmark.circle.fill"
+        case xmarkCircleFill = "xmark.circle.fill"
         /// 􀃰
-        static let xmarkSquare:String = "xmark.square"
+        case xmarkSquare = "xmark.square"
         /// 􀃱
-        static let xmarkSquareFill:String = "xmark.square.fill"
+        case xmarkSquareFill = "xmark.square.fill"
         /// 􀆅
-        static let checkmark:String = "checkmark"
+        case checkmark = "checkmark"
         /// 􀁢
-        static let checkmarkCircle:String = "checkmark.circle"
+        case checkmarkCircle = "checkmark.circle"
         /// 􀁣
-        static let checkmarkCircleFill:String = "checkmark.circle.fill"
+        case checkmarkCircleFill = "checkmark.circle.fill"
         /// 􀃲
-        static let checkmarkSquare:String = "checkmark.square"
+        case checkmarkSquare = "checkmark.square"
         /// 􀃳
-        static let checkmarkSquareFill:String = "checkmark.square.fill"
+        case checkmarkSquareFill = "checkmark.square.fill"
         /// 􀏋
-        static let checkmarkRectangle:String = "checkmark.rectangle"
+        case checkmarkRectangle = "checkmark.rectangle"
         /// 􀏌
-        static let checkmarkRectangleFill:String = "checkmark.rectangle.fill"
+        case checkmarkRectangleFill = "checkmark.rectangle.fill"
         /// 􀡮
-        static let checkmarkRectanglePortrait:String = "checkmark.rectangle.portrait"
+        case checkmarkRectanglePortrait = "checkmark.rectangle.portrait"
         /// 􀡯
-        static let checkmarkRectanglePortraitFill:String = "checkmark.rectangle.portrait.fill"
+        case checkmarkRectanglePortraitFill = "checkmark.rectangle.portrait.fill"
         /// 􀞛
-        static let checkmarkShield:String = "checkmark.shield"
+        case checkmarkShield = "checkmark.shield"
         /// 􀞜
-        static let checkmarkShieldFill:String = "checkmark.shield.fill"
+        case checkmarkShieldFill = "checkmark.shield.fill"
         /// 􀆉
-        static let chevronLeft:String = "chevron.left"
+        case chevronLeft = "chevron.left"
         /// 􀁲
-        static let chevronLeftCircle:String = "chevron.left.circle"
+        case chevronLeftCircle = "chevron.left.circle"
         /// 􀁳
-        static let chevronLeftCircleFill:String = "chevron.left.circle.fill"
+        case chevronLeftCircleFill = "chevron.left.circle.fill"
         /// 􀄂
-        static let chevronLeftSquare:String = "chevron.left.square"
+        case chevronLeftSquare = "chevron.left.square"
         /// 􀄃
-        static let chevronLeftSquareFill:String = "chevron.left.square.fill"
+        case chevronLeftSquareFill = "chevron.left.square.fill"
         /// 􀯶
-        static let chevronBackward:String = "chevron.backward"
+        case chevronBackward = "chevron.backward"
         /// 􀯷
-        static let chevronBackwardCircle:String = "chevron.backward.circle"
+        case chevronBackwardCircle = "chevron.backward.circle"
         /// 􀯸
-        static let chevronBackwardCircleFill:String = "chevron.backward.circle.fill"
+        case chevronBackwardCircleFill = "chevron.backward.circle.fill"
         /// 􀯹
-        static let chevronBackwardSquare:String = "chevron.backward.square"
+        case chevronBackwardSquare = "chevron.backward.square"
         /// 􀯺
-        static let chevronBackwardSquareFill:String = "chevron.backward.square.fill"
+        case chevronBackwardSquareFill = "chevron.backward.square.fill"
         /// 􀆊
-        static let chevronRight:String = "chevron.right"
+        case chevronRight = "chevron.right"
         /// 􀁴
-        static let chevronRightCircle:String = "chevron.right.circle"
+        case chevronRightCircle = "chevron.right.circle"
         /// 􀁵
-        static let chevronRightCircleFill:String = "chevron.right.circle.fill"
+        case chevronRightCircleFill = "chevron.right.circle.fill"
         /// 􀄄
-        static let chevronRightSquare:String = "chevron.right.square"
+        case chevronRightSquare = "chevron.right.square"
         /// 􀄅
-        static let chevronRightSquareFill:String = "chevron.right.square.fill"
+        case chevronRightSquareFill = "chevron.right.square.fill"
         /// 􀯻
-        static let chevronForward:String = "chevron.forward"
+        case chevronForward = "chevron.forward"
         /// 􀯼
-        static let chevronForwardCircle:String = "chevron.forward.circle"
+        case chevronForwardCircle = "chevron.forward.circle"
         /// 􀯽
-        static let chevronForwardCircleFill:String = "chevron.forward.circle.fill"
+        case chevronForwardCircleFill = "chevron.forward.circle.fill"
         /// 􀯾
-        static let chevronForwardSquare:String = "chevron.forward.square"
+        case chevronForwardSquare = "chevron.forward.square"
         /// 􀯿
-        static let chevronForwardSquareFill:String = "chevron.forward.square.fill"
+        case chevronForwardSquareFill = "chevron.forward.square.fill"
         /// 􀆋
-        static let chevronLeft2:String = "chevron.left.2"
+        case chevronLeft2 = "chevron.left.2"
         /// 􀰪
-        static let chevronBackward2:String = "chevron.backward.2"
+        case chevronBackward2 = "chevron.backward.2"
         /// 􀆌
-        static let chevronRight2:String = "chevron.right.2"
+        case chevronRight2 = "chevron.right.2"
         /// 􀰫
-        static let chevronForward2:String = "chevron.forward.2"
+        case chevronForward2 = "chevron.forward.2"
         /// 􀆇
-        static let chevronUp:String = "chevron.up"
+        case chevronUp = "chevron.up"
         /// 􀁮
-        static let chevronUpCircle:String = "chevron.up.circle"
+        case chevronUpCircle = "chevron.up.circle"
         /// 􀁯
-        static let chevronUpCircleFill:String = "chevron.up.circle.fill"
+        case chevronUpCircleFill = "chevron.up.circle.fill"
         /// 􀃾
-        static let chevronUpSquare:String = "chevron.up.square"
+        case chevronUpSquare = "chevron.up.square"
         /// 􀃿
-        static let chevronUpSquareFill:String = "chevron.up.square.fill"
+        case chevronUpSquareFill = "chevron.up.square.fill"
         /// 􀆈
-        static let chevronDown:String = "chevron.down"
+        case chevronDown = "chevron.down"
         /// 􀁰
-        static let chevronDownCircle:String = "chevron.down.circle"
+        case chevronDownCircle = "chevron.down.circle"
         /// 􀁱
-        static let chevronDownCircleFill:String = "chevron.down.circle.fill"
+        case chevronDownCircleFill = "chevron.down.circle.fill"
         /// 􀄀
-        static let chevronDownSquare:String = "chevron.down.square"
+        case chevronDownSquare = "chevron.down.square"
         /// 􀄁
-        static let chevronDownSquareFill:String = "chevron.down.square.fill"
+        case chevronDownSquareFill = "chevron.down.square.fill"
         /// 􀆍
-        static let control:String = "control"
+        case control = "control"
         /// 􀆎
-        static let projective:String = "projective"
+        case projective = "projective"
         /// 􀆏
-        static let chevronUpChevronDown:String = "chevron.up.chevron.down"
+        case chevronUpChevronDown = "chevron.up.chevron.down"
         /// 􀆐
-        static let chevronCompactUp:String = "chevron.compact.up"
+        case chevronCompactUp = "chevron.compact.up"
         /// 􀆑
-        static let chevronCompactDown:String = "chevron.compact.down"
+        case chevronCompactDown = "chevron.compact.down"
         /// 􀆒
-        static let chevronCompactLeft:String = "chevron.compact.left"
+        case chevronCompactLeft = "chevron.compact.left"
         /// 􀆓
-        static let chevronCompactRight:String = "chevron.compact.right"
+        case chevronCompactRight = "chevron.compact.right"
         /// 􀄪
-        static let arrowLeft:String = "arrow.left"
+        case arrowLeft = "arrow.left"
         /// 􀁺
-        static let arrowLeftCircle:String = "arrow.left.circle"
+        case arrowLeftCircle = "arrow.left.circle"
         /// 􀁻
-        static let arrowLeftCircleFill:String = "arrow.left.circle.fill"
+        case arrowLeftCircleFill = "arrow.left.circle.fill"
         /// 􀄊
-        static let arrowLeftSquare:String = "arrow.left.square"
+        case arrowLeftSquare = "arrow.left.square"
         /// 􀄋
-        static let arrowLeftSquareFill:String = "arrow.left.square.fill"
+        case arrowLeftSquareFill = "arrow.left.square.fill"
         /// 􀰌
-        static let arrowBackward:String = "arrow.backward"
+        case arrowBackward = "arrow.backward"
         /// 􀰍
-        static let arrowBackwardCircle:String = "arrow.backward.circle"
+        case arrowBackwardCircle = "arrow.backward.circle"
         /// 􀰎
-        static let arrowBackwardCircleFill:String = "arrow.backward.circle.fill"
+        case arrowBackwardCircleFill = "arrow.backward.circle.fill"
         /// 􀰏
-        static let arrowBackwardSquare:String = "arrow.backward.square"
+        case arrowBackwardSquare = "arrow.backward.square"
         /// 􀰐
-        static let arrowBackwardSquareFill:String = "arrow.backward.square.fill"
+        case arrowBackwardSquareFill = "arrow.backward.square.fill"
         /// 􀄫
-        static let arrowRight:String = "arrow.right"
+        case arrowRight = "arrow.right"
         /// 􀁼
-        static let arrowRightCircle:String = "arrow.right.circle"
+        case arrowRightCircle = "arrow.right.circle"
         /// 􀁽
-        static let arrowRightCircleFill:String = "arrow.right.circle.fill"
+        case arrowRightCircleFill = "arrow.right.circle.fill"
         /// 􀄌
-        static let arrowRightSquare:String = "arrow.right.square"
+        case arrowRightSquare = "arrow.right.square"
         /// 􀄍
-        static let arrowRightSquareFill:String = "arrow.right.square.fill"
+        case arrowRightSquareFill = "arrow.right.square.fill"
         /// 􀰑
-        static let arrowForward:String = "arrow.forward"
+        case arrowForward = "arrow.forward"
         /// 􀰒
-        static let arrowForwardCircle:String = "arrow.forward.circle"
+        case arrowForwardCircle = "arrow.forward.circle"
         /// 􀰓
-        static let arrowForwardCircleFill:String = "arrow.forward.circle.fill"
+        case arrowForwardCircleFill = "arrow.forward.circle.fill"
         /// 􀰔
-        static let arrowForwardSquare:String = "arrow.forward.square"
+        case arrowForwardSquare = "arrow.forward.square"
         /// 􀰕
-        static let arrowForwardSquareFill:String = "arrow.forward.square.fill"
+        case arrowForwardSquareFill = "arrow.forward.square.fill"
         /// 􀄨
-        static let arrowUp:String = "arrow.up"
+        case arrowUp = "arrow.up"
         /// 􀁶
-        static let arrowUpCircle:String = "arrow.up.circle"
+        case arrowUpCircle = "arrow.up.circle"
         /// 􀁷
-        static let arrowUpCircleFill:String = "arrow.up.circle.fill"
+        case arrowUpCircleFill = "arrow.up.circle.fill"
         /// 􀄆
-        static let arrowUpSquare:String = "arrow.up.square"
+        case arrowUpSquare = "arrow.up.square"
         /// 􀄇
-        static let arrowUpSquareFill:String = "arrow.up.square.fill"
+        case arrowUpSquareFill = "arrow.up.square.fill"
         /// 􀄩
-        static let arrowDown:String = "arrow.down"
+        case arrowDown = "arrow.down"
         /// 􀁸
-        static let arrowDownCircle:String = "arrow.down.circle"
+        case arrowDownCircle = "arrow.down.circle"
         /// 􀁹
-        static let arrowDownCircleFill:String = "arrow.down.circle.fill"
+        case arrowDownCircleFill = "arrow.down.circle.fill"
         /// 􀄈
-        static let arrowDownSquare:String = "arrow.down.square"
+        case arrowDownSquare = "arrow.down.square"
         /// 􀄉
-        static let arrowDownSquareFill:String = "arrow.down.square.fill"
+        case arrowDownSquareFill = "arrow.down.square.fill"
         /// 􀄮
-        static let arrowUpLeft:String = "arrow.up.left"
+        case arrowUpLeft = "arrow.up.left"
         /// 􀂂
-        static let arrowUpLeftCircle:String = "arrow.up.left.circle"
+        case arrowUpLeftCircle = "arrow.up.left.circle"
         /// 􀂃
-        static let arrowUpLeftCircleFill:String = "arrow.up.left.circle.fill"
+        case arrowUpLeftCircleFill = "arrow.up.left.circle.fill"
         /// 􀄒
-        static let arrowUpLeftSquare:String = "arrow.up.left.square"
+        case arrowUpLeftSquare = "arrow.up.left.square"
         /// 􀄓
-        static let arrowUpLeftSquareFill:String = "arrow.up.left.square.fill"
+        case arrowUpLeftSquareFill = "arrow.up.left.square.fill"
         /// 􀰹
-        static let arrowUpBackward:String = "arrow.up.backward"
+        case arrowUpBackward = "arrow.up.backward"
         /// 􀰺
-        static let arrowUpBackwardCircle:String = "arrow.up.backward.circle"
+        case arrowUpBackwardCircle = "arrow.up.backward.circle"
         /// 􀰻
-        static let arrowUpBackwardCircleFill:String = "arrow.up.backward.circle.fill"
+        case arrowUpBackwardCircleFill = "arrow.up.backward.circle.fill"
         /// 􀰼
-        static let arrowUpBackwardSquare:String = "arrow.up.backward.square"
+        case arrowUpBackwardSquare = "arrow.up.backward.square"
         /// 􀰽
-        static let arrowUpBackwardSquareFill:String = "arrow.up.backward.square.fill"
+        case arrowUpBackwardSquareFill = "arrow.up.backward.square.fill"
         /// 􀄯
-        static let arrowUpRight:String = "arrow.up.right"
+        case arrowUpRight = "arrow.up.right"
         /// 􀂄
-        static let arrowUpRightCircle:String = "arrow.up.right.circle"
+        case arrowUpRightCircle = "arrow.up.right.circle"
         /// 􀂅
-        static let arrowUpRightCircleFill:String = "arrow.up.right.circle.fill"
+        case arrowUpRightCircleFill = "arrow.up.right.circle.fill"
         /// 􀄔
-        static let arrowUpRightSquare:String = "arrow.up.right.square"
+        case arrowUpRightSquare = "arrow.up.right.square"
         /// 􀄕
-        static let arrowUpRightSquareFill:String = "arrow.up.right.square.fill"
+        case arrowUpRightSquareFill = "arrow.up.right.square.fill"
         /// 􀰾
-        static let arrowUpForward:String = "arrow.up.forward"
+        case arrowUpForward = "arrow.up.forward"
         /// 􀰿
-        static let arrowUpForwardCircle:String = "arrow.up.forward.circle"
+        case arrowUpForwardCircle = "arrow.up.forward.circle"
         /// 􀱀
-        static let arrowUpForwardCircleFill:String = "arrow.up.forward.circle.fill"
+        case arrowUpForwardCircleFill = "arrow.up.forward.circle.fill"
         /// 􀱁
-        static let arrowUpForwardSquare:String = "arrow.up.forward.square"
+        case arrowUpForwardSquare = "arrow.up.forward.square"
         /// 􀱂
-        static let arrowUpForwardSquareFill:String = "arrow.up.forward.square.fill"
+        case arrowUpForwardSquareFill = "arrow.up.forward.square.fill"
         /// 􀄰
-        static let arrowDownLeft:String = "arrow.down.left"
+        case arrowDownLeft = "arrow.down.left"
         /// 􀂆
-        static let arrowDownLeftCircle:String = "arrow.down.left.circle"
+        case arrowDownLeftCircle = "arrow.down.left.circle"
         /// 􀂇
-        static let arrowDownLeftCircleFill:String = "arrow.down.left.circle.fill"
+        case arrowDownLeftCircleFill = "arrow.down.left.circle.fill"
         /// 􀄖
-        static let arrowDownLeftSquare:String = "arrow.down.left.square"
+        case arrowDownLeftSquare = "arrow.down.left.square"
         /// 􀄗
-        static let arrowDownLeftSquareFill:String = "arrow.down.left.square.fill"
+        case arrowDownLeftSquareFill = "arrow.down.left.square.fill"
         /// 􀱃
-        static let arrowDownBackward:String = "arrow.down.backward"
+        case arrowDownBackward = "arrow.down.backward"
         /// 􀱄
-        static let arrowDownBackwardCircle:String = "arrow.down.backward.circle"
+        case arrowDownBackwardCircle = "arrow.down.backward.circle"
         /// 􀱅
-        static let arrowDownBackwardCircleFill:String = "arrow.down.backward.circle.fill"
+        case arrowDownBackwardCircleFill = "arrow.down.backward.circle.fill"
         /// 􀱆
-        static let arrowDownBackwardSquare:String = "arrow.down.backward.square"
+        case arrowDownBackwardSquare = "arrow.down.backward.square"
         /// 􀱇
-        static let arrowDownBackwardSquareFill:String = "arrow.down.backward.square.fill"
+        case arrowDownBackwardSquareFill = "arrow.down.backward.square.fill"
         /// 􀄱
-        static let arrowDownRight:String = "arrow.down.right"
+        case arrowDownRight = "arrow.down.right"
         /// 􀂈
-        static let arrowDownRightCircle:String = "arrow.down.right.circle"
+        case arrowDownRightCircle = "arrow.down.right.circle"
         /// 􀂉
-        static let arrowDownRightCircleFill:String = "arrow.down.right.circle.fill"
+        case arrowDownRightCircleFill = "arrow.down.right.circle.fill"
         /// 􀄘
-        static let arrowDownRightSquare:String = "arrow.down.right.square"
+        case arrowDownRightSquare = "arrow.down.right.square"
         /// 􀄙
-        static let arrowDownRightSquareFill:String = "arrow.down.right.square.fill"
+        case arrowDownRightSquareFill = "arrow.down.right.square.fill"
         /// 􀱈
-        static let arrowDownForward:String = "arrow.down.forward"
+        case arrowDownForward = "arrow.down.forward"
         /// 􀱉
-        static let arrowDownForwardCircle:String = "arrow.down.forward.circle"
+        case arrowDownForwardCircle = "arrow.down.forward.circle"
         /// 􀱊
-        static let arrowDownForwardCircleFill:String = "arrow.down.forward.circle.fill"
+        case arrowDownForwardCircleFill = "arrow.down.forward.circle.fill"
         /// 􀱋
-        static let arrowDownForwardSquare:String = "arrow.down.forward.square"
+        case arrowDownForwardSquare = "arrow.down.forward.square"
         /// 􀱌
-        static let arrowDownForwardSquareFill:String = "arrow.down.forward.square.fill"
+        case arrowDownForwardSquareFill = "arrow.down.forward.square.fill"
         /// 􀄭
-        static let arrowLeftArrowRight:String = "arrow.left.arrow.right"
+        case arrowLeftArrowRight = "arrow.left.arrow.right"
         /// 􀂀
-        static let arrowLeftArrowRightCircle:String = "arrow.left.arrow.right.circle"
+        case arrowLeftArrowRightCircle = "arrow.left.arrow.right.circle"
         /// 􀂁
-        static let arrowLeftArrowRightCircleFill:String = "arrow.left.arrow.right.circle.fill"
+        case arrowLeftArrowRightCircleFill = "arrow.left.arrow.right.circle.fill"
         /// 􀄐
-        static let arrowLeftArrowRightSquare:String = "arrow.left.arrow.right.square"
+        case arrowLeftArrowRightSquare = "arrow.left.arrow.right.square"
         /// 􀄑
-        static let arrowLeftArrowRightSquareFill:String = "arrow.left.arrow.right.square.fill"
+        case arrowLeftArrowRightSquareFill = "arrow.left.arrow.right.square.fill"
         /// 􀄬
-        static let arrowUpArrowDown:String = "arrow.up.arrow.down"
+        case arrowUpArrowDown = "arrow.up.arrow.down"
         /// 􀁾
-        static let arrowUpArrowDownCircle:String = "arrow.up.arrow.down.circle"
+        case arrowUpArrowDownCircle = "arrow.up.arrow.down.circle"
         /// 􀁿
-        static let arrowUpArrowDownCircleFill:String = "arrow.up.arrow.down.circle.fill"
+        case arrowUpArrowDownCircleFill = "arrow.up.arrow.down.circle.fill"
         /// 􀄎
-        static let arrowUpArrowDownSquare:String = "arrow.up.arrow.down.square"
+        case arrowUpArrowDownSquare = "arrow.up.arrow.down.square"
         /// 􀄏
-        static let arrowUpArrowDownSquareFill:String = "arrow.up.arrow.down.square.fill"
+        case arrowUpArrowDownSquareFill = "arrow.up.arrow.down.square.fill"
         /// 􀄴
-        static let arrowTurnDownLeft:String = "arrow.turn.down.left"
+        case arrowTurnDownLeft = "arrow.turn.down.left"
         /// 􀄸
-        static let arrowTurnUpLeft:String = "arrow.turn.up.left"
+        case arrowTurnUpLeft = "arrow.turn.up.left"
         /// 􀄵
-        static let arrowTurnDownRight:String = "arrow.turn.down.right"
+        case arrowTurnDownRight = "arrow.turn.down.right"
         /// 􀄹
-        static let arrowTurnUpRight:String = "arrow.turn.up.right"
+        case arrowTurnUpRight = "arrow.turn.up.right"
         /// 􀄲
-        static let arrowTurnRightUp:String = "arrow.turn.right.up"
+        case arrowTurnRightUp = "arrow.turn.right.up"
         /// 􀄶
-        static let arrowTurnLeftUp:String = "arrow.turn.left.up"
+        case arrowTurnLeftUp = "arrow.turn.left.up"
         /// 􀄳
-        static let arrowTurnRightDown:String = "arrow.turn.right.down"
+        case arrowTurnRightDown = "arrow.turn.right.down"
         /// 􀄷
-        static let arrowTurnLeftDown:String = "arrow.turn.left.down"
+        case arrowTurnLeftDown = "arrow.turn.left.down"
         /// 􀄼
-        static let arrowUturnLeft:String = "arrow.uturn.left"
+        case arrowUturnLeft = "arrow.uturn.left"
         /// 􀂎
-        static let arrowUturnLeftCircle:String = "arrow.uturn.left.circle"
+        case arrowUturnLeftCircle = "arrow.uturn.left.circle"
         /// 􀂏
-        static let arrowUturnLeftCircleFill:String = "arrow.uturn.left.circle.fill"
+        case arrowUturnLeftCircleFill = "arrow.uturn.left.circle.fill"
         /// 􀞸
-        static let arrowUturnLeftCircleBadgeEllipsis:String = "arrow.uturn.left.circle.badge.ellipsis"
+        case arrowUturnLeftCircleBadgeEllipsis = "arrow.uturn.left.circle.badge.ellipsis"
         /// 􀄞
-        static let arrowUturnLeftSquare:String = "arrow.uturn.left.square"
+        case arrowUturnLeftSquare = "arrow.uturn.left.square"
         /// 􀄟
-        static let arrowUturnLeftSquareFill:String = "arrow.uturn.left.square.fill"
+        case arrowUturnLeftSquareFill = "arrow.uturn.left.square.fill"
         /// 􀱍
-        static let arrowUturnBackward:String = "arrow.uturn.backward"
+        case arrowUturnBackward = "arrow.uturn.backward"
         /// 􀱎
-        static let arrowUturnBackwardCircle:String = "arrow.uturn.backward.circle"
+        case arrowUturnBackwardCircle = "arrow.uturn.backward.circle"
         /// 􀱏
-        static let arrowUturnBackwardCircleFill:String = "arrow.uturn.backward.circle.fill"
+        case arrowUturnBackwardCircleFill = "arrow.uturn.backward.circle.fill"
         /// 􀱐
-        static let arrowUturnBackwardCircleBadgeEllipsis:String = "arrow.uturn.backward.circle.badge.ellipsis"
+        case arrowUturnBackwardCircleBadgeEllipsis = "arrow.uturn.backward.circle.badge.ellipsis"
         /// 􀱑
-        static let arrowUturnBackwardSquare:String = "arrow.uturn.backward.square"
+        case arrowUturnBackwardSquare = "arrow.uturn.backward.square"
         /// 􀱒
-        static let arrowUturnBackwardSquareFill:String = "arrow.uturn.backward.square.fill"
+        case arrowUturnBackwardSquareFill = "arrow.uturn.backward.square.fill"
         /// 􀄽
-        static let arrowUturnRight:String = "arrow.uturn.right"
+        case arrowUturnRight = "arrow.uturn.right"
         /// 􀂐
-        static let arrowUturnRightCircle:String = "arrow.uturn.right.circle"
+        case arrowUturnRightCircle = "arrow.uturn.right.circle"
         /// 􀂑
-        static let arrowUturnRightCircleFill:String = "arrow.uturn.right.circle.fill"
+        case arrowUturnRightCircleFill = "arrow.uturn.right.circle.fill"
         /// 􀄠
-        static let arrowUturnRightSquare:String = "arrow.uturn.right.square"
+        case arrowUturnRightSquare = "arrow.uturn.right.square"
         /// 􀄡
-        static let arrowUturnRightSquareFill:String = "arrow.uturn.right.square.fill"
+        case arrowUturnRightSquareFill = "arrow.uturn.right.square.fill"
         /// 􀱓
-        static let arrowUturnForward:String = "arrow.uturn.forward"
+        case arrowUturnForward = "arrow.uturn.forward"
         /// 􀱔
-        static let arrowUturnForwardCircle:String = "arrow.uturn.forward.circle"
+        case arrowUturnForwardCircle = "arrow.uturn.forward.circle"
         /// 􀱕
-        static let arrowUturnForwardCircleFill:String = "arrow.uturn.forward.circle.fill"
+        case arrowUturnForwardCircleFill = "arrow.uturn.forward.circle.fill"
         /// 􀱖
-        static let arrowUturnForwardSquare:String = "arrow.uturn.forward.square"
+        case arrowUturnForwardSquare = "arrow.uturn.forward.square"
         /// 􀱗
-        static let arrowUturnForwardSquareFill:String = "arrow.uturn.forward.square.fill"
+        case arrowUturnForwardSquareFill = "arrow.uturn.forward.square.fill"
         /// 􀄺
-        static let arrowUturnUp:String = "arrow.uturn.up"
+        case arrowUturnUp = "arrow.uturn.up"
         /// 􀂊
-        static let arrowUturnUpCircle:String = "arrow.uturn.up.circle"
+        case arrowUturnUpCircle = "arrow.uturn.up.circle"
         /// 􀂋
-        static let arrowUturnUpCircleFill:String = "arrow.uturn.up.circle.fill"
+        case arrowUturnUpCircleFill = "arrow.uturn.up.circle.fill"
         /// 􀄚
-        static let arrowUturnUpSquare:String = "arrow.uturn.up.square"
+        case arrowUturnUpSquare = "arrow.uturn.up.square"
         /// 􀄛
-        static let arrowUturnUpSquareFill:String = "arrow.uturn.up.square.fill"
+        case arrowUturnUpSquareFill = "arrow.uturn.up.square.fill"
         /// 􀄻
-        static let arrowUturnDown:String = "arrow.uturn.down"
+        case arrowUturnDown = "arrow.uturn.down"
         /// 􀂌
-        static let arrowUturnDownCircle:String = "arrow.uturn.down.circle"
+        case arrowUturnDownCircle = "arrow.uturn.down.circle"
         /// 􀂍
-        static let arrowUturnDownCircleFill:String = "arrow.uturn.down.circle.fill"
+        case arrowUturnDownCircleFill = "arrow.uturn.down.circle.fill"
         /// 􀄜
-        static let arrowUturnDownSquare:String = "arrow.uturn.down.square"
+        case arrowUturnDownSquare = "arrow.uturn.down.square"
         /// 􀄝
-        static let arrowUturnDownSquareFill:String = "arrow.uturn.down.square.fill"
+        case arrowUturnDownSquareFill = "arrow.uturn.down.square.fill"
         /// 􀧐
-        static let arrowUpAndDownAndArrowLeftAndRight:String = "arrow.up.and.down.and.arrow.left.and.right"
+        case arrowUpAndDownAndArrowLeftAndRight = "arrow.up.and.down.and.arrow.left.and.right"
         /// 􀬑
-        static let arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft:String = "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
+        case arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft = "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
         /// 􀄾
-        static let arrowLeftAndRight:String = "arrow.left.and.right"
+        case arrowLeftAndRight = "arrow.left.and.right"
         /// 􀑾
-        static let arrowLeftAndRightCircle:String = "arrow.left.and.right.circle"
+        case arrowLeftAndRightCircle = "arrow.left.and.right.circle"
         /// 􀑿
-        static let arrowLeftAndRightCircleFill:String = "arrow.left.and.right.circle.fill"
+        case arrowLeftAndRightCircleFill = "arrow.left.and.right.circle.fill"
         /// 􀒀
-        static let arrowLeftAndRightSquare:String = "arrow.left.and.right.square"
+        case arrowLeftAndRightSquare = "arrow.left.and.right.square"
         /// 􀒁
-        static let arrowLeftAndRightSquareFill:String = "arrow.left.and.right.square.fill"
+        case arrowLeftAndRightSquareFill = "arrow.left.and.right.square.fill"
         /// 􀑹
-        static let arrowUpAndDown:String = "arrow.up.and.down"
+        case arrowUpAndDown = "arrow.up.and.down"
         /// 􀑺
-        static let arrowUpAndDownCircle:String = "arrow.up.and.down.circle"
+        case arrowUpAndDownCircle = "arrow.up.and.down.circle"
         /// 􀑻
-        static let arrowUpAndDownCircleFill:String = "arrow.up.and.down.circle.fill"
+        case arrowUpAndDownCircleFill = "arrow.up.and.down.circle.fill"
         /// 􀑼
-        static let arrowUpAndDownSquare:String = "arrow.up.and.down.square"
+        case arrowUpAndDownSquare = "arrow.up.and.down.square"
         /// 􀑽
-        static let arrowUpAndDownSquareFill:String = "arrow.up.and.down.square.fill"
+        case arrowUpAndDownSquareFill = "arrow.up.and.down.square.fill"
         /// 􀅅
-        static let arrowLeftToLineAlt:String = "arrow.left.to.line.alt"
+        case arrowLeftToLineAlt = "arrow.left.to.line.alt"
         /// 􀅁
-        static let arrowLeftToLine:String = "arrow.left.to.line"
+        case arrowLeftToLine = "arrow.left.to.line"
         /// 􀅆
-        static let arrowRightToLineAlt:String = "arrow.right.to.line.alt"
+        case arrowRightToLineAlt = "arrow.right.to.line.alt"
         /// 􀅂
-        static let arrowRightToLine:String = "arrow.right.to.line"
+        case arrowRightToLine = "arrow.right.to.line"
         /// 􀅃
-        static let arrowUpToLineAlt:String = "arrow.up.to.line.alt"
+        case arrowUpToLineAlt = "arrow.up.to.line.alt"
         /// 􀄿
-        static let arrowUpToLine:String = "arrow.up.to.line"
+        case arrowUpToLine = "arrow.up.to.line"
         /// 􀅄
-        static let arrowDownToLineAlt:String = "arrow.down.to.line.alt"
+        case arrowDownToLineAlt = "arrow.down.to.line.alt"
         /// 􀅀
-        static let arrowDownToLine:String = "arrow.down.to.line"
+        case arrowDownToLine = "arrow.down.to.line"
         /// 􀅈
-        static let arrowClockwise:String = "arrow.clockwise"
+        case arrowClockwise = "arrow.clockwise"
         /// 􀚁
-        static let arrowClockwiseCircle:String = "arrow.clockwise.circle"
+        case arrowClockwiseCircle = "arrow.clockwise.circle"
         /// 􀚂
-        static let arrowClockwiseCircleFill:String = "arrow.clockwise.circle.fill"
+        case arrowClockwiseCircleFill = "arrow.clockwise.circle.fill"
         /// 􀅉
-        static let arrowCounterclockwise:String = "arrow.counterclockwise"
+        case arrowCounterclockwise = "arrow.counterclockwise"
         /// 􀚃
-        static let arrowCounterclockwiseCircle:String = "arrow.counterclockwise.circle"
+        case arrowCounterclockwiseCircle = "arrow.counterclockwise.circle"
         /// 􀚄
-        static let arrowCounterclockwiseCircleFill:String = "arrow.counterclockwise.circle.fill"
+        case arrowCounterclockwiseCircleFill = "arrow.counterclockwise.circle.fill"
         /// 􀅊
-        static let arrowUpLeftAndArrowDownRight:String = "arrow.up.left.and.arrow.down.right"
+        case arrowUpLeftAndArrowDownRight = "arrow.up.left.and.arrow.down.right"
         /// 􀧛
-        static let arrowUpLeftAndArrowDownRightCircle:String = "arrow.up.left.and.arrow.down.right.circle"
+        case arrowUpLeftAndArrowDownRightCircle = "arrow.up.left.and.arrow.down.right.circle"
         /// 􀧜
-        static let arrowUpLeftAndArrowDownRightCircleFill:String = "arrow.up.left.and.arrow.down.right.circle.fill"
+        case arrowUpLeftAndArrowDownRightCircleFill = "arrow.up.left.and.arrow.down.right.circle.fill"
         /// 􀱶
-        static let arrowUpBackwardAndArrowDownForward:String = "arrow.up.backward.and.arrow.down.forward"
+        case arrowUpBackwardAndArrowDownForward = "arrow.up.backward.and.arrow.down.forward"
         /// 􀱷
-        static let arrowUpBackwardAndArrowDownForwardCircle:String = "arrow.up.backward.and.arrow.down.forward.circle"
+        case arrowUpBackwardAndArrowDownForwardCircle = "arrow.up.backward.and.arrow.down.forward.circle"
         /// 􀱸
-        static let arrowUpBackwardAndArrowDownForwardCircleFill:String = "arrow.up.backward.and.arrow.down.forward.circle.fill"
+        case arrowUpBackwardAndArrowDownForwardCircleFill = "arrow.up.backward.and.arrow.down.forward.circle.fill"
         /// 􀅋
-        static let arrowDownRightAndArrowUpLeft:String = "arrow.down.right.and.arrow.up.left"
+        case arrowDownRightAndArrowUpLeft = "arrow.down.right.and.arrow.up.left"
         /// 􀫞
-        static let arrowDownRightAndArrowUpLeftCircle:String = "arrow.down.right.and.arrow.up.left.circle"
+        case arrowDownRightAndArrowUpLeftCircle = "arrow.down.right.and.arrow.up.left.circle"
         /// 􀫟
-        static let arrowDownRightAndArrowUpLeftCircleFill:String = "arrow.down.right.and.arrow.up.left.circle.fill"
+        case arrowDownRightAndArrowUpLeftCircleFill = "arrow.down.right.and.arrow.up.left.circle.fill"
         /// 􀱻
-        static let arrowDownForwardAndArrowUpBackward:String = "arrow.down.forward.and.arrow.up.backward"
+        case arrowDownForwardAndArrowUpBackward = "arrow.down.forward.and.arrow.up.backward"
         /// 􀱼
-        static let arrowDownForwardAndArrowUpBackwardCircle:String = "arrow.down.forward.and.arrow.up.backward.circle"
+        case arrowDownForwardAndArrowUpBackwardCircle = "arrow.down.forward.and.arrow.up.backward.circle"
         /// 􀱽
-        static let arrowDownForwardAndArrowUpBackwardCircleFill:String = "arrow.down.forward.and.arrow.up.backward.circle.fill"
+        case arrowDownForwardAndArrowUpBackwardCircleFill = "arrow.down.forward.and.arrow.up.backward.circle.fill"
         /// 􀅇
-        static let returnIcon:String = "return"
+        case returnIcon = "return"
         /// 􀅌
-        static let arrow2Squarepath:String = "arrow.2.squarepath"
+        case arrow2Squarepath = "arrow.2.squarepath"
         /// 􀊯
-        static let arrowTriangle2Circlepath:String = "arrow.triangle.2.circlepath"
+        case arrowTriangle2Circlepath = "arrow.triangle.2.circlepath"
         /// 􀖊
-        static let arrowTriangle2CirclepathCircle:String = "arrow.triangle.2.circlepath.circle"
+        case arrowTriangle2CirclepathCircle = "arrow.triangle.2.circlepath.circle"
         /// 􀖋
-        static let arrowTriangle2CirclepathCircleFill:String = "arrow.triangle.2.circlepath.circle.fill"
+        case arrowTriangle2CirclepathCircleFill = "arrow.triangle.2.circlepath.circle.fill"
         /// 􀢤
-        static let exclamationmarkArrowTriangle2Circlepath:String = "exclamationmark.arrow.triangle.2.circlepath"
+        case exclamationmarkArrowTriangle2Circlepath = "exclamationmark.arrow.triangle.2.circlepath"
         /// 􀤖
-        static let arrowTriangleCapsulepath:String = "arrow.triangle.capsulepath"
+        case arrowTriangleCapsulepath = "arrow.triangle.capsulepath"
         /// 􀙛
-        static let arrow3Trianglepath:String = "arrow.3.trianglepath"
+        case arrow3Trianglepath = "arrow.3.trianglepath"
         /// 􀙞
-        static let arrowTriangleTurnUpRightDiamond:String = "arrow.triangle.turn.up.right.diamond"
+        case arrowTriangleTurnUpRightDiamond = "arrow.triangle.turn.up.right.diamond"
         /// 􀙟
-        static let arrowTriangleTurnUpRightDiamondFill:String = "arrow.triangle.turn.up.right.diamond.fill"
+        case arrowTriangleTurnUpRightDiamondFill = "arrow.triangle.turn.up.right.diamond.fill"
         /// 􀟷
-        static let arrowTriangleTurnUpRightCircle:String = "arrow.triangle.turn.up.right.circle"
+        case arrowTriangleTurnUpRightCircle = "arrow.triangle.turn.up.right.circle"
         /// 􀟸
-        static let arrowTriangleTurnUpRightCircleFill:String = "arrow.triangle.turn.up.right.circle.fill"
+        case arrowTriangleTurnUpRightCircleFill = "arrow.triangle.turn.up.right.circle.fill"
         /// 􀖄
-        static let arrowTriangleMerge:String = "arrow.triangle.merge"
+        case arrowTriangleMerge = "arrow.triangle.merge"
         /// 􀖅
-        static let arrowTriangleSwap:String = "arrow.triangle.swap"
+        case arrowTriangleSwap = "arrow.triangle.swap"
         /// 􀙠
-        static let arrowTriangleBranch:String = "arrow.triangle.branch"
+        case arrowTriangleBranch = "arrow.triangle.branch"
         /// 􀙡
-        static let arrowTrianglePull:String = "arrow.triangle.pull"
+        case arrowTrianglePull = "arrow.triangle.pull"
         /// 􀓄
-        static let arrowtriangleLeft:String = "arrowtriangle.left"
+        case arrowtriangleLeft = "arrowtriangle.left"
         /// 􀄦
-        static let arrowtriangleLeftFill:String = "arrowtriangle.left.fill"
+        case arrowtriangleLeftFill = "arrowtriangle.left.fill"
         /// 􀁪
-        static let arrowtriangleLeftCircle:String = "arrowtriangle.left.circle"
+        case arrowtriangleLeftCircle = "arrowtriangle.left.circle"
         /// 􀁫
-        static let arrowtriangleLeftCircleFill:String = "arrowtriangle.left.circle.fill"
+        case arrowtriangleLeftCircleFill = "arrowtriangle.left.circle.fill"
         /// 􀃺
-        static let arrowtriangleLeftSquare:String = "arrowtriangle.left.square"
+        case arrowtriangleLeftSquare = "arrowtriangle.left.square"
         /// 􀃻
-        static let arrowtriangleLeftSquareFill:String = "arrowtriangle.left.square.fill"
+        case arrowtriangleLeftSquareFill = "arrowtriangle.left.square.fill"
         /// 􀰀
-        static let arrowtriangleBackward:String = "arrowtriangle.backward"
+        case arrowtriangleBackward = "arrowtriangle.backward"
         /// 􀰁
-        static let arrowtriangleBackwardFill:String = "arrowtriangle.backward.fill"
+        case arrowtriangleBackwardFill = "arrowtriangle.backward.fill"
         /// 􀰂
-        static let arrowtriangleBackwardCircle:String = "arrowtriangle.backward.circle"
+        case arrowtriangleBackwardCircle = "arrowtriangle.backward.circle"
         /// 􀰃
-        static let arrowtriangleBackwardCircleFill:String = "arrowtriangle.backward.circle.fill"
+        case arrowtriangleBackwardCircleFill = "arrowtriangle.backward.circle.fill"
         /// 􀰄
-        static let arrowtriangleBackwardSquare:String = "arrowtriangle.backward.square"
+        case arrowtriangleBackwardSquare = "arrowtriangle.backward.square"
         /// 􀰅
-        static let arrowtriangleBackwardSquareFill:String = "arrowtriangle.backward.square.fill"
+        case arrowtriangleBackwardSquareFill = "arrowtriangle.backward.square.fill"
         /// 􀓅
-        static let arrowtriangleRight:String = "arrowtriangle.right"
+        case arrowtriangleRight = "arrowtriangle.right"
         /// 􀄧
-        static let arrowtriangleRightFill:String = "arrowtriangle.right.fill"
+        case arrowtriangleRightFill = "arrowtriangle.right.fill"
         /// 􀁬
-        static let arrowtriangleRightCircle:String = "arrowtriangle.right.circle"
+        case arrowtriangleRightCircle = "arrowtriangle.right.circle"
         /// 􀁭
-        static let arrowtriangleRightCircleFill:String = "arrowtriangle.right.circle.fill"
+        case arrowtriangleRightCircleFill = "arrowtriangle.right.circle.fill"
         /// 􀃼
-        static let arrowtriangleRightSquare:String = "arrowtriangle.right.square"
+        case arrowtriangleRightSquare = "arrowtriangle.right.square"
         /// 􀃽
-        static let arrowtriangleRightSquareFill:String = "arrowtriangle.right.square.fill"
+        case arrowtriangleRightSquareFill = "arrowtriangle.right.square.fill"
         /// 􀰆
-        static let arrowtriangleForward:String = "arrowtriangle.forward"
+        case arrowtriangleForward = "arrowtriangle.forward"
         /// 􀰇
-        static let arrowtriangleForwardFill:String = "arrowtriangle.forward.fill"
+        case arrowtriangleForwardFill = "arrowtriangle.forward.fill"
         /// 􀰈
-        static let arrowtriangleForwardCircle:String = "arrowtriangle.forward.circle"
+        case arrowtriangleForwardCircle = "arrowtriangle.forward.circle"
         /// 􀰉
-        static let arrowtriangleForwardCircleFill:String = "arrowtriangle.forward.circle.fill"
+        case arrowtriangleForwardCircleFill = "arrowtriangle.forward.circle.fill"
         /// 􀰊
-        static let arrowtriangleForwardSquare:String = "arrowtriangle.forward.square"
+        case arrowtriangleForwardSquare = "arrowtriangle.forward.square"
         /// 􀰋
-        static let arrowtriangleForwardSquareFill:String = "arrowtriangle.forward.square.fill"
+        case arrowtriangleForwardSquareFill = "arrowtriangle.forward.square.fill"
         /// 􀓂
-        static let arrowtriangleUp:String = "arrowtriangle.up"
+        case arrowtriangleUp = "arrowtriangle.up"
         /// 􀄤
-        static let arrowtriangleUpFill:String = "arrowtriangle.up.fill"
+        case arrowtriangleUpFill = "arrowtriangle.up.fill"
         /// 􀁦
-        static let arrowtriangleUpCircle:String = "arrowtriangle.up.circle"
+        case arrowtriangleUpCircle = "arrowtriangle.up.circle"
         /// 􀁧
-        static let arrowtriangleUpCircleFill:String = "arrowtriangle.up.circle.fill"
+        case arrowtriangleUpCircleFill = "arrowtriangle.up.circle.fill"
         /// 􀃶
-        static let arrowtriangleUpSquare:String = "arrowtriangle.up.square"
+        case arrowtriangleUpSquare = "arrowtriangle.up.square"
         /// 􀃷
-        static let arrowtriangleUpSquareFill:String = "arrowtriangle.up.square.fill"
+        case arrowtriangleUpSquareFill = "arrowtriangle.up.square.fill"
         /// 􀓃
-        static let arrowtriangleDown:String = "arrowtriangle.down"
+        case arrowtriangleDown = "arrowtriangle.down"
         /// 􀄥
-        static let arrowtriangleDownFill:String = "arrowtriangle.down.fill"
+        case arrowtriangleDownFill = "arrowtriangle.down.fill"
         /// 􀁨
-        static let arrowtriangleDownCircle:String = "arrowtriangle.down.circle"
+        case arrowtriangleDownCircle = "arrowtriangle.down.circle"
         /// 􀁩
-        static let arrowtriangleDownCircleFill:String = "arrowtriangle.down.circle.fill"
+        case arrowtriangleDownCircleFill = "arrowtriangle.down.circle.fill"
         /// 􀃸
-        static let arrowtriangleDownSquare:String = "arrowtriangle.down.square"
+        case arrowtriangleDownSquare = "arrowtriangle.down.square"
         /// 􀃹
-        static let arrowtriangleDownSquareFill:String = "arrowtriangle.down.square.fill"
+        case arrowtriangleDownSquareFill = "arrowtriangle.down.square.fill"
         /// 􀕧
-        static let slashCircle:String = "slash.circle"
+        case slashCircle = "slash.circle"
         /// 􀕨
-        static let slashCircleFill:String = "slash.circle.fill"
+        case slashCircleFill = "slash.circle.fill"
         /// 􀕬
-        static let asteriskCircle:String = "asterisk.circle"
+        case asteriskCircle = "asterisk.circle"
         /// 􀕭
-        static let asteriskCircleFill:String = "asterisk.circle.fill"
+        case asteriskCircleFill = "asterisk.circle.fill"
         /// 􀀄
-        static let aCircle:String = "a.circle"
+        case aCircle = "a.circle"
         /// 􀀅
-        static let aCircleFill:String = "a.circle.fill"
+        case aCircleFill = "a.circle.fill"
         /// 􀂔
-        static let aSquare:String = "a.square"
+        case aSquare = "a.square"
         /// 􀂕
-        static let aSquareFill:String = "a.square.fill"
+        case aSquareFill = "a.square.fill"
         /// 􀀆
-        static let bCircle:String = "b.circle"
+        case bCircle = "b.circle"
         /// 􀀇
-        static let bCircleFill:String = "b.circle.fill"
+        case bCircleFill = "b.circle.fill"
         /// 􀂖
-        static let bSquare:String = "b.square"
+        case bSquare = "b.square"
         /// 􀂗
-        static let bSquareFill:String = "b.square.fill"
+        case bSquareFill = "b.square.fill"
         /// 􀀈
-        static let cCircle:String = "c.circle"
+        case cCircle = "c.circle"
         /// 􀀉
-        static let cCircleFill:String = "c.circle.fill"
+        case cCircleFill = "c.circle.fill"
         /// 􀂘
-        static let cSquare:String = "c.square"
+        case cSquare = "c.square"
         /// 􀂙
-        static let cSquareFill:String = "c.square.fill"
+        case cSquareFill = "c.square.fill"
         /// 􀀊
-        static let dCircle:String = "d.circle"
+        case dCircle = "d.circle"
         /// 􀀋
-        static let dCircleFill:String = "d.circle.fill"
+        case dCircleFill = "d.circle.fill"
         /// 􀂚
-        static let dSquare:String = "d.square"
+        case dSquare = "d.square"
         /// 􀂛
-        static let dSquareFill:String = "d.square.fill"
+        case dSquareFill = "d.square.fill"
         /// 􀀌
-        static let eCircle:String = "e.circle"
+        case eCircle = "e.circle"
         /// 􀀍
-        static let eCircleFill:String = "e.circle.fill"
+        case eCircleFill = "e.circle.fill"
         /// 􀂜
-        static let eSquare:String = "e.square"
+        case eSquare = "e.square"
         /// 􀂝
-        static let eSquareFill:String = "e.square.fill"
+        case eSquareFill = "e.square.fill"
         /// 􀀎
-        static let fCircle:String = "f.circle"
+        case fCircle = "f.circle"
         /// 􀀏
-        static let fCircleFill:String = "f.circle.fill"
+        case fCircleFill = "f.circle.fill"
         /// 􀂞
-        static let fSquare:String = "f.square"
+        case fSquare = "f.square"
         /// 􀂟
-        static let fSquareFill:String = "f.square.fill"
+        case fSquareFill = "f.square.fill"
         /// 􀀐
-        static let gCircle:String = "g.circle"
+        case gCircle = "g.circle"
         /// 􀀑
-        static let gCircleFill:String = "g.circle.fill"
+        case gCircleFill = "g.circle.fill"
         /// 􀂠
-        static let gSquare:String = "g.square"
+        case gSquare = "g.square"
         /// 􀂡
-        static let gSquareFill:String = "g.square.fill"
+        case gSquareFill = "g.square.fill"
         /// 􀀒
-        static let hCircle:String = "h.circle"
+        case hCircle = "h.circle"
         /// 􀀓
-        static let hCircleFill:String = "h.circle.fill"
+        case hCircleFill = "h.circle.fill"
         /// 􀂢
-        static let hSquare:String = "h.square"
+        case hSquare = "h.square"
         /// 􀂣
-        static let hSquareFill:String = "h.square.fill"
+        case hSquareFill = "h.square.fill"
         /// 􀀔
-        static let iCircle:String = "i.circle"
+        case iCircle = "i.circle"
         /// 􀀕
-        static let iCircleFill:String = "i.circle.fill"
+        case iCircleFill = "i.circle.fill"
         /// 􀂤
-        static let iSquare:String = "i.square"
+        case iSquare = "i.square"
         /// 􀂥
-        static let iSquareFill:String = "i.square.fill"
+        case iSquareFill = "i.square.fill"
         /// 􀀖
-        static let jCircle:String = "j.circle"
+        case jCircle = "j.circle"
         /// 􀀗
-        static let jCircleFill:String = "j.circle.fill"
+        case jCircleFill = "j.circle.fill"
         /// 􀂦
-        static let jSquare:String = "j.square"
+        case jSquare = "j.square"
         /// 􀂧
-        static let jSquareFill:String = "j.square.fill"
+        case jSquareFill = "j.square.fill"
         /// 􀀘
-        static let kCircle:String = "k.circle"
+        case kCircle = "k.circle"
         /// 􀀙
-        static let kCircleFill:String = "k.circle.fill"
+        case kCircleFill = "k.circle.fill"
         /// 􀂨
-        static let kSquare:String = "k.square"
+        case kSquare = "k.square"
         /// 􀂩
-        static let kSquareFill:String = "k.square.fill"
+        case kSquareFill = "k.square.fill"
         /// 􀀚
-        static let lCircle:String = "l.circle"
+        case lCircle = "l.circle"
         /// 􀀛
-        static let lCircleFill:String = "l.circle.fill"
+        case lCircleFill = "l.circle.fill"
         /// 􀂪
-        static let lSquare:String = "l.square"
+        case lSquare = "l.square"
         /// 􀂫
-        static let lSquareFill:String = "l.square.fill"
+        case lSquareFill = "l.square.fill"
         /// 􀀜
-        static let mCircle:String = "m.circle"
+        case mCircle = "m.circle"
         /// 􀀝
-        static let mCircleFill:String = "m.circle.fill"
+        case mCircleFill = "m.circle.fill"
         /// 􀂬
-        static let mSquare:String = "m.square"
+        case mSquare = "m.square"
         /// 􀂭
-        static let mSquareFill:String = "m.square.fill"
+        case mSquareFill = "m.square.fill"
         /// 􀀞
-        static let nCircle:String = "n.circle"
+        case nCircle = "n.circle"
         /// 􀀟
-        static let nCircleFill:String = "n.circle.fill"
+        case nCircleFill = "n.circle.fill"
         /// 􀂮
-        static let nSquare:String = "n.square"
+        case nSquare = "n.square"
         /// 􀂯
-        static let nSquareFill:String = "n.square.fill"
+        case nSquareFill = "n.square.fill"
         /// 􀀠
-        static let oCircle:String = "o.circle"
+        case oCircle = "o.circle"
         /// 􀀡
-        static let oCircleFill:String = "o.circle.fill"
+        case oCircleFill = "o.circle.fill"
         /// 􀂰
-        static let oSquare:String = "o.square"
+        case oSquare = "o.square"
         /// 􀂱
-        static let oSquareFill:String = "o.square.fill"
+        case oSquareFill = "o.square.fill"
         /// 􀀢
-        static let pCircle:String = "p.circle"
+        case pCircle = "p.circle"
         /// 􀀣
-        static let pCircleFill:String = "p.circle.fill"
+        case pCircleFill = "p.circle.fill"
         /// 􀂲
-        static let pSquare:String = "p.square"
+        case pSquare = "p.square"
         /// 􀂳
-        static let pSquareFill:String = "p.square.fill"
+        case pSquareFill = "p.square.fill"
         /// 􀀤
-        static let qCircle:String = "q.circle"
+        case qCircle = "q.circle"
         /// 􀀥
-        static let qCircleFill:String = "q.circle.fill"
+        case qCircleFill = "q.circle.fill"
         /// 􀂴
-        static let qSquare:String = "q.square"
+        case qSquare = "q.square"
         /// 􀂵
-        static let qSquareFill:String = "q.square.fill"
+        case qSquareFill = "q.square.fill"
         /// 􀀦
-        static let rCircle:String = "r.circle"
+        case rCircle = "r.circle"
         /// 􀀧
-        static let rCircleFill:String = "r.circle.fill"
+        case rCircleFill = "r.circle.fill"
         /// 􀂶
-        static let rSquare:String = "r.square"
+        case rSquare = "r.square"
         /// 􀂷
-        static let rSquareFill:String = "r.square.fill"
+        case rSquareFill = "r.square.fill"
         /// 􀀨
-        static let sCircle:String = "s.circle"
+        case sCircle = "s.circle"
         /// 􀀩
-        static let sCircleFill:String = "s.circle.fill"
+        case sCircleFill = "s.circle.fill"
         /// 􀂸
-        static let sSquare:String = "s.square"
+        case sSquare = "s.square"
         /// 􀂹
-        static let sSquareFill:String = "s.square.fill"
+        case sSquareFill = "s.square.fill"
         /// 􀀪
-        static let tCircle:String = "t.circle"
+        case tCircle = "t.circle"
         /// 􀀫
-        static let tCircleFill:String = "t.circle.fill"
+        case tCircleFill = "t.circle.fill"
         /// 􀂺
-        static let tSquare:String = "t.square"
+        case tSquare = "t.square"
         /// 􀂻
-        static let tSquareFill:String = "t.square.fill"
+        case tSquareFill = "t.square.fill"
         /// 􀀬
-        static let uCircle:String = "u.circle"
+        case uCircle = "u.circle"
         /// 􀀭
-        static let uCircleFill:String = "u.circle.fill"
+        case uCircleFill = "u.circle.fill"
         /// 􀂼
-        static let uSquare:String = "u.square"
+        case uSquare = "u.square"
         /// 􀂽
-        static let uSquareFill:String = "u.square.fill"
+        case uSquareFill = "u.square.fill"
         /// 􀀮
-        static let vCircle:String = "v.circle"
+        case vCircle = "v.circle"
         /// 􀀯
-        static let vCircleFill:String = "v.circle.fill"
+        case vCircleFill = "v.circle.fill"
         /// 􀂾
-        static let vSquare:String = "v.square"
+        case vSquare = "v.square"
         /// 􀂿
-        static let vSquareFill:String = "v.square.fill"
+        case vSquareFill = "v.square.fill"
         /// 􀀰
-        static let wCircle:String = "w.circle"
+        case wCircle = "w.circle"
         /// 􀀱
-        static let wCircleFill:String = "w.circle.fill"
+        case wCircleFill = "w.circle.fill"
         /// 􀃀
-        static let wSquare:String = "w.square"
+        case wSquare = "w.square"
         /// 􀃁
-        static let wSquareFill:String = "w.square.fill"
+        case wSquareFill = "w.square.fill"
         /// 􀀲
-        static let xCircle:String = "x.circle"
+        case xCircle = "x.circle"
         /// 􀀳
-        static let xCircleFill:String = "x.circle.fill"
+        case xCircleFill = "x.circle.fill"
         /// 􀃂
-        static let xSquare:String = "x.square"
+        case xSquare = "x.square"
         /// 􀃃
-        static let xSquareFill:String = "x.square.fill"
+        case xSquareFill = "x.square.fill"
         /// 􀀴
-        static let yCircle:String = "y.circle"
+        case yCircle = "y.circle"
         /// 􀀵
-        static let yCircleFill:String = "y.circle.fill"
+        case yCircleFill = "y.circle.fill"
         /// 􀃄
-        static let ySquare:String = "y.square"
+        case ySquare = "y.square"
         /// 􀃅
-        static let ySquareFill:String = "y.square.fill"
+        case ySquareFill = "y.square.fill"
         /// 􀀶
-        static let zCircle:String = "z.circle"
+        case zCircle = "z.circle"
         /// 􀀷
-        static let zCircleFill:String = "z.circle.fill"
+        case zCircleFill = "z.circle.fill"
         /// 􀃆
-        static let zSquare:String = "z.square"
+        case zSquare = "z.square"
         /// 􀃇
-        static let zSquareFill:String = "z.square.fill"
+        case zSquareFill = "z.square.fill"
         /// 􀖗
-        static let dollarsignCircle:String = "dollarsign.circle"
+        case dollarsignCircle = "dollarsign.circle"
         /// 􀖘
-        static let dollarsignCircleFill:String = "dollarsign.circle.fill"
+        case dollarsignCircleFill = "dollarsign.circle.fill"
         /// 􀗗
-        static let dollarsignSquare:String = "dollarsign.square"
+        case dollarsignSquare = "dollarsign.square"
         /// 􀗘
-        static let dollarsignSquareFill:String = "dollarsign.square.fill"
+        case dollarsignSquareFill = "dollarsign.square.fill"
         /// 􀖙
-        static let centsignCircle:String = "centsign.circle"
+        case centsignCircle = "centsign.circle"
         /// 􀖚
-        static let centsignCircleFill:String = "centsign.circle.fill"
+        case centsignCircleFill = "centsign.circle.fill"
         /// 􀗙
-        static let centsignSquare:String = "centsign.square"
+        case centsignSquare = "centsign.square"
         /// 􀗚
-        static let centsignSquareFill:String = "centsign.square.fill"
+        case centsignSquareFill = "centsign.square.fill"
         /// 􀖛
-        static let yensignCircle:String = "yensign.circle"
+        case yensignCircle = "yensign.circle"
         /// 􀖜
-        static let yensignCircleFill:String = "yensign.circle.fill"
+        case yensignCircleFill = "yensign.circle.fill"
         /// 􀗛
-        static let yensignSquare:String = "yensign.square"
+        case yensignSquare = "yensign.square"
         /// 􀗜
-        static let yensignSquareFill:String = "yensign.square.fill"
+        case yensignSquareFill = "yensign.square.fill"
         /// 􀖝
-        static let sterlingsignCircle:String = "sterlingsign.circle"
+        case sterlingsignCircle = "sterlingsign.circle"
         /// 􀖞
-        static let sterlingsignCircleFill:String = "sterlingsign.circle.fill"
+        case sterlingsignCircleFill = "sterlingsign.circle.fill"
         /// 􀗝
-        static let sterlingsignSquare:String = "sterlingsign.square"
+        case sterlingsignSquare = "sterlingsign.square"
         /// 􀗞
-        static let sterlingsignSquareFill:String = "sterlingsign.square.fill"
+        case sterlingsignSquareFill = "sterlingsign.square.fill"
         /// 􀖟
-        static let francsignCircle:String = "francsign.circle"
+        case francsignCircle = "francsign.circle"
         /// 􀖠
-        static let francsignCircleFill:String = "francsign.circle.fill"
+        case francsignCircleFill = "francsign.circle.fill"
         /// 􀗟
-        static let francsignSquare:String = "francsign.square"
+        case francsignSquare = "francsign.square"
         /// 􀗠
-        static let francsignSquareFill:String = "francsign.square.fill"
+        case francsignSquareFill = "francsign.square.fill"
         /// 􀖡
-        static let florinsignCircle:String = "florinsign.circle"
+        case florinsignCircle = "florinsign.circle"
         /// 􀖢
-        static let florinsignCircleFill:String = "florinsign.circle.fill"
+        case florinsignCircleFill = "florinsign.circle.fill"
         /// 􀗡
-        static let florinsignSquare:String = "florinsign.square"
+        case florinsignSquare = "florinsign.square"
         /// 􀗢
-        static let florinsignSquareFill:String = "florinsign.square.fill"
+        case florinsignSquareFill = "florinsign.square.fill"
         /// 􀖣
-        static let turkishlirasignCircle:String = "turkishlirasign.circle"
+        case turkishlirasignCircle = "turkishlirasign.circle"
         /// 􀖤
-        static let turkishlirasignCircleFill:String = "turkishlirasign.circle.fill"
+        case turkishlirasignCircleFill = "turkishlirasign.circle.fill"
         /// 􀗣
-        static let turkishlirasignSquare:String = "turkishlirasign.square"
+        case turkishlirasignSquare = "turkishlirasign.square"
         /// 􀗤
-        static let turkishlirasignSquareFill:String = "turkishlirasign.square.fill"
+        case turkishlirasignSquareFill = "turkishlirasign.square.fill"
         /// 􀖥
-        static let rublesignCircle:String = "rublesign.circle"
+        case rublesignCircle = "rublesign.circle"
         /// 􀖦
-        static let rublesignCircleFill:String = "rublesign.circle.fill"
+        case rublesignCircleFill = "rublesign.circle.fill"
         /// 􀗥
-        static let rublesignSquare:String = "rublesign.square"
+        case rublesignSquare = "rublesign.square"
         /// 􀗦
-        static let rublesignSquareFill:String = "rublesign.square.fill"
+        case rublesignSquareFill = "rublesign.square.fill"
         /// 􀖧
-        static let eurosignCircle:String = "eurosign.circle"
+        case eurosignCircle = "eurosign.circle"
         /// 􀖨
-        static let eurosignCircleFill:String = "eurosign.circle.fill"
+        case eurosignCircleFill = "eurosign.circle.fill"
         /// 􀗧
-        static let eurosignSquare:String = "eurosign.square"
+        case eurosignSquare = "eurosign.square"
         /// 􀗨
-        static let eurosignSquareFill:String = "eurosign.square.fill"
+        case eurosignSquareFill = "eurosign.square.fill"
         /// 􀖩
-        static let dongsignCircle:String = "dongsign.circle"
+        case dongsignCircle = "dongsign.circle"
         /// 􀖪
-        static let dongsignCircleFill:String = "dongsign.circle.fill"
+        case dongsignCircleFill = "dongsign.circle.fill"
         /// 􀗩
-        static let dongsignSquare:String = "dongsign.square"
+        case dongsignSquare = "dongsign.square"
         /// 􀗪
-        static let dongsignSquareFill:String = "dongsign.square.fill"
+        case dongsignSquareFill = "dongsign.square.fill"
         /// 􀖫
-        static let indianrupeesignCircle:String = "indianrupeesign.circle"
+        case indianrupeesignCircle = "indianrupeesign.circle"
         /// 􀖬
-        static let indianrupeesignCircleFill:String = "indianrupeesign.circle.fill"
+        case indianrupeesignCircleFill = "indianrupeesign.circle.fill"
         /// 􀗫
-        static let indianrupeesignSquare:String = "indianrupeesign.square"
+        case indianrupeesignSquare = "indianrupeesign.square"
         /// 􀗬
-        static let indianrupeesignSquareFill:String = "indianrupeesign.square.fill"
+        case indianrupeesignSquareFill = "indianrupeesign.square.fill"
         /// 􀖭
-        static let tengesignCircle:String = "tengesign.circle"
+        case tengesignCircle = "tengesign.circle"
         /// 􀖮
-        static let tengesignCircleFill:String = "tengesign.circle.fill"
+        case tengesignCircleFill = "tengesign.circle.fill"
         /// 􀗭
-        static let tengesignSquare:String = "tengesign.square"
+        case tengesignSquare = "tengesign.square"
         /// 􀗮
-        static let tengesignSquareFill:String = "tengesign.square.fill"
+        case tengesignSquareFill = "tengesign.square.fill"
         /// 􀖯
-        static let pesetasignCircle:String = "pesetasign.circle"
+        case pesetasignCircle = "pesetasign.circle"
         /// 􀖰
-        static let pesetasignCircleFill:String = "pesetasign.circle.fill"
+        case pesetasignCircleFill = "pesetasign.circle.fill"
         /// 􀗯
-        static let pesetasignSquare:String = "pesetasign.square"
+        case pesetasignSquare = "pesetasign.square"
         /// 􀗰
-        static let pesetasignSquareFill:String = "pesetasign.square.fill"
+        case pesetasignSquareFill = "pesetasign.square.fill"
         /// 􀖱
-        static let pesosignCircle:String = "pesosign.circle"
+        case pesosignCircle = "pesosign.circle"
         /// 􀖲
-        static let pesosignCircleFill:String = "pesosign.circle.fill"
+        case pesosignCircleFill = "pesosign.circle.fill"
         /// 􀗱
-        static let pesosignSquare:String = "pesosign.square"
+        case pesosignSquare = "pesosign.square"
         /// 􀗲
-        static let pesosignSquareFill:String = "pesosign.square.fill"
+        case pesosignSquareFill = "pesosign.square.fill"
         /// 􀖳
-        static let kipsignCircle:String = "kipsign.circle"
+        case kipsignCircle = "kipsign.circle"
         /// 􀖴
-        static let kipsignCircleFill:String = "kipsign.circle.fill"
+        case kipsignCircleFill = "kipsign.circle.fill"
         /// 􀗳
-        static let kipsignSquare:String = "kipsign.square"
+        case kipsignSquare = "kipsign.square"
         /// 􀗴
-        static let kipsignSquareFill:String = "kipsign.square.fill"
+        case kipsignSquareFill = "kipsign.square.fill"
         /// 􀖵
-        static let wonsignCircle:String = "wonsign.circle"
+        case wonsignCircle = "wonsign.circle"
         /// 􀖶
-        static let wonsignCircleFill:String = "wonsign.circle.fill"
+        case wonsignCircleFill = "wonsign.circle.fill"
         /// 􀗵
-        static let wonsignSquare:String = "wonsign.square"
+        case wonsignSquare = "wonsign.square"
         /// 􀗶
-        static let wonsignSquareFill:String = "wonsign.square.fill"
+        case wonsignSquareFill = "wonsign.square.fill"
         /// 􀖷
-        static let lirasignCircle:String = "lirasign.circle"
+        case lirasignCircle = "lirasign.circle"
         /// 􀖸
-        static let lirasignCircleFill:String = "lirasign.circle.fill"
+        case lirasignCircleFill = "lirasign.circle.fill"
         /// 􀗷
-        static let lirasignSquare:String = "lirasign.square"
+        case lirasignSquare = "lirasign.square"
         /// 􀗸
-        static let lirasignSquareFill:String = "lirasign.square.fill"
+        case lirasignSquareFill = "lirasign.square.fill"
         /// 􀖹
-        static let australsignCircle:String = "australsign.circle"
+        case australsignCircle = "australsign.circle"
         /// 􀖺
-        static let australsignCircleFill:String = "australsign.circle.fill"
+        case australsignCircleFill = "australsign.circle.fill"
         /// 􀗹
-        static let australsignSquare:String = "australsign.square"
+        case australsignSquare = "australsign.square"
         /// 􀗺
-        static let australsignSquareFill:String = "australsign.square.fill"
+        case australsignSquareFill = "australsign.square.fill"
         /// 􀖻
-        static let hryvniasignCircle:String = "hryvniasign.circle"
+        case hryvniasignCircle = "hryvniasign.circle"
         /// 􀖼
-        static let hryvniasignCircleFill:String = "hryvniasign.circle.fill"
+        case hryvniasignCircleFill = "hryvniasign.circle.fill"
         /// 􀗻
-        static let hryvniasignSquare:String = "hryvniasign.square"
+        case hryvniasignSquare = "hryvniasign.square"
         /// 􀗼
-        static let hryvniasignSquareFill:String = "hryvniasign.square.fill"
+        case hryvniasignSquareFill = "hryvniasign.square.fill"
         /// 􀖽
-        static let nairasignCircle:String = "nairasign.circle"
+        case nairasignCircle = "nairasign.circle"
         /// 􀖾
-        static let nairasignCircleFill:String = "nairasign.circle.fill"
+        case nairasignCircleFill = "nairasign.circle.fill"
         /// 􀗽
-        static let nairasignSquare:String = "nairasign.square"
+        case nairasignSquare = "nairasign.square"
         /// 􀗾
-        static let nairasignSquareFill:String = "nairasign.square.fill"
+        case nairasignSquareFill = "nairasign.square.fill"
         /// 􀖿
-        static let guaranisignCircle:String = "guaranisign.circle"
+        case guaranisignCircle = "guaranisign.circle"
         /// 􀗀
-        static let guaranisignCircleFill:String = "guaranisign.circle.fill"
+        case guaranisignCircleFill = "guaranisign.circle.fill"
         /// 􀗿
-        static let guaranisignSquare:String = "guaranisign.square"
+        case guaranisignSquare = "guaranisign.square"
         /// 􀘀
-        static let guaranisignSquareFill:String = "guaranisign.square.fill"
+        case guaranisignSquareFill = "guaranisign.square.fill"
         /// 􀗁
-        static let coloncurrencysignCircle:String = "coloncurrencysign.circle"
+        case coloncurrencysignCircle = "coloncurrencysign.circle"
         /// 􀗂
-        static let coloncurrencysignCircleFill:String = "coloncurrencysign.circle.fill"
+        case coloncurrencysignCircleFill = "coloncurrencysign.circle.fill"
         /// 􀘁
-        static let coloncurrencysignSquare:String = "coloncurrencysign.square"
+        case coloncurrencysignSquare = "coloncurrencysign.square"
         /// 􀘂
-        static let coloncurrencysignSquareFill:String = "coloncurrencysign.square.fill"
+        case coloncurrencysignSquareFill = "coloncurrencysign.square.fill"
         /// 􀗃
-        static let cedisignCircle:String = "cedisign.circle"
+        case cedisignCircle = "cedisign.circle"
         /// 􀗄
-        static let cedisignCircleFill:String = "cedisign.circle.fill"
+        case cedisignCircleFill = "cedisign.circle.fill"
         /// 􀘃
-        static let cedisignSquare:String = "cedisign.square"
+        case cedisignSquare = "cedisign.square"
         /// 􀘄
-        static let cedisignSquareFill:String = "cedisign.square.fill"
+        case cedisignSquareFill = "cedisign.square.fill"
         /// 􀗅
-        static let cruzeirosignCircle:String = "cruzeirosign.circle"
+        case cruzeirosignCircle = "cruzeirosign.circle"
         /// 􀗆
-        static let cruzeirosignCircleFill:String = "cruzeirosign.circle.fill"
+        case cruzeirosignCircleFill = "cruzeirosign.circle.fill"
         /// 􀘅
-        static let cruzeirosignSquare:String = "cruzeirosign.square"
+        case cruzeirosignSquare = "cruzeirosign.square"
         /// 􀘆
-        static let cruzeirosignSquareFill:String = "cruzeirosign.square.fill"
+        case cruzeirosignSquareFill = "cruzeirosign.square.fill"
         /// 􀗇
-        static let tugriksignCircle:String = "tugriksign.circle"
+        case tugriksignCircle = "tugriksign.circle"
         /// 􀗈
-        static let tugriksignCircleFill:String = "tugriksign.circle.fill"
+        case tugriksignCircleFill = "tugriksign.circle.fill"
         /// 􀘇
-        static let tugriksignSquare:String = "tugriksign.square"
+        case tugriksignSquare = "tugriksign.square"
         /// 􀘈
-        static let tugriksignSquareFill:String = "tugriksign.square.fill"
+        case tugriksignSquareFill = "tugriksign.square.fill"
         /// 􀗉
-        static let millsignCircle:String = "millsign.circle"
+        case millsignCircle = "millsign.circle"
         /// 􀗊
-        static let millsignCircleFill:String = "millsign.circle.fill"
+        case millsignCircleFill = "millsign.circle.fill"
         /// 􀘉
-        static let millsignSquare:String = "millsign.square"
+        case millsignSquare = "millsign.square"
         /// 􀘊
-        static let millsignSquareFill:String = "millsign.square.fill"
+        case millsignSquareFill = "millsign.square.fill"
         /// 􀗋
-        static let shekelsignCircle:String = "shekelsign.circle"
+        case shekelsignCircle = "shekelsign.circle"
         /// 􀗌
-        static let shekelsignCircleFill:String = "shekelsign.circle.fill"
+        case shekelsignCircleFill = "shekelsign.circle.fill"
         /// 􀘋
-        static let shekelsignSquare:String = "shekelsign.square"
+        case shekelsignSquare = "shekelsign.square"
         /// 􀘌
-        static let shekelsignSquareFill:String = "shekelsign.square.fill"
+        case shekelsignSquareFill = "shekelsign.square.fill"
         /// 􀗍
-        static let manatsignCircle:String = "manatsign.circle"
+        case manatsignCircle = "manatsign.circle"
         /// 􀗎
-        static let manatsignCircleFill:String = "manatsign.circle.fill"
+        case manatsignCircleFill = "manatsign.circle.fill"
         /// 􀘍
-        static let manatsignSquare:String = "manatsign.square"
+        case manatsignSquare = "manatsign.square"
         /// 􀘎
-        static let manatsignSquareFill:String = "manatsign.square.fill"
+        case manatsignSquareFill = "manatsign.square.fill"
         /// 􀗏
-        static let rupeesignCircle:String = "rupeesign.circle"
+        case rupeesignCircle = "rupeesign.circle"
         /// 􀗐
-        static let rupeesignCircleFill:String = "rupeesign.circle.fill"
+        case rupeesignCircleFill = "rupeesign.circle.fill"
         /// 􀘏
-        static let rupeesignSquare:String = "rupeesign.square"
+        case rupeesignSquare = "rupeesign.square"
         /// 􀘐
-        static let rupeesignSquareFill:String = "rupeesign.square.fill"
+        case rupeesignSquareFill = "rupeesign.square.fill"
         /// 􀗑
-        static let bahtsignCircle:String = "bahtsign.circle"
+        case bahtsignCircle = "bahtsign.circle"
         /// 􀗒
-        static let bahtsignCircleFill:String = "bahtsign.circle.fill"
+        case bahtsignCircleFill = "bahtsign.circle.fill"
         /// 􀘑
-        static let bahtsignSquare:String = "bahtsign.square"
+        case bahtsignSquare = "bahtsign.square"
         /// 􀘒
-        static let bahtsignSquareFill:String = "bahtsign.square.fill"
+        case bahtsignSquareFill = "bahtsign.square.fill"
         /// 􀗓
-        static let larisignCircle:String = "larisign.circle"
+        case larisignCircle = "larisign.circle"
         /// 􀗔
-        static let larisignCircleFill:String = "larisign.circle.fill"
+        case larisignCircleFill = "larisign.circle.fill"
         /// 􀘓
-        static let larisignSquare:String = "larisign.square"
+        case larisignSquare = "larisign.square"
         /// 􀘔
-        static let larisignSquareFill:String = "larisign.square.fill"
+        case larisignSquareFill = "larisign.square.fill"
         /// 􀗕
-        static let bitcoinsignCircle:String = "bitcoinsign.circle"
+        case bitcoinsignCircle = "bitcoinsign.circle"
         /// 􀗖
-        static let bitcoinsignCircleFill:String = "bitcoinsign.circle.fill"
+        case bitcoinsignCircleFill = "bitcoinsign.circle.fill"
         /// 􀘕
-        static let bitcoinsignSquare:String = "bitcoinsign.square"
+        case bitcoinsignSquare = "bitcoinsign.square"
         /// 􀘖
-        static let bitcoinsignSquareFill:String = "bitcoinsign.square.fill"
+        case bitcoinsignSquareFill = "bitcoinsign.square.fill"
         /// 􀮰
-        static let brazilianrealsignCircle:String = "brazilianrealsign.circle"
+        case brazilianrealsignCircle = "brazilianrealsign.circle"
         /// 􀮱
-        static let brazilianrealsignCircleFill:String = "brazilianrealsign.circle.fill"
+        case brazilianrealsignCircleFill = "brazilianrealsign.circle.fill"
         /// 􀮲
-        static let brazilianrealsignSquare:String = "brazilianrealsign.square"
+        case brazilianrealsignSquare = "brazilianrealsign.square"
         /// 􀮳
-        static let brazilianrealsignSquareFill:String = "brazilianrealsign.square.fill"
+        case brazilianrealsignSquareFill = "brazilianrealsign.square.fill"
         /// 􀀸
-        static let circle0:String = "0.circle"
+        case circle0 = "0.circle"
         /// 􀀹
-        static let circle0Fill:String = "0.circle.fill"
+        case circle0Fill = "0.circle.fill"
         /// 􀃈
-        static let square0:String = "0.square"
+        case square0 = "0.square"
         /// 􀃉
-        static let square0Fill:String = "0.square.fill"
+        case square0Fill = "0.square.fill"
         /// 􀀺
-        static let circle1:String = "1.circle"
+        case circle1 = "1.circle"
         /// 􀀻
-        static let circle1Fill:String = "1.circle.fill"
+        case circle1Fill = "1.circle.fill"
         /// 􀃊
-        static let square1:String = "1.square"
+        case square1 = "1.square"
         /// 􀃋
-        static let square1Fill:String = "1.square.fill"
+        case square1Fill = "1.square.fill"
         /// 􀀼
-        static let circle2:String = "2.circle"
+        case circle2 = "2.circle"
         /// 􀀽
-        static let circle2Fill:String = "2.circle.fill"
+        case circle2Fill = "2.circle.fill"
         /// 􀃌
-        static let square2:String = "2.square"
+        case square2 = "2.square"
         /// 􀃍
-        static let square2Fill:String = "2.square.fill"
+        case square2Fill = "2.square.fill"
       /*
          Needs to be fixed
         /// 􀀾
-        static let 3Circle:String = "3.circle"
+        case 3Circle = "3.circle"
         /// 􀀿
-        static let 3CircleFill:String = "3.circle.fill"
+        case 3CircleFill = "3.circle.fill"
         /// 􀃎
-        static let 3Square:String = "3.square"
+        case 3Square = "3.square"
         /// 􀃏
-        static let 3SquareFill:String = "3.square.fill"
+        case 3SquareFill = "3.square.fill"
         /// 􀁀
-        static let 4Circle:String = "4.circle"
+        case 4Circle = "4.circle"
         /// 􀁁
-        static let 4CircleFill:String = "4.circle.fill"
+        case 4CircleFill = "4.circle.fill"
         /// 􀃐
-        static let 4Square:String = "4.square"
+        case 4Square = "4.square"
         /// 􀃑
-        static let 4SquareFill:String = "4.square.fill"
+        case 4SquareFill = "4.square.fill"
         /// 􀘗
-        static let 4AltCircle:String = "4.alt.circle"
+        case 4AltCircle = "4.alt.circle"
         /// 􀘘
-        static let 4AltCircleFill:String = "4.alt.circle.fill"
+        case 4AltCircleFill = "4.alt.circle.fill"
         /// 􀘙
-        static let 4AltSquare:String = "4.alt.square"
+        case 4AltSquare = "4.alt.square"
         /// 􀘚
-        static let 4AltSquareFill:String = "4.alt.square.fill"
+        case 4AltSquareFill = "4.alt.square.fill"
         /// 􀁂
-        static let 5Circle:String = "5.circle"
+        case 5Circle = "5.circle"
         /// 􀁃
-        static let 5CircleFill:String = "5.circle.fill"
+        case 5CircleFill = "5.circle.fill"
         /// 􀃒
-        static let 5Square:String = "5.square"
+        case 5Square = "5.square"
         /// 􀃓
-        static let 5SquareFill:String = "5.square.fill"
+        case 5SquareFill = "5.square.fill"
         /// 􀁄
-        static let 6Circle:String = "6.circle"
+        case 6Circle = "6.circle"
         /// 􀁅
-        static let 6CircleFill:String = "6.circle.fill"
+        case 6CircleFill = "6.circle.fill"
         /// 􀃔
-        static let 6Square:String = "6.square"
+        case 6Square = "6.square"
         /// 􀃕
-        static let 6SquareFill:String = "6.square.fill"
+        case 6SquareFill = "6.square.fill"
         /// 􀑱
-        static let 6AltCircle:String = "6.alt.circle"
+        case 6AltCircle = "6.alt.circle"
         /// 􀑲
-        static let 6AltCircleFill:String = "6.alt.circle.fill"
+        case 6AltCircleFill = "6.alt.circle.fill"
         /// 􀑵
-        static let 6AltSquare:String = "6.alt.square"
+        case 6AltSquare = "6.alt.square"
         /// 􀑶
-        static let 6AltSquareFill:String = "6.alt.square.fill"
+        case 6AltSquareFill = "6.alt.square.fill"
         /// 􀁆
-        static let 7Circle:String = "7.circle"
+        case 7Circle = "7.circle"
         /// 􀁇
-        static let 7CircleFill:String = "7.circle.fill"
+        case 7CircleFill = "7.circle.fill"
         /// 􀃖
-        static let 7Square:String = "7.square"
+        case 7Square = "7.square"
         /// 􀃗
-        static let 7SquareFill:String = "7.square.fill"
+        case 7SquareFill = "7.square.fill"
         /// 􀁈
-        static let 8Circle:String = "8.circle"
+        case 8Circle = "8.circle"
         /// 􀁉
-        static let 8CircleFill:String = "8.circle.fill"
+        case 8CircleFill = "8.circle.fill"
         /// 􀃘
-        static let 8Square:String = "8.square"
+        case 8Square = "8.square"
         /// 􀃙
-        static let 8SquareFill:String = "8.square.fill"
+        case 8SquareFill = "8.square.fill"
         /// 􀁊
-        static let 9Circle:String = "9.circle"
+        case 9Circle = "9.circle"
         /// 􀁋
-        static let 9CircleFill:String = "9.circle.fill"
+        case 9CircleFill = "9.circle.fill"
         /// 􀃚
-        static let 9Square:String = "9.square"
+        case 9Square = "9.square"
         /// 􀃛
-        static let 9SquareFill:String = "9.square.fill"
+        case 9SquareFill = "9.square.fill"
         /// 􀑳
-        static let 9AltCircle:String = "9.alt.circle"
+        case 9AltCircle = "9.alt.circle"
         /// 􀑴
-        static let 9AltCircleFill:String = "9.alt.circle.fill"
+        case 9AltCircleFill = "9.alt.circle.fill"
         /// 􀑷
-        static let 9AltSquare:String = "9.alt.square"
+        case 9AltSquare = "9.alt.square"
         /// 􀑸
-        static let 9AltSquareFill:String = "9.alt.square.fill"
+        case 9AltSquareFill = "9.alt.square.fill"
         /// 􀓫
-        static let 00Circle:String = "00.circle"
+        case 00Circle = "00.circle"
         /// 􀔊
-        static let 00CircleFill:String = "00.circle.fill"
+        case 00CircleFill = "00.circle.fill"
         /// 􀔩
-        static let 00Square:String = "00.square"
+        case 00Square = "00.square"
         /// 􀕈
-        static let 00SquareFill:String = "00.square.fill"
+        case 00SquareFill = "00.square.fill"
         /// 􀓬
-        static let 01Circle:String = "01.circle"
+        case 01Circle = "01.circle"
         /// 􀔋
-        static let 01CircleFill:String = "01.circle.fill"
+        case 01CircleFill = "01.circle.fill"
         /// 􀔪
-        static let 01Square:String = "01.square"
+        case 01Square = "01.square"
         /// 􀕉
-        static let 01SquareFill:String = "01.square.fill"
+        case 01SquareFill = "01.square.fill"
         /// 􀓭
-        static let 02Circle:String = "02.circle"
+        case 02Circle = "02.circle"
         /// 􀔌
-        static let 02CircleFill:String = "02.circle.fill"
+        case 02CircleFill = "02.circle.fill"
         /// 􀔫
-        static let 02Square:String = "02.square"
+        case 02Square = "02.square"
         /// 􀕊
-        static let 02SquareFill:String = "02.square.fill"
+        case 02SquareFill = "02.square.fill"
         /// 􀓮
-        static let 03Circle:String = "03.circle"
+        case 03Circle = "03.circle"
         /// 􀔍
-        static let 03CircleFill:String = "03.circle.fill"
+        case 03CircleFill = "03.circle.fill"
         /// 􀔬
-        static let 03Square:String = "03.square"
+        case 03Square = "03.square"
         /// 􀕋
-        static let 03SquareFill:String = "03.square.fill"
+        case 03SquareFill = "03.square.fill"
         /// 􀓯
-        static let 04Circle:String = "04.circle"
+        case 04Circle = "04.circle"
         /// 􀔎
-        static let 04CircleFill:String = "04.circle.fill"
+        case 04CircleFill = "04.circle.fill"
         /// 􀔭
-        static let 04Square:String = "04.square"
+        case 04Square = "04.square"
         /// 􀕌
-        static let 04SquareFill:String = "04.square.fill"
+        case 04SquareFill = "04.square.fill"
         /// 􀓰
-        static let 05Circle:String = "05.circle"
+        case 05Circle = "05.circle"
         /// 􀔏
-        static let 05CircleFill:String = "05.circle.fill"
+        case 05CircleFill = "05.circle.fill"
         /// 􀔮
-        static let 05Square:String = "05.square"
+        case 05Square = "05.square"
         /// 􀕍
-        static let 05SquareFill:String = "05.square.fill"
+        case 05SquareFill = "05.square.fill"
         /// 􀓱
-        static let 06Circle:String = "06.circle"
+        case 06Circle = "06.circle"
         /// 􀔐
-        static let 06CircleFill:String = "06.circle.fill"
+        case 06CircleFill = "06.circle.fill"
         /// 􀔯
-        static let 06Square:String = "06.square"
+        case 06Square = "06.square"
         /// 􀕎
-        static let 06SquareFill:String = "06.square.fill"
+        case 06SquareFill = "06.square.fill"
         /// 􀓲
-        static let 07Circle:String = "07.circle"
+        case 07Circle = "07.circle"
         /// 􀔑
-        static let 07CircleFill:String = "07.circle.fill"
+        case 07CircleFill = "07.circle.fill"
         /// 􀔰
-        static let 07Square:String = "07.square"
+        case 07Square = "07.square"
         /// 􀕏
-        static let 07SquareFill:String = "07.square.fill"
+        case 07SquareFill = "07.square.fill"
         /// 􀓳
-        static let 08Circle:String = "08.circle"
+        case 08Circle = "08.circle"
         /// 􀔒
-        static let 08CircleFill:String = "08.circle.fill"
+        case 08CircleFill = "08.circle.fill"
         /// 􀔱
-        static let 08Square:String = "08.square"
+        case 08Square = "08.square"
         /// 􀕐
-        static let 08SquareFill:String = "08.square.fill"
+        case 08SquareFill = "08.square.fill"
         /// 􀓴
-        static let 09Circle:String = "09.circle"
+        case 09Circle = "09.circle"
         /// 􀔓
-        static let 09CircleFill:String = "09.circle.fill"
+        case 09CircleFill = "09.circle.fill"
         /// 􀔲
-        static let 09Square:String = "09.square"
+        case 09Square = "09.square"
         /// 􀕑
-        static let 09SquareFill:String = "09.square.fill"
+        case 09SquareFill = "09.square.fill"
         /// 􀓵
-        static let 10Circle:String = "10.circle"
+        case 10Circle = "10.circle"
         /// 􀔔
-        static let 10CircleFill:String = "10.circle.fill"
+        case 10CircleFill = "10.circle.fill"
         /// 􀔳
-        static let 10Square:String = "10.square"
+        case 10Square = "10.square"
         /// 􀕒
-        static let 10SquareFill:String = "10.square.fill"
+        case 10SquareFill = "10.square.fill"
         /// 􀓶
-        static let 11Circle:String = "11.circle"
+        case 11Circle = "11.circle"
         /// 􀔕
-        static let 11CircleFill:String = "11.circle.fill"
+        case 11CircleFill = "11.circle.fill"
         /// 􀔴
-        static let 11Square:String = "11.square"
+        case 11Square = "11.square"
         /// 􀕓
-        static let 11SquareFill:String = "11.square.fill"
+        case 11SquareFill = "11.square.fill"
         /// 􀓷
-        static let 12Circle:String = "12.circle"
+        case 12Circle = "12.circle"
         /// 􀔖
-        static let 12CircleFill:String = "12.circle.fill"
+        case 12CircleFill = "12.circle.fill"
         /// 􀔵
-        static let 12Square:String = "12.square"
+        case 12Square = "12.square"
         /// 􀕔
-        static let 12SquareFill:String = "12.square.fill"
+        case 12SquareFill = "12.square.fill"
         /// 􀓸
-        static let 13Circle:String = "13.circle"
+        case 13Circle = "13.circle"
         /// 􀔗
-        static let 13CircleFill:String = "13.circle.fill"
+        case 13CircleFill = "13.circle.fill"
         /// 􀔶
-        static let 13Square:String = "13.square"
+        case 13Square = "13.square"
         /// 􀕕
-        static let 13SquareFill:String = "13.square.fill"
+        case 13SquareFill = "13.square.fill"
         /// 􀓹
-        static let 14Circle:String = "14.circle"
+        case 14Circle = "14.circle"
         /// 􀔘
-        static let 14CircleFill:String = "14.circle.fill"
+        case 14CircleFill = "14.circle.fill"
         /// 􀔷
-        static let 14Square:String = "14.square"
+        case 14Square = "14.square"
         /// 􀕖
-        static let 14SquareFill:String = "14.square.fill"
+        case 14SquareFill = "14.square.fill"
         /// 􀓺
-        static let 15Circle:String = "15.circle"
+        case 15Circle = "15.circle"
         /// 􀔙
-        static let 15CircleFill:String = "15.circle.fill"
+        case 15CircleFill = "15.circle.fill"
         /// 􀔸
-        static let 15Square:String = "15.square"
+        case 15Square = "15.square"
         /// 􀕗
-        static let 15SquareFill:String = "15.square.fill"
+        case 15SquareFill = "15.square.fill"
         /// 􀓻
-        static let 16Circle:String = "16.circle"
+        case 16Circle = "16.circle"
         /// 􀔚
-        static let 16CircleFill:String = "16.circle.fill"
+        case 16CircleFill = "16.circle.fill"
         /// 􀔹
-        static let 16Square:String = "16.square"
+        case 16Square = "16.square"
         /// 􀕘
-        static let 16SquareFill:String = "16.square.fill"
+        case 16SquareFill = "16.square.fill"
         /// 􀓼
-        static let 17Circle:String = "17.circle"
+        case 17Circle = "17.circle"
         /// 􀔛
-        static let 17CircleFill:String = "17.circle.fill"
+        case 17CircleFill = "17.circle.fill"
         /// 􀔺
-        static let 17Square:String = "17.square"
+        case 17Square = "17.square"
         /// 􀕙
-        static let 17SquareFill:String = "17.square.fill"
+        case 17SquareFill = "17.square.fill"
         /// 􀓽
-        static let 18Circle:String = "18.circle"
+        case 18Circle = "18.circle"
         /// 􀔜
-        static let 18CircleFill:String = "18.circle.fill"
+        case 18CircleFill = "18.circle.fill"
         /// 􀔻
-        static let 18Square:String = "18.square"
+        case 18Square = "18.square"
         /// 􀕚
-        static let 18SquareFill:String = "18.square.fill"
+        case 18SquareFill = "18.square.fill"
         /// 􀓾
-        static let 19Circle:String = "19.circle"
+        case 19Circle = "19.circle"
         /// 􀔝
-        static let 19CircleFill:String = "19.circle.fill"
+        case 19CircleFill = "19.circle.fill"
         /// 􀔼
-        static let 19Square:String = "19.square"
+        case 19Square = "19.square"
         /// 􀕛
-        static let 19SquareFill:String = "19.square.fill"
+        case 19SquareFill = "19.square.fill"
         /// 􀓿
-        static let 20Circle:String = "20.circle"
+        case 20Circle = "20.circle"
         /// 􀔞
-        static let 20CircleFill:String = "20.circle.fill"
+        case 20CircleFill = "20.circle.fill"
         /// 􀔽
-        static let 20Square:String = "20.square"
+        case 20Square = "20.square"
         /// 􀕜
-        static let 20SquareFill:String = "20.square.fill"
+        case 20SquareFill = "20.square.fill"
         /// 􀔀
-        static let 21Circle:String = "21.circle"
+        case 21Circle = "21.circle"
         /// 􀔟
-        static let 21CircleFill:String = "21.circle.fill"
+        case 21CircleFill = "21.circle.fill"
         /// 􀔾
-        static let 21Square:String = "21.square"
+        case 21Square = "21.square"
         /// 􀕝
-        static let 21SquareFill:String = "21.square.fill"
+        case 21SquareFill = "21.square.fill"
         /// 􀔁
-        static let 22Circle:String = "22.circle"
+        case 22Circle = "22.circle"
         /// 􀔠
-        static let 22CircleFill:String = "22.circle.fill"
+        case 22CircleFill = "22.circle.fill"
         /// 􀔿
-        static let 22Square:String = "22.square"
+        case 22Square = "22.square"
         /// 􀕞
-        static let 22SquareFill:String = "22.square.fill"
+        case 22SquareFill = "22.square.fill"
         /// 􀔂
-        static let 23Circle:String = "23.circle"
+        case 23Circle = "23.circle"
         /// 􀔡
-        static let 23CircleFill:String = "23.circle.fill"
+        case 23CircleFill = "23.circle.fill"
         /// 􀕀
-        static let 23Square:String = "23.square"
+        case 23Square = "23.square"
         /// 􀕟
-        static let 23SquareFill:String = "23.square.fill"
+        case 23SquareFill = "23.square.fill"
         /// 􀔃
-        static let 24Circle:String = "24.circle"
+        case 24Circle = "24.circle"
         /// 􀔢
-        static let 24CircleFill:String = "24.circle.fill"
+        case 24CircleFill = "24.circle.fill"
         /// 􀕁
-        static let 24Square:String = "24.square"
+        case 24Square = "24.square"
         /// 􀕠
-        static let 24SquareFill:String = "24.square.fill"
+        case 24SquareFill = "24.square.fill"
         /// 􀔄
-        static let 25Circle:String = "25.circle"
+        case 25Circle = "25.circle"
         /// 􀔣
-        static let 25CircleFill:String = "25.circle.fill"
+        case 25CircleFill = "25.circle.fill"
         /// 􀕂
-        static let 25Square:String = "25.square"
+        case 25Square = "25.square"
         /// 􀕡
-        static let 25SquareFill:String = "25.square.fill"
+        case 25SquareFill = "25.square.fill"
         /// 􀔅
-        static let 26Circle:String = "26.circle"
+        case 26Circle = "26.circle"
         /// 􀔤
-        static let 26CircleFill:String = "26.circle.fill"
+        case 26CircleFill = "26.circle.fill"
         /// 􀕃
-        static let 26Square:String = "26.square"
+        case 26Square = "26.square"
         /// 􀕢
-        static let 26SquareFill:String = "26.square.fill"
+        case 26SquareFill = "26.square.fill"
         /// 􀔆
-        static let 27Circle:String = "27.circle"
+        case 27Circle = "27.circle"
         /// 􀔥
-        static let 27CircleFill:String = "27.circle.fill"
+        case 27CircleFill = "27.circle.fill"
         /// 􀕄
-        static let 27Square:String = "27.square"
+        case 27Square = "27.square"
         /// 􀕣
-        static let 27SquareFill:String = "27.square.fill"
+        case 27SquareFill = "27.square.fill"
         /// 􀔇
-        static let 28Circle:String = "28.circle"
+        case 28Circle = "28.circle"
         /// 􀔦
-        static let 28CircleFill:String = "28.circle.fill"
+        case 28CircleFill = "28.circle.fill"
         /// 􀕅
-        static let 28Square:String = "28.square"
+        case 28Square = "28.square"
         /// 􀕤
-        static let 28SquareFill:String = "28.square.fill"
+        case 28SquareFill = "28.square.fill"
         /// 􀔈
-        static let 29Circle:String = "29.circle"
+        case 29Circle = "29.circle"
         /// 􀔧
-        static let 29CircleFill:String = "29.circle.fill"
+        case 29CircleFill = "29.circle.fill"
         /// 􀕆
-        static let 29Square:String = "29.square"
+        case 29Square = "29.square"
         /// 􀕥
-        static let 29SquareFill:String = "29.square.fill"
+        case 29SquareFill = "29.square.fill"
         /// 􀔉
-        static let 30Circle:String = "30.circle"
+        case 30Circle = "30.circle"
         /// 􀔨
-        static let 30CircleFill:String = "30.circle.fill"
+        case 30CircleFill = "30.circle.fill"
         /// 􀕇
-        static let 30Square:String = "30.square"
+        case 30Square = "30.square"
         /// 􀕦
-        static let 30SquareFill:String = "30.square.fill"
+        case 30SquareFill = "30.square.fill"
         /// 􀘠
-        static let 31Circle:String = "31.circle"
+        case 31Circle = "31.circle"
         /// 􀘡
-        static let 31CircleFill:String = "31.circle.fill"
+        case 31CircleFill = "31.circle.fill"
         /// 􀘢
-        static let 31Square:String = "31.square"
+        case 31Square = "31.square"
         /// 􀘣
-        static let 31SquareFill:String = "31.square.fill"
+        case 31SquareFill = "31.square.fill"
         /// 􀚗
-        static let 32Circle:String = "32.circle"
+        case 32Circle = "32.circle"
         /// 􀚘
-        static let 32CircleFill:String = "32.circle.fill"
+        case 32CircleFill = "32.circle.fill"
         /// 􀚽
-        static let 32Square:String = "32.square"
+        case 32Square = "32.square"
         /// 􀚾
-        static let 32SquareFill:String = "32.square.fill"
+        case 32SquareFill = "32.square.fill"
         /// 􀚙
-        static let 33Circle:String = "33.circle"
+        case 33Circle = "33.circle"
         /// 􀚚
-        static let 33CircleFill:String = "33.circle.fill"
+        case 33CircleFill = "33.circle.fill"
         /// 􀚿
-        static let 33Square:String = "33.square"
+        case 33Square = "33.square"
         /// 􀛀
-        static let 33SquareFill:String = "33.square.fill"
+        case 33SquareFill = "33.square.fill"
         /// 􀚛
-        static let 34Circle:String = "34.circle"
+        case 34Circle = "34.circle"
         /// 􀚜
-        static let 34CircleFill:String = "34.circle.fill"
+        case 34CircleFill = "34.circle.fill"
         /// 􀛁
-        static let 34Square:String = "34.square"
+        case 34Square = "34.square"
         /// 􀛂
-        static let 34SquareFill:String = "34.square.fill"
+        case 34SquareFill = "34.square.fill"
         /// 􀚝
-        static let 35Circle:String = "35.circle"
+        case 35Circle = "35.circle"
         /// 􀚞
-        static let 35CircleFill:String = "35.circle.fill"
+        case 35CircleFill = "35.circle.fill"
         /// 􀛃
-        static let 35Square:String = "35.square"
+        case 35Square = "35.square"
         /// 􀛄
-        static let 35SquareFill:String = "35.square.fill"
+        case 35SquareFill = "35.square.fill"
         /// 􀚟
-        static let 36Circle:String = "36.circle"
+        case 36Circle = "36.circle"
         /// 􀚠
-        static let 36CircleFill:String = "36.circle.fill"
+        case 36CircleFill = "36.circle.fill"
         /// 􀛅
-        static let 36Square:String = "36.square"
+        case 36Square = "36.square"
         /// 􀛆
-        static let 36SquareFill:String = "36.square.fill"
+        case 36SquareFill = "36.square.fill"
         /// 􀚡
-        static let 37Circle:String = "37.circle"
+        case 37Circle = "37.circle"
         /// 􀚢
-        static let 37CircleFill:String = "37.circle.fill"
+        case 37CircleFill = "37.circle.fill"
         /// 􀛇
-        static let 37Square:String = "37.square"
+        case 37Square = "37.square"
         /// 􀛈
-        static let 37SquareFill:String = "37.square.fill"
+        case 37SquareFill = "37.square.fill"
         /// 􀚣
-        static let 38Circle:String = "38.circle"
+        case 38Circle = "38.circle"
         /// 􀚤
-        static let 38CircleFill:String = "38.circle.fill"
+        case 38CircleFill = "38.circle.fill"
         /// 􀛉
-        static let 38Square:String = "38.square"
+        case 38Square = "38.square"
         /// 􀛊
-        static let 38SquareFill:String = "38.square.fill"
+        case 38SquareFill = "38.square.fill"
         /// 􀚥
-        static let 39Circle:String = "39.circle"
+        case 39Circle = "39.circle"
         /// 􀚦
-        static let 39CircleFill:String = "39.circle.fill"
+        case 39CircleFill = "39.circle.fill"
         /// 􀛋
-        static let 39Square:String = "39.square"
+        case 39Square = "39.square"
         /// 􀛌
-        static let 39SquareFill:String = "39.square.fill"
+        case 39SquareFill = "39.square.fill"
         /// 􀚧
-        static let 40Circle:String = "40.circle"
+        case 40Circle = "40.circle"
         /// 􀚨
-        static let 40CircleFill:String = "40.circle.fill"
+        case 40CircleFill = "40.circle.fill"
         /// 􀛍
-        static let 40Square:String = "40.square"
+        case 40Square = "40.square"
         /// 􀛎
-        static let 40SquareFill:String = "40.square.fill"
+        case 40SquareFill = "40.square.fill"
         /// 􀚩
-        static let 41Circle:String = "41.circle"
+        case 41Circle = "41.circle"
         /// 􀚪
-        static let 41CircleFill:String = "41.circle.fill"
+        case 41CircleFill = "41.circle.fill"
         /// 􀛏
-        static let 41Square:String = "41.square"
+        case 41Square = "41.square"
         /// 􀛐
-        static let 41SquareFill:String = "41.square.fill"
+        case 41SquareFill = "41.square.fill"
         /// 􀚫
-        static let 42Circle:String = "42.circle"
+        case 42Circle = "42.circle"
         /// 􀚬
-        static let 42CircleFill:String = "42.circle.fill"
+        case 42CircleFill = "42.circle.fill"
         /// 􀛑
-        static let 42Square:String = "42.square"
+        case 42Square = "42.square"
         /// 􀛒
-        static let 42SquareFill:String = "42.square.fill"
+        case 42SquareFill = "42.square.fill"
         /// 􀚭
-        static let 43Circle:String = "43.circle"
+        case 43Circle = "43.circle"
         /// 􀚮
-        static let 43CircleFill:String = "43.circle.fill"
+        case 43CircleFill = "43.circle.fill"
         /// 􀛓
-        static let 43Square:String = "43.square"
+        case 43Square = "43.square"
         /// 􀛔
-        static let 43SquareFill:String = "43.square.fill"
+        case 43SquareFill = "43.square.fill"
         /// 􀚯
-        static let 44Circle:String = "44.circle"
+        case 44Circle = "44.circle"
         /// 􀚰
-        static let 44CircleFill:String = "44.circle.fill"
+        case 44CircleFill = "44.circle.fill"
         /// 􀛕
-        static let 44Square:String = "44.square"
+        case 44Square = "44.square"
         /// 􀛖
-        static let 44SquareFill:String = "44.square.fill"
+        case 44SquareFill = "44.square.fill"
         /// 􀚱
-        static let 45Circle:String = "45.circle"
+        case 45Circle = "45.circle"
         /// 􀚲
-        static let 45CircleFill:String = "45.circle.fill"
+        case 45CircleFill = "45.circle.fill"
         /// 􀛗
-        static let 45Square:String = "45.square"
+        case 45Square = "45.square"
         /// 􀛘
-        static let 45SquareFill:String = "45.square.fill"
+        case 45SquareFill = "45.square.fill"
         /// 􀚳
-        static let 46Circle:String = "46.circle"
+        case 46Circle = "46.circle"
         /// 􀚴
-        static let 46CircleFill:String = "46.circle.fill"
+        case 46CircleFill = "46.circle.fill"
         /// 􀛙
-        static let 46Square:String = "46.square"
+        case 46Square = "46.square"
         /// 􀛚
-        static let 46SquareFill:String = "46.square.fill"
+        case 46SquareFill = "46.square.fill"
         /// 􀚵
-        static let 47Circle:String = "47.circle"
+        case 47Circle = "47.circle"
         /// 􀚶
-        static let 47CircleFill:String = "47.circle.fill"
+        case 47CircleFill = "47.circle.fill"
         /// 􀛛
-        static let 47Square:String = "47.square"
+        case 47Square = "47.square"
         /// 􀛜
-        static let 47SquareFill:String = "47.square.fill"
+        case 47SquareFill = "47.square.fill"
         /// 􀚷
-        static let 48Circle:String = "48.circle"
+        case 48Circle = "48.circle"
         /// 􀚸
-        static let 48CircleFill:String = "48.circle.fill"
+        case 48CircleFill = "48.circle.fill"
         /// 􀛝
-        static let 48Square:String = "48.square"
+        case 48Square = "48.square"
         /// 􀛞
-        static let 48SquareFill:String = "48.square.fill"
+        case 48SquareFill = "48.square.fill"
         /// 􀚹
-        static let 49Circle:String = "49.circle"
+        case 49Circle = "49.circle"
         /// 􀚺
-        static let 49CircleFill:String = "49.circle.fill"
+        case 49CircleFill = "49.circle.fill"
         /// 􀛟
-        static let 49Square:String = "49.square"
+        case 49Square = "49.square"
         /// 􀛠
-        static let 49SquareFill:String = "49.square.fill"
+        case 49SquareFill = "49.square.fill"
         /// 􀚻
-        static let 50Circle:String = "50.circle"
+        case 50Circle = "50.circle"
         /// 􀚼
-        static let 50CircleFill:String = "50.circle.fill"
+        case 50CircleFill = "50.circle.fill"
         /// 􀛡
-        static let 50Square:String = "50.square"
+        case 50Square = "50.square"
         /// 􀛢
-        static let 50SquareFill:String = "50.square.fill"
+        case 50SquareFill = "50.square.fill"
         */
         /// 􀣺
-        static let applelogo:String = "applelogo"
+        case applelogo = "applelogo"
 
-    
+    }
 
 }
