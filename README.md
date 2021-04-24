@@ -14,8 +14,8 @@ You will no longer have to guess the icon name, now you have the power of autoco
 ### Example
 
 ```swift
-    Image(SFIcons.circle)
-    Image(SFIcons.squareAndArrowUpOnSquareFill)
+    Image(systemName: SFIcons.circle)
+    Image(systemName: SFIcons.squareAndArrowUpOnSquareFill)
 ```
 
 ![Screenshot](https://raw.githubusercontent.com/omeasraf/SFIcons/main/Images/screenshot.png)
