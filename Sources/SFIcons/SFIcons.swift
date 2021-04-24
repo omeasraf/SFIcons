@@ -7,8 +7,8 @@
  - Example:
  
  ```swift
-     Image(SFIcons.circle)
-     Image(SFIcons.squareAndArrowUpOnSquareFill)
+     Image(systemName: SFIcons.circle)
+     Image(systemName: SFIcons.squareAndArrowUpOnSquareFill)
  ```
 
  */
