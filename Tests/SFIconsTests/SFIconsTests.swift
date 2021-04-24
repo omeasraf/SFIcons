@@ -7,6 +7,7 @@ final class TestFileTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(SFIcons.circle, "circle")
+        Icon()
     }
 
     static var allTests = [

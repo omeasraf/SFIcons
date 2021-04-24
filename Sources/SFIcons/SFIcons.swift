@@ -1,4 +1,3 @@
-import SwiftUI
 
 /**
  A collection of all the SF Symbols into an easy to use package.
@@ -5243,27 +5242,3 @@ public struct SFIcons {
     public static let applelogo:String = "applelogo"
     
 }
-
-@available(iOS 13.0, macOS 11.0, tvOS 13.0, watchOS 6.0, *)
-struct Icon: View {
-    var icon: String
-    var size: CGFloat
-    var color: Color
-    var semanticLabel: String
-    
-    init(_ icon: String, size: CGFloat = 12, color: Color = Color.white, semanticLabel: String = "icon") {
-        self.icon = icon
-        self.size = size
-        self.color = color
-        self.semanticLabel = semanticLabel
-    }
-
-    var body: some View {
-        Image(systemName: icon)
-            .font(.system(size: size))
-            .foregroundColor(color)
-            .accessibility(label: Text(semanticLabel))
-            
-    }
-}
-
